@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boiler Manuals Search</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            color: #333;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li a {
+            text-decoration: none;
+            color: #0066cc;
+        }
+        #myInput {
+            width: 100%;
+            font-size: 16px;
+            padding: 12px 20px;
+            margin: 8px 0;
+            box-sizing: border-box;
+        }
+        .panel {
+            background-color: #f1f1f1;
+            padding: 15px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Boiler Manuals</h1>
+        <p>Boiler manuals for your particular boiler can be found here at this site. You will also find manuals for hot water cylinders here. Majority of the files are in the pdf format. Available for download are a mixture of installation manuals, service manuals, user manuals and other related manuals. New files will be added when available.</p>
+    </div>
+
+    <div>
+        <h1>Most Popular</h1>
+        <ul id="myULpopular">
+            <li><a href="/vaillant">Vaillant</a></li>
+            <li><a href="/worcester-bosch">Worcester Bosch</a></li>
+            <li><a href="/ideal">Ideal</a></li>
+            <li><a href="/baxi">Baxi</a></li>
+            <li><a href="/potterton">Potterton</a></li>
+            <li><a href="/glow-worm">Glow-Worm</a></li>
+            <li><a href="/viessmann">Viessmann</a></li>
+            <li><a href="/intergas">Intergas</a></li>
+            <li><a href="/alpha">Alpha</a></li>
+            <li><a href="/british-gas">British Gas</a></li>
+        </ul>
+    </div>
+
+    <div>
+        <h1>By Brand</h1>
+    </div>
+
+    <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search by Brand..">
+
+    <ul id="myUL">
+        <li><a href="#">A</a></li>
+        <li><a href="/acv">ACV</a></li>
+        <li><a href="/alpha">Alpha</a></li>
+        <!-- ... (rest of the brand list) ... -->
+        <li><a href="/zanussi">Zanussi</a></li>
+    </ul>
+
+    <br />
+
+    <div class="panel">The brands of boiler manuals we host on our website include Alpha, Baxi, Glow-Worm, Halstead, Ideal, Keston, Main, Vaillant, Viessmann and Worcester Bosch. Manuals that are not available may be requested using the contact form. Free Boiler Manuals - All boiler manuals are free of charge as permitted by manufacturers copyright guidelines. In addition to installation and servicing manuals, you may also find other user manuals, fault finding manuals etc.</div>
+
+    <br />
+    <h3>Other Resources</h3>
+    <p>If you are looking for any other resources, please feel free to <a href="/contact/">contact us</a>. We will happily try to search for boiler manuals, boiler installation and servicing manuals, boiler fault code manuals, user manuals and other manuals that will help you find the information that you need.</p>
+
+    <script>
+        function myFunction() {
+            var input, filter, ul, li, a, i, txtValue;
+            input = document.getElementById('myInput');
+            filter = input.value.toUpperCase();
+            ul = document.getElementById("myUL");
+            li = ul.getElementsByTagName('li');
+
+            for (i = 0; i < li.length; i++) {
+                a = li[i].getElementsByTagName("a")[0];
+                txtValue = a.textContent || a.innerText;
+                if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                    li[i].style.display = "";
+                } else {
+                    li[i].style.display = "none";
+                }
+            }
+        }
+    </script>
+</body>
+</html>
