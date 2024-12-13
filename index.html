@@ -35,31 +35,56 @@
             margin-top: 20px;
         }
         .navbar {
-            background-color: #333;
-            padding: 10px 0;
-            }
-            
-        .nav-list {
-           list-style-type: none;
-           margin: 0;
-            padding: 0;
-          display: flex;
-          justify-content: center;
-        }
-            
-            .nav-list li {
-              margin: 0 15px;
-            }
-            
-            .nav-list li a {
-              color: white;
-              text-decoration: none;
-              font-size: 18px;
-            }
-            
-            .nav-list li a:hover {
-              color: #ffd700;
-            }
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-list {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    max-width: 800px;
+}
+
+.nav-list li {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.nav-list li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 14px 16px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-list li a:hover {
+    background-color: #555;
+}
+
+/* Responsive Breakpoint */
+@media screen and (max-width: 600px) {
+    .nav-list {
+        flex-direction: column;
+        overflow-x: scroll;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .nav-list li {
+        width: 100%;
+        border-bottom: 1px solid #444;
+    }
+
+    .nav-list li a {
+        text-align: left;
+        padding: 15px;
+    }
+}
     </style>
 </head>
 <body>
