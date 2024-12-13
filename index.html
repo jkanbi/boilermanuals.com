@@ -164,24 +164,6 @@
     <h3>Other Resources</h3>
     <p>If you are looking for any other resources, please feel free to <a href="/contact/">contact us</a>. We will happily try to search for boiler manuals, boiler installation and servicing manuals, boiler fault code manuals, user manuals and other manuals that will help you find the information that you need.</p>
 
-    <script>
-        function myFunction() {
-            var input, filter, ul, li, a, i, txtValue;
-            input = document.getElementById('myInput');
-            filter = input.value.toUpperCase();
-            ul = document.getElementById("myUL");
-            li = ul.getElementsByTagName('li');
-
-            for (i = 0; i < li.length; i++) {
-                a = li[i].getElementsByTagName("a")[0];
-                txtValue = a.textContent || a.innerText;
-                if (txtValue.toUpperCase().indexOf(filter) > -1) {
-                    li[i].style.display = "";
-                } else {
-                    li[i].style.display = "none";
-                }
-            }
-        }
-    </script>
+    
 </body>
 </html>
