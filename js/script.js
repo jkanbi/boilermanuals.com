@@ -1,18 +1,3 @@
-function toggleMenu() {
-            const menu = document.querySelector('.navbar-menu');
-            const icon = document.querySelector('.navbar-toggle i');
-            
-            menu.classList.toggle('active');
-            
-            if (menu.classList.contains('active')) {
-                icon.classList.remove('fa-bars');
-                icon.classList.add('fa-times');
-            } else {
-                icon.classList.remove('fa-times');
-                icon.classList.add('fa-bars');
-            }
-        }
-
 function myFunction() {
             var input, filter, ul, li, a, i, txtValue;
             input = document.getElementById('myInput');
