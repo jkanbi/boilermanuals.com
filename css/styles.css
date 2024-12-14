@@ -34,7 +34,10 @@
             box-sizing: border-box;
         }
 
-
+.nav-button{
+   padding: 14px;
+   font-size: 1em;
+}
 .styled-list {
     list-style-type: none; /* Remove default bullet points */
     padding: 0; /* Remove default padding */
