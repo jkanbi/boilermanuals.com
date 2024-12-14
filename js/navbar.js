@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 <i class="fas fa-bars"></i>
             </button>
         
-            <ul class="nav-list">
+            <ul class="nav-menu">
                 <li><a href="/">Home</a></li>
                 <li><a href="index.html">Boilers</a></li>
                 <li><a href="controls.html">Controls</a></li>
