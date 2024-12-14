@@ -60,6 +60,18 @@
     background-color: #555;
 }
 
+.styled-list {
+    list-style-type: none; /* Remove default bullet points */
+    padding: 0; /* Remove default padding */
+}
+
+.styled-list li {
+    border: 1px solid #888; /* Grey border */
+    margin: 10px 0; /* Vertical spacing between items */
+    padding: 10px; /* Padding inside each list item */
+    border-radius: 4px; /* Optional: rounded corners */
+}
+
 /* Responsive Breakpoint */
 @media screen and (max-width: 600px) {
     .nav-list {
