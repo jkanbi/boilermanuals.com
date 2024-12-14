@@ -27,38 +27,50 @@
             padding: 15px;
             margin-top: 20px;
         }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
         .navbar {
-    background-color: #333;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+            width: 100%;
+            background-color: #333;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            position: relative;
+        }
 
-.nav-list {
-    display: flex;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    max-width: 800px;
-}
+        .navbar-logo {
+            max-height: 50px;
+        }
 
-.nav-list li {
-    flex-grow: 1;
-    text-align: center;
-}
+        .navbar-toggle {
+            display: none;
+            background: none;
+            border: none;
+            color: white;
+            font-size: 24px;
+            cursor: pointer;
+        }
 
-.nav-list li a {
-    display: block;
-    color: white;
-    text-decoration: none;
-    padding: 14px 16px;
-    transition: background-color 0.3s ease;
-}
+        .navbar-menu {
+            display: flex;
+            list-style: none;
+        }
 
-.nav-list li a:hover {
-    background-color: #555;
-}
+        .navbar-menu li {
+            margin: 0 10px;
+        }
+
+        .navbar-menu li a {
+            color: white;
+            text-decoration: none;
+        }
+
 
 .styled-list {
     list-style-type: none; /* Remove default bullet points */
@@ -78,27 +90,34 @@
     height: 100%;
 }
 
-/* Responsive Breakpoint */
-@media screen and (max-width: 600px) {
-    .nav-list {
-        flex-direction: column;
-        overflow-x: scroll;
-        -webkit-overflow-scrolling: touch;
-    }
 
-    .nav-list li {
-        width: 100%;
-        border-bottom: 1px solid #444;
-    }
 
-    .nav-list li a {
-        text-align: left;
-        padding: 15px;
-    }
 
- .styled-list li a {
-    display: block;
-    width: 100%;
-    height: 100%;
-}
-}
+        @media screen and (max-width: 768px) {
+            .navbar-toggle {
+                display: block;
+            }
+
+            .navbar-menu {
+                display: none;
+                flex-direction: column;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                width: 100%;
+                background-color: #333;
+                padding: 20px;
+            }
+
+            .navbar-menu.active {
+                display: flex;
+            }
+
+            .navbar-menu li {
+                margin: 10px 0;
+                text-align: center;
+            }
+        }
+
+
+
