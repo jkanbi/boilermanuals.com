@@ -21,18 +21,3 @@ document.addEventListener('DOMContentLoaded', function() {
     // Insert the navbar at the beginning of the body
     document.body.insertAdjacentHTML('afterbegin', navbarHtml);
 });
-
-function toggleMenu() {
-            const menu = document.querySelector('.navbar-menu');
-            const icon = document.querySelector('.navbar-toggle i');
-            
-            menu.classList.toggle('active');
-            
-            if (menu.classList.contains('active')) {
-                icon.classList.remove('fa-bars');
-                icon.classList.add('fa-times');
-            } else {
-                icon.classList.remove('fa-times');
-                icon.classList.add('fa-bars');
-            }
-        }
