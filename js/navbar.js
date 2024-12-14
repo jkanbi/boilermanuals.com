@@ -2,7 +2,7 @@
 document.addEventListener('DOMContentLoaded', function() {
     const navbarHtml = `
         <nav class="navbar">
-            <img src="images/logo.jpg" alt="Site Logo" class="navbar-logo">
+            <!-- <img src="images/logo.jpg" alt="Site Logo" class="navbar-logo">  -->
 
             <button class="navbar-toggle" onclick="toggleMenu()">
                 <i class="fas fa-bars"></i>
