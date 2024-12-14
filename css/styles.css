@@ -72,6 +72,12 @@
     border-radius: 4px; /* Optional: rounded corners */
 }
 
+li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
 /* Responsive Breakpoint */
 @media screen and (max-width: 600px) {
     .nav-list {
