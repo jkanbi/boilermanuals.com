@@ -32,7 +32,7 @@
         }
 
         .navbar-menu li a {
-            color: ##000;
+            color: #000;
             text-decoration: none;
         }
 
@@ -48,7 +48,7 @@
                 top: 100%;
                 left: 0;
                 width: 100%;
-                background-color: #000;
+                background-color: #fff;
                 padding: 20px;
             }
 
