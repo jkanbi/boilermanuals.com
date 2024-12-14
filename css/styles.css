@@ -52,7 +52,7 @@
             display: none;
             background: none;
             border: none;
-            color: white;
+            color: #000;
             font-size: 24px;
             cursor: pointer;
         }
@@ -67,7 +67,7 @@
         }
 
         .navbar-menu li a {
-            color: #7a7a7a;
+            color: ##000;
             text-decoration: none;
         }
 
@@ -105,7 +105,7 @@
                 top: 100%;
                 left: 0;
                 width: 100%;
-                background-color: #eee;
+                background-color: #000;
                 padding: 20px;
             }
 
