@@ -95,4 +95,10 @@
         text-align: left;
         padding: 15px;
     }
+
+ .styled-list li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
 }
