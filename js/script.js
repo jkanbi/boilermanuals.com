@@ -15,7 +15,9 @@ function toggleMenu() {
         }
 
 
-
+function goBack() {
+	window.history.back();
+}
 
 function myFunction() {
             var input, filter, ul, li, a, i, txtValue;
