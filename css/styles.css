@@ -44,8 +44,8 @@
 }
 
 .styled-list li {
-    border: 1px solid #888; /* Grey border */
-    margin: 10px 0; /* Vertical spacing between items */
+    border: 1px solid #e4e4e4; /* Custom Grey border */
+    margin: 0px 0; /* Vertical spacing between items */
     padding: 10px; /* Padding inside each list item */
     border-radius: 4px; /* Optional: rounded corners */
 }
