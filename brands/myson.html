@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boiler Manuals - Myson</title>
+    <link rel="stylesheet" type="text/css" href="../css/navbar.css">
+    <link rel="stylesheet" type="text/css" href="../css/styles.css">
+    <link rel="stylesheet" type="text/css" href="../css/mytable.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    
+<button class="nav-button" onclick="goBack()">Go Back</button>
+
+<input type="text" id="myInput" onkeyup="myTableFunction()" placeholder="Search">
+
+<table id="myTable">
+    <thead>
+        <tr>
+            <th>GC</th>
+            <th>Download</th>
+            <th>User</th>
+            <th>Model</th>
+            <th>Fuel Type</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>41-494-05</td>
+            <td><a href="https://myboiler.com/downloads/?url=myson/myson-apollo-15-30s-30-50s-40s&doctype=ISIM&source=41-494-05-Apollo-15-30-S">Download</a></td>
+            <td></td>
+            <td>Apollo 15/30 S</td>
+            <td>NG</td>
+        </tr>
+        <tr>
+            <td>41-494-06</td>
+            <td><a href="https://myboiler.com/downloads/?url=myson/myson-apollo-15-30s-30-50s-40s&doctype=ISIM&source=41-494-06-Apollo-30-50-S">Download</a></td>
+            <td></td>
+            <td>Apollo 30/50 S</td>
+            <td>NG</td>
+        </tr>
+        <tr>
+            <td>41-494-07</td>
+            <td><a href="https://myboiler.com/downloads/?url=myson/myson-apollo-15-30s-30-50s-40s&doctype=ISIM&source=41-494-07-Apollo-40-S">Download</a></td>
+            <td></td>
+            <td>Apollo 40 S</td>
+            <td>NG</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><a href="https://myboiler.com/downloads/?url=myson/myson-marathon-m120-150c&doctype=ISIM&source=Marathon-M120">Download</a></td>
+            <td></td>
+            <td>Marathon M120</td>
+            <td>NG</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><a href="https://myboiler.com/downloads/?url=myson/myson-marathon-m120-150c&doctype=ISIM&source=Marathon-150C">Download</a></td>
+            <td></td>
+            <td>Marathon 150C</td>
+            <td>NG</td>
+        </tr>
+        <tr>
+            <td>41-494-08</td>
+            <td><a href="https://myboiler.com/download/request/?41-494-08-Marathon-400B">Download</a></td>
+            <td></td>
+            <td>Marathon 400B</td>
+            <td>NG</td>
+        </tr>
+        <tr>
+            <td>41-494-09</td>
+            <td><a href="https://myboiler.com/download/request/?41-494-09-Marathon-500B">Download</a></td>
+            <td></td>
+            <td>Marathon 500B</td>
+            <td>NG</td>
+        </tr>
+        <tr>
+            <td>41-494-12</td>
+            <td><a href="https://myboiler.com/download/request/?41-494-12-Marathon-800B-Later">Download</a></td>
+            <td></td>
+            <td>Marathon 800B (Later)</td>
+            <td>NG</td>
+        </tr>
+        <tr>
+            <td>41-494-13</td>
+            <td><a href="https://myboiler.com/download/request/?41-494-13-Marathon-1000B-Later">Download</a></td>
+            <td></td>
+            <td>Marathon 1000B (Later)</td>
+            <td>NG</td>
+        </tr>
+        <tr>
+            <td>41-494-14</td>
+            <td><a href="https://myboiler.com/download/request/?41-494-14-Marathon-400C-Later">Download</a></td>
+            <td></td>
+            <td>Marathon 400C (Later)</td>
+            <td>NG</td>
+        </tr>
+        <tr>
+            <td>41-494-15</td>
+            <td><a href="https://myboiler.com/download/request/?41-494-15-Marathon-500C-Later">Download</a></td>
+            <td></td>
+            <td>Marathon 500C (Later)</td>
+            <td>NG</td>
+        </tr>
+        <tr>
+            <td>41-494-16</td>
+            <td><a href="https://myboiler.com/download/request/?41-494-16-Marathon-600C-Later">Download</a></td>
+            <td></td>
+            <td>Marathon 600C (Later)</td>
+            <td>NG</td>
+        </tr>
+        <tr>
+            <td>41-494-17</td>
+            <td><a href="https://myboiler.com/download/request/?41-494-17-Marathon-700C-Later">Download</a></td>
+            <td></td>
+            <td>Marathon 700C (Later)</td>
+            <td>NG</td>
+        </tr>
+        <tr>
+            <td>41-494-18</td>
+            <td><a href="https://myboiler.com/download/request/?41-494-18-Marathon-800C-Later">Download</a></td>
+            <td></td>
+            <td>Marathon 800C (Later)</td>
+            <td>NG</td>
+        </tr>
+        <tr>
+            <td>41-494-19</td>
+            <td><a href="https://myboiler.com/download/request/?41-494-19-Marathon-1000C-Later">Download</a></td>
+            <td></td>
+            <td>Marathon 1000C (Later)</td>
+            <td>NG</td>
+        </tr>
+        <tr>
+            <td>41-494-20</td>
+            <td><a href="https://myboiler.com/download/request/?41-494-20-Marathon-1500C">Download</a></td>
+            <td></td>
+            <td>Marathon 1500C</td>
+            <td>NG</td>
+        </tr>
+        <tr>
+            <td>41-494-21</td>
+            <td><a href="https://myboiler.com/download/request/?41-494-21-Orion-75-Si">Download</a></td>
+            <td></td>
+            <td>Orion 75 Si</td>
+            <td>NG</td>
+        </tr>
+        <tr>
+            <td>41-494-22</td>
+            <td><a href="https://myboiler.com/download/request/?41-494-22-Apollo-30B-Later">Download</a></td>
+            <td></td>
+            <td>Apollo 30B (Later)</td>
+            <td>NG</td>
+        </tr>
+        <tr>
+            <td>41-494-23</td>
+            <td><a href="https://myboiler.com/download/request/?41-494-23-Apollo-40B-Later">Download</a></td>
+            <td></td>
+            <td>Apollo 40B (Later)</td>
+            <td>NG</td>
+        </tr>
+        <tr>
+            <td>41-494-24</td>
+            <td><a href="https://myboiler.com/download/request/?41-494-24-Apollo-50B-Later">Download</a></td>
+            <td></td>
+            <td>Apollo 50B (Later)</td>
+            <td>NG</td>
+        </tr>
+        <tr>
+            <td>41-494-25</td>
+            <td><a href="https://myboiler.com/download/request/?41-494-25-Apollo-60B-Later">Download</a></td>
+            <td></td>
+            <td>Apollo 60B (Later)</td>
+            <td>NG</td>
+        </tr>
+        <tr>
+            <td>41-494-26</td>
+            <td><a href="https://myboiler.com/download/request/?41-494-26-Apollo-80B-Later">Download</a></td>
+            <td></td>
+            <td>Apollo 80B (Later)</td>
+            <td>NG</td>
+        </tr>
+        <tr>
+            <td>41-494-27</td>
+            <td><a href="https://myboiler.com/download/request/?41-494-27-Apollo-30C-Later">Download</a></td>
+            <td></td>
+            <td>Apollo 30C (Later)</td>
+            <td>NG</td>
+        </tr>
+        <tr>
+            <td>41-494-28</td>
+            <td><a href="https://myboiler.com/download/request/?41-494-28-Apollo-40C-Later">Download</a></td>
+            <td></td>
+            <td>Apollo 40C (Later)</td>
+            <td>NG</td>
+        </tr>
+        <tr>
+            <td>41-494-29</td>
+            <td><a href="https://myboiler.com/download/request/?41-494-29-Apollo-50C-Later">Download</a></td>
+            <td></td>
+            <td>Apollo 50C (Later)</td>
+            <td>NG</td>
+        </tr>
+        <tr>
+            <td>41-494-30</td>
+            <td><a href="https://myboiler.com/download/request/?41-494-30-Apollo-60C-Later">Download</a></td>
+            <td></td>
+            <td>Apollo 60C (Later)</td>
+            <td>NG</td>
+        </tr>
+        <tr>
+            <td>41-494-31</td>
+            <td><a href="https://myboiler.com/download/request/?41-494-31-Apollo-80C-Later">Download</a></td>
+            <td></td>
+            <td>Apollo 80C (Later)</td>
+            <td>NG</td>
+        </tr>
+        <tr>
+            <td>41-494-32</td>
+            <td><a href="https://myboiler.com/download/request/?41-494-32-Apollo-30S-Later">Download</a></td>
+            <td></td>
+            <td>Apollo 30S (Later)</td>
+            <td>NG</td>
+        </tr>
+        <tr>
+            <td>41-494-33</td>
+            <td><a href="https://myboiler.com/download/request/?41-494-33-Apollo-40S-Later">Download</a></td>
+            <td></td>
+            <td>Apollo 40S (Later)</td>
+            <td>NG</td>
+        </tr>
+        <tr>
+            <td>41-494-34</td>
+            <td><a href="https://myboiler.com/download/request/?41-494-34-Apollo-50S-Later">Download</a></td>
+            <td></td>
+            <td>Apollo 50S (Later)</td>
+            <td>NG</td>
+        </tr>
+        <tr>
+            <td>41-494-37</td>
+            <td><a href="https://myboiler.com/download/request/?41-494-37-Apollo-30-Si-Later">Download</a></td>
+            <td></td>
+            <td>Apollo 30 Si (Later)</td>
+            <td>NG</td>
+        </tr>
+        <tr>
+            <td>41-494-38</td>
+            <td><a href="https://myboiler.com/download/request/?41-494-38-Apollo-40-Si-Later">Download</a></td>
+            <td></td>
+            <td>Apollo 40 Si (Later)</td>
+            <td>NG</td>
+        </tr>
+        <tr>
+            <td>41-494-39</td>
+            <td><a href="https://myboiler.com/download/request/?41-494-39-Apollo-50-Si-Later">Download</a></td>
+            <td></td>
+            <td>Apollo 50 Si (Later)</td>
+            <td>NG</td>
+        </tr>
+        <tr>
+            <td>41-494-40</td>
+            <td><a href="https://myboiler.com/download/request/?41-494-40-Apollo-60-Si-Later">Download</a></td>
+            <td></td>
+            <td>Apollo 60 Si (Later)</td>
+            <td>NG</td>
+        </tr>
+        <tr>
+            <td>41-494-41</td>
+            <td><a href="https://myboiler.com/download/request/?41-494-41-Apollo-80-Si-Later">Download</a></td>
+            <td></td>
+            <td>Apollo 80 Si (Later)</td>
+            <td>NG</td>
+        </tr>
+        <tr>
+            <td>41-789-20</td>
+            <td><a href="https://myboiler.com/download/request/?41-789-20-Olympic-38-50B">Download</a></td>
+            <td></td>
+            <td>Olympic 38/50B</td>
+            <td>NG</td>
+        </tr>
+        <tr>
+            <td>41-789-21</td>
+            <td><a href="https://myboiler.com/download/request/?41-789-21-Olympic-20-35B">Download</a></td>
+            <td></td>
+            <td>Olympic 20/35B</td>
+            <td>NG</td>
+        </tr>
+        <tr>
+            <td>41-789-42</td>
+            <td><a href="https://myboiler.com/download/request/?41-789-42-Olympic-20-35C">Download</a></td>
+            <td></td>
+            <td>Olympic 20/35C</td>
+            <td>NG</td>
+        </tr>
+        <tr>
+            <td>41-789-43</td>
+            <td><a href="https://myboiler.com/download/request/?41-789-43-Olympic-38-50C">Download</a></td>
+            <td></td>
+            <td>Olympic 38/50C</td>
+            <td>NG</td>
+        </tr>
+        <tr>
+            <td>41-789-55</td>
+            <td><a href="https://myboiler.com/download/myson-apollo-15-30c-30-50c-40c-installation-servicing-instructions-manual/?41-789-55-Apollo-15-30C-Early">Download</a></td>
+            <td></td>
+            <td>Apollo 15/30C (Early)</td>
+            <td>NG</td>
+        </tr>
+        <tr>
+            <td>41-789-56</td>
+            <td><a href="https://myboiler.com/download/myson-apollo-15-30c-30-50c-40c-installation-servicing-instructions-manual/?41-789-56-Apollo-30-50C-Early">Download</a></td>
+            <td></td>
+            <td>Apollo 30/50C (Early)</td>
+            <td>NG</td>
+        </tr>
+        <tr>
+            <td>41-789-65</td>
+            <td><a href="https://myboiler.com/download/request/?41-789-65-Olympic-20-35F">Download</a></td>
+            <td></td>
+            <td>Olympic 20/35F</td>
+            <td>NG</td>
+        </tr>
+        <tr>
+            <td>41-789-66</td>
+            <td><a href="https://myboiler.com/download/request/?41-789-66-Olympic-38-50F">Download</a></td>
+            <td></td>
+            <td>Olympic 38/50F</td>
+            <td>NG</td>
+        </tr>
+        <tr>
+            <td>41-789-67</td>
+            <td><a href="https://myboiler.com/download/myson-apollo-50-65b-65-80b-installation-servicing-instructions-manual/?41-789-67-Apollo-50-65B-Early">Download</a></td>
+            <td></td>
+            <td>Apollo 50/65B (Early)</td>
+            <td>NG</td>
+        </tr>
+        <tr>
+            <td>41-789-68</td>
+            <td><a href="https://myboiler.com/download/request/?41-789-68-Apollo-50-65C-Early">Download</a></td>
+            <td></td>
+            <td>Apollo 50/65C (Early)</td>
+            <td>NG</td>
+        </tr>
+        <tr>
+            <td>41-789-69</td>
+            <td><a href="https://myboiler.com/download/myson-apollo-50-65b-65-80b-installation-servicing-instructions-manual/?41-789-69-Apollo-65-80B-Early-Serial-from-90064564">Download</a></td>
+            <td></td>
+            <td>Apollo 65/80B (Early) Serial from 90064564</td>
+            <td>NG</td>
+        </tr>
+        <tr>
+            <td>41-789-75</td>
+            <td><a href="https://myboiler.com/download/request/?41-789-75-Apollo-Fanfare-65-80-Si">Download</a></td>
+            <td></td>
+            <td>Apollo Fanfare 65/80 Si</td>
+            <td>NG</td>
+        </tr>
+        <tr>
+            <td>41-789-76</td>
+            <td><a href="https://myboiler.com/download/request/?41-789-76-Apollo-Fanfare-50-65-Si">Download</a></td>
+            <td></td>
+            <td>Apollo Fanfare 50/65 Si</td>
+            <td>NG</td>
+        </tr>
+        <tr>
+            <td>41-789-78</td>
+            <td><a href="https://myboiler.com/download/myson-apollo-15-30c-30-50c-40c-installation-servicing-instructions-manual/?41-789-78-Apollo-40C-Early">Download</a></td>
+            <td></td>
+            <td>Apollo 40C (Early)</td>
+            <td>NG</td>
+        </tr>
+        <tr>
+            <td>41-789-82</td>
+            <td><a href="https://myboiler.com/download/myson-marathon-60b-70b-80b-100b-installation-servicing-instructions-manual/?41-789-82-Marathon-60B">Download</a></td>
+            <td></td>
+            <td>Marathon 60B</td>
+            <td>NG</td>
+        </tr>
+        <tr>
+            <td>41-789-83</td>
+            <td><a href="https://myboiler.com/download/myson-marathon-60b-70b-80b-100b-installation-servicing-instructions-manual/?41-789-83-Marathon-70B">Download</a></td>
+            <td></td>
+            <td>Marathon 70B</td>
+            <td>NG</td>
+        </tr>
+        <tr>
+            <td>41-789-84</td>
+            <td><a href="https://myboiler.com/download/myson-marathon-60b-70b-80b-100b-installation-servicing-instructions-manual/?41-789-84-Marathon-80B">Download</a></td>
+            <td></td>
+            <td>Marathon 80B</td>
+            <td>NG</td>
+        </tr>
+        <tr>
+            <td>41-789-85</td>
+            <td><a href="https://myboiler.com/download/myson-marathon-60b-70b-80b-100b-installation-servicing-instructions-manual/?41-789-85-Marathon-100B">Download</a></td>
+            <td></td>
+            <td>Marathon 100B</td>
+            <td>NG</td>
+        </tr>
+        <tr>
+            <td>41-789-94</td>
+            <td><a href="https://myboiler.com/download/request/?41-789-94-Orion-30-B">Download</a></td>
+            <td></td>
+            <td>Orion 30 B</td>
+            <td>NG</td>
+        </tr>
+        <tr>
+            <td>41-789-95</td>
+            <td><a href="https://myboiler.com/download/request/?41-789-95-Orion-40-B">Download</a></td>
+            <td></td>
+            <td>Orion 40 B</td>
+            <td>NG</td>
+        </tr>
+        <tr>
+            <td>41-789-96</td>
+            <td><a href="https://myboiler.com/download/request/?41-789-96-Orion-50-B">Download</a></td>
+            <td></td>
+            <td>Orion 50 B</td>
+            <td>NG</td>
+        </tr>
+        <tr>
+            <td>41-789-97</td>
+            <td><a href="https://myboiler.com/download/request/?41-789-97-Orion-60-B">Download</a></td>
+            <td></td>
+            <td>Orion 60 B</td>
+            <td>NG</td>
+        </tr>
+        <tr>
+            <td>41-795-03</td>
+            <td><a href="https://myboiler.com/download/request/?41-795-03-Apollo-Fanfare-15-30-Si">Download</a></td>
+            <td></td>
+            <td>Apollo Fanfare 15/30 Si</td>
+            <td>NG</td>
+        </tr>
+        <tr>
+            <td>41-795-04</td>
+            <td><a href="https://myboiler.com/download/request/?41-795-04-Apollo-Fanfare-30-50-Si">Download</a></td>
+            <td></td>
+            <td>Apollo Fanfare 30/50 Si</td>
+            <td>NG</td>
+        </tr>
+        <tr>
+            <td>41-795-05</td>
+            <td><a href="https://myboiler.com/download/request/?41-795-05-Apollo-Fanfare-40-Si">Download</a></td>
+            <td></td>
+            <td>Apollo Fanfare 40 Si</td>
+            <td>NG</td>
+        </tr>
+        <tr>
+            <td>41-795-06</td>
+            <td><a href="https://myboiler.com/download/request/?41-795-06-Orion-30-Si">Download</a></td>
+            <td></td>
+            <td>Orion 30 Si</td>
+            <td>NG</td>
+        </tr>
+        <tr>
+            <td>41-795-07</td>
+            <td><a href="https://myboiler.com/download/request/?41-795-07-Orion-40-Si">Download</a></td>
+            <td></td>
+            <td>Orion 40 Si</td>
+            <td>NG</td>
+        </tr>
+        <tr>
+            <td>41-795-08</td>
+            <td><a href="https://myboiler.com/download/request/?41-795-08-Orion-50-Si">Download</a></td>
+            <td></td>
+            <td>Orion 50 Si</td>
+            <td>NG</td>
+        </tr>
+        <tr>
+            <td>41-795-09</td>
+            <td><a href="https://myboiler.com/download/request/?41-795-09-Orion-60-Si">Download</a></td>
+            <td></td>
+            <td>Orion 60 Si</td>
+            <td>NG</td>
+        </tr>
+        <tr>
+            <td>41-838-82</td>
+            <td><a href="https://myboiler.com/download/myson-economist-wm-15-30-bfa-30-40-40-50-bf-installation-servicing-instructions-manual/?41-838-82-Economist-WM30-40-BF">Download</a></td>
+            <td></td>
+            <td>Economist WM30/40 BF</td>
+            <td>NG</td>
+        </tr>
+        <tr>
+            <td>41-838-85</td>
+            <td><a href="https://myboiler.com/download/myson-economist-wm-15-30-bfa-30-40-40-50-bf-installation-servicing-instructions-manual/?41-838-85-Economist-WM40-50-BF">Download</a></td>
+            <td></td>
+            <td>Economist WM40/50 BF</td>
+            <td>NG</td>
+        </tr>
+        <tr>
+            <td>41-838-90</td>
+            <td><a href="https://myboiler.com/download/myson-economist-wm-15-30-bfa-30-40-40-50-bf-installation-servicing-instructions-manual/?41-838-90-Economist-WM15-30-BFa">Download</a></td>
+            <td></td>
+            <td>Economist WM15/30 BFa</td>
+            <td>NG</td>
+        </tr>
+        <tr>
+            <td>42-494-02</td>
+            <td><a href="https://myboiler.com/download/request/?42-494-02-Myson-R-Major">Download</a></td>
+            <td></td>
+            <td>Myson R Major</td>
+            <td>NG</td>
+        </tr>
+        <tr>
+            <td>42-494-06</td>
+            <td><a href="https://myboiler.com/download/request/?42-494-06-Myson-R-Major-Controlaire">Download</a></td>
+            <td></td>
+            <td>Myson R Major Controlaire</td>
+            <td>NG</td>
+        </tr>
+        <tr>
+            <td>42-494-15</td>
+            <td><a href="https://myboiler.com/download/request/?42-494-15-Myson-R">Download</a></td>
+            <td></td>
+            <td>Myson R</td>
+            <td>NG</td>
+        </tr>
+        <tr>
+            <td>42-494-16</td>
+            <td><a href="https://myboiler.com/download/request/?42-494-16-Myson-R-Controlaire">Download</a></td>
+            <td></td>
+            <td>Myson R Controlaire</td>
+            <td>NG</td>
+        </tr>
+        <tr>
+            <td>42-494-17</td>
+            <td><a href="https://myboiler.com/download/request/?42-494-17-Myson-R-Minor">Download</a></td>
+            <td></td>
+            <td>Myson R Minor</td>
+            <td>NG</td>
+        </tr>
+        <tr>
+            <td>42-494-18</td>
+            <td><a href="https://myboiler.com/download/request/?42-494-18-Myson-R-Minor-Controlaire">Download</a></td>
+            <td></td>
+            <td>Myson R Minor Controlaire</td>
+            <td>NG</td>
+        </tr>
+        <tr>
+            <td>42-494-19</td>
+            <td><a href="https://myboiler.com/download/request/?42-494-19-Myson-R-S">Download</a></td>
+            <td></td>
+            <td>Myson R-S</td>
+            <td>NG</td>
+        </tr>
+        <tr>
+            <td>42-494-20</td>
+            <td><a href="https://myboiler.com/download/request/?42-494-20-Myson-R-S-Controlaire">Download</a></td>
+            <td></td>
+            <td>Myson R-S Controlaire</td>
+            <td>NG</td>
+        </tr>
+        <tr>
+            <td>42-494-21</td>
+            <td><a href="https://myboiler.com/download/request/?42-494-21-Myson-R-S-Minor">Download</a></td>
+            <td></td>
+            <td>Myson R-S Minor</td>
+            <td>NG</td>
+        </tr>
+        <tr>
+            <td>42-494-22</td>
+            <td><a href="https://myboiler.com/download/request/?42-494-22-Myson-R-S-Minor-Controlaire">Download</a></td>
+            <td></td>
+            <td>Myson R-S Minor Controlaire</td>
+            <td>NG</td>
+        </tr>
+        <tr>
+            <td>47-494-02</td>
+            <td><a href="https://myboiler.com/download/request/?47-494-02-Midas-Si">Download</a></td>
+            <td></td>
+            <td>Midas Si</td>
+            <td>NG</td>
+        </tr>
+        <tr>
+            <td>47-494-03</td>
+            <td><a href="https://myboiler.com/download/request/?47-494-03-Midas-BF">Download</a></td>
+            <td></td>
+            <td>Midas BF</td>
+            <td>NG</td>
+        </tr>
+        <tr>
+            <td>47-494-04</td>
+            <td><a href="https://myboiler.com/download/request/?47-494-04-Midas-Sfi">Download</a></td>
+            <td></td>
+            <td>Midas Sfi</td>
+            <td>NG</td>
+        </tr>
+        <tr>
+            <td>47-789-01</td>
+            <td><a href="https://myboiler.com/download/request/?47-789-01-Gemini-Open-System">Download</a></td>
+            <td></td>
+            <td>Gemini Open System</td>
+            <td>NG</td>
+        </tr>
+        <tr>
+            <td>47-838-01</td>
+            <td><a href="https://myboiler.com/download/request/?47-838-01-Midas-B">Download</a></td>
+            <td></td>
+            <td>Midas B</td>
+            <td>None</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><a href="https://myboiler.com/download/request/?-Marathon-1000B-LPG">Download</a></td>
+            <td></td>
+            <td>Marathon 1000B [LPG]</td>
+            <td>LPG</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><a href="https://myboiler.com/download/request/?-Marathon-700B-LPG">Download</a></td>
+            <td></td>
+            <td>Marathon 700B [LPG]</td>
+            <td>LPG</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><a href="https://myboiler.com/download/request/?-Panda-120-Pressure-Jet">Download</a></td>
+            <td></td>
+            <td>Panda 120 Pressure Jet</td>
+            <td>Oil</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><a href="https://myboiler.com/download/request/?-Panda-50-Pressure-Jet">Download</a></td>
+            <td></td>
+            <td>Panda 50 Pressure Jet</td>
+            <td>Oil</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><a href="https://myboiler.com/download/request/?-Panda-65-Pressure-Jet">Download</a></td>
+            <td></td>
+            <td>Panda 65 Pressure Jet</td>
+            <td>Oil</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><a href="https://myboiler.com/download/request/?-Panda-90-Pressure-Jet">Download</a></td>
+            <td></td>
+            <td>Panda 90 Pressure Jet</td>
+            <td>Oil</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><a href="https://myboiler.com/download/request/?-Panda-2-95-120-Pressure-Jet">Download</a></td>
+            <td></td>
+            <td>Panda-2 95/120 Pressure Jet</td>
+            <td>Oil</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><a href="https://myboiler.com/download/request/?-Velaire-40-50-50-70-70-90√å√é_">Download</a></td>
+            <td></td>
+            <td>Velaire 40/50 50/70 70/90√å√é_</td>
+            <td>Oil</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><a href="https://myboiler.com/download/request/?-Velaire-40-60">Download</a></td>
+            <td></td>
+            <td>Velaire 40/60</td>
+            <td>Oil</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><a href="https://myboiler.com/download/request/?-Velaire-50-70">Download</a></td>
+            <td></td>
+            <td>Velaire 50/70</td>
+            <td>Oil</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><a href="https://myboiler.com/download/request/?-Velaire-60-80">Download</a></td>
+            <td></td>
+            <td>Velaire 60/80</td>
+            <td>Oil</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><a href="https://myboiler.com/download/request/?-Velaire-70-90√å√é_">Download</a></td>
+            <td></td>
+            <td>Velaire 70/90√å√é_</td>
+            <td>Oil</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><a href="https://myboiler.com/download/request/?-Velaire-80-100">Download</a></td>
+            <td></td>
+            <td>Velaire 80/100</td>
+            <td>Oil</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><a href="https://myboiler.com/download/request/?-Velaire-Vitesse-40-50">Download</a></td>
+            <td></td>
+            <td>Velaire Vitesse 40/50</td>
+            <td>Oil</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><a href="https://myboiler.com/download/request/?-Velaire-Vitesse-50-60">Download</a></td>
+            <td></td>
+            <td>Velaire Vitesse 50/60</td>
+            <td>Oil</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><a href="https://myboiler.com/download/request/?-Velaire-Vitesse-60-80">Download</a></td>
+            <td></td>
+            <td>Velaire Vitesse 60/80</td>
+            <td>Oil</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><a href="https://myboiler.com/download/request/?-Velaire-Vitesse-80-100">Download</a></td>
+            <td></td>
+            <td>Velaire Vitesse 80/100</td>
+            <td>Oil</td>
+        </tr>
+    </tbody>
+</table>
+
+    <script src="../js/script.js"></script> <!-- Adjusted path -->
+</body>
+</html>

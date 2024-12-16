@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boiler Manuals - Halstead</title>
+    <link rel="stylesheet" type="text/css" href="../css/navbar.css">
+    <link rel="stylesheet" type="text/css" href="../css/styles.css">
+    <link rel="stylesheet" type="text/css" href="../css/mytable.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    
+<button class="nav-button" onclick="goBack()">Go Back</button>
+
+<input type="text" id="myInput" onkeyup="myTableFunction()" placeholder="Search">
+
+<table id="myTable">
+    <thead>
+        <tr>
+            <th>GC No</th>
+            <th>Url</th>
+            <th>Model</th>
+            <th>Fuel Type</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>41-260-01</td>
+            <td><a href="https://myboiler.com/download/halstead-hero-installation-servicing-maintenance-instructions-manual/?Halstead-41-260-01">Download</a></td>
+            <td>Halstead Hero 30</td>
+            <td>NG</td>
+        </tr>
+        <tr>
+            <td>41-260-02</td>
+            <td><a href="https://myboiler.com/download/halstead-hero-installation-servicing-maintenance-instructions-manual/?Halstead-41-260-02">Download</a></td>
+            <td>Halstead Hero 40</td>
+            <td>NG</td>
+        </tr>
+        <tr>
+            <td>41-260-03</td>
+            <td><a href="https://myboiler.com/download/halstead-hero-installation-servicing-maintenance-instructions-manual/?Halstead-41-260-03">Download</a></td>
+            <td>Halstead Hero 50</td>
+            <td>NG</td>
+        </tr>
+        <tr>
+            <td>41-260-04</td>
+            <td><a href="https://myboiler.com/download/halstead-hero-installation-servicing-maintenance-instructions-manual/?Halstead-41-260-04">Download</a></td>
+            <td>Halstead Hero 60</td>
+            <td>NG</td>
+        </tr>
+        <tr>
+            <td>41-260-05</td>
+            <td><a href="https://myboiler.com/download/halstead-hero-installation-servicing-maintenance-instructions-manual/?Halstead-41-260-05">Download</a></td>
+            <td>Halstead Hero 75</td>
+            <td>NG</td>
+        </tr>
+        <tr>
+            <td>41-260-06</td>
+            <td><a href="https://myboiler.com/download/halstead-hero-installation-servicing-maintenance-instructions-manual/?Halstead-41-260-06">Download</a></td>
+            <td>Halstead Hero 90</td>
+            <td>NG</td>
+        </tr>
+        <tr>
+            <td>41-260-07</td>
+            <td><a href="https://myboiler.com/download/halstead-hero-installation-servicing-maintenance-instructions-manual/?Halstead-41-260-07">Download</a></td>
+            <td>Halstead Hero 40 [LPG]</td>
+            <td>LPG</td>
+        </tr>
+        <tr>
+            <td>41-260-08</td>
+            <td><a href="https://myboiler.com/download/halstead-hero-installation-servicing-maintenance-instructions-manual/?Halstead-41-260-08">Download</a></td>
+            <td>Halstead Hero 60 [LPG]</td>
+            <td>LPG</td>
+        </tr>
+        <tr>
+            <td>41-260-09</td>
+            <td><a href="https://myboiler.com/downloads/?url=halstead/halstead-eden-vb&doctype=ISIM&source=Halstead-41-260-09">Download</a></td>
+            <td>Halstead Eden Vb</td>
+            <td>NG</td>
+        </tr>
+        <tr>
+            <td>41-260-10</td>
+            <td><a href="https://myboiler.com/download/request/?Halstead-41-260-10">Download</a></td>
+            <td>Halstead Eden Sb</td>
+            <td>NG</td>
+        </tr>
+        <tr>
+            <td>41-260-13</td>
+            <td><a href="https://myboiler.com/download/request/?Halstead-41-260-13">Download</a></td>
+            <td>Halstead Eden SBX 30 [NG]</td>
+            <td>NG</td>
+        </tr>
+        <tr>
+            <td>41-260-14</td>
+            <td><a href="https://myboiler.com/download/halstead-eden-vbx-18-30-installation-servicing-instructions-maintenance-manual/?Halstead-41-260-14">Download</a></td>
+            <td>Halstead Eden VBX 30</td>
+            <td>NG</td>
+        </tr>
+        <tr>
+            <td>41-260-15</td>
+            <td><a href="https://myboiler.com/download/halstead-eden-vbx-18-30-installation-servicing-instructions-maintenance-manual/?Halstead-41-260-15">Download</a></td>
+            <td>Halstead Eden VBX 18</td>
+            <td>NG</td>
+        </tr>
+        <tr>
+            <td>41-260-16</td>
+            <td><a href="https://myboiler.com/download/request/?Halstead-41-260-16">Download</a></td>
+            <td>Halstead Eden SBX 30 [LPG]</td>
+            <td>LPG</td>
+        </tr>
+        <tr>
+            <td>41-260-17</td>
+            <td><a href="https://myboiler.com/download/halstead-eden-vbx-18-30-installation-servicing-instructions-maintenance-manual/?Halstead-41-260-17">Download</a></td>
+            <td>Halstead Eden VBX 30 [LPG]</td>
+            <td>LPG</td>
+        </tr>
+        <tr>
+            <td>41-260-18</td>
+            <td><a href="https://myboiler.com/download/halstead-eden-vbx-18-30-installation-servicing-instructions-maintenance-manual/?Halstead-41-260-18">Download</a></td>
+            <td>Halstead Eden VBX 18 [LPG]</td>
+            <td>LPG</td>
+        </tr>
+        <tr>
+            <td>41-260-20</td>
+            <td><a href="https://myboiler.com/download/request/?Halstead-41-260-20">Download</a></td>
+            <td>Halstead Club HE 18</td>
+            <td>NG</td>
+        </tr>
+        <tr>
+            <td>41-260-24</td>
+            <td><a href="https://myboiler.com/download/request/?Halstead-41-260-24">Download</a></td>
+            <td>Halstead iHeat 25s</td>
+            <td>NG/LPG</td>
+        </tr>
+        <tr>
+            <td>41-260-25</td>
+            <td><a href="https://myboiler.com/download/request/?Halstead-41-260-25">Download</a></td>
+            <td>Halstead iHeat 20</td>
+            <td>NG/LPG</td>
+        </tr>
+        <tr>
+            <td>41-333-13</td>
+            <td><a href="https://myboiler.com/download/request/?Halstead-41-333-13">Download</a></td>
+            <td>Halstead Balmoral 45F</td>
+            <td>NG</td>
+        </tr>
+        <tr>
+            <td>41-333-14</td>
+            <td><a href="https://myboiler.com/download/request/?Halstead-41-333-14">Download</a></td>
+            <td>Halstead Balmoral 65F</td>
+            <td>NG</td>
+        </tr>
+        <tr>
+            <td>41-333-15</td>
+            <td><a href="https://myboiler.com/download/request/?Halstead-41-333-15">Download</a></td>
+            <td>Halstead Balmoral 55F</td>
+            <td>NG</td>
+        </tr>
+        <tr>
+            <td>41-333-18</td>
+            <td><a href="https://myboiler.com/download/halstead-blenheim-50-60-60-75-installation-and-servicing-instructions-manual/?Halstead-41-333-18">Download</a></td>
+            <td>Halstead Blenheim 50/60</td>
+            <td>NG</td>
+        </tr>
+        <tr>
+            <td>41-333-19</td>
+            <td><a href="https://myboiler.com/download/halstead-blenheim-50-60-60-75-installation-and-servicing-instructions-manual/?Halstead-41-333-19">Download</a></td>
+            <td>Halstead Blenheim 60/75</td>
+            <td>NG</td>
+        </tr>
+        <tr>
+            <td>41-333-20</td>
+            <td><a href="https://myboiler.com/download/halstead-blenheim-15-30-installation-and-servicing-instructions-manual/?Halstead-41-333-20">Download</a></td>
+            <td>Halstead Blenheim 15/30</td>
+            <td>NG</td>
+        </tr>
+        <tr>
+            <td>41-333-22</td>
+            <td><a href="https://myboiler.com/download/request/?Halstead-41-333-22">Download</a></td>
+            <td>Halstead Blenheim 30/40</td>
+            <td>NG</td>
+        </tr>
+        <tr>
+            <td>41-333-23</td>
+            <td><a href="https://myboiler.com/download/request/?Halstead-41-333-23">Download</a></td>
+            <td>Halstead Blenheim 40/50</td>
+            <td>NG</td>
+        </tr>
+        <tr>
+            <td>41-333-50</td>
+            <td><a href="https://myboiler.com/download/halstead-best-db-30-40-50-60-installation-and-servicing-instructions-manual/?Halstead-41-333-50">Download</a></td>
+            <td>Halstead Best db 30</td>
+            <td>NG</td>
+        </tr>
+        <tr>
+            <td>41-333-51</td>
+            <td><a href="https://myboiler.com/download/halstead-best-db-30-40-50-60-installation-and-servicing-instructions-manual/?Halstead-41-333-51">Download</a></td>
+            <td>Halstead Best db 40</td>
+            <td>NG</td>
+        </tr>
+        <tr>
+            <td>41-333-52</td>
+            <td><a href="https://myboiler.com/download/halstead-best-db-30-40-50-60-installation-and-servicing-instructions-manual/?Halstead-41-333-52">Download</a></td>
+            <td>Halstead Best db 50</td>
+            <td>NG</td>
+        </tr>
+        <tr>
+            <td>41-333-53</td>
+            <td><a href="https://myboiler.com/download/halstead-best-db-30-40-50-60-installation-and-servicing-instructions-manual/?Halstead-41-333-53">Download</a></td>
+            <td>Halstead Best db 60</td>
+            <td>NG</td>
+        </tr>
+        <tr>
+            <td>41-333-54</td>
+            <td><a href="https://myboiler.com/download/halstead-best-db-40p-60p-installation-and-servicing-instructions-manual/?Halstead-41-333-54">Download</a></td>
+            <td>Halstead Best db 40P</td>
+            <td>LPG</td>
+        </tr>
+        <tr>
+            <td>41-333-55</td>
+            <td><a href="https://myboiler.com/download/halstead-best-db-40p-60p-installation-and-servicing-instructions-manual/?Halstead-41-333-55">Download</a></td>
+            <td>Halstead Best db 60P</td>
+            <td>LPG</td>
+        </tr>
+        <tr>
+            <td>41-333-56</td>
+            <td><a href="https://myboiler.com/download/request/?Halstead-41-333-56">Download</a></td>
+            <td>Halstead Best db 80</td>
+            <td>NG</td>
+        </tr>
+        <tr>
+            <td>41-333-77</td>
+            <td><a href="https://myboiler.com/download/halstead-ace-ace-high-installation-and-servicing-instructions-manual/?Halstead-41-333-77">Download</a></td>
+            <td>Halstead Ace</td>
+            <td>NG</td>
+        </tr>
+        <tr>
+            <td>41-333-78</td>
+            <td><a href="https://myboiler.com/download/halstead-ace-ace-high-installation-and-servicing-instructions-manual/?Halstead-41-333-78">Download</a></td>
+            <td>Halstead Ace High</td>
+            <td>NG</td>
+        </tr>
+        <tr>
+            <td>41-333-XX</td>
+            <td><a href="https://myboiler.com/download/request/?Halstead-41-333-78">Download</a></td>
+            <td>Halstead Best db 70</td>
+            <td>NG</td>
+        </tr>
+        <tr>
+            <td>41-333-84</td>
+            <td><a href="https://myboiler.com/download/halstead-bentley-30f-40f-50f-60f-installation-servicing-instructions-manual/?Halstead-41-333-84">Download</a></td>
+            <td>Halstead Bentley 30F</td>
+            <td>NG</td>
+        </tr>
+        <tr>
+            <td>41-333-85</td>
+            <td><a href="https://myboiler.com/download/halstead-bentley-30f-40f-50f-60f-installation-servicing-instructions-manual/?Halstead-41-333-85">Download</a></td>
+            <td>Halstead Bentley 40F</td>
+            <td>NG</td>
+        </tr>
+        <tr>
+            <td>41-333-86</td>
+            <td><a href="https://myboiler.com/download/halstead-bentley-30f-40f-50f-60f-installation-servicing-instructions-manual/?Halstead-41-333-86">Download</a></td>
+            <td>Halstead Bentley 50F</td>
+            <td>NG</td>
+        </tr>
+        <tr>
+            <td>41-333-87</td>
+            <td><a href="https://myboiler.com/download/halstead-bentley-30f-40f-50f-60f-installation-servicing-instructions-manual/?Halstead-41-333-87">Download</a></td>
+            <td>Halstead Bentley 60F</td>
+            <td>NG</td>
+        </tr>
+        <tr>
+            <td>41-333-88</td>
+            <td><a href="https://myboiler.com/download/request/?Halstead-41-333-88">Download</a></td>
+            <td>Halstead Buckingham 4 BFF 40</td>
+            <td>NG</td>
+        </tr>
+        <tr>
+            <td>41-333-89</td>
+            <td><a href="https://myboiler.com/download/request/?Halstead-41-333-89">Download</a></td>
+            <td>Halstead Buckingham 4 BFF 50</td>
+            <td>NG</td>
+        </tr>
+        <tr>
+            <td>41-333-90</td>
+            <td><a href="https://myboiler.com/download/request/?Halstead-41-333-90">Download</a></td>
+            <td>Halstead Buckingham 4 BFF 60</td>
+            <td>NG</td>
+        </tr>
+        <tr>
+            <td>41-333-91</td>
+            <td><a href="https://myboiler.com/download/request/?Halstead-41-333-91">Download</a></td>
+            <td>Halstead Buckingham 4 BFF 80</td>
+            <td>NG</td>
+        </tr>
+        <tr>
+            <td>41-333-92</td>
+            <td><a href="https://myboiler.com/download/request/?Halstead-41-333-92">Download</a></td>
+            <td>Halstead Buckingham 4 BFF 100</td>
+            <td>NG</td>
+        </tr>
+        <tr>
+            <td>41-333-93</td>
+            <td><a href="https://myboiler.com/download/request/?Halstead-41-333-93">Download</a></td>
+            <td>Halstead Buckingham 4 BFF 115</td>
+            <td>NG</td>
+        </tr>
+        <tr>
+            <td>41-333-94</td>
+            <td><a href="https://myboiler.com/download/request/?Halstead-41-333-94">Download</a></td>
+            <td>Halstead Buckingham 4 CFF 40</td>
+            <td>NG</td>
+        </tr>
+        <tr>
+            <td>41-333-95</td>
+            <td><a href="https://myboiler.com/download/request/?Halstead-41-333-95">Download</a></td>
+            <td>Halstead Buckingham 4 CFF 50</td>
+            <td>NG</td>
+        </tr>
+        <tr>
+            <td>41-333-96</td>
+            <td><a href="https://myboiler.com/download/request/?Halstead-41-333-96">Download</a></td>
+            <td>Halstead Buckingham 4 CFF 60</td>
+            <td>NG</td>
+        </tr>
+        <tr>
+            <td>41-333-97</td>
+            <td><a href="https://myboiler.com/download/request/?Halstead-41-333-97">Download</a></td>
+            <td>Halstead Buckingham 4 CFF 80</td>
+            <td>NG</td>
+        </tr>
+        <tr>
+            <td>41-333-98</td>
+            <td><a href="https://myboiler.com/download/request/?Halstead-41-333-98">Download</a></td>
+            <td>Halstead Buckingham 4 CFF 100</td>
+            <td>NG</td>
+        </tr>
+        <tr>
+            <td>41-333-99</td>
+            <td><a href="https://myboiler.com/download/request/?Halstead-41-333-99">Download</a></td>
+            <td>Halstead Buckingham 4 CFF 115</td>
+            <td>NG</td>
+        </tr>
+        <tr>
+            <td>47-260-01</td>
+            <td><a href="https://myboiler.com/downloads/?url=halstead/halstead-eden-cb&doctype=ISIM&source=Halstead-47-260-01">Download</a></td>
+            <td>Halstead Eden Cb</td>
+            <td>NG</td>
+        </tr>
+        <tr>
+            <td>47-260-02</td>
+            <td><a href="https://myboiler.com/download/request/?Halstead-47-260-02">Download</a></td>
+            <td>Halstead Finest Platinum Combi</td>
+            <td>NG</td>
+        </tr>
+        <tr>
+            <td>47-260-03</td>
+            <td><a href="https://myboiler.com/download/request/?Halstead-47-260-03">Download</a></td>
+            <td>Halstead Finest Platinum [LPG]</td>
+            <td>LPG</td>
+        </tr>
+        <tr>
+            <td>47-260-04</td>
+            <td><a href="https://myboiler.com/download/request/?Halstead-47-260-04">Download</a></td>
+            <td>Halstead Eden CBX 32 [NG]</td>
+            <td>NG</td>
+        </tr>
+        <tr>
+            <td>47-260-05</td>
+            <td><a href="https://myboiler.com/download/request/?Halstead-47-260-05">Download</a></td>
+            <td>Halstead Eden CBX 24 [NG]</td>
+            <td>NG</td>
+        </tr>
+        <tr>
+            <td>47-260-06</td>
+            <td><a href="https://myboiler.com/download/request/?Halstead-47-260-06">Download</a></td>
+            <td>Halstead Eden CBX 32 [LPG]</td>
+            <td>LPG</td>
+        </tr>
+        <tr>
+            <td>47-260-07</td>
+            <td><a href="https://myboiler.com/download/request/?Halstead-47-260-07">Download</a></td>
+            <td>Halstead Eden CBX 24 [LPG]</td>
+            <td>LPG</td>
+        </tr>
+        <tr>
+            <td>47-260-13</td>
+            <td><a href="https://myboiler.com/download/halstead-ace-he-24-30-35-installation-servicing-instructions-manual/?Halstead-47-260-13">Download</a></td>
+            <td>Halstead Ace HE 35</td>
+            <td>NG</td>
+        </tr>
+        <tr>
+            <td>47-260-14</td>
+            <td><a href="https://myboiler.com/download/request/?Halstead-47-260-14">Download</a></td>
+            <td>Halstead Eden CBX 38 [NG]</td>
+            <td>NG</td>
+        </tr>
+        <tr>
+            <td>47-260-15</td>
+            <td><a href="https://myboiler.com/download/request/?Halstead-47-260-15">Download</a></td>
+            <td>Halstead Eden CBX 38 [LPG]</td>
+            <td>LPG</td>
+        </tr>
+        <tr>
+            <td>47-260-16</td>
+            <td><a href="https://myboiler.com/download/halstead-iheat-25c-30c-35c-installation-and-servicing-instructions-manual/?Halstead-47-260-16">Download</a></td>
+            <td>Halstead iHeat 25c</td>
+            <td>NG/LPG</td>
+        </tr>
+        <tr>
+            <td>47-260-17</td>
+            <td><a href="https://myboiler.com/download/halstead-iheat-25c-30c-35c-installation-and-servicing-instructions-manual/?Halstead-47-260-17">Download</a></td>
+            <td>Halstead iHeat 30c</td>
+            <td>NG/LPG</td>
+        </tr>
+        <tr>
+            <td>47-260-18</td>
+            <td><a href="https://myboiler.com/download/halstead-iheat-25c-30c-35c-installation-and-servicing-instructions-manual/?Halstead-47-260-18">Download</a></td>
+            <td>Halstead iHeat 35c</td>
+            <td>NG/LPG</td>
+        </tr>
+        <tr>
+            <td>47-260-19</td>
+            <td><a href="https://myboiler.com/download/request/?Halstead-47-260-19">Download</a></td>
+            <td>Halstead iHeat 24c</td>
+            <td>NG/LPG</td>
+        </tr>
+        <tr>
+            <td>47-260-20</td>
+            <td><a href="https://myboiler.com/download/request/?Halstead-47-260-20">Download</a></td>
+            <td>Halstead iHeat 29c</td>
+            <td>NG/LPG</td>
+        </tr>
+        <tr>
+            <td>47-283-01</td>
+            <td><a href="https://myboiler.com/download/request/?Halstead-47-283-01">Download</a></td>
+            <td>Halstead Trio</td>
+            <td>NG</td>
+        </tr>
+        <tr>
+            <td>47-333-01</td>
+            <td><a href="https://myboiler.com/download/request/?Halstead-47-333-01">Download</a></td>
+            <td>Halstead Quattro</td>
+            <td>NG</td>
+        </tr>
+        <tr>
+            <td>47-333-04</td>
+            <td><a href="https://myboiler.com/download/request/?Halstead-47-333-04">Download</a></td>
+            <td>Halstead Quattro Gold</td>
+            <td>NG</td>
+        </tr>
+        <tr>
+            <td>47-333-06</td>
+            <td><a href="https://myboiler.com/download/halstead-finest-gold-installation-and-servicing-instructions-manual/?Halstead-47-333-06">Download</a></td>
+            <td>Halstead Finest - Pre Aug 2001</td>
+            <td>NG/LPG</td>
+        </tr>
+        <tr>
+            <td>47-333-07</td>
+            <td><a href="https://myboiler.com/download/halstead-finest-gold-installation-and-servicing-instructions-manual/?Halstead-47-333-07">Download</a></td>
+            <td>Halstead Finest Gold - Pre Aug 2001</td>
+            <td>NG/LPG</td>
+        </tr>
+        <tr>
+            <td>47-333-08</td>
+            <td><a href="https://myboiler.com/download/halstead-finest-gold-installation-and-servicing-instructions-manual/?Halstead-47-333-08">Download</a></td>
+            <td>Halstead Finest - Pre Aug 2001 [LPG]</td>
+            <td>NG/LPG</td>
+        </tr>
+        <tr>
+            <td>47-333-10</td>
+            <td><a href="https://myboiler.com/download/request/?Halstead-47-333-10">Download</a></td>
+            <td>Halstead Ace - Pre Aug 2001</td>
+            <td>NG</td>
+        </tr>
+        <tr>
+            <td>47-333-12</td>
+            <td><a href="https://myboiler.com/download/request/?Halstead-47-333-12">Download</a></td>
+            <td>Halstead Finest - From Aug 2001</td>
+            <td>None</td>
+        </tr>
+        <tr>
+            <td>47-333-13</td>
+            <td><a href="https://myboiler.com/download/request/?Halstead-47-333-13">Download</a></td>
+            <td>Halstead Finest Gold - From Aug 2001</td>
+            <td>None</td>
+        </tr>
+        <tr>
+            <td>47-333-14</td>
+            <td><a href="https://myboiler.com/download/request/?Halstead-47-333-14">Download</a></td>
+            <td>Halstead Finest Gold [LPG] - From Aug 2001</td>
+            <td>None</td>
+        </tr>
+        <tr>
+            <td>47-333-15</td>
+            <td><a href="https://myboiler.com/download/halstead-ace-ace-high-installation-and-servicing-instructions-manual/?Halstead-Ace-47-333-15">Download</a></td>
+            <td>Halstead Ace</td>
+            <td>NG</td>
+        </tr>
+        <tr>
+            <td>47-333-16</td>
+            <td><a href="https://myboiler.com/download/halstead-ace-ace-high-installation-and-servicing-instructions-manual/?Halstead-Ace-High-47-333-16">Download</a></td>
+            <td>Halstead Ace High</td>
+            <td>NG</td>
+        </tr>
+        <tr>
+            <td>47-333-19</td>
+            <td><a href="https://myboiler.com/download/halstead-ace-he-24-30-35-installation-servicing-instructions-manual/?Halstead-47-333-19">Download</a></td>
+            <td>Halstead Ace HE 24</td>
+            <td>NG</td>
+        </tr>
+        <tr>
+            <td>47-333-20</td>
+            <td><a href="https://myboiler.com/download/halstead-ace-he-24-30-35-installation-servicing-instructions-manual/?Halstead-47-333-20">Download</a></td>
+            <td>Halstead Ace HE 30</td>
+            <td>NG</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><a href="https://myboiler.com/download/request/?Halstead-">Download</a></td>
+            <td>Halstead Jetstreme</td>
+            <td>Oil</td>
+        </tr>
+    </tbody>
+</table>
+
+    <script src="../js/script.js"></script> <!-- Adjusted path -->
+</body>
+</html>
