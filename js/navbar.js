@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const navbarHtml = `
         <nav class="navbar">
           
-            <i class="fa-duotone fa-light fa-file-pdf"></i>
+            <img src="images/logo.png" alt="menu-logo" width=44px; height=44px;>
 
             <button class="navbar-toggle" onclick="toggleMenu()">
                 <i class="fas fa-bars"></i>
