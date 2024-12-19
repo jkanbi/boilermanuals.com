@@ -73,6 +73,13 @@
   padding: 10px;
 }
 
+.letters{
+	background-color: blue;
+	font-weight: bold; /* Makes the text bold */
+	color: white;
+	max-width: 20px;
+	text-align: center;
+}
 /*
 @media screen and (max-width: 600px) {
   .container {
