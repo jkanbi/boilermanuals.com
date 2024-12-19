@@ -62,3 +62,21 @@
 	margin-right:auto;
 	align-content: center;
 }
+
+
+.flexcontainer {
+  display: flex;
+}
+
+.column {
+  flex: 1;
+  padding: 10px;
+}
+
+/*
+@media screen and (max-width: 600px) {
+  .container {
+    flex-direction: column;
+  }
+  */
+}
