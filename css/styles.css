@@ -63,7 +63,6 @@
 	align-content: center;
 }
 
-
 .flexcontainer {
   display: flex;
 }
@@ -74,13 +73,14 @@
 }
 
 .letters{
-	background-color: blue;
-	font-weight: bold; /* Makes the text bold */
+	background-color: #0066cc;
+	border-radius: 4px;
 	color: white;
-	max-width: 20px;
+	font-weight: bold; /* Makes the text bold */
+	max-width: 24px;
 	text-align: center;
 }
-/*
+/* This is so on mobiles takes a single column
 @media screen and (max-width: 600px) {
   .container {
     flex-direction: column;
