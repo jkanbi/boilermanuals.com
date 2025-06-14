@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>URL Update Test</title>
+    <script src="js/config.js"></script>
+    <script src="js/urlUtils.js"></script>
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <h1>URL Update Test</h1>
+    
+    <h2>Test Links:</h2>
+    <ul>
+        <li><a href="https://myboiler.com/download/test1">Test 1 - Full URL</a></li>
+        <li><a href="https://myboiler.com/download/request/?test2">Test 2 - Request URL</a></li>
+        <li><a href="/download/test3">Test 3 - Relative URL</a></li>
+        <li><a href="download/test4">Test 4 - No leading slash</a></li>
+    </ul>
+
+    <h2>Original URLs:</h2>
+    <pre id="original-urls"></pre>
+
+    <h2>Updated URLs:</h2>
+    <pre id="updated-urls"></pre>
+
+    <script>
+        // Function to display URLs before and after update
+        function displayUrls() {
+            const links = document.querySelectorAll('a');
+            const originalUrls = document.getElementById('original-urls');
+            const updatedUrls = document.getElementById('updated-urls');
+            
+            let originalText = '';
+            let updatedText = '';
+            
+            links.forEach(link => {
+                originalText += link.getAttribute('href') + '\n';
+                updatedText += link.href + '\n';
+            });
+            
+            originalUrls.textContent = originalText;
+            updatedUrls.textContent = updatedText;
+        }
+
+        // Display URLs after a short delay to ensure update has occurred
+        setTimeout(displayUrls, 100);
+    </script>
+</body>
+</html> 

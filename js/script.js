@@ -1,4 +1,3 @@
-
 function toggleMenu() {
             const menu = document.querySelector('.navbar-menu');
             const icon = document.querySelector('.navbar-toggle i');
@@ -68,3 +67,8 @@ function myTableFunction() {
     }
   }
 }
+
+// Update all download links when the page loads
+document.addEventListener('DOMContentLoaded', function() {
+    URLUtils.updateDownloadLinks();
+});
