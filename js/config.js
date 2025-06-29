@@ -1,6 +1,6 @@
 // Base URL configuration
 const CONFIG = {
-    BASE_URL: 'https://hub.myboiler.com'
+    BASE_URL: 'https://hub.arated.com'
 };
 
 // Export the configuration
