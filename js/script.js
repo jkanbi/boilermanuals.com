@@ -71,4 +71,33 @@ function myTableFunction() {
 // Update all download links when the page loads
 document.addEventListener('DOMContentLoaded', function() {
     URLUtils.updateDownloadLinks();
+    setupDownloadModal();
 });
+
+function setupDownloadModal() {
+    let modal = document.getElementById('download-modal');
+
+    if (!modal) {
+        modal = document.createElement('div');
+        modal.id = 'download-modal';
+        modal.className = 'download-modal';
+        modal.innerHTML = '<div class="download-modal__dialog"><p>You\'re now being taken to your file</p></div>';
+        modal.setAttribute('aria-hidden', 'true');
+        document.body.appendChild(modal);
+    }
+
+    document.addEventListener('click', function(event) {
+        const link = event.target.closest('a[href$=".pdf"]');
+        if (!link) {
+            return;
+        }
+
+        event.preventDefault();
+        modal.classList.add('is-visible');
+        modal.setAttribute('aria-hidden', 'false');
+
+        window.setTimeout(function() {
+            window.location.href = link.href;
+        }, 1200);
+    });
+}

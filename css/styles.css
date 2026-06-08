@@ -80,10 +80,44 @@
 	max-width: 24px;
 	text-align: center;
 }
+
+.download-modal {
+    position: fixed;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.35);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.2s ease, visibility 0.2s ease;
+    z-index: 9999;
+}
+
+.download-modal.is-visible {
+    opacity: 1;
+    visibility: visible;
+}
+
+.download-modal__dialog {
+    background: #fff;
+    padding: 2rem 2.5rem;
+    border-radius: 8px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 90%;
+}
+
+.download-modal__dialog p {
+    margin: 0;
+    font-size: 1.1rem;
+    color: #333;
+}
 /* This is so on mobiles takes a single column
 @media screen and (max-width: 600px) {
   .container {
     flex-direction: column;
   }
   */
-}
