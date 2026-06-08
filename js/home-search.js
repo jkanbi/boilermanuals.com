@@ -7,7 +7,11 @@
     var resultsVisible = false;
     var searchHistoryPushed = false;
     var autoDismissTimer = null;
-    var autoDismissMs = 10000;
+    var autoDismissMs = 5000;
+
+    function currentUrl() {
+        return window.location.pathname + window.location.search + window.location.hash;
+    }
 
     function getIndexUrl() {
         var scripts = document.getElementsByTagName("script");
@@ -117,14 +121,14 @@
         clearAutoDismissTimer();
         if (searchHistoryPushed) {
             searchHistoryPushed = false;
-            history.replaceState(null, "");
+            history.replaceState(null, "", currentUrl());
         }
     }
 
     function markResultsVisible() {
         resultsVisible = true;
         if (!searchHistoryPushed) {
-            history.pushState({ homeSearchResults: true }, "");
+            history.pushState({ homeSearchResults: true }, "", currentUrl());
             searchHistoryPushed = true;
         }
         scheduleAutoDismiss();
@@ -331,7 +335,9 @@
         });
 
         window.addEventListener("popstate", function () {
-            if (!resultsVisible) {
+            var container = document.getElementById("homeSearchResults");
+            var isOpen = resultsVisible || (container && !container.hidden);
+            if (!isOpen) {
                 return;
             }
             searchHistoryPushed = false;
@@ -340,7 +346,6 @@
             if (searchInput) {
                 searchInput.value = "";
             }
-            var container = document.getElementById("homeSearchResults");
             if (container) {
                 container.hidden = true;
                 container.innerHTML = "";

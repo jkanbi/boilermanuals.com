@@ -76,6 +76,10 @@ document.addEventListener('DOMContentLoaded', function() {
 
 function setupDownloadModal() {
     let modal = document.getElementById('download-modal');
+    let redirectTimer = null;
+    let autoDismissTimer = null;
+    let modalHistoryPushed = false;
+    let pendingUrl = null;
 
     if (!modal) {
         modal = document.createElement('div');
@@ -86,6 +90,65 @@ function setupDownloadModal() {
         document.body.appendChild(modal);
     }
 
+    function clearModalTimers() {
+        if (redirectTimer) {
+            clearTimeout(redirectTimer);
+            redirectTimer = null;
+        }
+        if (autoDismissTimer) {
+            clearTimeout(autoDismissTimer);
+            autoDismissTimer = null;
+        }
+    }
+
+    function hideModal(options) {
+        options = options || {};
+        clearModalTimers();
+        pendingUrl = null;
+        modal.classList.remove('is-visible');
+        modal.setAttribute('aria-hidden', 'true');
+
+        if (!modalHistoryPushed) {
+            return;
+        }
+
+        modalHistoryPushed = false;
+        if (options.skipHistory) {
+            history.replaceState(null, '', window.location.href);
+        } else {
+            history.back();
+        }
+    }
+
+    function showModal(url) {
+        pendingUrl = url;
+        modal.classList.add('is-visible');
+        modal.setAttribute('aria-hidden', 'false');
+
+        history.pushState({ downloadModal: true }, '', window.location.href);
+        modalHistoryPushed = true;
+
+        redirectTimer = setTimeout(function() {
+            redirectTimer = null;
+            const target = pendingUrl;
+            clearModalTimers();
+            pendingUrl = null;
+            modal.classList.remove('is-visible');
+            modal.setAttribute('aria-hidden', 'true');
+            if (modalHistoryPushed) {
+                modalHistoryPushed = false;
+                history.replaceState(null, '', window.location.href);
+            }
+            if (target) {
+                window.location.href = target;
+            }
+        }, 1200);
+
+        autoDismissTimer = setTimeout(function() {
+            hideModal({ skipHistory: true });
+        }, 5000);
+    }
+
     document.addEventListener('click', function(event) {
         const link = event.target.closest('a[href$=".pdf"]');
         if (!link) {
@@ -93,11 +156,17 @@ function setupDownloadModal() {
         }
 
         event.preventDefault();
-        modal.classList.add('is-visible');
-        modal.setAttribute('aria-hidden', 'false');
+        showModal(link.href);
+    });
 
-        window.setTimeout(function() {
-            window.location.href = link.href;
-        }, 1200);
+    window.addEventListener('popstate', function() {
+        if (!modal.classList.contains('is-visible')) {
+            return;
+        }
+        modalHistoryPushed = false;
+        clearModalTimers();
+        pendingUrl = null;
+        modal.classList.remove('is-visible');
+        modal.setAttribute('aria-hidden', 'true');
     });
 }
