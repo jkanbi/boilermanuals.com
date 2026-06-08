@@ -87,6 +87,76 @@ function showBrandPageTitle() {
     input.insertAdjacentElement('afterend', heading);
 }
 
+function isGcColumnHeader(label) {
+    var normalized = (label || '').replace(/\s+/g, ' ').trim().toLowerCase();
+    if (!normalized) {
+        return false;
+    }
+    if (normalized === 'gc') {
+        return true;
+    }
+    if (/^g\.?\s*c\.?\s*-?\s*no\.?$/.test(normalized)) {
+        return true;
+    }
+    if (/^gc\s+(no|number)\b/.test(normalized)) {
+        return true;
+    }
+    if (/^gc\s+or\s+/.test(normalized)) {
+        return true;
+    }
+    return false;
+}
+
+function disableGcNumberTelLinks() {
+    var table = document.getElementById('myTable');
+    if (!table) {
+        return;
+    }
+
+    var headerCells = table.querySelectorAll('thead th');
+    if (!headerCells.length) {
+        headerCells = table.querySelectorAll('thead td');
+    }
+
+    var gcColumnIndex = -1;
+    Array.prototype.forEach.call(headerCells, function(cell, index) {
+        if (gcColumnIndex >= 0) {
+            return;
+        }
+        if (isGcColumnHeader((cell.textContent || '').trim())) {
+            gcColumnIndex = index;
+        }
+    });
+
+    if (gcColumnIndex < 0) {
+        return;
+    }
+
+    Array.prototype.forEach.call(table.querySelectorAll('tbody tr'), function(tr) {
+        var cells = tr.querySelectorAll('td');
+        var td = cells[gcColumnIndex];
+        if (!td || td.querySelector('.gc-no')) {
+            return;
+        }
+
+        var telLink = td.querySelector('a[href^="tel:"]');
+        var text = telLink
+            ? (telLink.textContent || '').replace(/\s+/g, ' ').trim()
+            : (td.textContent || '').replace(/\s+/g, ' ').trim();
+
+        if (!text) {
+            return;
+        }
+
+        var span = document.createElement('span');
+        span.className = 'gc-no';
+        span.setAttribute('x-apple-data-detectors', 'false');
+        span.textContent = text;
+        td.textContent = '';
+        td.appendChild(span);
+    });
+}
+
 function enhanceTablesForMobile() {
     var table = document.getElementById('myTable');
     if (!table || table.dataset.mobileReady === 'true') {
@@ -100,12 +170,14 @@ function enhanceTablesForMobile() {
         wrapper.appendChild(table);
     }
 
-    var headers = Array.prototype.map.call(
-        table.querySelectorAll('thead th'),
-        function(th) {
-            return (th.textContent || '').trim();
-        }
-    );
+    var headerCells = table.querySelectorAll('thead th');
+    if (!headerCells.length) {
+        headerCells = table.querySelectorAll('thead td');
+    }
+
+    var headers = Array.prototype.map.call(headerCells, function(cell) {
+        return (cell.textContent || '').trim();
+    });
 
     Array.prototype.forEach.call(table.querySelectorAll('tbody tr'), function(tr) {
         Array.prototype.forEach.call(tr.querySelectorAll('td'), function(td, index) {
@@ -128,6 +200,7 @@ function enhanceTablesForMobile() {
 }
 
 document.addEventListener('DOMContentLoaded', function() {
+    disableGcNumberTelLinks();
     showBrandPageTitle();
     enhanceTablesForMobile();
 
