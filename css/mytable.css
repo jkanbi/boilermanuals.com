@@ -30,3 +30,10 @@
   /* Add a grey background color to the table header and on hover */
   background-color: #f1f1f1;
 }
+
+#myTable .size-thumbnail {
+  display: block;
+  object-fit: contain;
+  max-width: 64px;
+  max-height: 64px;
+}
