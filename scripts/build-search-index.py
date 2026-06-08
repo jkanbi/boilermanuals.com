@@ -1,25 +1,17 @@
 #!/usr/bin/env python3
 """Build js/boiler-search-index.json from brands/*.html tables."""
 
-import html
 import json
 import re
+import sys
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from html_table_rows import iter_table_rows  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
 BRANDS = ROOT / "brands"
 OUT = ROOT / "js" / "boiler-search-index.json"
-
-
-def strip_tags(value: str) -> str:
-    value = re.sub(r"<[^>]+>", " ", value)
-    value = html.unescape(value)
-    return re.sub(r"\s+", " ", value).strip()
-
-
-def extract_href(cell: str) -> str:
-    match = re.search(r'href=["\']([^"\']+)["\']', cell, re.I)
-    return match.group(1) if match else ""
 
 
 def main() -> None:
@@ -40,23 +32,8 @@ def main() -> None:
         )
         brand_url = f"brands/{path.name}"
 
-        tbody_match = re.search(r"<tbody>(.*?)</tbody>", text, re.S | re.I)
-        if not tbody_match:
-            continue
-
-        for row in re.findall(r"<tr[^>]*>(.*?)</tr>", tbody_match.group(1), re.S | re.I):
-            cells = re.findall(r"<td[^>]*>(.*?)</td>", row, re.S | re.I)
-            if len(cells) < 3:
-                continue
-
-            gc = strip_tags(cells[0])
-            model = strip_tags(cells[2])
-            if not gc and not model:
-                continue
-
-            href = extract_href(cells[1])
+        for gc, href, model in iter_table_rows(text):
             download = href if href.lower().endswith(".pdf") else ""
-
             entries.append(
                 {
                     "brand": brand,

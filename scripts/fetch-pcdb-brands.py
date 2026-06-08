@@ -138,11 +138,29 @@ def fetch_brand(slug: str, brand_name: str) -> dict:
 
 
 def main() -> None:
+    import argparse
+
+    parser = argparse.ArgumentParser()
+    parser.add_argument(
+        "--skip-existing",
+        action="store_true",
+        help="Keep existing data/pcdb/pcdb-<slug>.json files and only fetch missing brands",
+    )
+    args = parser.parse_args()
+
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     combined: dict[str, dict] = {}
     summary: list[dict] = []
 
     for slug, _path, brand_name in iter_brand_pages():
+        out = OUT_DIR / f"pcdb-{slug}.json"
+        if args.skip_existing and out.exists():
+            payload = json.loads(out.read_text(encoding="utf-8"))
+            combined[slug] = payload
+            summary.append({"slug": slug, "brandName": brand_name, "count": payload.get("count", 0), "skipped": True})
+            print(f"Skipping {brand_name} ({slug}) — already fetched")
+            continue
+
         print(f"Fetching PCDB: {brand_name} ({slug})...")
         try:
             payload = fetch_brand(slug, brand_name)
@@ -151,7 +169,6 @@ def main() -> None:
             summary.append({"slug": slug, "brandName": brand_name, "count": 0, "error": str(exc)})
             continue
 
-        out = OUT_DIR / f"pcdb-{slug}.json"
         out.write_text(json.dumps(payload, indent=2), encoding="utf-8")
         combined[slug] = payload
         summary.append({"slug": slug, "brandName": brand_name, "count": payload["count"]})

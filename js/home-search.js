@@ -222,6 +222,27 @@
         return escapeHtml(value);
     }
 
+    function getBrandFilter() {
+        if (!searchInput) {
+            return null;
+        }
+        var filter = searchInput.getAttribute("data-brand-filter");
+        if (!filter) {
+            return null;
+        }
+        return filter.split(",").map(function (part) {
+            return part.trim().toLowerCase();
+        }).filter(Boolean);
+    }
+
+    function passesBrandFilter(entry) {
+        var filter = getBrandFilter();
+        if (!filter || !filter.length) {
+            return true;
+        }
+        return filter.indexOf(entry.brand.toLowerCase()) !== -1;
+    }
+
     function runSearch(rawQuery) {
         var query = normalizeQuery(rawQuery);
         var gcDigits = gcQueryDigits(rawQuery);
@@ -234,6 +255,9 @@
         }
 
         for (var i = 0; i < index.length; i++) {
+            if (!passesBrandFilter(index[i])) {
+                continue;
+            }
             if (entryMatches(index[i], query, gcDigits, rawQuery)) {
                 totalMatches += 1;
                 if (matches.length < maxResults) {

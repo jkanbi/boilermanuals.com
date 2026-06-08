@@ -68,11 +68,21 @@ function myTableFunction() {
   }
 }
 
-// Update all download links when the page loads
 document.addEventListener('DOMContentLoaded', function() {
-    URLUtils.updateDownloadLinks();
-    setupDownloadModal();
+    // Legacy hub rewrite — only on pages that still load urlUtils.js (e.g. index)
+    if (typeof URLUtils !== 'undefined' && URLUtils.updateDownloadLinks) {
+        URLUtils.updateDownloadLinks();
+    }
 });
+
+document.addEventListener('DOMContentLoaded', setupDownloadModal);
+
+function isPdfDownloadLink(anchor) {
+    if (!anchor || anchor.tagName !== 'A') {
+        return false;
+    }
+    return /\.pdf(?:[?#]|$)/i.test(anchor.getAttribute('href') || '');
+}
 
 function setupDownloadModal() {
     let modal = document.getElementById('download-modal');
@@ -150,8 +160,8 @@ function setupDownloadModal() {
     }
 
     document.addEventListener('click', function(event) {
-        const link = event.target.closest('a[href$=".pdf"]');
-        if (!link) {
+        const link = event.target.closest('a');
+        if (!isPdfDownloadLink(link)) {
             return;
         }
 
