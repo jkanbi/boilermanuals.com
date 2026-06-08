@@ -1,33 +1,37 @@
 #myInput {
-  background-image: url('../images/searchicon.png'); /* Add a search icon to input */
-  background-position: 10px 12px; /* Position the search icon */
-  background-repeat: no-repeat; /* Do not repeat the icon image */
-  width: 100%; /* Full-width */
-  font-size: 16px; /* Increase font-size */
-  padding: 12px 20px 12px 40px; /* Add some padding */
-  border: 1px solid #ddd; /* Add a grey border */
-  margin-bottom: 12px; /* Add some space below the input */
+  background-image: url('../images/searchicon.png');
+  background-position: 10px 12px;
+  background-repeat: no-repeat;
+  width: 100%;
+  max-width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+  box-sizing: border-box;
+  border-radius: 8px;
 }
 
 #myTable {
-  border-collapse: collapse; /* Collapse borders */
-  width: 100%; /* Full-width */
-  border: 1px solid #ddd; /* Add a grey border */
-  font-size: 18px; /* Increase font-size */
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #ddd;
+  font-size: 18px;
 }
 
-#myTable th, #myTable td {
-  text-align: left; /* Left-align text */
-  padding: 12px; /* Add padding */
+#myTable th,
+#myTable td {
+  text-align: left;
+  padding: 12px;
+  vertical-align: top;
 }
 
 #myTable tr {
-  /* Add a bottom border to all table rows */
   border-bottom: 1px solid #ddd;
 }
 
-#myTable tr.header, #myTable tr:hover {
-  /* Add a grey background color to the table header and on hover */
+#myTable tr.header,
+#myTable tr:hover {
   background-color: #f1f1f1;
 }
 
@@ -36,4 +40,117 @@
   object-fit: contain;
   max-width: 64px;
   max-height: 64px;
+}
+
+#myTable a {
+  color: #1a73e8;
+  text-decoration: none;
+}
+
+#myTable a:hover {
+  text-decoration: underline;
+}
+
+.table-responsive {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+@media screen and (max-width: 768px) {
+  #myInput {
+    margin-bottom: 16px;
+  }
+
+  .table-responsive {
+    overflow: visible;
+  }
+
+  #myTable {
+    border: none;
+    font-size: 16px;
+  }
+
+  #myTable thead {
+    display: none;
+  }
+
+  #myTable tbody tr {
+    display: block;
+    margin-bottom: 14px;
+    border: 1px solid #dadce0;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0 1px 2px rgba(60, 64, 67, 0.08);
+    overflow: hidden;
+  }
+
+  #myTable tbody tr:hover {
+    background: #fff;
+  }
+
+  #myTable td {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 12px 14px;
+    border-bottom: 1px solid #eee;
+    text-align: right;
+    word-break: break-word;
+  }
+
+  #myTable td:last-child {
+    border-bottom: none;
+  }
+
+  #myTable td.table-cell--empty {
+    display: none;
+  }
+
+  #myTable td::before {
+    content: attr(data-label);
+    font-weight: 600;
+    color: #5f6368;
+    text-align: left;
+    flex: 0 0 42%;
+    font-size: 0.8125rem;
+    line-height: 1.4;
+    padding-top: 2px;
+  }
+
+  #myTable td:not([data-label])::before,
+  #myTable td[data-label=""]::before {
+    display: none;
+  }
+
+  #myTable td[data-label=""] {
+    display: block;
+    text-align: left;
+  }
+
+  #myTable td:has(img) {
+    display: block;
+    text-align: center;
+  }
+
+  #myTable td:has(img)::before {
+    display: block;
+    text-align: left;
+    margin-bottom: 8px;
+  }
+
+  #myTable td:has(img) .size-thumbnail {
+    margin: 0 auto;
+  }
+
+  #myTable td a {
+    min-height: 44px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 4px 0;
+    font-weight: 500;
+  }
 }

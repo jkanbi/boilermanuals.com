@@ -68,7 +68,49 @@ function myTableFunction() {
   }
 }
 
+function enhanceTablesForMobile() {
+    var table = document.getElementById('myTable');
+    if (!table || table.dataset.mobileReady === 'true') {
+        return;
+    }
+
+    if (!table.parentElement.classList.contains('table-responsive')) {
+        var wrapper = document.createElement('div');
+        wrapper.className = 'table-responsive';
+        table.parentNode.insertBefore(wrapper, table);
+        wrapper.appendChild(table);
+    }
+
+    var headers = Array.prototype.map.call(
+        table.querySelectorAll('thead th'),
+        function(th) {
+            return (th.textContent || '').trim();
+        }
+    );
+
+    Array.prototype.forEach.call(table.querySelectorAll('tbody tr'), function(tr) {
+        Array.prototype.forEach.call(tr.querySelectorAll('td'), function(td, index) {
+            var label = headers[index] || '';
+            var text = (td.textContent || '').replace(/\s+/g, ' ').trim();
+            var hasImage = td.querySelector('img');
+            var hasLink = td.querySelector('a[href]');
+
+            if (label) {
+                td.setAttribute('data-label', label);
+            }
+
+            if (!text && !hasImage && !hasLink) {
+                td.classList.add('table-cell--empty');
+            }
+        });
+    });
+
+    table.dataset.mobileReady = 'true';
+}
+
 document.addEventListener('DOMContentLoaded', function() {
+    enhanceTablesForMobile();
+
     // Legacy hub rewrite — only on pages that still load urlUtils.js (e.g. index)
     if (typeof URLUtils !== 'undefined' && URLUtils.updateDownloadLinks) {
         URLUtils.updateDownloadLinks();

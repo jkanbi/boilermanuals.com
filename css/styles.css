@@ -4,6 +4,12 @@
             margin: 0;
             padding: 20px;
         }
+
+        @media screen and (max-width: 768px) {
+            body {
+                padding: 12px;
+            }
+        }
         h1 {
             color: #333;
         }
@@ -202,9 +208,15 @@
             box-sizing: border-box;
         }
 
-.nav-button{
-   padding: 14px;
+.nav-button {
+   padding: 14px 16px;
    font-size: 1em;
+   min-height: 44px;
+   border: 1px solid #dadce0;
+   border-radius: 8px;
+   background: #fff;
+   color: #202124;
+   cursor: pointer;
 }
 .styled-list {
     list-style-type: none; /* Remove default bullet points */
@@ -221,7 +233,9 @@
 .styled-list li a {
     display: block;
     width: 100%;
-    height: 100%;
+    min-height: 44px;
+    line-height: 1.4;
+    padding: 4px 0;
 }
 
 #container{
@@ -283,9 +297,26 @@
     font-size: 1.1rem;
     color: #333;
 }
-/* This is so on mobiles takes a single column
-@media screen and (max-width: 600px) {
-  .container {
+@media screen and (max-width: 768px) {
+  .flexcontainer {
     flex-direction: column;
   }
-  */
+
+  .column {
+    padding: 0;
+  }
+
+  #container {
+    padding: 0 4px;
+  }
+
+  .site-footer {
+    margin-top: 40px;
+    padding: 24px 0 32px;
+  }
+
+  .nav-button {
+    width: 100%;
+    box-sizing: border-box;
+  }
+}

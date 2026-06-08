@@ -80,8 +80,8 @@
 
         @media screen and (max-width: 768px) {
             .navbar {
-                padding: 10px 16px;
-                margin: -20px -20px 12px;
+                padding: 10px 12px;
+                margin: -12px -12px 12px;
             }
 
             .navbar-brand {
