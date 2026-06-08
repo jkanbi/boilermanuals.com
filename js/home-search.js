@@ -3,6 +3,11 @@
     var indexLoadState = "pending";
     var maxResults = 40;
     var searchInput = null;
+    var searchSection = null;
+    var resultsVisible = false;
+    var searchHistoryPushed = false;
+    var autoDismissTimer = null;
+    var autoDismissMs = 10000;
 
     function getIndexUrl() {
         var scripts = document.getElementsByTagName("script");
@@ -93,6 +98,62 @@
         return false;
     }
 
+    function clearAutoDismissTimer() {
+        if (autoDismissTimer) {
+            clearTimeout(autoDismissTimer);
+            autoDismissTimer = null;
+        }
+    }
+
+    function scheduleAutoDismiss() {
+        clearAutoDismissTimer();
+        autoDismissTimer = setTimeout(function () {
+            dismissResults({ clearInput: true, skipHistory: true });
+        }, autoDismissMs);
+    }
+
+    function markResultsHidden() {
+        resultsVisible = false;
+        clearAutoDismissTimer();
+        if (searchHistoryPushed) {
+            searchHistoryPushed = false;
+            history.replaceState(null, "");
+        }
+    }
+
+    function markResultsVisible() {
+        resultsVisible = true;
+        if (!searchHistoryPushed) {
+            history.pushState({ homeSearchResults: true }, "");
+            searchHistoryPushed = true;
+        }
+        scheduleAutoDismiss();
+    }
+
+    function dismissResults(options) {
+        options = options || {};
+        var container = document.getElementById("homeSearchResults");
+
+        if (options.clearInput !== false && searchInput) {
+            searchInput.value = "";
+        }
+
+        if (container) {
+            container.hidden = true;
+            container.innerHTML = "";
+        }
+
+        if (searchHistoryPushed && !options.skipHistory) {
+            searchHistoryPushed = false;
+            resultsVisible = false;
+            clearAutoDismissTimer();
+            history.back();
+            return;
+        }
+
+        markResultsHidden();
+    }
+
     function renderResults(results, totalMatches, query) {
         var container = document.getElementById("homeSearchResults");
         if (!container) {
@@ -102,12 +163,14 @@
         if (!query) {
             container.hidden = true;
             container.innerHTML = "";
+            markResultsHidden();
             return;
         }
 
         if (indexLoadState === "pending") {
             container.hidden = false;
             container.innerHTML = "<p class=\"home-search-status\">Loading search index…</p>";
+            markResultsVisible();
             return;
         }
 
@@ -115,6 +178,7 @@
             container.hidden = false;
             container.innerHTML =
                 "<p class=\"home-search-status\">Search is temporarily unavailable. Please refresh the page.</p>";
+            markResultsVisible();
             return;
         }
 
@@ -124,6 +188,7 @@
                 "<p class=\"home-search-status\">No manuals found for <strong>" +
                 escapeHtml(query) +
                 "</strong>. Try a brand name, model, or GC number (e.g. 47-044-87).</p>";
+            markResultsVisible();
             return;
         }
 
@@ -157,6 +222,7 @@
 
         container.hidden = false;
         container.innerHTML = html;
+        markResultsVisible();
     }
 
     function escapeHtml(value) {
@@ -219,6 +285,7 @@
 
     document.addEventListener("DOMContentLoaded", function () {
         searchInput = document.getElementById("homeSearchInput");
+        searchSection = document.querySelector(".home-search");
         if (!searchInput) {
             return;
         }
@@ -231,6 +298,53 @@
             timer = setTimeout(function () {
                 runSearch(searchInput.value);
             }, 200);
+        });
+
+        searchInput.addEventListener("keydown", function (event) {
+            if (event.key === "Escape") {
+                dismissResults({ clearInput: true });
+            }
+        });
+
+        searchInput.addEventListener("focus", function () {
+            if (resultsVisible) {
+                scheduleAutoDismiss();
+            }
+        });
+
+        var resultsContainer = document.getElementById("homeSearchResults");
+        if (resultsContainer) {
+            resultsContainer.addEventListener("mousedown", function () {
+                if (resultsVisible) {
+                    scheduleAutoDismiss();
+                }
+            });
+        }
+
+        document.addEventListener("mousedown", function (event) {
+            if (!resultsVisible || !searchSection) {
+                return;
+            }
+            if (!searchSection.contains(event.target)) {
+                dismissResults({ clearInput: true });
+            }
+        });
+
+        window.addEventListener("popstate", function () {
+            if (!resultsVisible) {
+                return;
+            }
+            searchHistoryPushed = false;
+            resultsVisible = false;
+            clearAutoDismissTimer();
+            if (searchInput) {
+                searchInput.value = "";
+            }
+            var container = document.getElementById("homeSearchResults");
+            if (container) {
+                container.hidden = true;
+                container.innerHTML = "";
+            }
         });
     });
 })();

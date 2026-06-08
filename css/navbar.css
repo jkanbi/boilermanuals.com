@@ -1,30 +1,66 @@
-
         .navbar {
             width: 100%;
-            background-color: white;
-            display: flex;
-            justify-content: space-between;
+            background-color: #fff;
+            display: grid;
+            grid-template-columns: 1fr auto 1fr;
             align-items: center;
-            padding: 10px 20px;
+            gap: 16px;
+            padding: 12px 20px;
             position: relative;
+            border-bottom: 1px solid #e8eaed;
+        }
+
+        .navbar-brand {
+            justify-self: start;
+        }
+
+        .navbar-brand a {
+            display: flex;
+            align-items: center;
         }
 
         .navbar-logo {
-            max-height: 50px;
+            display: block;
+            width: 44px;
+            height: 44px;
+        }
+
+        .navbar-title {
+            justify-self: center;
+            font-size: 1.25rem;
+            font-weight: 400;
+            color: #202124;
+            text-decoration: none;
+            letter-spacing: -0.25px;
+            white-space: nowrap;
+        }
+
+        .navbar-title:hover {
+            color: #202124;
+        }
+
+        .navbar-actions {
+            justify-self: end;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
         }
 
         .navbar-toggle {
             display: none;
             background: none;
             border: none;
-            color: #000;
+            color: #202124;
             font-size: 24px;
             cursor: pointer;
+            padding: 4px;
         }
 
         .navbar-menu {
             display: flex;
             list-style: none;
+            margin: 0;
+            padding: 0;
         }
 
         .navbar-menu li {
@@ -32,11 +68,24 @@
         }
 
         .navbar-menu li a {
-            color: #000;
+            color: #202124;
             text-decoration: none;
+            font-size: 0.9375rem;
+        }
+
+        .navbar-menu li a:hover {
+            text-decoration: underline;
         }
 
         @media screen and (max-width: 768px) {
+            .navbar {
+                padding: 10px 16px;
+            }
+
+            .navbar-title {
+                font-size: 1.0625rem;
+            }
+
             .navbar-toggle {
                 display: block;
             }
@@ -46,10 +95,13 @@
                 flex-direction: column;
                 position: absolute;
                 top: 100%;
+                right: 0;
                 left: 0;
                 width: 100%;
                 background-color: #fff;
-                padding: 20px;
+                padding: 16px 20px 20px;
+                border-bottom: 1px solid #e8eaed;
+                z-index: 1000;
             }
 
             .navbar-menu.active {

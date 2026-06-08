@@ -12,21 +12,17 @@
     <script src="js/urlUtils.js"></script>
 </head>
 <body>
-	<br>
 	<div id="container">
-    <div>
-        <h1>Boiler Manuals</h1>
-        <p>Boiler manuals for your particular boiler can be found here at this site. You will also find manuals for hot water cylinders here. Majority of the files are in the pdf format. Available for download are a mixture of installation manuals, service manuals, user manuals and other related manuals. New files will be added when available.</p>
-    </div>
+    <header class="home-hero">
+        <section class="home-search">
+            <input type="search" id="homeSearchInput" class="home-search__input" placeholder="Search by brand, GC number, or model" aria-label="Search by brand, GC number, or model" autocomplete="off" spellcheck="false">
+            <div id="homeSearchResults" class="home-search-results" hidden></div>
+        </section>
+    </header>
 
-    <section class="home-search">
-        <input type="search" id="homeSearchInput" class="home-search__input" placeholder="Search by brand, GC number, or model" aria-label="Search by brand, GC number, or model" autocomplete="off" spellcheck="false">
-        <div id="homeSearchResults" class="home-search-results" hidden></div>
-    </section>
-
-	<br>
-    <div>
-        <h1>Most Popular</h1>
+    <div class="home-content">
+    <section class="home-section">
+        <h2 class="home-section__title">Most Popular</h2>
         <ul id="myULpopular" class="styled-list">
             <li><a href="brands/vaillant.html">Vaillant</a></li>
             <li><a href="brands/worcester-bosch.html">Worcester Bosch</a></li>
@@ -39,13 +35,11 @@
             <li><a href="brands/alpha.html">Alpha</a></li>
             <li><a href="brands/british-gas.html">British Gas</a></li>
         </ul>
-    </div>
-	<br>
-    <div>
-        <h1>By Brand</h1>
-    </div>
+    </section>
 
-    <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search by Brand..">
+    <section class="home-section">
+        <h2 class="home-section__title">By Brand</h2>
+        <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search by brand">
 
     <ul id="myUL" class="styled-list">
 		<div class="flexcontainer">
@@ -167,14 +161,15 @@
 		</div>
 		</div><!--flexcontainer -->
     </ul>
+    </section>
+    </div>
 
-    <br />
-
-    <div class="panel">The brands of boiler manuals we host on our website include Alpha, Baxi, Glow-Worm, Halstead, Ideal, Keston, Main, Vaillant, Viessmann and Worcester Bosch. Manuals that are not available may be requested using the contact form. Free Boiler Manuals - All boiler manuals are free of charge as permitted by manufacturers copyright guidelines. In addition to installation and servicing manuals, you may also find other user manuals, fault finding manuals etc.</div>
-
-    <br />
-    <h3>Other Resources</h3>
-    <p>If you are looking for any other resources, please feel free to <a href="contact.html">contact us</a>. We will happily try to search for boiler manuals, boiler installation and servicing manuals, boiler fault code manuals, user manuals and other manuals that will help you find the information that you need.</p>
+    <footer class="site-footer">
+        <p>Boiler manuals for your particular boiler can be found here. You will also find manuals for hot water cylinders. Most files are in PDF format, including installation, service, and user manuals. New files are added when available.</p>
+        <p>Brands on this site include Alpha, Baxi, Glow-Worm, Halstead, Ideal, Keston, Main, Vaillant, Viessmann, and Worcester Bosch. If a manual is not available, you can request it using the <a href="contact.html">contact form</a>. All manuals are free to download, in line with manufacturers&rsquo; copyright guidelines.</p>
+        <h2 class="site-footer__heading">Other resources</h2>
+        <p>If you are looking for anything else, please <a href="contact.html">contact us</a>. We will try to find boiler manuals, installation and servicing guides, fault code manuals, user manuals, and other documentation you need.</p>
+    </footer>
 	</div>
     <script src="js/script.js"></script>
     <script src="js/home-search.js"></script>
