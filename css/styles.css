@@ -15,12 +15,88 @@
             text-decoration: none;
             color: #0066cc;
         }
-        #myInput {
+        #myInput,
+        .home-search__input {
             width: 100%;
             font-size: 16px;
             padding: 12px 20px;
             margin: 8px 0;
             box-sizing: border-box;
+        }
+
+        .home-search {
+            margin: 16px 0 8px;
+        }
+
+        .home-search__input {
+            margin: 0;
+        }
+
+        .home-search-results {
+            margin-top: 8px;
+        }
+
+        .home-search-status {
+            margin: 0;
+            color: #555;
+        }
+
+        .home-search-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .home-search-item {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            gap: 12px;
+            padding: 12px 0;
+            border-bottom: 1px solid #e4e4e4;
+        }
+
+        .home-search-item:last-child {
+            border-bottom: none;
+        }
+
+        .home-search-item__main {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px 16px;
+            align-items: baseline;
+            min-width: 0;
+        }
+
+        .home-search-item__brand {
+            font-weight: bold;
+            color: #333;
+        }
+
+        .home-search-item__gc {
+            color: #0066cc;
+            font-family: monospace;
+            white-space: nowrap;
+        }
+
+        .home-search-item__model {
+            color: #333;
+        }
+
+        .home-search-item__actions {
+            display: flex;
+            gap: 16px;
+            flex-shrink: 0;
+        }
+
+        .home-search-item__actions a {
+            white-space: nowrap;
+        }
+
+        @media screen and (max-width: 640px) {
+            .home-search-item {
+                flex-direction: column;
+            }
         }
         .panel {
             background-color: #f1f1f1;
