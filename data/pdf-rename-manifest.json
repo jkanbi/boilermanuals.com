@@ -1,0 +1,4657 @@
+{
+  "renameCount": 460,
+  "htmlFilesUpdated": 66,
+  "localFilesRenamed": 386,
+  "renames": [
+    {
+      "brand": "acv",
+      "old": "acv-BNE-1-2-3.pdf",
+      "new": "acv-bne-1-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "A.C.V BNE 1"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "acv",
+      "old": "acv-E-techS.pdf",
+      "new": "acv-e-tech-s-160-240-290-380-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "A.C.V E-Tech S 160/240/290/380"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "acv",
+      "old": "acv-HM-JUMBO.pdf",
+      "new": "acv-hm-60n-70n-100n-150-jumbo-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "A.C.V HM 60N/70N/100N/150 Jumbo"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "acv",
+      "old": "acv-he-71.pdf",
+      "new": "acv-heat-master-71-heat-master-101-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "A.C.V Heat Master 71",
+        "A.C.V Heat Master 101"
+      ],
+      "modelCount": 2
+    },
+    {
+      "brand": "acv",
+      "old": "acv-heatmaster30.pdf",
+      "new": "acv-heat-master-n-30-60-70-100-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "A.C.V Heat Master 30 N",
+        "A.C.V Heat Master 60 N",
+        "A.C.V Heat Master 70 N",
+        "A.C.V Heat Master 100 N"
+      ],
+      "modelCount": 4
+    },
+    {
+      "brand": "acv",
+      "old": "acv-HM71.pdf",
+      "new": "acv-heat-master-hm71-heat-master-hm101-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "A.C.V Heat Master HM71",
+        "A.C.V Heat Master HM101"
+      ],
+      "modelCount": 2
+    },
+    {
+      "brand": "acv",
+      "old": "acv-HeatMaster200.pdf",
+      "new": "acv-heat-master-200n-heat-master-200f-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "A.C.V Heat Master 200N",
+        "A.C.V Heat Master 200F"
+      ],
+      "modelCount": 2
+    },
+    {
+      "brand": "acv",
+      "old": "acv-PrestigeMK2.pdf",
+      "new": "acv-24-32-mk2-prestige-solo-aquaspeed-excellence-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "A.C.V Prestige MK2 Solo 24-32",
+        "A.C.V Prestige MK2 Aquaspeed 24-32",
+        "A.C.V Prestige MK2 Excellence 24-32"
+      ],
+      "modelCount": 3
+    },
+    {
+      "brand": "alpha",
+      "old": "alpha-e-tec-s.pdf",
+      "new": "alpha-e-tec-20s-e-tec-30s-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Alpha E-Tec 20S",
+        "Alpha E-Tec 30S"
+      ],
+      "modelCount": 2
+    },
+    {
+      "brand": "alpha",
+      "old": "Alpha-InTec-24X.pdf",
+      "new": "alpha-intec-26c-30c-24x-28x-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Alpha Intec 26C",
+        "Alpha Intec 30C",
+        "Alpha Intec 24X",
+        "Alpha Intec 28X"
+      ],
+      "modelCount": 4
+    },
+    {
+      "brand": "ariston",
+      "old": "ariston-clas_net_one.pdf",
+      "new": "ariston-clas-one-net-24-30-38-system-18-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Ariston CLAS NET One 24",
+        "Ariston CLAS NET One 30",
+        "Ariston CLAS NET One 38",
+        "Ariston CLAS ONE 24",
+        "Ariston CLAS ONE 30",
+        "Ariston CLAS ONE 38",
+        "Ariston CLAS SYSTEM One 18",
+        "Ariston CLAS SYSTEM One 24"
+      ],
+      "modelCount": 9
+    },
+    {
+      "brand": "ariston",
+      "old": "ariston-DIA-2024MI-CE.pdf",
+      "new": "ariston-dia-24-mi-ce-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Ariston Dia 24 MI CE"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "ariston",
+      "old": "ariston-DIA_System27.pdf",
+      "new": "ariston-dia-system-27-rffi-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Ariston Dia System 27 RFFi"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "ariston",
+      "old": "ariston-ACO-COMBI.pdf",
+      "new": "ariston-aco-series-32-rffi-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Ariston ACO Series 32 RFFI"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "atag",
+      "old": "atag-1.pdf",
+      "new": "atag-premier-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Atag premier"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "atag",
+      "old": "Atag-iR.pdf",
+      "new": "atag-ir-15-lpg-ir-18-ir-18-lpg-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Atag iR 15 LPG",
+        "Atag iR 18",
+        "Atag iR 18 LPG"
+      ],
+      "modelCount": 3
+    },
+    {
+      "brand": "atag",
+      "old": "atag-2.pdf",
+      "new": "atag-blauwe-engel-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Atag blauwe engel"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "atag",
+      "old": "atag-atag_XL.pdf",
+      "new": "atag-xl-70-xl-110-xl-140-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Atag XL 70",
+        "Atag XL 110",
+        "Atag XL 140"
+      ],
+      "modelCount": 3
+    },
+    {
+      "brand": "atag",
+      "old": "atag-atag_XLF.pdf",
+      "new": "atag-f-xl-75-105-125-150-180-210-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Atag XL F 75",
+        "Atag XL F 105",
+        "Atag XL F 125",
+        "Atag XL F 150",
+        "Atag XL F 180",
+        "Atag XL F 210"
+      ],
+      "modelCount": 6
+    },
+    {
+      "brand": "atag",
+      "old": "atag-atag_XLW.pdf",
+      "new": "atag-w-xl-75-105-125-150-180-210-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Atag XL W 75",
+        "Atag XL W 105",
+        "Atag XL W 125",
+        "Atag XL W 150",
+        "Atag XL W 180",
+        "Atag XL W 210"
+      ],
+      "modelCount": 6
+    },
+    {
+      "brand": "atmos",
+      "old": "atmos-CompactN15.pdf",
+      "new": "atmos-unit-n15b-central-heating-n15c-n30k-combi-n30b-n30c-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Atmos N15B Central Heating Unit",
+        "Atmos N15C Central Heating Unit",
+        "Atmos N30K Combi Unit Unit",
+        "Atmos N30B Central Heating Unit",
+        "Atmos N30C Central Heating Unit"
+      ],
+      "modelCount": 5
+    },
+    {
+      "brand": "atmos",
+      "old": "atmos-CompactN35.pdf",
+      "new": "atmos-35c-central-heating-boiler-40c-central-heating-boiler-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Atmos 35C Central Heating Boiler",
+        "Atmos 40C Central Heating Boiler"
+      ],
+      "modelCount": 2
+    },
+    {
+      "brand": "atmos",
+      "old": "atmos-he26-40.pdf",
+      "new": "atmos-intersystem-he40-c-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Atmos Intersystem HE40 C"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "baxi",
+      "old": "baxi-Avanta-range.pdf",
+      "new": "baxi-fault-codes-avanta-range-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Baxi Fault codes Avanta Range"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "baxi",
+      "old": "baxi-Ecoblue-faults.pdf",
+      "new": "baxi-fault-codes-ecoblue-range-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Baxi Fault codes Ecoblue Range"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "baxi",
+      "old": "baxi-Error-168.pdf",
+      "new": "baxi-fault-codes-error-168-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Baxi Fault codes Error 168"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "baxi",
+      "old": "baxi-GA-Range.pdf",
+      "new": "baxi-fault-codes-ga-range-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Baxi Fault codes GA Range"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "baxi",
+      "old": "baxi-HE-A-Range-3.pdf",
+      "new": "baxi-fault-codes-he-a-range-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Baxi Fault codes HE-A Range"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "baxi",
+      "old": "baxi-baxi_assure.pdf",
+      "new": "baxi-assure-combi-25-30-36-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Baxi Assure Combi 25",
+        "Baxi Assure Combi 30",
+        "Baxi Assure Combi 36",
+        "Baxi Assure Combi 25 LPG",
+        "Baxi Assure Combi 30 LPG",
+        "Baxi Assure Combi 36 LPG"
+      ],
+      "modelCount": 6
+    },
+    {
+      "brand": "baxi",
+      "old": "baxi-Baxi_636.pdf",
+      "new": "baxi-636-combi-636-combi-lpg-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Baxi 636 Combi",
+        "Baxi 636 Combi LPG"
+      ],
+      "modelCount": 2
+    },
+    {
+      "brand": "baxi",
+      "old": "baxi-Bermuda-552BBU.pdf",
+      "new": "baxi-bermuda-552-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Baxi Bermuda 552"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "baxi",
+      "old": "baxi-Bermuda-553.pdf",
+      "new": "baxi-bermuda-553-propane-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Baxi Bermuda 553 Propane"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "baxi",
+      "old": "baxi-Baxi_400_Heat.pdf",
+      "new": "baxi-heat-412-415-418-424-430-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Baxi 412 Heat Erp",
+        "Baxi 415 Heat Erp",
+        "Baxi 418 Heat Erp",
+        "Baxi 424 Heat Erp",
+        "Baxi 430 Heat Erp"
+      ],
+      "modelCount": 5
+    },
+    {
+      "brand": "baxi",
+      "old": "baxi-baxi_HE-600.pdf",
+      "new": "baxi-heat-613-616-619-625-630-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Baxi Heat 613",
+        "Baxi Heat 616",
+        "Baxi Heat 619",
+        "Baxi Heat 625",
+        "Baxi Heat 630"
+      ],
+      "modelCount": 5
+    },
+    {
+      "brand": "baxi",
+      "old": "baxi-Baxi_800_Heat.pdf",
+      "new": "baxi-heat-816-heat-825-heat-830-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Baxi Heat 816",
+        "Baxi Heat 825",
+        "Baxi Heat 830"
+      ],
+      "modelCount": 3
+    },
+    {
+      "brand": "baxi",
+      "old": "baxi-bax-310fi.pdf",
+      "new": "baxi-luna-310-fi-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Baxi Luna 310 Fi"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "baxi",
+      "old": "baxi-Luna3TS-1.pdf",
+      "new": "baxi-luna-3-comfort-troubleshooting-guide-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Baxi Luna 3 Comfort troubleshooting guide"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "baxi",
+      "old": "baxi-baxi_SY-600.pdf",
+      "new": "baxi-system-615-618-624-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Baxi System 615",
+        "Baxi System 618",
+        "Baxi System 624",
+        "Baxi System 624 LPG"
+      ],
+      "modelCount": 4
+    },
+    {
+      "brand": "baxi",
+      "old": "baxi-800_System.pdf",
+      "new": "baxi-system-818-system-824-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Baxi System 818",
+        "Baxi System 824"
+      ],
+      "modelCount": 2
+    },
+    {
+      "brand": "bradford-white",
+      "old": "bradford-white-1490_Current.pdf",
+      "new": "bradford-white-bjx-050-075-125-150-210-285-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "BJX-050",
+        "BJX-075",
+        "BJX-125",
+        "BJX-150",
+        "BJX-210",
+        "BJX-285"
+      ],
+      "modelCount": 6
+    },
+    {
+      "brand": "bradford-white",
+      "old": "bradford-white-1258_Current.pdf",
+      "new": "bradford-white-bnth-050-105-210-285-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "BNTH-050",
+        "BNTH-105",
+        "BNTH-210",
+        "BNTH-285"
+      ],
+      "modelCount": 4
+    },
+    {
+      "brand": "bradford-white",
+      "old": "bradford-white-1487_Current.pdf",
+      "new": "bradford-white-bmftcw-140-bmftcw-199-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "BMFTCW-140",
+        "BMFTCW-199"
+      ],
+      "modelCount": 2
+    },
+    {
+      "brand": "bradford-white",
+      "old": "bradford-white-1510_Current.pdf",
+      "new": "bradford-white-bfthf-199-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "BFTHF-199"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "bradford-white",
+      "old": "bradford-white-1505_Current.pdf",
+      "new": "bradford-white-bftcf-199-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "BFTCF-199"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "bradford-white",
+      "old": "bradford-white-1320_Current.pdf",
+      "new": "bradford-white-bmftcf-199-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "BMFTCF-199"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "bradford-white",
+      "old": "bradford-white-1344_F.pdf",
+      "new": "bradford-white-bnth-150-bnth-210-bnth-285-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "BNTH-150",
+        "BNTH-210",
+        "BNTH-285"
+      ],
+      "modelCount": 3
+    },
+    {
+      "brand": "bradford-white",
+      "old": "bradford-white-1295_Current.pdf",
+      "new": "bradford-white-blxh-125-blxh-150-blxh-175-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "BLXH-125",
+        "BLXH-150",
+        "BLXH-175"
+      ],
+      "modelCount": 3
+    },
+    {
+      "brand": "bradford-white",
+      "old": "bradford-white-1281_D.pdf",
+      "new": "bradford-white-blmc-125-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "BLMC-125"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "bradford-white",
+      "old": "bradford-white-1257_Current.pdf",
+      "new": "bradford-white-bjsv-075-100-125-225-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "BJSV-075",
+        "BJSV-100",
+        "BJSV-125",
+        "BJSV-225"
+      ],
+      "modelCount": 4
+    },
+    {
+      "brand": "british-gas",
+      "old": "british-gas-BG-430i-Jun.pdf",
+      "new": "british-gas-430i-430i-lpg-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "British Gas 430i",
+        "British Gas 430i LPG"
+      ],
+      "modelCount": 2
+    },
+    {
+      "brand": "british-gas",
+      "old": "british-gas-C1.pdf",
+      "new": "british-gas-c1-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "British Gas C1"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "british-gas",
+      "old": "british-gas-CS1.pdf",
+      "new": "british-gas-cs1-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "British Gas CS1"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "british-gas",
+      "old": "british-gas-RD-532-combi.pdf",
+      "new": "british-gas-rd-532-combi-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "British Gas RD 532 Combi"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "chaffoteaux",
+      "old": "chaffoteaux-Minima_MX2.pdf",
+      "new": "chaffoteaux-minima-mx2-installation-and-maintenance-manual-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Chaffoteaux Minima MX2 installation and maintenance manual"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "chaffoteaux",
+      "old": "chaffoteaux-6N11027.pdf",
+      "new": "chaffoteaux-niagara-delta-24ff-niagara-delta-28ff-niagara-delta-30ff-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Chaffoteaux Niagara Delta 24FF",
+        "Chaffoteaux Niagara Delta 28FF",
+        "Chaffoteaux Niagara Delta 30FF"
+      ],
+      "modelCount": 3
+    },
+    {
+      "brand": "daikin",
+      "old": "daikin-altherma3.pdf",
+      "new": "daikin-altherma-3-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Daikin Altherma 3"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "daikin",
+      "old": "daikin-4.pdf",
+      "new": "daikin-altherma-indoor-unit-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Daikin Altherma indoor unit"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "daikin",
+      "old": "daikin-EHOB-AH.pdf",
+      "new": "daikin-ehob-12-aav1h-ehob-18-aav1h-ehob-42-aav1h-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Daikin EHOB 12 AAV1H",
+        "Daikin EHOB 18 AAV1H",
+        "Daikin EHOB 42 AAV1H"
+      ],
+      "modelCount": 3
+    },
+    {
+      "brand": "daikin",
+      "old": "daikin-EHOBG-A.pdf",
+      "new": "daikin-ehobg-12-abv1-ehobg-18-abv1-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Daikin EHOBG 12 ABV1",
+        "Daikin EHOBG 18 ABV1"
+      ],
+      "modelCount": 2
+    },
+    {
+      "brand": "daxom",
+      "old": "Daxom-2.pdf",
+      "new": "daxom-ukdax-10-ebt-12-16-18-20-24-6-ebm-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Daxom UKDAX-10 EBT",
+        "Daxom UKDAX-12 EBT",
+        "Daxom UKDAX-16 EBT",
+        "Daxom UKDAX-18 EBT",
+        "Daxom UKDAX-20 EBT",
+        "Daxom UKDAX-24 EBT",
+        "Daxom UKDAX-6 EBM",
+        "Daxom UKDAX-10 EBM"
+      ],
+      "modelCount": 10
+    },
+    {
+      "brand": "daxom",
+      "old": "daxom-1.pdf",
+      "new": "daxom-12-edt-ukdax-16-18-20-24-30-36-40-48-10-edm-ett-etm-72-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Daxom-12 EDT",
+        "Daxom UKDAX-12 EDT",
+        "Daxom UKDAX-16 EDT",
+        "Daxom UKDAX-18 EDT",
+        "Daxom UKDAX-20 EDT",
+        "Daxom UKDAX-24 EDT",
+        "Daxom UKDAX-30 EDT",
+        "Daxom UKDAX-36 EDT"
+      ],
+      "modelCount": 29
+    },
+    {
+      "brand": "drayton",
+      "old": "drayton-lp811-IMUG.pdf",
+      "new": "drayton-download-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Download"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "drayton",
+      "old": "drayton-lp822-IMUG.pdf",
+      "new": "drayton-download-installation-servicing-instructions-alt-drayton-lp822-imug-p-manual.pdf",
+      "models": [
+        "Download"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "eca",
+      "old": "eca-arceus.pdf",
+      "new": "eca-e-c-a-arceus-6-9-12-15-18-24-27-kw-mt-ch-st-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "E.C.A. Arceus 6-9-12-15-18-24-27 Kw MT/CH/ST"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "eca",
+      "old": "eca-phoenix.pdf",
+      "new": "eca-e-c-a-phoenix-ph-mt-11-water-heater-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "E.C.A. Phoenix PH MT 11 water heater"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "eco-hometec",
+      "old": "eco-hometec-Condensing_Boilers_EC25_Technical_Manual.pdf",
+      "new": "eco-hometec-ec-25-compact-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Eco hometec EC 25 Compact"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "ehc",
+      "old": "ehc-COMET-COMBI-V1.pdf",
+      "new": "ehc-comet-combination-unit-electric-boiler-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "ehc Comet Combination unit",
+        "Electric boiler"
+      ],
+      "modelCount": 2
+    },
+    {
+      "brand": "ehc",
+      "old": "ehc-COMET-f.7851.pdf",
+      "new": "ehc-comet-fusion-boiler-electric-boiler-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "ehc Comet Fusion Boiler",
+        "Electric boiler"
+      ],
+      "modelCount": 2
+    },
+    {
+      "brand": "ehc",
+      "old": "ehc-ASTRO-ENG.pdf",
+      "new": "ehc-fusion-astro-range-electric-boiler-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "ehc Fusion Astro Range",
+        "Electric boiler"
+      ],
+      "modelCount": 2
+    },
+    {
+      "brand": "elco",
+      "old": "elco-1-compressed.pdf",
+      "new": "elco-thision-s-plus-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Elco Thision S Plus"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "elco",
+      "old": "elco-2-compressed.pdf",
+      "new": "elco-thision-l-eco-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Elco Thision L Eco"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "elco",
+      "old": "elco-3-compressed.pdf",
+      "new": "elco-thision-l-evo-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Elco Thision L Evo"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "elco",
+      "old": "elco-4-compressed.pdf",
+      "new": "elco-thision-levo-cascade-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Elco Thision Levo cascade"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "elco",
+      "old": "elco-trigon_l-plus.pdf",
+      "new": "elco-trigon-l-plus-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Elco Trigon L plus"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "elco",
+      "old": "elco-5-ilovepdf-compressed.pdf",
+      "new": "elco-trigon-xl-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Elco Trigon XL"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "elco",
+      "old": "elco-TRIGON-XXL-.pdf",
+      "new": "elco-trigon-xxl-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Elco Trigon XXL"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "elco",
+      "old": "elco-6-compressed.pdf",
+      "new": "elco-r3400-r3600-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Elco R3400-R3600"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "elco",
+      "old": "elco-7-compressed.pdf",
+      "new": "elco-ecocond-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Elco Ecocond"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "elm-leblanc",
+      "old": "elm-leblanc-GLM520.pdf",
+      "new": "elm-leblanc-e-l-m-leblanc-glm-5-20-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "E.L.M. Leblanc GLM 5.20"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "elm-leblanc",
+      "old": "elm-leblanc-GVM-C23-1.pdf",
+      "new": "elm-leblanc-e-l-m-leblanc-gvm-c23-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "E.L.M. Leblanc GVM C23"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "elm-leblanc",
+      "old": "elm-leblanc-GVM420.pdf",
+      "new": "elm-leblanc-e-l-m-leblanc-gvm-4-20-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "E.L.M. Leblanc GVM 4.20"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "elm-leblanc",
+      "old": "elm-leblanc-GVM520.pdf",
+      "new": "elm-leblanc-e-l-m-leblanc-gvm-5-20-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "E.L.M. Leblanc GVM 5.20"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "elm-leblanc",
+      "old": "elm-leblanc-trl_726.pdf",
+      "new": "elm-leblanc-e-l-m-trl7-26rf-thermostat-user-manual-user-manual.pdf",
+      "models": [
+        "E.L.M. TRL7.26RF thermostat user manual"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "ferroli",
+      "old": "ferroli-Atlas-A-Manual.pdf",
+      "new": "ferroli-atlas-a-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Ferroli Atlas A"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "ferroli",
+      "old": "ferroli-Atlas-D-Manual.pdf",
+      "new": "ferroli-atlas-d-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Ferroli Atlas D"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "ferroli",
+      "old": "ferroli-24C.pdf",
+      "new": "ferroli-bluehelix-tech-rrt-24c-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Ferroli Bluehelix TECH RRT 24C"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "ferroli",
+      "old": "ferroli-28C.pdf",
+      "new": "ferroli-bluehelix-tech-rrt-28c-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Ferroli Bluehelix TECH RRT 28C"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "ferroli",
+      "old": "ferroli-34C.pdf",
+      "new": "ferroli-bluehelix-tech-rrt-34c-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Ferroli Bluehelix TECH RRT 34C"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "ferroli",
+      "old": "ferroli-18S.pdf",
+      "new": "ferroli-bluehelix-pro-rrt-18s-bluehelix-pro-rrt-24s-bluehelix-pro-rrt-30s-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Ferroli Bluehelix PRO RRT 18S",
+        "Ferroli Bluehelix PRO RRT 24S",
+        "Ferroli Bluehelix PRO RRT 30S"
+      ],
+      "modelCount": 3
+    },
+    {
+      "brand": "ferroli",
+      "old": "ferroli-Extrema-30C.pdf",
+      "new": "ferroli-extrema-c-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Ferroli Extrema C"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "ferroli",
+      "old": "Ferroli-F24-B-Manual.pdf",
+      "new": "ferroli-f24b-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Ferroli F24B"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "ferroli",
+      "old": "Ferroli-F30-B-Manual.pdf",
+      "new": "ferroli-f30b-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Ferroli F30B"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "ferroli",
+      "old": "ferroli-force_w.pdf",
+      "new": "ferroli-force-w-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Ferroli Force W"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "ferroli",
+      "old": "ferroli-Hawk_II_Manual.pdf",
+      "new": "ferroli-hawk-11-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Ferroli Hawk 11"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "ferroli",
+      "old": "ferroli-LEB_EN.pdf",
+      "new": "ferroli-leb-ts-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Ferroli LEB TS"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "ferroli",
+      "old": "ferroli-Sys_10-23_Manual.pdf",
+      "new": "ferroli-system-10-23-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Ferroli System 10-23"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "ferroli",
+      "old": "ferroli-Tempra_Manual.pdf",
+      "new": "ferroli-tempra-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Ferroli Tempra"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "fiamma-giro",
+      "old": "fiamma-giro-Elektra_1.pdf",
+      "new": "fiamma-giro-bp-elektra-l-6-12-18-24-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Fiamma Giro Elektra. 6 BP-L",
+        "Fiamma Giro Elektra. 12 BP-L",
+        "Fiamma Giro Elektra. 18 BP-L",
+        "Fiamma Giro Elektra. 24 BP-L"
+      ],
+      "modelCount": 4
+    },
+    {
+      "brand": "firebird",
+      "old": "Firebird-S-Range.pdf",
+      "new": "firebird-s-range-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Firebird S-Range"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "firebird",
+      "old": "firebird-super_Q.pdf",
+      "new": "firebird-super-q90-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Firebird Super Q90"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "fondital",
+      "old": "fondital-243_IST_ANTEA_CONDENSING_ERP_EN.pdf",
+      "new": "fondital-kc-12-24-28-kr-12-24-28-krb-12-24-28-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Fondital KC 12-24-28",
+        "Fondital KR 12-24-28",
+        "Fondital KRB 12-24-28"
+      ],
+      "modelCount": 3
+    },
+    {
+      "brand": "fondital",
+      "old": "fondital-258x.pdf",
+      "new": "fondital-formentera-kc-12-24-28-32-formentera-kr-12-24-28-32-formentera-krb-12-24-28-32-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Fondital Formentera KC 12-24-28-32",
+        "Fondital Formentera KR 12-24-28-32",
+        "Fondital Formentera KRB 12-24-28-32"
+      ],
+      "modelCount": 3
+    },
+    {
+      "brand": "fondital",
+      "old": "fondital-260x.pdf",
+      "new": "fondital-itaca-kc-12-24-28-32-itaca-kr-12-24-28-32-itaca-krb-12-24-28-32-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Fondital Itaca KC 12-24-28-32",
+        "Fondital Itaca KR 12-24-28-32",
+        "Fondital Itaca KRB 12-24-28-32"
+      ],
+      "modelCount": 3
+    },
+    {
+      "brand": "geminox",
+      "old": "geminox-MZ22c.pdf",
+      "new": "geminox-microstar-mz-22c-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Geminox Microstar MZ 22c"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "gerkros",
+      "old": "gerkros-KTKST.pdf",
+      "new": "gerkros-attack-kt-kst-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Gerkros Attack KT/KST"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "gerkros",
+      "old": "gerkros-AttackNST-NSK.pdf",
+      "new": "gerkros-attack-nst-nsk-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Gerkros Attack NST/NSK"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "gerkros",
+      "old": "gerkros-Termogas.pdf",
+      "new": "gerkros-termogas-compact-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Gerkros Termogas Compact"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "gerkros",
+      "old": "gerkros-TT-TK.pdf",
+      "new": "gerkros-tt-tk-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Gerkros TT/TK"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "gerkros",
+      "old": "gerkros-manual-20707.pdf",
+      "new": "gerkros-woodpecker-20kw-30kw-40kw-50kw-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Gerkros Woodpecker 20Kw",
+        "Gerkros Woodpecker 30Kw",
+        "Gerkros Woodpecker 40Kw",
+        "Gerkros Woodpecker 50Kw"
+      ],
+      "modelCount": 4
+    },
+    {
+      "brand": "glow-worm",
+      "old": "glow-worm-24ci-18si.pdf",
+      "new": "glow-worm-24-ci-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Glow worm 24 CI"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "glow-worm",
+      "old": "glow-worm-betacom4.pdf",
+      "new": "glow-worm-betacom-4-24c-a-betacom-4-30c-a-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Glow worm Betacom 4 24c-A",
+        "Glow worm Betacom 4 30c-A"
+      ],
+      "modelCount": 2
+    },
+    {
+      "brand": "glow-worm",
+      "old": "glow-worm-glowworm_24c.pdf",
+      "new": "glow-worm-1-as-compact-gb-24c-h-28c-p-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Glow worm Compact 24c-AS/1 (H-GB)",
+        "Glow worm Compact 28c-AS/1 (H-GB)",
+        "Glow worm Compact 24c-AS/1 (P-GB)",
+        "Glow worm Compact 28c-AS/1 (P-GB)"
+      ],
+      "modelCount": 4
+    },
+    {
+      "brand": "glow-worm",
+      "old": "glow-worm-easicom3.pdf",
+      "new": "glow-worm-easicom-3-24c-easicom-3-28c-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Glow worm Easicom 3 24C",
+        "Glow worm Easicom 3 28C"
+      ],
+      "modelCount": 2
+    },
+    {
+      "brand": "glow-worm",
+      "old": "glow-worm-glo-24s-compressed.pdf",
+      "new": "glow-worm-energy-12s-15s-18s-25s-30s-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Glow worm Energy 12S",
+        "Glow worm Energy 15S",
+        "Glow worm Energy 18S",
+        "Glow worm Energy 25S",
+        "Glow worm Energy 30S"
+      ],
+      "modelCount": 5
+    },
+    {
+      "brand": "glow-worm",
+      "old": "glow-worm-energy2-lpg.pdf",
+      "new": "glow-worm-energy-2-30c-lpg-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Glow worm Energy 2 30C LPG"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "glow-worm",
+      "old": "glow-worm-energy7-combi-.pdf",
+      "new": "glow-worm-energy-7-25c-a-energy-7-30c-a-energy-7-35c-a-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Glow worm Energy 7 25C-A",
+        "Glow worm Energy 7 30C-A",
+        "Glow worm Energy 7 35C-A"
+      ],
+      "modelCount": 3
+    },
+    {
+      "brand": "glow-worm",
+      "old": "glow-worm-flexicom-sx.pdf",
+      "new": "glow-worm-flexicom-30sx-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Glow worm Flexicom 30SX"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "glow-worm",
+      "old": "glow-worm-hideaway40bf.pdf",
+      "new": "glow-worm-hideaway-40-b-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Glow worm Hideaway 40 B"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "glow-worm",
+      "old": "glow-worm-hideaway40cf.pdf",
+      "new": "glow-worm-hideaway-40-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Glow worm Hideaway 40"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "glow-worm",
+      "old": "glow-worm-hideaway50bf.pdf",
+      "new": "glow-worm-hideaway-50b-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Glow worm Hideaway 50B"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "glow-worm",
+      "old": "glow-worm-hideaway50cf.pdf",
+      "new": "glow-worm-hideaway-50-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Glow worm Hideaway 50"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "glow-worm",
+      "old": "glow-worm-hideaway60bf.pdf",
+      "new": "glow-worm-hideaway-60b-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Glow worm Hideaway 60B"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "glow-worm",
+      "old": "glow-worm-hideaway60cf.pdf",
+      "new": "glow-worm-hideaway-60-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Glow worm Hideaway 60"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "glow-worm",
+      "old": "glow-worm-hideaway70bf.pdf",
+      "new": "glow-worm-hideaway-70b-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Glow worm Hideaway 70B"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "glow-worm",
+      "old": "glow-worm-hideaway70cf.pdf",
+      "new": "glow-worm-hideaway-70-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Glow worm Hideaway 70"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "glow-worm",
+      "old": "glow-worm-hideaway80bf.pdf",
+      "new": "glow-worm-hideaway-80b-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Glow worm Hideaway 80B"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "glow-worm",
+      "old": "glow-worm-hideaway80bff.pdf",
+      "new": "glow-worm-hideaway-80b-ff-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Glow worm Hideaway 80B FF"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "glow-worm",
+      "old": "glow-worm-hideaway80cf.pdf",
+      "new": "glow-worm-hideaway-80-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Glow worm Hideaway 80"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "glow-worm",
+      "old": "glow-worm-hideaway80cff.pdf",
+      "new": "glow-worm-hideaway-80c-ff-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Glow worm Hideaway 80C FF"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "glow-worm",
+      "old": "glow-worm-hideaway100bf.pdf",
+      "new": "glow-worm-hideaway-100b-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Glow worm Hideaway 100B"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "glow-worm",
+      "old": "glow-worm-hideaway100cf.pdf",
+      "new": "glow-worm-hideaway-100-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Glow worm Hideaway 100"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "glow-worm",
+      "old": "glow-worm-hideaway120bf.pdf",
+      "new": "glow-worm-hideaway-120b-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Glow worm Hideaway 120B"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "glow-worm",
+      "old": "glow-worm-hideaway120cf.pdf",
+      "new": "glow-worm-hideaway-120-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Glow worm Hideaway 120"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "glow-worm",
+      "old": "glow-worm-40-50ci.pdf",
+      "new": "glow-worm-icon-40-50-ci-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Glow worm Icon 40-50 ci"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "glow-worm",
+      "old": "glow-worm-inset40bbu_uis.pdf",
+      "new": "glow-worm-inset-bbu40-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Glow worm Inset BBU40"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "glow-worm",
+      "old": "glow-worm-inset50-1.09mb.pdf",
+      "new": "glow-worm-inset-bbu50-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Glow worm Inset BBU50"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "glow-worm",
+      "old": "glow-worm-jaguar.pdf",
+      "new": "glow-worm-jaguar-combi-23kw-jaguar-combi-28kw-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Glow worm Jaguar combi 23Kw",
+        "Glow worm Jaguar combi 28Kw"
+      ],
+      "modelCount": 2
+    },
+    {
+      "brand": "glow-worm",
+      "old": "glow-worm-micron-30ff.pdf",
+      "new": "glow-worm-micron-30ff-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Glow worm Micron 30FF"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "glow-worm",
+      "old": "glow-worm-micron-40ff.pdf",
+      "new": "glow-worm-micron-40ff-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Glow worm Micron 40FF"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "glow-worm",
+      "old": "glow-worm-micron-50ff.pdf",
+      "new": "glow-worm-micron-50ff-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Glow worm Micron 50FF"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "glow-worm",
+      "old": "glow-worm-micron-60ff.pdf",
+      "new": "glow-worm-micron-60ff-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Glow worm Micron 60FF"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "glow-worm",
+      "old": "glow-worm-micron-70ff.pdf",
+      "new": "glow-worm-micron-70ff-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Glow worm Micron 70FF"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "glow-worm",
+      "old": "glow-worm-micron-80ff.pdf",
+      "new": "glow-worm-micron-80ff-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Glow worm Micron 80FF"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "glow-worm",
+      "old": "glow-worm-2Spacesaver2.pdf",
+      "new": "glow-worm-saver-space-20-30f-30-40f-40-50f-50-60f-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Glow worm Space Saver 20-30F",
+        "Glow worm Space Saver 30-40F",
+        "Glow worm Space Saver 40-50F",
+        "Glow worm Space Saver 50-60F"
+      ],
+      "modelCount": 4
+    },
+    {
+      "brand": "glow-worm",
+      "old": "glow-worm-ultimate30bf.pdf",
+      "new": "glow-worm-ultimate-30bf-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Glow worm Ultimate 30BF"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "glow-worm",
+      "old": "glow-worm-ultimate30ff.pdf",
+      "new": "glow-worm-ultimate-30ff-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Glow worm Ultimate 30FF"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "glow-worm",
+      "old": "glow-worm-ultimate40bf.pdf",
+      "new": "glow-worm-ultimate-40bf-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Glow worm Ultimate 40BF"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "glow-worm",
+      "old": "glow-worm-ultimate40cf.pdf",
+      "new": "glow-worm-ultimate-40cf-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Glow worm Ultimate 40CF"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "glow-worm",
+      "old": "glow-worm-ultimate40ff.pdf",
+      "new": "glow-worm-ultimate-40ff-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Glow worm Ultimate 40FF"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "glow-worm",
+      "old": "glow-worm-ultimate50bf.pdf",
+      "new": "glow-worm-ultimate-50bf-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Glow worm Ultimate 50BF"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "glow-worm",
+      "old": "glow-worm-ultimate50cf.pdf",
+      "new": "glow-worm-ultimate-50cf-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Glow worm Ultimate 50CF"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "glow-worm",
+      "old": "glow-worm-ultimate50ff.pdf",
+      "new": "glow-worm-ultimate-50ff-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Glow worm Ultimate 50FF"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "glow-worm",
+      "old": "glow-worm-ultimate60bf.pdf",
+      "new": "glow-worm-ultimate-60bf-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Glow worm Ultimate 60BF"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "glow-worm",
+      "old": "glow-worm-ultimate60cf.pdf",
+      "new": "glow-worm-ultimate-60cf-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Glow worm Ultimate 60CF"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "glow-worm",
+      "old": "glow-worm-ultimate60ff.pdf",
+      "new": "glow-worm-ultimate-60ff-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Glow worm Ultimate 60FF"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "glow-worm",
+      "old": "glow-worm-ultimate70ff.pdf",
+      "new": "glow-worm-ultimate-70ff-ultimate-80ff-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Glow worm Ultimate 70FF",
+        "Glow worm Ultimate 80FF"
+      ],
+      "modelCount": 2
+    },
+    {
+      "brand": "glow-worm",
+      "old": "glow-worm-ultimate100ff.pdf",
+      "new": "glow-worm-ultimate-100ff-ultimate-120ff-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Glow worm Ultimate 100FF",
+        "Glow worm Ultimate 120FF"
+      ],
+      "modelCount": 2
+    },
+    {
+      "brand": "glow-worm",
+      "old": "glow-worm-ultimate3-30c.pdf",
+      "new": "glow-worm-ultimate-3-30c-ultimate-3-35c-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Glow worm Ultimate 3 30C",
+        "Glow worm Ultimate 3 35C"
+      ],
+      "modelCount": 2
+    },
+    {
+      "brand": "glow-worm",
+      "old": "glow-worm-ultimate3-25r.pdf",
+      "new": "glow-worm-ultimate-3-25r-a-h-gb-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Glow worm Ultimate 3 25r-A (H-GB)"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "glow-worm",
+      "old": "glow-worm-ultimate3-25s.pdf",
+      "new": "glow-worm-ultimate-3-25s-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Glow worm Ultimate 3 25s"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "glow-worm",
+      "old": "glow-worm-ultracom-cx.pdf",
+      "new": "glow-worm-ultracom-24cx-ultracom-30cx-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Glow worm Ultracom 24cx",
+        "Glow worm Ultracom 30cx"
+      ],
+      "modelCount": 2
+    },
+    {
+      "brand": "glow-worm",
+      "old": "glow-worm-ultracom-2-sxi-inst.pdf",
+      "new": "glow-worm-ultracom2-12sxi-ultracom2-18sxi-ultracom2-30sxi-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Glow worm Ultracom2 12sxi",
+        "Glow worm Ultracom2 18sxi",
+        "Glow worm Ultracom2 30sxi"
+      ],
+      "modelCount": 3
+    },
+    {
+      "brand": "glow-worm",
+      "old": "glow-worm-sxi-range_04-sept-2009.pdf",
+      "new": "glow-worm-ultrapower-100sxi-ultrapower-170sxi-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Glow worm Ultrapower 100sxi",
+        "Glow worm Ultrapower 170sxi"
+      ],
+      "modelCount": 2
+    },
+    {
+      "brand": "glow-worm",
+      "old": "glow-worm-xtramax.pdf",
+      "new": "glow-worm-xtramax-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Glow worm Xtramax"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "grant",
+      "old": "grant-combi70.pdf",
+      "new": "grant-combi-70-mk2-servicing-instructions-combi-90-mk2-servicing-instructions-servicing-manual.pdf",
+      "models": [
+        "Grant Combi 70 MK2 servicing instructions",
+        "Grant Combi 90 MK2 servicing instructions"
+      ],
+      "modelCount": 2
+    },
+    {
+      "brand": "grant",
+      "old": "grant-Combi-V3-70.pdf",
+      "new": "grant-combi-70-v3-combi-90-v3-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Grant Combi 70 V3",
+        "Grant Combi 90 V3"
+      ],
+      "modelCount": 2
+    },
+    {
+      "brand": "grant",
+      "old": "grant-EuroFlame.pdf",
+      "new": "grant-euroflame-utility-50-70-90-120-system-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Grant EuroFlame Utility 50/70",
+        "Grant EuroFlame Utility 70/90",
+        "Grant EuroFlame Utility 90/120",
+        "Grant EuroFlame System 50/90",
+        "Grant EuroFlame System 90/120"
+      ],
+      "modelCount": 5
+    },
+    {
+      "brand": "grant",
+      "old": "grant-Multi-Pass.pdf",
+      "new": "grant-multi-pass-50-70-90-140-160-200-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Grant Multi Pass 50/70",
+        "Grant Multi Pass 70/90",
+        "Grant Multi Pass 90/140",
+        "Grant Multi Pass 140/160",
+        "Grant Multi Pass 160/200"
+      ],
+      "modelCount": 5
+    },
+    {
+      "brand": "grant",
+      "old": "grant-Outdoor-Combi.pdf",
+      "new": "grant-outdoor-combi-90-v3-combi-max-outdoor-vortex-combi-26-36-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Grant Outdoor Combi 90 V3 Combi max",
+        "Grant Outdoor Vortex Combi 26 + 36"
+      ],
+      "modelCount": 2
+    },
+    {
+      "brand": "grant",
+      "old": "grant-Outdoor-Models.pdf",
+      "new": "grant-module-outdoor-50-70-90-120-110-140-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Grant Outdoor Module 50/70",
+        "Grant Outdoor Module 70/90",
+        "Grant Outdoor Module 90/120",
+        "Grant Outdoor Module 110/140"
+      ],
+      "modelCount": 4
+    },
+    {
+      "brand": "grant",
+      "old": "grant-Vortex.pdf",
+      "new": "grant-vortex-cindensing-oil-boiler-range-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Grant Vortex Cindensing Oil boiler range"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "halstead",
+      "old": "halstead-eden-vb-isim.pdf",
+      "new": "halstead-eden-vb-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Halstead Eden Vb"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "halstead",
+      "old": "halstead-eden-cb-isim.pdf",
+      "new": "halstead-eden-cb-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Halstead Eden Cb"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "hamworthy",
+      "old": "hamworthy-broadstone-s.pdf",
+      "new": "hamworthy-broadstone-s-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Hamworthy Broadstone S"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "hamworthy",
+      "old": "hamworthy-ensbury-lt.pdf",
+      "new": "hamworthy-ensbury-lt-70-580kw-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Hamworthy Ensbury LT 70-580Kw"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "hamworthy",
+      "old": "hamworthy-broadstone-r.pdf",
+      "new": "hamworthy-lilliput-r-series-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Hamworthy Lilliput R Series"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "hamworthy",
+      "old": "hamworthy-stratton-mk2.pdf",
+      "new": "hamworthy-mk2-stratton-s40-s60-s70-s80-s100-s120-s150-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Hamworthy Stratton Mk2 S40",
+        "Hamworthy Stratton Mk2 S60",
+        "Hamworthy Stratton Mk2 S70",
+        "Hamworthy Stratton Mk2 S80",
+        "Hamworthy Stratton Mk2 S100",
+        "Hamworthy Stratton Mk2 S120",
+        "Hamworthy Stratton Mk2 S150"
+      ],
+      "modelCount": 7
+    },
+    {
+      "brand": "hamworthy",
+      "old": "hamworthy-varmax-om.pdf",
+      "new": "hamworthy-varmax-120-450-kw-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Hamworthy Varmax 120-450 Kw"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "hamworthy",
+      "old": "hamworthy-varmax-dual-om.pdf",
+      "new": "hamworthy-varmax-twin-550-900-kw-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Hamworthy Varmax Twin 550-900 Kw"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "heatline",
+      "old": "heatline-star-24-isim.pdf",
+      "new": "heatline-star-24-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Heatline Star 24"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "heatline",
+      "old": "heatline-Capriz2-manual.pdf",
+      "new": "heatline-heat-line-capriz-2-24c-heat-line-capriz-2-28c-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Heat Line Capriz 2 24C",
+        "Heat Line Capriz 2 28C"
+      ],
+      "modelCount": 2
+    },
+    {
+      "brand": "heatline",
+      "old": "heatline-Info.pdf",
+      "new": "heatline-important-information-for-monza-and-amp-caprizplus-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Important information for Monza &amp;amp; Caprizplus"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "hermann",
+      "old": "hermann-EUC-982180005-007-UKENG-LAS.pdf",
+      "new": "hermann-eura-condensing-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Hermann Eura condensing"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "hermann",
+      "old": "hermann-habitat2.hu.en.pdf",
+      "new": "hermann-habitat-2-23e-24se-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Hermann Habitat 2 23E + 24SE"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "hermann",
+      "old": "hermann-Icon-23-T-28-T-Inst.-Serv.pdf",
+      "new": "hermann-ikon-23t-ikon-28t-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Hermann Ikon 23T",
+        "Hermann Ikon 28T"
+      ],
+      "modelCount": 2
+    },
+    {
+      "brand": "hermann",
+      "old": "hermann-Micra-2-23-E.pdf",
+      "new": "hermann-micra-23e-micra-24se-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Hermann Micra 23E",
+        "Hermann Micra 24SE"
+      ],
+      "modelCount": 2
+    },
+    {
+      "brand": "hermann",
+      "old": "hermann-Supermaster.pdf",
+      "new": "hermann-supermaster-23e-supermaster-24se-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Hermann Supermaster 23E",
+        "Hermann Supermaster 24SE"
+      ],
+      "modelCount": 2
+    },
+    {
+      "brand": "hermann",
+      "old": "hermann-SMC-982160031-009-UKENG-LAS.pdf",
+      "new": "hermann-supermicra-23e-28e-supermicra-24se-30se-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Hermann Supermicra 23E-28E",
+        "Hermann Supermicra 24SE-30SE"
+      ],
+      "modelCount": 2
+    },
+    {
+      "brand": "honeywell",
+      "old": "honeywell-dt92e-UG.pdf",
+      "new": "honeywell-download-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Download"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "honeywell",
+      "old": "honeywell-st699-IMUG.pdf",
+      "new": "honeywell-download-installation-servicing-instructions-alt-honeywell-st699-imug-manual.pdf",
+      "models": [
+        "Download"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "honeywell",
+      "old": "honeywell-st799-UG.pdf",
+      "new": "honeywell-download-installation-servicing-instructions-alt-honeywell-st799-ug-p-manual.pdf",
+      "models": [
+        "Download"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "honeywell",
+      "old": "honeywell-st9100a-UG.pdf",
+      "new": "honeywell-download-installation-servicing-instructions-alt-honeywell-st9100a-ug-manual.pdf",
+      "models": [
+        "Download"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "honeywell",
+      "old": "honeywell-st9100c-UG.pdf",
+      "new": "honeywell-download-installation-servicing-instructions-alt-honeywell-st9100c-ug-manual.pdf",
+      "models": [
+        "Download"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "honeywell",
+      "old": "honeywell-st9400s-UG.pdf",
+      "new": "honeywell-download-installation-servicing-instructions-alt-honeywell-st9400s-ug-manual.pdf",
+      "models": [
+        "Download"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "honeywell",
+      "old": "honeywell-y6630d-IMUG.pdf",
+      "new": "honeywell-download-installation-servicing-instructions-alt-honeywell-y6630d-imu-manual.pdf",
+      "models": [
+        "Download"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "ici-caldaie",
+      "old": "ici-caldaie-ICI001.pdf",
+      "new": "ici-caldaie-solar-80e-solar-120e-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "ICI Caldaie Solar 80E",
+        "ICI Caldaie Solar 120E"
+      ],
+      "modelCount": 2
+    },
+    {
+      "brand": "ici-caldaie",
+      "old": "ici-caldaie-ICI005.pdf",
+      "new": "ici-caldaie-solar-120-e-solar-120-se-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "ICI Caldaie Solar 120 E",
+        "ICI Caldaie Solar 120 SE"
+      ],
+      "modelCount": 2
+    },
+    {
+      "brand": "ici-caldaie",
+      "old": "ici-caldaie-ICI003.pdf",
+      "new": "ici-caldaie-solar-2000-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "ICI Caldaie Solar 2000"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "ici-caldaie",
+      "old": "ici-caldaie-solar_c_25.pdf",
+      "new": "ici-caldaie-c-solar-25-31-system-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "ICI Caldaie Solar C 25",
+        "ICI Caldaie Solar C 31",
+        "ICI Caldaie Solar System C 25",
+        "ICI Caldaie Solar System C 31"
+      ],
+      "modelCount": 4
+    },
+    {
+      "brand": "ici-caldaie",
+      "old": "ici-caldaie-solar_micro.pdf",
+      "new": "ici-caldaie-micro-solar-24-n-f-28-system-24f-28f-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "ICI Caldaie Solar Micro 24 N",
+        "ICI Caldaie Solar Micro 24 F",
+        "ICI Caldaie Solar Micro 28 F",
+        "ICI Caldaie Solar Micro System 24F",
+        "ICI Caldaie Solar Micro System 28F"
+      ],
+      "modelCount": 5
+    },
+    {
+      "brand": "ici-caldaie",
+      "old": "ici-caldaie-SolarTwin.pdf",
+      "new": "ici-caldaie-solar-twin-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "ICI Caldaie Solar Twin"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "ideal",
+      "old": "ideal-Atlamtic-combi.pdf",
+      "new": "ideal-atlantic-combi-c24-atlantic-combi-c30-atlantic-combi-c35-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Ideal Atlantic combi C24",
+        "Ideal Atlantic combi C30",
+        "Ideal Atlantic combi C35"
+      ],
+      "modelCount": 3
+    },
+    {
+      "brand": "ideal",
+      "old": "ideal-BOXER_I.pdf",
+      "new": "ideal-boxer-c24-boxer-c28-imax-w-60-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Ideal Boxer C24",
+        "Ideal Boxer C28",
+        "Ideal Imax W 60"
+      ],
+      "modelCount": 3
+    },
+    {
+      "brand": "ideal",
+      "old": "ideal-155179-3.pdf",
+      "new": "ideal-british-gas-125-rd2-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Ideal British Gas 125 RD2"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "ideal",
+      "old": "ideal-157022.pdf",
+      "new": "ideal-british-gas-rd1-3100-330-340-350-360-370-380-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Ideal British Gas 3100 RD1",
+        "Ideal British Gas 330 RD1",
+        "Ideal British Gas 340 RD1",
+        "Ideal British Gas 350 RD1",
+        "Ideal British Gas 360 RD1",
+        "Ideal British Gas 370 RD1",
+        "Ideal British Gas 380 RD1"
+      ],
+      "modelCount": 7
+    },
+    {
+      "brand": "ideal",
+      "old": "ideal-155178-3.pdf",
+      "new": "ideal-british-gas-rd2-40-50-60-70-80-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Ideal British Gas 40 RD2",
+        "Ideal British Gas 50 RD2",
+        "Ideal British Gas 60 RD2",
+        "Ideal British Gas 70 RD2",
+        "Ideal British Gas 80 RD2"
+      ],
+      "modelCount": 5
+    },
+    {
+      "brand": "ideal",
+      "old": "ideal-157656.pdf",
+      "new": "ideal-british-gas-4100-rd2-british-gas-4125-rd2-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Ideal British Gas 4100 RD2",
+        "Ideal British Gas 4125 RD2"
+      ],
+      "modelCount": 2
+    },
+    {
+      "brand": "ideal",
+      "old": "ideal-157655.pdf",
+      "new": "ideal-british-gas-rd2-440-450-460-470-480-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Ideal British Gas 440 RD2",
+        "Ideal British Gas 450 RD2",
+        "Ideal British Gas 460 RD2",
+        "Ideal British Gas 470 RD2",
+        "Ideal British Gas 480 RD2"
+      ],
+      "modelCount": 5
+    },
+    {
+      "brand": "ideal",
+      "old": "ideal-200548_inst.pdf",
+      "new": "ideal-british-gas-rd-109-112-115-118-121-124-130-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Ideal British Gas RD 109",
+        "Ideal British Gas RD 112",
+        "Ideal British Gas RD 115",
+        "Ideal British Gas RD 118",
+        "Ideal British Gas RD 121",
+        "Ideal British Gas RD 124",
+        "Ideal British Gas RD 130"
+      ],
+      "modelCount": 7
+    },
+    {
+      "brand": "ideal",
+      "old": "ideal-152317.pdf",
+      "new": "ideal-c80ff-c95ff-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Ideal C80FF",
+        "Ideal C95FF"
+      ],
+      "modelCount": 2
+    },
+    {
+      "brand": "ideal",
+      "old": "ideal-112228-5.pdf",
+      "new": "ideal-classic-combi-ff280-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Ideal Classic Combi FF280"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "ideal",
+      "old": "ideal-111752-2.pdf",
+      "new": "ideal-classic-nf-50-p-classic-nf-60-p-classic-nf-80-p-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Ideal Classic NF 50 P",
+        "Ideal Classic NF 60 P",
+        "Ideal Classic NF 80 P"
+      ],
+      "modelCount": 3
+    },
+    {
+      "brand": "ideal",
+      "old": "ideal-116834-5.pdf",
+      "new": "ideal-classic-rs-50-lpg-classic-rs-60-lpg-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Ideal Classic RS 50 LPG",
+        "Ideal Classic RS 60 LPG"
+      ],
+      "modelCount": 2
+    },
+    {
+      "brand": "ideal",
+      "old": "ideal-iCombi.pdf",
+      "new": "ideal-combi-i-24-combi-i-30-combi-i-35-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Ideal Combi i 24",
+        "Ideal Combi i 30",
+        "Ideal Combi i 35"
+      ],
+      "modelCount": 3
+    },
+    {
+      "brand": "ideal",
+      "old": "ideal-Concord-CXD.pdf",
+      "new": "ideal-concord-cxd-40-100-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Ideal Concord CXD 40-100"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "ideal",
+      "old": "ideal-E-type-CF80.pdf",
+      "new": "ideal-cf-e-n-type-35-50-60-80-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Ideal E-Type CF 35 N",
+        "Ideal E-Type CF 50 N",
+        "Ideal E-Type CF 60 N",
+        "Ideal E-Type CF 80 N"
+      ],
+      "modelCount": 4
+    },
+    {
+      "brand": "ideal",
+      "old": "ideal-204427-1.pdf",
+      "new": "ideal-evo-hec22-24-evo-hec22-30-evo-hec22-35-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Ideal EVO HEC22/24",
+        "Ideal EVO HEC22/30",
+        "Ideal EVO HEC22/35"
+      ],
+      "modelCount": 3
+    },
+    {
+      "brand": "ideal",
+      "old": "ideal-Esprit-ECO.pdf",
+      "new": "ideal-esprit-eco-24-esprit-eco-30-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Ideal Esprit eco 24",
+        "Ideal Esprit eco 30"
+      ],
+      "modelCount": 2
+    },
+    {
+      "brand": "ideal",
+      "old": "ideal-203949_inst.pdf",
+      "new": "ideal-elise-he-24-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Ideal Elise HE 24"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "ideal",
+      "old": "ideal-203642_inst.pdf",
+      "new": "ideal-esprit-he-24-esprit-he-30-esprit-he-35-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Ideal Esprit HE 24",
+        "Ideal Esprit HE 30",
+        "Ideal Esprit HE 35"
+      ],
+      "modelCount": 3
+    },
+    {
+      "brand": "ideal",
+      "old": "ideal-EUROPA_I.pdf",
+      "new": "ideal-europa-224-europa-228-europa-232-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Ideal Europa 224",
+        "Ideal Europa 228",
+        "Ideal Europa 232"
+      ],
+      "modelCount": 3
+    },
+    {
+      "brand": "ideal",
+      "old": "ideal-europa_IS.pdf",
+      "new": "ideal-europa-24-europa-28-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Ideal Europa 24",
+        "Ideal Europa 28"
+      ],
+      "modelCount": 2
+    },
+    {
+      "brand": "ideal",
+      "old": "ideal-201279_inst.pdf",
+      "new": "ideal-excel-he-24-excel-he-28-excel-he-32-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Ideal Excel HE 24",
+        "Ideal Excel HE 28",
+        "Ideal Excel HE 32"
+      ],
+      "modelCount": 3
+    },
+    {
+      "brand": "ideal",
+      "old": "ideal-153964-5.pdf",
+      "new": "ideal-hendrad-cc-100-ff-hendrad-cc-120-ff-hendrad-cc-80-ff-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Ideal Hendrad CC 100 FF",
+        "Ideal Hendrad CC 120 FF",
+        "Ideal Hendrad CC 80 FF"
+      ],
+      "modelCount": 3
+    },
+    {
+      "brand": "ideal",
+      "old": "ideal-153962-5.pdf",
+      "new": "ideal-hendred-sec-80-ff-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Ideal Hendred SEC 80 FF"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "ideal",
+      "old": "ideal-203319_inst.pdf",
+      "new": "ideal-isar-he-24-isar-he-30-isar-he-35-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Ideal Isar HE 24",
+        "Ideal Isar HE 30",
+        "Ideal Isar HE 35"
+      ],
+      "modelCount": 3
+    },
+    {
+      "brand": "ideal",
+      "old": "ideal-156412.pdf",
+      "new": "ideal-isar-m-30100-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Ideal Isar m 30100"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "ideal",
+      "old": "ideal-158334.pdf",
+      "new": "ideal-imax-w-45-45p-60p-80-80p-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Ideal Imax W 45",
+        "Ideal Imax W 45P",
+        "Ideal Imax W 60P",
+        "Ideal Imax W 80",
+        "Ideal Imax W 80P"
+      ],
+      "modelCount": 5
+    },
+    {
+      "brand": "ideal",
+      "old": "ideal-204978.pdf",
+      "new": "ideal-logic-combi-24-logic-combi-30-logic-combi-35-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Ideal Logic + Combi 24",
+        "Ideal Logic + Combi 30",
+        "Ideal Logic + Combi 35"
+      ],
+      "modelCount": 3
+    },
+    {
+      "brand": "ideal",
+      "old": "ideal-logic-1.pdf",
+      "new": "ideal-logic-combi-c24-logic-combi-c30-logic-combi-c35-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Ideal Logic + Combi C24",
+        "Ideal Logic + Combi C30",
+        "Ideal Logic + Combi C35"
+      ],
+      "modelCount": 3
+    },
+    {
+      "brand": "ideal",
+      "old": "ideal-206279_inst.pdf",
+      "new": "ideal-logic-code-combi-26-logic-code-combi-33-logic-code-combi-38-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Ideal Logic Code Combi 26",
+        "Ideal Logic Code Combi 33",
+        "Ideal Logic Code Combi 38"
+      ],
+      "modelCount": 3
+    },
+    {
+      "brand": "ideal",
+      "old": "ideal-logic-plus30s.pdf",
+      "new": "ideal-logic-system-s15-s18-s24-s30-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Ideal Logic + System S15",
+        "Ideal Logic + System S18",
+        "Ideal Logic + System S24",
+        "Ideal Logic + System S30"
+      ],
+      "modelCount": 4
+    },
+    {
+      "brand": "ideal",
+      "old": "ideal-200944_inst.pdf",
+      "new": "ideal-mexico-super-cf4125-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Ideal Mexico Super CF4125"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "ideal",
+      "old": "ideal-151907-3.pdf",
+      "new": "ideal-mexico-super-rs3-50-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Ideal Mexico Super RS3/50"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "ideal",
+      "old": "ideal-mini_is32.pdf",
+      "new": "ideal-mini-c24-mini-c28-mini-c32-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Ideal Mini C24",
+        "Ideal Mini C28",
+        "Ideal Mini C32"
+      ],
+      "modelCount": 3
+    },
+    {
+      "brand": "ideal",
+      "old": "ideal-miniHE_inst.pdf",
+      "new": "ideal-mini-he-c24-mini-he-c28-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Ideal Mini HE C24",
+        "Ideal Mini HE C28"
+      ],
+      "modelCount": 2
+    },
+    {
+      "brand": "ideal",
+      "old": "ideal-morco3.pdf",
+      "new": "ideal-morco-3-gb24-morco-3-gb30-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Ideal Morco 3 GB24",
+        "Ideal Morco 3 GB30"
+      ],
+      "modelCount": 2
+    },
+    {
+      "brand": "ideal",
+      "old": "ideal-200776.pdf",
+      "new": "ideal-optia-ff100-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Ideal Optia FF100"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "ideal",
+      "old": "ideal-201962_inst.pdf",
+      "new": "ideal-optia-he12-he15-he18-he9-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Ideal Optia HE12",
+        "Ideal Optia HE15",
+        "Ideal Optia HE18",
+        "Ideal Optia HE9"
+      ],
+      "modelCount": 4
+    },
+    {
+      "brand": "ideal",
+      "old": "ideal-152318-12.pdf",
+      "new": "ideal-response-100-response-120-response-80-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Ideal Response 100",
+        "Ideal Response 120",
+        "Ideal Response 80"
+      ],
+      "modelCount": 3
+    },
+    {
+      "brand": "ideal",
+      "old": "ideal-Combi-installation.pdf",
+      "new": "ideal-vogue-combination-c26-vogue-combination-c32-vogue-combination-c40-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Ideal Vogue Combination C26",
+        "Ideal Vogue Combination C32",
+        "Ideal Vogue Combination C40"
+      ],
+      "modelCount": 3
+    },
+    {
+      "brand": "immergas",
+      "old": "immergas-hercules-1.pdf",
+      "new": "immergas-hercules-condensing-26-3-erp-hercules-condensing-32-3-erp-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Immergas Hercules condensing 26 3 ERP",
+        "Immergas Hercules condensing 32 3 ERP"
+      ],
+      "modelCount": 2
+    },
+    {
+      "brand": "immergas",
+      "old": "immergas-46_doc_313690650575593b5f3481.pdf",
+      "new": "immergas-nike-mythos-24-4erp-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Immergas Nike Mythos 24 4ERP"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "immergas",
+      "old": "immergas-Victrix-24-tt.pdf",
+      "new": "immergas-victrix-24-tt-2-erp-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Immergas Victrix 24 TT 2 ERP"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "immergas",
+      "old": "immergas-v-exa24.pdf",
+      "new": "immergas-victrix-exa-24-x-1-erp-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Immergas Victrix EXA 24 X 1 ERP"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "immergas",
+      "old": "immergas-Vic-Exa-28.pdf",
+      "new": "immergas-victrix-exa-28-1-erp-victrix-exa-32-1-erp-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Immergas Victrix EXA 28 1 ERP",
+        "Immergas Victrix EXA 32 1 ERP"
+      ],
+      "modelCount": 2
+    },
+    {
+      "brand": "immergas",
+      "old": "immergas-victrix-pro.pdf",
+      "new": "immergas-victrix-pro-80-2-erp-victrix-pro-100-2-erp-victrix-pro-120-2-erp-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Immergas Victrix Pro 80 2 ERP",
+        "Immergas Victrix Pro 100 2 ERP",
+        "Immergas Victrix Pro 120 2 ERP"
+      ],
+      "modelCount": 3
+    },
+    {
+      "brand": "immergas",
+      "old": "immergas-victrix12.pdf",
+      "new": "immergas-victrix-x-12-24-2i-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Immergas Victrix X 12-24 2I"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "immergas",
+      "old": "immergas-1876865.pdf",
+      "new": "immergas-zeus-mini-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Immergas Zeus mini"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "immergas",
+      "old": "immergas-zeus-Superior.pdf",
+      "new": "immergas-zeus-superior-26-2-erp-zeus-superior-32-2-erp-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Immergas Zeus superior 26 2 ERP",
+        "Immergas Zeus superior 32 2 ERP"
+      ],
+      "modelCount": 2
+    },
+    {
+      "brand": "immergas",
+      "old": "immergas-dim2.pdf",
+      "new": "immergas-erp-multi-system-distribution-manifold-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Immergas ERP Multi-system distribution manifold"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "immergas",
+      "old": "immergas-crd-gb.PDF",
+      "new": "immergas-comando-remote-control-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Immergas Comando Remote Control"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "johnson-starley",
+      "old": "johnson-starley-ZZ1183.pdf",
+      "new": "johnson-starley-amp-johnson-reno-starley-he30c-he37c-he30cp-he37cp-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Johnson&amp;amp;starley Reno HE30C",
+        "Johnson&amp;amp;starley Reno HE37C",
+        "Johnson&amp;amp;starley Reno HE30CP",
+        "Johnson&amp;amp;starley Reno HE37CP"
+      ],
+      "modelCount": 4
+    },
+    {
+      "brand": "johnson-starley",
+      "old": "johnson-starley-ZZ1186.pdf",
+      "new": "johnson-starley-amp-johnson-reno-starley-he16s-he25s-he31s-he16sp-he25sp-he31sp-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Johnson&amp;amp;starley Reno HE16S",
+        "Johnson&amp;amp;starley Reno HE25S",
+        "Johnson&amp;amp;starley Reno HE31S",
+        "Johnson&amp;amp;starley Reno HE16SP",
+        "Johnson&amp;amp;starley Reno HE25SP",
+        "Johnson&amp;amp;starley Reno HE31SP"
+      ],
+      "modelCount": 6
+    },
+    {
+      "brand": "johnson-starley",
+      "old": "johnson-starley-ZZ1189.pdf",
+      "new": "johnson-starley-amp-johnson-reno-starley-he16h-he25h-he31h-he16hp-he25hp-he31hp-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Johnson&amp;amp;starley Reno HE16H",
+        "Johnson&amp;amp;starley Reno HE25H",
+        "Johnson&amp;amp;starley Reno HE31H",
+        "Johnson&amp;amp;starley Reno HE16HP",
+        "Johnson&amp;amp;starley Reno HE25HP",
+        "Johnson&amp;amp;starley Reno HE31HP"
+      ],
+      "modelCount": 6
+    },
+    {
+      "brand": "johnson-starley",
+      "old": "johnson-starley-ZZ1311.pdf",
+      "new": "johnson-starley-amp-johnson-renoxtra-starley-30ca-37c-30cp-37cp-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Johnson&amp;amp;starley Renoxtra 30CA",
+        "Johnson&amp;amp;starley Renoxtra 37C",
+        "Johnson&amp;amp;starley Renoxtra 30CP",
+        "Johnson&amp;amp;starley Renoxtra 37CP"
+      ],
+      "modelCount": 4
+    },
+    {
+      "brand": "johnson-starley",
+      "old": "johnson-starley-ZZ1432.pdf",
+      "new": "johnson-starley-johnson-and-amp-starley-quantec-24c-erp-johnson-and-amp-starley-quantec-30c-erp-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Johnson&amp;amp;starley Quantec 24C Erp",
+        "Johnson&amp;amp;starley Quantec 30C Erp"
+      ],
+      "modelCount": 2
+    },
+    {
+      "brand": "johnson-starley",
+      "old": "johnson-starley-ZZ1434.pdf",
+      "new": "johnson-starley-johnson-and-amp-starley-quantec-24s-erp-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Johnson&amp;amp;starley Quantec 24S Erp"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "johnson-starley",
+      "old": "johnson-starley-ZZ1430.pdf",
+      "new": "johnson-starley-johnson-and-amp-starley-quantec-hr28c-erp-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Johnson&amp;amp;starley Quantec HR28C Erp"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "johnson-starley",
+      "old": "johnson-starley-ZZ1463.pdf",
+      "new": "johnson-starley-amp-johnson-quantec-rk-starley-16-24-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Johnson&amp;amp;starley Quantec 16 RK Erp",
+        "Johnson&amp;amp;starley Quantec 24 RK Erp"
+      ],
+      "modelCount": 2
+    },
+    {
+      "brand": "johnson-starley",
+      "old": "johnson-starley-ZZ1585.pdf",
+      "new": "johnson-starley-johnson-and-amp-starley-quantec-hr-28-cp-erp-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Johnson&amp;amp;starley Quantec HR 28 CP Erp"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "junkers-bosch",
+      "old": "junkers-bosch-excellence.pdf",
+      "new": "junkers-bosch-junkers-ceraclass-excellence-user-manuals-user-manual.pdf",
+      "models": [
+        "Junkers Ceraclass Excellence user manuals"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "junkers-bosch",
+      "old": "junkers-bosch-ceraclass..pdf",
+      "new": "junkers-bosch-2-24-ceraclass-dhae-junkers-midi-zs-23-31-zw-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Junkers Ceraclass midi ZS 24-2 DHAE 23",
+        "Junkers Ceraclass midi ZS 24-2 DHAE 31",
+        "Junkers Ceraclass midi ZW 24-2 DHAE 23",
+        "Junkers Ceraclass midi ZW 24-2 DHAE 31"
+      ],
+      "modelCount": 4
+    },
+    {
+      "brand": "junkers-bosch",
+      "old": "junkers-bosch-euromaxx..pdf",
+      "new": "junkers-bosch-1-euromaxx-junkers-zwc-24-mf-2a-23-28-31-zc-mfa-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Junkers Euromaxx ZWC 24-1 MF 2A 23",
+        "Junkers Euromaxx ZWC 28-1 MF 2A 31",
+        "Junkers Euromaxx ZC 24-1 MFA 23",
+        "Junkers Euromaxx ZC 24-1 MFA 31"
+      ],
+      "modelCount": 4
+    },
+    {
+      "brand": "junkers-bosch",
+      "old": "junkers-bosch-miniMAXX.pdf",
+      "new": "junkers-bosch-junkers-minimaxx-wr11-2b-junkers-minimaxx-wr-14-2b-junkers-minimaxx-wr-18-2b-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Junkers miniMAXX WR11-2B",
+        "Junkers miniMAXX WR 14-2B",
+        "Junkers miniMAXX WR 18-2B"
+      ],
+      "modelCount": 3
+    },
+    {
+      "brand": "junkers-bosch",
+      "old": "junkers-bosch-Junkers-WRD.pdf",
+      "new": "junkers-bosch-junkers-minimaxx-wrd-11-2g-junkers-minimaxx-wrd-14-2g-junkers-minimaxx-wrd-18-2g-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Junkers miniMAXX WRD 11-2G",
+        "Junkers miniMAXX WRD 14-2G",
+        "Junkers miniMAXX WRD 18-2G"
+      ],
+      "modelCount": 3
+    },
+    {
+      "brand": "junkers-bosch",
+      "old": "junkers-bosch-w250.pdf",
+      "new": "junkers-bosch-junkers-multipoint-w250k-t1-w325k-w400k-t2-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Junkers Multipoint W250K-T1",
+        "Junkers Multipoint W325K-T1",
+        "Junkers Multipoint W400K-T1",
+        "Junkers Multipoint W400K-T2"
+      ],
+      "modelCount": 4
+    },
+    {
+      "brand": "junkers-bosch",
+      "old": "junkers-bosch-Suprapur-KBR.pdf",
+      "new": "junkers-bosch-junkers-kbr-superpure-120-160-200-240-280-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Junkers Superpure KBR 120",
+        "Junkers Superpure KBR 160",
+        "Junkers Superpure KBR 200",
+        "Junkers Superpure KBR 240",
+        "Junkers Superpure KBR 280"
+      ],
+      "modelCount": 5
+    },
+    {
+      "brand": "keston",
+      "old": "keston-Heat-45-55.pdf",
+      "new": "keston-heat-45-55-45p-55p-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Keston Heat 45",
+        "Keston Heat 55",
+        "Keston Heat 45P",
+        "Keston Heat 55P"
+      ],
+      "modelCount": 4
+    },
+    {
+      "brand": "keston",
+      "old": "keston-system.pdf",
+      "new": "keston-system-s30-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Keston System S30"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "keston",
+      "old": "keston-RSM20-FB.pdf",
+      "new": "keston-thermomatic-rsm-20-fb-combi-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Keston Thermomatic RSM 20 FB combi"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "laars",
+      "old": "laars-1.pdf",
+      "new": "laars-mighty-therm-hh-ph-size-500-1825-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Laars Mighty Therm HH + PH size 500-1825"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "laars",
+      "old": "laars-2.pdf",
+      "new": "laars-mighty-therm-hh-ph-size-175-400-mighty-therm-hh-ph-175-400-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Laars Mighty Therm HH + PH size 175-400",
+        "Laars Mighty Therm HH + PH 175-400"
+      ],
+      "modelCount": 2
+    },
+    {
+      "brand": "laars",
+      "old": "laars-3.pdf",
+      "new": "laars-mighty-therm-hh-size-2000-5000-mighty-therm-hh-2000-5000-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Laars Mighty Therm HH size 2000-5000",
+        "Laars Mighty Therm HH 2000-5000"
+      ],
+      "modelCount": 2
+    },
+    {
+      "brand": "laars",
+      "old": "laars-4.pdf",
+      "new": "laars-endurance-endurance-ebp-edp-and-edn-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Laars Endurance",
+        "Laars Endurance EBP, EDP and EDN"
+      ],
+      "modelCount": 2
+    },
+    {
+      "brand": "laars",
+      "old": "laars-5.pdf",
+      "new": "laars-addendum-to-mighty-therm-2-manual-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Laars Addendum to Mighty Therm 2 manual"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "laars",
+      "old": "laars-6.pdf",
+      "new": "laars-11-125-a-boiler-mascot-mbtu-modulating-lmh-combination-lmc-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Laars Mascot 11 Modulating Boiler LMH 125 MBTU/A",
+        "Laars Mascot 11 Combination Boiler LMC 125 MBTU/A"
+      ],
+      "modelCount": 2
+    },
+    {
+      "brand": "laars",
+      "old": "laars-7.pdf",
+      "new": "laars-mighty-therm-2-hydronic-boiler-mt2h-water-heater-mt2v-size-200-300-400-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Laars Mighty Therm 2 Hydronic Boiler MT2H",
+        "Laars Water Heater MT2V size 200,300,400"
+      ],
+      "modelCount": 2
+    },
+    {
+      "brand": "laars",
+      "old": "laars-8.pdf",
+      "new": "laars-mighty-therm-volume-water-heater-models-vw-pw-and-iw-500-1825-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Laars Mighty Therm Volume Water Heater",
+        "Models VW, PW and IW 500-1825"
+      ],
+      "modelCount": 2
+    },
+    {
+      "brand": "laars",
+      "old": "laars-9.pdf",
+      "new": "laars-mighty-therm-vw-pw-175-400-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Laars Mighty Therm VW + PW 175-400"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "laars",
+      "old": "laars-10.pdf",
+      "new": "laars-mighty-therm-vw-2000-5000-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Laars Mighty Therm VW 2000-5000"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "laars",
+      "old": "laars-11.pdf",
+      "new": "laars-mighty-stack-tl80-199-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Laars Mighty Stack TL80-199"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "laars",
+      "old": "laars-12.pdf",
+      "new": "laars-mighty-stack-tl00-199-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Laars Mighty Stack TL00-199"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "laars",
+      "old": "laars-13.pdf",
+      "new": "laars-mighty-therm-pool-heating-boiler-ap-500-1825-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Laars Mighty Therm Pool Heating Boiler AP 500-1825"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "laars",
+      "old": "laars-14.pdf",
+      "new": "laars-mighty-therm-ap-2000-5000-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Laars Mighty Therm AP 2000-5000"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "laars",
+      "old": "laars-15.pdf",
+      "new": "laars-heat-exchanger-replacement-hydronic-boilers-volume-water-pool-heaters-175-000-5000-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Laars Heat Exchanger Replacement:-",
+        "Hydronic Boilers",
+        "Volume Water",
+        "Pool Heaters 175,000-5000,000"
+      ],
+      "modelCount": 4
+    },
+    {
+      "brand": "laars",
+      "old": "laars-16.pdf",
+      "new": "laars-venter-mv1-mv2-175-400-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Laars Venter MV1, MV2 175-400"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "laars",
+      "old": "laars-17.pdf",
+      "new": "laars-modulating-controls-mc4-mc4-bac-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Laars Modulating Controls MC4 + MC4 BAC"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "laars",
+      "old": "laars-18.pdf",
+      "new": "laars-mc-extension-box-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Laars MC Extension Box"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "laars",
+      "old": "laars-19.pdf",
+      "new": "laars-modulating-controls-m4-m4-ext-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Laars Modulating Controls M4 + M4 Ext"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "laars",
+      "old": "laars-20.pdf",
+      "new": "laars-condensing-non-boiler-controls-m4-cnc-ext-mighty-venter-power-cent-system-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Laars Condensing + Non-condensing Boiler Controls :-",
+        "M4-CNC M4 Ext",
+        "Laars Mighty Venter Power Cent System"
+      ],
+      "modelCount": 3
+    },
+    {
+      "brand": "laars",
+      "old": "laars-21.pdf",
+      "new": "laars-models-mv2-mv3-mv4-mv5-500-1825-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Models MV2, MV3, MV4, MV5 500-1825"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "laars",
+      "old": "laars-23.pdf",
+      "new": "laars-combi-heat-lch-504t-lars-combi-heat-lch-75t-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Laars Combi Heat LCH 504T",
+        "Lars Combi Heat LCH 75T"
+      ],
+      "modelCount": 2
+    },
+    {
+      "brand": "laars",
+      "old": "laars-24.pdf",
+      "new": "laars-combi-heat-ttw-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Laars Combi Heat TTW"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "laars",
+      "old": "laars-25.pdf",
+      "new": "laars-everhot-igi-180r-igi-180c-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Laars Everhot IGI-180R + IGI 180C"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "laars",
+      "old": "laars-26.pdf",
+      "new": "laars-everhot-ige-199r-ige-199c-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Laars Everhot IGE-199R + IGE 199C"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "laars",
+      "old": "laars-27.pdf",
+      "new": "laars-indirect-fired-water-heater-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Laars Indirect Fired Water Heater"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "laars",
+      "old": "laars-28.pdf",
+      "new": "laars-everhot-flue-system-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Laars Everhot Flue System"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "main",
+      "old": "main-HEA.pdf",
+      "new": "main-a-he-12-15-18-24-30-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Main 12 HE A",
+        "Main 15 HE A",
+        "Main 18 HE A",
+        "Main 24 HE A",
+        "Main 30 HE A"
+      ],
+      "modelCount": 5
+    },
+    {
+      "brand": "malvern",
+      "old": "malvern-30-40-50-7080.pdf",
+      "new": "malvern-condensing-70-80-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Malvern Condensing 70/80"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "malvern",
+      "old": "Malvern-2026.pdf",
+      "new": "malvern-twenty-twenty-six-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Malvern Twenty + Twenty six"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "mhg",
+      "old": "mhg-alubox.pdf",
+      "new": "mhg-m-h-g-alubox-50-2200-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "M H G Alubox 50-2200"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "mhg",
+      "old": "mhg-procon-16-77.pdf",
+      "new": "mhg-m-h-g-procon-16-77-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "M H G ProCon 16-77"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "mhg",
+      "old": "mhg-procon-E-26.pdf",
+      "new": "mhg-m-h-g-procon-26-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "M H G ProCon 26"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "mhg",
+      "old": "mhg-procon-ht.pdf",
+      "new": "mhg-m-h-g-procon-ht-htp-150-225-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "M H G ProCon HT+HTP 150-225"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "mhg",
+      "old": "mhg-procon-mc.pdf",
+      "new": "mhg-m-h-g-procon-mc-115-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "M H G ProCon MC 115"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "mhg",
+      "old": "mhg-procon-mcs.pdf",
+      "new": "mhg-m-h-g-procon-mcs-320-2150-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "M H G ProCon MCS 320-2150"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "mhg",
+      "old": "mhg-procon-stream.pdf",
+      "new": "mhg-m-h-g-procon-streamline-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "M H G ProCon Streamline"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "mhg",
+      "old": "mhg-micromat-45.pdf",
+      "new": "mhg-m-h-g-rvr-micromat-45-62-76-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "M H G RVR Micromat 45,62, 76"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "mhg",
+      "old": "mhg-Superbox.pdf",
+      "new": "mhg-m-h-g-superbox-160-1000-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "M H G Superbox 160-1000"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "mhg",
+      "old": "mhg-Ultrabox.pdf",
+      "new": "mhg-m-h-g-ultrabox-210-900-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "M H G Ultrabox 210-900"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "mhg",
+      "old": "mhg-Wallcon.pdf",
+      "new": "mhg-m-h-g-wallcon-115-125-160-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "M H G Wallcon 115,125,160"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "mhs",
+      "old": "mhs-alphaJetstream.pdf",
+      "new": "mhs-m-h-s-alpha-jetstream-md-105-300kw-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "M H S Alpha Jetstream MD 105-300KW"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "mhs",
+      "old": "mhs-duomax.pdf",
+      "new": "mhs-m-h-s-ecomax-m-h-s-duomax-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "M H S Ecomax",
+        "M H S Duomax"
+      ],
+      "modelCount": 2
+    },
+    {
+      "brand": "mhs",
+      "old": "mhs-Euron.pdf",
+      "new": "mhs-m-h-s-euron-24-30-hg-m-h-s-euron-30-hsg-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "M H S Euron 24/30 HG",
+        "M H S Euron 30 HSG"
+      ],
+      "modelCount": 2
+    },
+    {
+      "brand": "mhs",
+      "old": "mhs-Jupiter.pdf",
+      "new": "mhs-m-h-s-jupiter-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "M H S Jupiter"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "mhs",
+      "old": "mhs-jetstream.pdf",
+      "new": "mhs-m-h-s-mk-jetstream-320-1017-kw-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "M H S MK Jetstream 320-1017 KW"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "mhs",
+      "old": "mhs-modulek.pdf",
+      "new": "mhs-4-h-m-modulek-regency-s-152-169-186-203-220-237-255-272-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "M H S Regency 4 Modulek 152",
+        "M H S Regency 4 Modulek 169",
+        "M H S Regency 4 Modulek 186",
+        "M H S Regency 4 Modulek 203",
+        "M H S Regency 4 Modulek 220",
+        "M H S Regency 4 Modulek 237",
+        "M H S Regency 4 Modulek 255",
+        "M H S Regency 4 Modulek 272"
+      ],
+      "modelCount": 8
+    },
+    {
+      "brand": "mhs",
+      "old": "mhs-strata-1-combi.pdf",
+      "new": "mhs-m-h-s-strata-1-38-combi-m-h-s-strata-1-38-46-combi-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "M H S Strata 1 38 Combi",
+        "M H S Strata 1 38/46 Combi"
+      ],
+      "modelCount": 2
+    },
+    {
+      "brand": "mhs",
+      "old": "mhs-Thisio_L.pdf",
+      "new": "mhs-h-l-m-s-thision-65-85-100-120-145-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "M H S Thision L 65",
+        "M H S Thision L 85",
+        "M H S Thision L 100",
+        "M H S Thision L 120",
+        "M H S Thision L 145"
+      ],
+      "modelCount": 5
+    },
+    {
+      "brand": "mhs",
+      "old": "mhs-ultramax.pdf",
+      "new": "mhs-m-h-s-ultramax-floor-standing-condensing-318-1018-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "M H S Ultramax Floor standing condensing 318-1018"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "mhs",
+      "old": "mhs-UltramaxPB.pdf",
+      "new": "mhs-m-h-s-ultramax-pb-65-120-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "M H S Ultramax PB 65-120"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "mhs",
+      "old": "mhs-ultramaxr600.pdf",
+      "new": "mhs-m-h-s-ultramax-600-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "M H S Ultramax 600"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "mhs",
+      "old": "mhs-ultramax-wm.pdf",
+      "new": "mhs-h-m-s-ultramax-wm-45-65-85-100-120-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "M H S Ultramax WM 45",
+        "M H S Ultramax WM 65",
+        "M H S Ultramax WM 85",
+        "M H S Ultramax WM 100",
+        "M H S Ultramax WM 120"
+      ],
+      "modelCount": 5
+    },
+    {
+      "brand": "mikrofill",
+      "old": "mikrofill-54-technical.pdf",
+      "new": "mikrofill-ethos-36c-54c-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Mikrofill Ethos 36C+54C"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "mikrofill",
+      "old": "mikrofill-ethos_70-130.pdf",
+      "new": "mikrofill-ethos-70-90-110-130-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Mikrofill Ethos 70,90,110,130,"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "mizudo",
+      "old": "Mizudo-GB-1.pdf",
+      "new": "mizudo-b-g-m15-t-m17-m20-m24-m26-tb-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Mizudo M15 T (G.B.)",
+        "Mizudo M17 T (G.B.)",
+        "Mizudo M20 T (G.B.)",
+        "Mizudo M24 T (G.B.)",
+        "Mizudo M26 T (G.B.)",
+        "Mizudo M15 TB (G.B.)",
+        "Mizudo M17 TB (G.B.)",
+        "Mizudo M20 TB (G.B.)"
+      ],
+      "modelCount": 10
+    },
+    {
+      "brand": "morco",
+      "old": "morco-24CPM.pdf",
+      "new": "morco-24-cpm-and-30-cpm-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Morco 24 CPM and 30 CPM"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "morco",
+      "old": "morco-FEB24ED-compact.pdf",
+      "new": "morco-24-ed-supercompact-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Morco 24 ED Supercompact"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "morco",
+      "old": "morco-D61B-good.pdf",
+      "new": "morco-d61-b-d61-e-and-g11-e-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Morco D61 B, D61 E, and G11 E"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "morco",
+      "old": "morco-F11EL.pdf",
+      "new": "morco-f-11-el-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Morco F 11 EL"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "morco",
+      "old": "morco-FEB20E.pdf",
+      "new": "morco-feb-20e-ecoplus-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Morco Feb-20E Ecoplus"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "morco",
+      "old": "morco-FEB24ED-3-Star.pdf",
+      "new": "morco-feb-24ed-3-star-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Morco Feb-24ED 3 star"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "morco",
+      "old": "morco-GB24.pdf",
+      "new": "morco-gb-24-and-gb-30-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Morco GB 24 and GB 30"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "morco",
+      "old": "morco-GB_24_30Erp.pdf",
+      "new": "morco-gb-24-erp-and-gb-30-erp-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Morco GB 24 Erp and GB 30 Erp"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "morco",
+      "old": "morco-S2.pdf",
+      "new": "morco-gb-24-and-gb-30-series-11-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Morco GB 24 and GB 30 series 11"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "morco",
+      "old": "morco-s3.pdf",
+      "new": "morco-moroco-gb-24-and-gb-30-series-111-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Moroco GB 24 and GB 30 series 111"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "morco",
+      "old": "morco-S4.pdf",
+      "new": "morco-moroco-gb-24-and-gb-30-series-1v-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Moroco GB 24 and GB 30 series 1V"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "myson",
+      "old": "myson-Apollo-30_50B.pdf",
+      "new": "myson-apollo-15-30-b-apollo-30-50-b-apollo-40-b-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Myson Apollo 15/30 B",
+        "Myson Apollo 30/50 B",
+        "Myson Apollo 40 B"
+      ],
+      "modelCount": 3
+    },
+    {
+      "brand": "myson",
+      "old": "myson-myson.pdf",
+      "new": "myson-apollo-fanfare-15-30i-apollo-fanfare-30-50i-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Myson Apollo Fanfare 15/30i",
+        "Myson Apollo Fanfare 30/50i"
+      ],
+      "modelCount": 2
+    },
+    {
+      "brand": "myson",
+      "old": "myson-Midas-SFi.pdf",
+      "new": "myson-midas-sfi-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Myson Midas Sfi"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "myson",
+      "old": "myson-Midas-B.pdf",
+      "new": "myson-midas-b-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Myson Midas B"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "myson",
+      "old": "myson-Orion75Si.pdf",
+      "new": "myson-orion-75-si-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Myson Orion 75 Si"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "myson",
+      "old": "myson-v100.pdf",
+      "new": "myson-velaire-vitesse-40-50-60-80-100-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Myson Velaire Vitesse 40/50",
+        "Myson Velaire Vitesse 50/60",
+        "Myson Velaire Vitesse 60/80",
+        "Myson Velaire Vitesse 80/100"
+      ],
+      "modelCount": 4
+    },
+    {
+      "brand": "navien",
+      "old": "navien-LCB700.pdf",
+      "new": "navien-700-lcb-combi-21-lc-lcx-28-36-regular-rs-rsx-system-ls-lsx-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Navien LCB 700 Combi 21 LC",
+        "Navien LCB 700 Combi 21 LCX",
+        "Navien LCB 700 Combi 28 LC",
+        "Navien LCB 700 Combi 28 LCX",
+        "Navien LCB 700 Combi 36 LC",
+        "Navien LCB 700 Combi 36 LCX",
+        "Navien LCB 700 Regular 21 RS",
+        "Navien LCB 700 Regular 21 RSX"
+      ],
+      "modelCount": 18
+    },
+    {
+      "brand": "navien",
+      "old": "navien-ncb_h.pdf",
+      "new": "navien-ncb-h-combi-boilers-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Navien NCB-H combi Boilers"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "navien",
+      "old": "navien-NCB700_Combi_I.pdf",
+      "new": "navien-ncb700-42c-54c-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Navien NCB700-42C",
+        "Navien NCB700-54C",
+        "Navien NCB700-42C LPG",
+        "Navien NCB700-54C LPG"
+      ],
+      "modelCount": 4
+    },
+    {
+      "brand": "navien",
+      "old": "navien-nfc_h.pdf",
+      "new": "navien-nfc-h-combi-boilers-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Navien NFC-H Combi Boilers"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "potterton",
+      "old": "potterton-Arizona.pdf",
+      "new": "potterton-arizona-evolution-1-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Potterton Arizona Evolution 1"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "potterton",
+      "old": "potterton-Arizona_99.pdf",
+      "new": "potterton-arizona-99-930kw-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Potterton Arizona 99-930Kw"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "potterton",
+      "old": "potterton-envoy-30.pdf",
+      "new": "potterton-envoy-30-40-50-60-80-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Potterton Envoy 30",
+        "Potterton Envoy 40",
+        "Potterton Envoy 50",
+        "Potterton Envoy 60",
+        "Potterton Envoy 80"
+      ],
+      "modelCount": 5
+    },
+    {
+      "brand": "potterton",
+      "old": "POTTERTON-ENVOY-PLUS.pdf",
+      "new": "potterton-envoy-flowsure-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Potterton Envoy Flowsure"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "potterton",
+      "old": "POTTERTON-ENVOY-SYSTEM.pdf",
+      "new": "potterton-envoy-system-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Potterton Envoy System"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "potterton",
+      "old": "potterton-heatmax.pdf",
+      "new": "potterton-heatmax-combi-24-heatmax-combi-28-heatmax-combi-33-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Potterton Heatmax combi 24",
+        "Potterton Heatmax combi 28",
+        "Potterton Heatmax combi 33"
+      ],
+      "modelCount": 3
+    },
+    {
+      "brand": "potterton",
+      "old": "potterton-POTTERTONLynx2.pdf",
+      "new": "potterton-lynx-2-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Potterton Lynx 2"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "potterton",
+      "old": "Potterton-Netaheat-Mk2.pdf",
+      "new": "potterton-netaheat-mk-ii-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Potterton Netaheat MK II"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "potterton",
+      "old": "POTTERTON-performa24E.pdf",
+      "new": "potterton-performa-24-eco-he-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Potterton Performa 24 Eco HE"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "potterton",
+      "old": "POTTERTON-performa30HE.pdf",
+      "new": "potterton-performa-30-he-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Potterton Performa 30 HE"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "potterton",
+      "old": "potterton-PowermaxHEX.pdf",
+      "new": "potterton-powermax-he-90-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Potterton Powermax HE 90"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "potterton",
+      "old": "POTTERTON-PRIMA-30B.pdf",
+      "new": "potterton-b-prima-30-40-50-60-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Potterton Prima 30 B",
+        "Potterton Prima 40 B",
+        "Potterton Prima 50 B",
+        "Potterton Prima 60 B"
+      ],
+      "modelCount": 4
+    },
+    {
+      "brand": "potterton",
+      "old": "potterton-PRIMA30C.pdf",
+      "new": "potterton-prima-30c-40c-50c-60c-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Potterton Prima 30C",
+        "Potterton Prima 40C",
+        "Potterton Prima 50C",
+        "Potterton Prima 60C"
+      ],
+      "modelCount": 4
+    },
+    {
+      "brand": "potterton",
+      "old": "POTTERTON-PRIMALPG.pdf",
+      "new": "potterton-prima-50e-60e-80e-100e-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Potterton Prima LPG 50e",
+        "Potterton Prima LPG 60e",
+        "Potterton Prima LPG 80e",
+        "Potterton Prima LPG 100e"
+      ],
+      "modelCount": 4
+    },
+    {
+      "brand": "potterton",
+      "old": "POTTERTON-72.pdf",
+      "new": "potterton-prima-profile-30e-40e-50e-60e-80e-100e-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Potterton Profile Prima 30e",
+        "Potterton Profile Prima 40e",
+        "Potterton Profile Prima 50e",
+        "Potterton Profile Prima 60e",
+        "Potterton Profile Prima 80e",
+        "Potterton Profile Prima 100e"
+      ],
+      "modelCount": 6
+    },
+    {
+      "brand": "potterton",
+      "old": "potterton-pot_pro_24X.pdf",
+      "new": "potterton-promax-combi-24-promax-combi-28-promax-combi-33-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Potterton Promax Combi 24",
+        "Potterton Promax Combi 28",
+        "Potterton Promax Combi 33"
+      ],
+      "modelCount": 3
+    },
+    {
+      "brand": "potterton",
+      "old": "potterton-Sirius_FS_400_and_525.PDF",
+      "new": "potterton-sirus-fs400-fs525-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Potterton Sirus FS400 + FS525"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "potterton",
+      "old": "POTTERTON-SUPRIMASYSTEM.pdf",
+      "new": "potterton-suprima-30-60-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Potterton Suprima 30-60"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "potterton",
+      "old": "potterton-Ultra30-80.pdf",
+      "new": "potterton-ultra-30-40-50-60-80-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Potterton Ultra 30",
+        "Potterton Ultra 40",
+        "Potterton Ultra 50",
+        "Potterton Ultra 60",
+        "Potterton Ultra 80"
+      ],
+      "modelCount": 5
+    },
+    {
+      "brand": "potterton",
+      "old": "potterton-P11.pdf",
+      "new": "potterton-2-ultra-30-dv-40-50-60-80-dvp-p-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Potterton Ultra 2 30 DV",
+        "Potterton Ultra 2 40 DV",
+        "Potterton Ultra 2 50 DV",
+        "Potterton Ultra 2 60 DV",
+        "Potterton Ultra 2 80 DV",
+        "Potterton Ultra 2 30",
+        "Potterton Ultra 2 40",
+        "Potterton Ultra 2 50"
+      ],
+      "modelCount": 20
+    },
+    {
+      "brand": "procombi",
+      "old": "procombi-85-100-he-isim.pdf",
+      "new": "procombi-85-he-100-he-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "PROcombi 85 HE",
+        "PROcombi 100 HE"
+      ],
+      "modelCount": 2
+    },
+    {
+      "brand": "procombi",
+      "old": "Procombi-85-100-120-HE.pdf",
+      "new": "procombi-120-he-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Procombi 120 HE"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "radiant",
+      "old": "radiant-Open-VentedTA02A009A0703.pdf",
+      "new": "radiant-rs20e-40-60-openvent-rs24e-70-90-openvent-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Radiant RS20E/40-60 openvent",
+        "Radiant RS24E/70-90 openvent"
+      ],
+      "modelCount": 2
+    },
+    {
+      "brand": "radiant",
+      "old": "radiant-RCM-RCMF-RSF.pdf",
+      "new": "radiant-rcm24-rcmf24-rsf24-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Radiant RCM24",
+        "Radiant RCMF24",
+        "Radiant RSF24"
+      ],
+      "modelCount": 3
+    },
+    {
+      "brand": "radiant",
+      "old": "radiant-AQUA-2-MANUAL-ENGLISH-1.pdf",
+      "new": "radiant-sfk-55-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Radiant SFK 55"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "ravenheat",
+      "old": "ravenheat-csi20.pdf",
+      "new": "ravenheat-csi-85a-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Ravenheat CSI 85A"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "ravenheat",
+      "old": "ravenheat-CS-80-90-gc-numbers.pdf",
+      "new": "ravenheat-cs-t-80-90-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Ravenheat CS 80 T",
+        "Ravenheat CS 80 T LPG.",
+        "Ravenheat CS 90 T",
+        "Ravenheat CS 90 T LPG"
+      ],
+      "modelCount": 4
+    },
+    {
+      "brand": "ravenheat",
+      "old": "ravenheat-HE150N-T-.pdf",
+      "new": "ravenheat-combination-he120-combination-he-150-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Ravenheat combination HE120",
+        "Ravenheat combination HE 150"
+      ],
+      "modelCount": 2
+    },
+    {
+      "brand": "ravenheat",
+      "old": "ravenheat-LS80printV3.1.pdf",
+      "new": "ravenheat-little-star-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Ravenheat Little star"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "ravenheat",
+      "old": "ravenheat-HE-25-30-S.pdf",
+      "new": "ravenheat-compact-he-25s-30s-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Ravenheat HE 25S compact",
+        "Ravenheat HE 25S compact LPG",
+        "Ravenheat HE 30S compact",
+        "Ravenheat HE 30S compact LPG"
+      ],
+      "modelCount": 4
+    },
+    {
+      "brand": "ravenheat",
+      "old": "ravenheat-HE-80-98-Service-Manual.pdf",
+      "new": "ravenheat-he-80-he-98-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Ravenheat HE 80",
+        "Ravenheat HE 98"
+      ],
+      "modelCount": 2
+    },
+    {
+      "brand": "ravenheat",
+      "old": "ravenheat-Manual.pdf",
+      "new": "ravenheat-he-primary-aaa-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Ravenheat HE primary AAA"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "ravenheat",
+      "old": "ravenheat-WH_100_130_Manual.pdf",
+      "new": "ravenheat-heat-t-white-wh80-wh90-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Ravenheat White Heat WH80 T",
+        "Ravenheat White Heat WH80 T LPG",
+        "Ravenheat White Heat WH90 T",
+        "Ravenheat White Heat WH90 T LPG"
+      ],
+      "modelCount": 4
+    },
+    {
+      "brand": "remeha",
+      "old": "remeha-NT_Gas_460S_GB.pdf",
+      "new": "remeha-gas-460-s-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Remeha gas 460 S"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "remeha",
+      "old": "remeha-Quinta.pdf",
+      "new": "remeha-quinta-ace-135-160-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Remeha Quinta Ace 135-160"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "remeha",
+      "old": "remeha-Gas3cStd.pdf",
+      "new": "remeha-seagold-broag-gas-3c-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Remeha Seagold Broag Gas 3C"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "remeha",
+      "old": "remeha-Gas3cEco.pdf",
+      "new": "remeha-seagold-borag-gas-3c-eco-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Remeha Seagold Borag Gas 3C Eco"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "remeha",
+      "old": "remeha-53716-0801.pdf",
+      "new": "remeha-w21-28-eco-combi-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Remeha W21/28 Eco Combi"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "roc",
+      "old": "roc-3f5b839afbffaab2856ff1b020392e2b.pdf",
+      "new": "roc-combi-he-2802-combi-he-2810-combi-he-4010-erp-a-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "ROC Combi HE 2802",
+        "ROC Combi HE 2810",
+        "ROC Combi HE 4010 ERP A"
+      ],
+      "modelCount": 3
+    },
+    {
+      "brand": "roc",
+      "old": "roc-b99616c7ff8e9ba76a6e634548b4c37c.pdf",
+      "new": "roc-combi-he-28-combi-he-40-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "ROC Combi HE 28",
+        "ROC Combi HE 40"
+      ],
+      "modelCount": 2
+    },
+    {
+      "brand": "roc",
+      "old": "roc-roc_boiler.pdf",
+      "new": "roc-ll1gbq24-b26cg-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "ROC LL1GBQ24-B26CG"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "saunier-duval",
+      "old": "saunier-duval-semia.pdf",
+      "new": "saunier-duval-semia-condens-f30-e-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Saunier Duval Semia condens F30 E"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "saunier-duval",
+      "old": "saunier-duval-manual.pdf",
+      "new": "saunier-duval-thermaclassic-c-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Saunier Duval Thermaclassic C"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "savio",
+      "old": "savio-gaia.pdf",
+      "new": "savio-gaia-424-s-gaia-428-s-gaia-424-rs-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Savio Gaia 424 S",
+        "Savio Gaia 428 S",
+        "Savio Gaia 424 RS"
+      ],
+      "modelCount": 3
+    },
+    {
+      "brand": "servowarm",
+      "old": "servowarm-malvern-70-NG.pdf",
+      "new": "servowarm-malvern-30-40-50-70-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Servowarm Malvern 30",
+        "Servowarm Malvern 40",
+        "Servowarm Malvern 50",
+        "Servowarm Malvern 70"
+      ],
+      "modelCount": 4
+    },
+    {
+      "brand": "sime",
+      "old": "sime-brava-slim-her.pdf",
+      "new": "sime-brava-slim-he20-ri-re-he40ri-he40-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Sime Brava Slim HE20 Ri",
+        "Sime Brava Slim HE20 RE",
+        "Sime Brava Slim HE40Ri",
+        "Sime Brava Slim HE40 RE"
+      ],
+      "modelCount": 4
+    },
+    {
+      "brand": "sime",
+      "old": "sime-Pro-Mk11.pdf",
+      "new": "sime-murelle-pro-he-20r-mk11-murelle-pro-he-30r-mk11-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Sime Murelle Pro HE 20R Mk11",
+        "Sime Murelle Pro HE 30R Mk11"
+      ],
+      "modelCount": 2
+    },
+    {
+      "brand": "sime",
+      "old": "sime-Pro-HE-R.pdf",
+      "new": "sime-murelle-pro-he-20r-erp-murelle-pro-he-30r-erp-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Sime Murelle Pro HE 20R Erp",
+        "Sime Murelle Pro HE 30R Erp"
+      ],
+      "modelCount": 2
+    },
+    {
+      "brand": "sime",
+      "old": "sime-Super-Inst.pdf",
+      "new": "sime-super-102-delux-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Sime Super 102 delux"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "strebel",
+      "old": "strebel-Ascona-Manual.pdf",
+      "new": "strebel-ascona-a-ascona-apv-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Strebel Ascona A",
+        "Strebel Ascona APV"
+      ],
+      "modelCount": 2
+    },
+    {
+      "brand": "strebel",
+      "old": "strebel-Lugano-Manual.pdf",
+      "new": "strebel-lugano-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Strebel Lugano"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "strebel",
+      "old": "strebel-S-AF-XL.pdf",
+      "new": "strebel-s-af-xl-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Strebel S-AF-XL"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "strebel",
+      "old": "strebel-strebel.s.pdf",
+      "new": "strebel-s-cb-px120-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Strebel S-CB-PX120"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "us-boiler-company",
+      "old": "us-boiler-company-ES2-IO-Manual.pdf",
+      "new": "us-boiler-company-u-s-es-2-10-u-s-independence-10-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "U.S. ES 2 10",
+        "U.S. Independence 10"
+      ],
+      "modelCount": 2
+    },
+    {
+      "brand": "us-boiler-company",
+      "old": "us-boiler-company-K2FT_Past-Present_Repair_Troubleshooting.pdf",
+      "new": "us-boiler-company-u-s-k-2-wt-10-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "U.S. K 2 WT 10"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "us-boiler-company",
+      "old": "us-boiler-company-K2WT-IO-Manual.pdf",
+      "new": "us-boiler-company-u-s-k-2wtc-combi-10-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "U.S. K 2WTC Combi 10"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "us-boiler-company",
+      "old": "us-boiler-company-Series-3-IO.pdf",
+      "new": "us-boiler-company-u-s-series-3-10-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "U.S. Series 3 10"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "us-boiler-company",
+      "old": "us-boiler-company-X-2-IO-Manual.pdf",
+      "new": "us-boiler-company-u-s-x-2-10-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "U.S. X 2 10"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "us-boiler-company",
+      "old": "us-boiler-company-X-PV-IO-Manual.PDF",
+      "new": "us-boiler-company-u-s-x-pv-10-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "U.S. X PV 10"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "vaillant",
+      "old": "vaillant-0020010871_05.pdf",
+      "new": "vaillant-ecotec-for-spares-612-through-to-837-spare-parts-pro-24-28-824-831-615-624-630-637-spare-parts-manual.pdf",
+      "models": [
+        "Spares for Ecotec 612, through to 837",
+        "Spare parts for Ecotec Pro 24 and 28",
+        "Spares for Ecotec 824, 831, 837, 612, 615, 624,630 and 637"
+      ],
+      "modelCount": 3
+    },
+    {
+      "brand": "vaillant",
+      "old": "vaillant-0020037555.pdf",
+      "new": "vaillant-spare-parts-for-ecotec-exclusive-832-and-838-spare-parts-manual.pdf",
+      "models": [
+        "Spare parts for Ecotec Exclusive 832 and 838"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "vaillant",
+      "old": "vaillant-ecotec-30h.pdf",
+      "new": "vaillant-ecotecpro-30h-combi-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Vaillant ecoTECpro 30H combi"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "vaillant",
+      "old": "vaillant-ga100.pdf",
+      "new": "vaillant-ga-100-series-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Vaillant GA 100 Series"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "vaillant",
+      "old": "vaillant-home-regular.pdf",
+      "new": "vaillant-a-home-regular-12-15-18-25-30-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Vaillant Home Regular 12 A",
+        "Vaillant Home Regular 15 A",
+        "Vaillant Home Regular 18 A",
+        "Vaillant Home Regular 25 A",
+        "Vaillant Home Regular 30 A"
+      ],
+      "modelCount": 5
+    },
+    {
+      "brand": "vaillant",
+      "old": "vaillant-thermo-compact.pdf",
+      "new": "vaillant-thermocompact-620-2e-vugb202-2-5-624-vugb242-628-vugb282-637-e-turbomax-plus-828-837-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Vaillant ThermoCompact 620/2E (VUGB202/2-5)",
+        "Vaillant ThermoCompact 624/2E (VUGB242/2-5)",
+        "Vaillant ThermoCompact 628/2E (VUGB282/2-5)",
+        "Vaillant ThermoCompact 637 E",
+        "Vaillant TurboMAX Plus 828/2E",
+        "Vaillant TurboMAX Plus 837 E"
+      ],
+      "modelCount": 6
+    },
+    {
+      "brand": "vaillant",
+      "old": "vaillant-thermoCOMPACT.pdf",
+      "new": "vaillant-turbomax-plus-824-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Vaillant TurboMax Plus 824"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "viessmann",
+      "old": "viessmann-Vie-222-w.PDF",
+      "new": "viessmann-vitodens-222-w-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Viessmann Vitodens 222-W"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "vokera",
+      "old": "vokera-vokcom28_22535_t.PDF",
+      "new": "vokera-compact-24-compact-28-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Vokera Compact 24",
+        "Vokera Compact 28"
+      ],
+      "modelCount": 2
+    },
+    {
+      "brand": "vokera",
+      "old": "vokera-compact_32.pdf",
+      "new": "vokera-compact-25-a-compact-29-a-compact-32-a-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Vokera Compact 25 A",
+        "Vokera Compact 29 A",
+        "Vokera Compact 32 A"
+      ],
+      "modelCount": 3
+    },
+    {
+      "brand": "vokera",
+      "old": "vokera-compact-28SE.pdf",
+      "new": "vokera-compact-28-se-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Vokera Compact 28 SE"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "vokera",
+      "old": "vokera-compact-he24.pdf",
+      "new": "vokera-compact-he-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Vokera Compact HE"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "vokera",
+      "old": "Vokera-Easi-Flo.pdf",
+      "new": "vokera-easi-flo-le-easi-flo-le-lpg-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Vokera Easi-flo-le",
+        "Vokera Easi-Flo le LPG"
+      ],
+      "modelCount": 2
+    },
+    {
+      "brand": "vokera",
+      "old": "vokera-Easi-heat-i.pdf",
+      "new": "vokera-easi-heat-i-25c-easi-heat-i-29c-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Vokera Easi-Heat i 25C",
+        "Vokera Easi-Heat i 29C"
+      ],
+      "modelCount": 2
+    },
+    {
+      "brand": "vokera",
+      "old": "vokera-Easi_heat_s.pdf",
+      "new": "vokera-easi-heat-plus-24s-easi-heat-plus-30s-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Vokera Easi-Heat plus 24S",
+        "Vokera Easi-Heat plus 30S"
+      ],
+      "modelCount": 2
+    },
+    {
+      "brand": "vokera",
+      "old": "vokera-easi_heat_29.pdf",
+      "new": "vokera-easi-heat-plus-18-v-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Vokera Easi-Heat Plus 18 V"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "vokera",
+      "old": "vokera-EVOLVE.pdf",
+      "new": "vokera-evolve-24c-28c-32c-36c-42c-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Vokera Evolve 24C",
+        "Vokera Evolve 28C",
+        "Vokera Evolve 32C",
+        "Vokera Evolve 36C",
+        "Vokera Evolve 42C"
+      ],
+      "modelCount": 5
+    },
+    {
+      "brand": "vokera",
+      "old": "vokera-evolve_s.pdf",
+      "new": "vokera-evolve-s-18-24-30-35-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Vokera evolve 18 S",
+        "Vokera evolve 24 S",
+        "Vokera evolve 30 S",
+        "Vokera evolve 35 S"
+      ],
+      "modelCount": 4
+    },
+    {
+      "brand": "vokera",
+      "old": "vokera-excel_1.pdf",
+      "new": "vokera-excel-25-excel-29-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Vokera Excel 25",
+        "Vokera Excel 29"
+      ],
+      "modelCount": 2
+    },
+    {
+      "brand": "vokera",
+      "old": "vokera-maxim_29.pdf",
+      "new": "vokera-maxim-25-maxim-29-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Vokera MAXIM 25",
+        "Vokera MAXIM 29"
+      ],
+      "modelCount": 2
+    },
+    {
+      "brand": "vokera",
+      "old": "vokera-Mynute-i.pdf",
+      "new": "vokera-mynute-i-20-mynute-i-30-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Vokera Mynute i 20",
+        "Vokera Mynute i 30"
+      ],
+      "modelCount": 2
+    },
+    {
+      "brand": "vokera",
+      "old": "vokera-MAX20S.pdf",
+      "new": "vokera-max-unica-20s-30s-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Vokera Unica MAX 20S",
+        "Vokera Unica MAX 30S",
+        "Vokera Unica MAX 20S LPG",
+        "Vokera Unica MAX 30S LPG"
+      ],
+      "modelCount": 4
+    },
+    {
+      "brand": "vokera",
+      "old": "vokera-MAX35C.pdf",
+      "new": "vokera-max-unica-35c-40c-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Vokera Unica MAX 35C",
+        "Vokera Unica MAX 40C",
+        "Vokera Unica MAX 35C LPG",
+        "Vokera Unica MAX 40C LPG"
+      ],
+      "modelCount": 4
+    },
+    {
+      "brand": "vokera",
+      "old": "vokera-verve.pdf",
+      "new": "vokera-verve-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Vokera Verve"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "vokera",
+      "old": "vokera-2012222-L3.pdf",
+      "new": "vokera-verve-i-50-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Vokera Verve i 50"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "vokera",
+      "old": "vokera-Vibe-maxC.pdf",
+      "new": "vokera-vibe-max-26c-vibe-max-30c-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Vokera Vibe MAX 26C",
+        "Vokera Vibe MAX 30C"
+      ],
+      "modelCount": 2
+    },
+    {
+      "brand": "vokera",
+      "old": "vokera-vision-combi.pdf",
+      "new": "vokera-vision-combi-25-30c-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Vokera Vision combi 25 30C"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "vokera",
+      "old": "vokera-vision-system.pdf",
+      "new": "vokera-vision-system-20-sgc-vision-system-25-sgc-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Vokera Vision System 20 SGC",
+        "Vokera Vision System 25 SGC"
+      ],
+      "modelCount": 2
+    },
+    {
+      "brand": "vokera",
+      "old": "vokera-vision_s.pdf",
+      "new": "vokera-vision-system-25-s-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Vokera Vision System 25 S"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "warmflow",
+      "old": "Warmflow-B-Series-B70.pdf",
+      "new": "warmflow-b-series-b70-b-series-b90-b-series-b120-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Warmflow B-series B70",
+        "Warmflow B-series B90",
+        "Warmflow B-series B120"
+      ],
+      "modelCount": 3
+    },
+    {
+      "brand": "warmflow",
+      "old": "warmflow-2.pdf",
+      "new": "warmflow-70-90-combi-boiler-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Warmflow 70/90 Combi Boiler"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "warmflow",
+      "old": "warmflow-13331058353307-optimised-1.pdf",
+      "new": "warmflow-high-efficiency-b70-he-b90-b120-kabin-pak-pumped-system-combi-utility-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Warmflow High efficiency B70 HE",
+        "Warmflow High efficiency B90 HE",
+        "Warmflow High efficiency B120 HE",
+        "Warmflow Kabin Pak",
+        "Warmflow Kabin Pak pumped",
+        "Warmflow Kabin Pak system",
+        "Warmflow Kabin Pak combi",
+        "Warmflow Utility"
+      ],
+      "modelCount": 11
+    },
+    {
+      "brand": "warmhaus",
+      "old": "warmhaus-priwa-1.pdf",
+      "new": "warmhaus-priwa-plus-enerwa-2530-3035-3540-3504-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Warmhaus Priwa",
+        "Warmhaus Priwa Plus",
+        "Warmhaus Enerwa 2530",
+        "Warmhaus Enerwa 3035",
+        "Warmhaus Enerwa 3540",
+        "Warmhaus Enerwa plus 2530",
+        "Warmhaus Enerwa plus 3035",
+        "Warmhaus Enerwa Plus 3504"
+      ],
+      "modelCount": 8
+    },
+    {
+      "brand": "weil-mclain",
+      "old": "weil-mclain-GV90_eng.pdf",
+      "new": "weil-mclain-gv-90-series-2-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "WEIL-McLAIN GV 90+ series 2"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "weil-mclain",
+      "old": "weil-mclain-french_GV90.pdf",
+      "new": "weil-mclain-gv-90-series-2-french-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "WEIL-McLAIN GV 90+ series 2 French"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "weil-mclain",
+      "old": "weil-mclain-gv90_add.pdf",
+      "new": "weil-mclain-gv-90-series-2-addendum-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "WEIL-McLAIN GV 90+ series 2 Addendum"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "weil-mclain",
+      "old": "weil-mclain-bec_afg_for_vm.pdf",
+      "new": "weil-mclain-beckett-afg-burner-for-wm-go-boiler-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Beckett AFG Burner for WM GO Boiler"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "weil-mclain",
+      "old": "weil-mclain-car_wm.pdf",
+      "new": "weil-mclain-carlin-burner-for-wm-go-boiler-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Carlin Burner for WM GO Boiler"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "weil-mclain",
+      "old": "weil-mclain-ri_WM.pdf",
+      "new": "weil-mclain-riello-burner-for-wm-go-boiler-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Riello Burner for WM GO Boiler"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "worcester-bosch",
+      "old": "worcester-bosch-8000-life-1.pdf",
+      "new": "worcester-bosch-8000-gr8300iw-greenstar-life-worcester-30c-35c-40c-45c-50c-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Worcester Greenstar 8000 Life GR8300iW 30C",
+        "Worcester Greenstar 8000 Life GR8300iW 35C",
+        "Worcester Greenstar 8000 Life GR8300iW 40C",
+        "Worcester Greenstar 8000 Life GR8300iW 45C",
+        "Worcester Greenstar 8000 Life GR8300iW 50C",
+        "Worcester Greenstar 8000 Life GR8300iW 30C Lpg",
+        "Worcester Greenstar 8000 Life GR8300iW 35C Lpg",
+        "Worcester Greenstar 8000 Life GR8300iW 40C Lpg"
+      ],
+      "modelCount": 10
+    },
+    {
+      "brand": "worcester-bosch",
+      "old": "worcester-bosch-8000_Style_1.pdf",
+      "new": "worcester-bosch-8000-combi-gr8700iw-greenstar-stile-worcester-30c-35c-40c-45c-50c-30cb-35cb-40cb-45cb-50cb-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Worcester Greenstar 8000 Stile combi GR8700iW 30C",
+        "Worcester Greenstar 8000 Stile combi GR8700iW 35C",
+        "Worcester Greenstar 8000 Stile combi GR8700iW 40C",
+        "Worcester Greenstar 8000 Stile combi GR8700iW 45C",
+        "Worcester Greenstar 8000 Stile combi GR8700iW 50C",
+        "Worcester Greenstar 8000 Stile combi GR8700iW 30CB",
+        "Worcester Greenstar 8000 Stile combi GR8700iW 35CB",
+        "Worcester Greenstar 8000 Stile combi GR8700iW 40CB"
+      ],
+      "modelCount": 20
+    },
+    {
+      "brand": "worcester-bosch",
+      "old": "worcester-bosch-Greenstar_4000.pdf",
+      "new": "worcester-bosch-4000-greenstar-worcester-24s-21s-18s-15s-12s-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Worcester Greenstar 4000 24S",
+        "Worcester Greenstar 4000 21S",
+        "Worcester Greenstar 4000 18S",
+        "Worcester Greenstar 4000 15S",
+        "Worcester Greenstar 4000 12S",
+        "Worcester Greenstar 4000 24S Lpg",
+        "Worcester Greenstar 4000 21S Lpg",
+        "Worcester Greenstar 4000 18S Lpg"
+      ],
+      "modelCount": 10
+    },
+    {
+      "brand": "worcester-bosch",
+      "old": "worcester-bosch-38CDi.pdf",
+      "new": "worcester-bosch-cdi-classic-greenstar-worcester-29-34-38-42-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Worcester Greenstar 29 CDi Classic",
+        "Worcester Greenstar 34 CDi Classic",
+        "Worcester Greenstar 38 CDi Classic",
+        "Worcester Greenstar 42 CDi Classic",
+        "Worcester Greenstar 29 CDi Classic LPG",
+        "Worcester Greenstar 34 CDi Classic LPG",
+        "Worcester Greenstar 38 CDi Classic LPG",
+        "Worcester Greenstar 42 CDi Classic LPG"
+      ],
+      "modelCount": 8
+    },
+    {
+      "brand": "worcester-bosch",
+      "old": "worcester-bosch-cdi_1.pdf",
+      "new": "worcester-bosch-cdi-discontinued-greenstar-worcester-25-30-35-40-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Worcester Greenstar 25 CDi discontinued",
+        "Worcester Greenstar 30 CDi discontinued",
+        "Worcester Greenstar 35 CDi discontinued",
+        "Worcester Greenstar 40 CDi discontinued",
+        "Worcester Greenstar 25 CDi LPG discontinued",
+        "Worcester Greenstar 30 CDi LPG discontinued",
+        "Worcester Greenstar 35 CDi LPG discontinued",
+        "Worcester Greenstar 40 CDi LPG discontinued"
+      ],
+      "modelCount": 8
+    },
+    {
+      "brand": "worcester-bosch",
+      "old": "worcester-bosch-tar.pdf",
+      "new": "worcester-bosch-greenstar-worcester-25cdi-30cdi-37cdi-42cdi-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Worcester Greenstar 25CDi",
+        "Worcester Greenstar 30CDi",
+        "Worcester Greenstar 37CDi",
+        "worcester Greenstar 42CDi",
+        "Worcester Greenstar 25CDi LPG",
+        "Worcester Greenstar 30CDi LPG",
+        "Worcester Greenstar 37CDi LPG",
+        "Worcester Greenstar 42CDi LPG"
+      ],
+      "modelCount": 8
+    },
+    {
+      "brand": "worcester-bosch",
+      "old": "worcester-bosch-HF-440.pdf",
+      "new": "worcester-bosch-worcester-greenstar-highflow-440-inst-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Worcester Greenstar Highflow 440 inst"
+      ],
+      "modelCount": 1
+    },
+    {
+      "brand": "worcester-bosch",
+      "old": "worcester-bosch-440_550_ErP.pdf",
+      "new": "worcester-bosch-greenstar-highflow-worcester-440cdi-550cdi-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Worcester Greenstar Highflow 440CDi ErP",
+        "Worcester Greenstar Highflow 550CDi Erp",
+        "Worcester Greenstar Highflow 440CDi ErP LPG",
+        "Worcester Greenstar Highflow 550CDi ErP LPG"
+      ],
+      "modelCount": 4
+    },
+    {
+      "brand": "worcester-bosch",
+      "old": "worcester-bosch-i_ERP.pdf",
+      "new": "worcester-bosch-greenstar-i-worcester-25-30-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Worcester Greenstar 25 i ErP",
+        "Worcester Greenstar 30 i ErP",
+        "Worcester Greenstar 25 i LPG ErP",
+        "Worcester Greenstar 30 i LPG ErP"
+      ],
+      "modelCount": 4
+    },
+    {
+      "brand": "worcester-bosch",
+      "old": "worcester-bosch-532.pdf",
+      "new": "worcester-bosch-british-gas-worcester-532-537-542-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Worcester - British Gas 532",
+        "Worcester - British Gas 532 LPG",
+        "Worcester - British Gas 537",
+        "Worcester - British Gas 537 LPG",
+        "Worcester - British Gas 542",
+        "Worcester - British Gas 542 LPG"
+      ],
+      "modelCount": 6
+    },
+    {
+      "brand": "worcester-bosch",
+      "old": "worcester-bosch-Worcester-GB.pdf",
+      "new": "worcester-bosch-worcester-commercial-gb-162-50-65-80-100-worcester-commercial-gb-162-50-100-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Worcester Commercial GB 162-50/65/80/100",
+        "Worcester Commercial GB 162-50/100"
+      ],
+      "modelCount": 2
+    },
+    {
+      "brand": "worcester-bosch",
+      "old": "worcester-bosch-HE_Combi.pdf",
+      "new": "worcester-bosch-worcester-greenstar-zwb7-25-he-combi-worcester-greenstar-zwb7-30-he-combi-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Worcester Greenstar ZWB7-25 HE Combi",
+        "Worcester Greenstar ZWB7-30 HE Combi"
+      ],
+      "modelCount": 2
+    },
+    {
+      "brand": "worcester-bosch",
+      "old": "worcester-bosch-Plus-combi.pdf",
+      "new": "worcester-bosch-worcester-greenstar-zwbr7-28-he-plus-worcester-greenstar-zwbr11-35-he-plus-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Worcester Greenstar ZWBR7-28 HE plus",
+        "Worcester Greenstar ZWBR11-35 HE plus"
+      ],
+      "modelCount": 2
+    },
+    {
+      "brand": "zanussi",
+      "old": "zanussi-combi.1.pdf",
+      "new": "zanussi-ultra-combi-30-ultra-combi-35-installation-servicing-instructions-manual.pdf",
+      "models": [
+        "Zanussi Ultra Combi 30",
+        "Zanussi Ultra Combi 35"
+      ],
+      "modelCount": 2
+    }
+  ]
+}

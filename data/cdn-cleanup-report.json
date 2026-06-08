@@ -1,0 +1,792 @@
+{
+  "dryRun": false,
+  "groups": 86,
+  "filesToDelete": 88,
+  "filesDeleted": 88,
+  "deleteErrors": [],
+  "urlRewrites": 88,
+  "htmlFilesUpdated": 6,
+  "htmlLinksUpdated": 60,
+  "groupsReport": [
+    {
+      "brand": "daxom",
+      "canonical": "daxom/daxom-ukdax-10-ebt-12-16-18-20-24-6-ebm-installation-servicing-instructions-manual.pdf",
+      "deleted": [
+        "daxom/Daxom-2.pdf",
+        "daxom/daxom-10-12-16-18-20-24-ebt-ebm-ISIM.pdf"
+      ],
+      "htmlRefsToCanonical": 21
+    },
+    {
+      "brand": "daxom",
+      "canonical": "daxom/daxom-12-edt-ukdax-16-18-20-24-30-36-40-48-10-edm-ett-etm-72-installation-servicing-instructions-manual.pdf",
+      "deleted": [
+        "daxom/daxom-1.pdf",
+        "daxom/daxom-ukdax-10-12-16-18-20-24-30-36-40-48-72-edt-edm-ett-etm-etp-ISIM.pdf"
+      ],
+      "htmlRefsToCanonical": 56
+    },
+    {
+      "brand": "acv",
+      "canonical": "acv/acv-DeltaPerformanceVentouseFV.pdf",
+      "deleted": [
+        "acv/ACV-Delta-Performance-Ventouse-FV-35-50-ISIM.pdf"
+      ],
+      "htmlRefsToCanonical": 1
+    },
+    {
+      "brand": "acv",
+      "canonical": "acv/acv-Delta-Performance-Ventouses.pdf",
+      "deleted": [
+        "acv/acv-delta-performance-ventouses-sv-mv-35-50-ISIM.pdf"
+      ],
+      "htmlRefsToCanonical": 1
+    },
+    {
+      "brand": "alpha",
+      "canonical": "alpha/alpha-intec2-25-28XE-instructions-and-users-04-15-1.pdf",
+      "deleted": [
+        "alpha/Alpha-intec-2-25XE-28XE-ISIM.pdf"
+      ],
+      "htmlRefsToCanonical": 2
+    },
+    {
+      "brand": "ariston",
+      "canonical": "ariston/ariston-clas_net_one.pdf",
+      "deleted": [
+        "ariston/Ariston-clas-net-system-one-ISIM.pdf"
+      ],
+      "htmlRefsToCanonical": 0
+    },
+    {
+      "brand": "ariston",
+      "canonical": "ariston/ariston-DIA_System27.pdf",
+      "deleted": [
+        "ariston/Ariston-dia-system-27-rffi-ISIM.pdf"
+      ],
+      "htmlRefsToCanonical": 0
+    },
+    {
+      "brand": "atmos",
+      "canonical": "atmos/atmos-CompactN35.pdf",
+      "deleted": [
+        "atmos/Atmos-35C-40C-ISIM.pdf"
+      ],
+      "htmlRefsToCanonical": 0
+    },
+    {
+      "brand": "atmos",
+      "canonical": "atmos/Atmos-Multi-Mk2-Installation-Manual.pdf",
+      "deleted": [
+        "atmos/Atmos-Multi-Mk2-ISIM-021208-Amend-180610.pdf"
+      ],
+      "htmlRefsToCanonical": 4
+    },
+    {
+      "brand": "atmos",
+      "canonical": "atmos/fault-codes/Atmos-fault-codes.pdf",
+      "deleted": [
+        "atmos/Atmos-fault-codes.pdf"
+      ],
+      "htmlRefsToCanonical": 0
+    },
+    {
+      "brand": "baxi",
+      "canonical": "baxi/baxi-duo-tec-2-combi-24-28-33-40-ga-ISIM.pdf",
+      "deleted": [
+        "baxi/Baxi-duo-tec-2-combi-24-28-33-40-ga-ISIM.pdf"
+      ],
+      "htmlRefsToCanonical": 0
+    },
+    {
+      "brand": "baxi",
+      "canonical": "baxi/baxi-solo-he-a-installation-service-instructions-manual.pdf",
+      "deleted": [
+        "baxi/baxi-solo-he-a-installation-instructions_2.pdf"
+      ],
+      "htmlRefsToCanonical": 0
+    },
+    {
+      "brand": "biasi",
+      "canonical": "biasi/biasi-activ-a-120v-150v-200v-250v-user-manual.pdf",
+      "deleted": [
+        "biasi/Biasi-active-a-12-15-20-25-ov-ISIM.pdf"
+      ],
+      "htmlRefsToCanonical": 4
+    },
+    {
+      "brand": "biasi",
+      "canonical": "biasi/biasi-compact-he-m96-24sm-28sm-32sm-c2-installation-servicing-instructions-manual.pdf",
+      "deleted": [
+        "biasi/Riva-compact-he-m96-24sm-28sm-32sm-c2-ISIM.pdf"
+      ],
+      "htmlRefsToCanonical": 3
+    },
+    {
+      "brand": "chaffoteaux",
+      "canonical": "chaffoteaux/chaffoteaux-Britony_System_Installation___Operating.pdf",
+      "deleted": [
+        "chaffoteaux/Chaffoteaux-Britony-system-40-60-ISIM.pdf"
+      ],
+      "htmlRefsToCanonical": 1
+    },
+    {
+      "brand": "chaffoteaux",
+      "canonical": "chaffoteaux/chaffoteaux-Britony_Combi_SE_Installation___Operating.pdf",
+      "deleted": [
+        "chaffoteaux/Chaffoteaux-britony-combi-se-80-100-ISIM.pdf"
+      ],
+      "htmlRefsToCanonical": 1
+    },
+    {
+      "brand": "chaffoteaux",
+      "canonical": "chaffoteaux/chaffoteaux-Minima_HE_System.pdf",
+      "deleted": [
+        "chaffoteaux/Chaffoteaux-minima-he-system-24-30-ISIM.pdf"
+      ],
+      "htmlRefsToCanonical": 1
+    },
+    {
+      "brand": "chaffoteaux",
+      "canonical": "chaffoteaux/chaffoteaux-Minima_MX2.pdf",
+      "deleted": [
+        "chaffoteaux/Chaffoteaux-minima-mx2-24-30-ff-ISIM.pdf"
+      ],
+      "htmlRefsToCanonical": 0
+    },
+    {
+      "brand": "drayton",
+      "canonical": "drayton/drayton-lp822-IMUG.pdf",
+      "deleted": [
+        "drayton/drayton-lp811-IMUG.pdf"
+      ],
+      "htmlRefsToCanonical": 0
+    },
+    {
+      "brand": "eca",
+      "canonical": "eca/eca-proteus-premix-ppr-24-30-35-hm-hch-hst-ISIM.pdf",
+      "deleted": [
+        "eca/ECA-proteus-premix-ppr-24-30-35-hm-hst-hch-ISIM.pdf"
+      ],
+      "htmlRefsToCanonical": 0
+    },
+    {
+      "brand": "ehc",
+      "canonical": "ehc/ehc-comet-combination-unit-electric-boiler-installation-servicing-instructions-manual.pdf",
+      "deleted": [
+        "ehc/Ehc-Comet-Combi-ISIM.pdf"
+      ],
+      "htmlRefsToCanonical": 2
+    },
+    {
+      "brand": "ehc",
+      "canonical": "ehc/ehc-comet-fusion-boiler-electric-boiler-installation-servicing-instructions-manual.pdf",
+      "deleted": [
+        "ehc/Ehc-Fusion-Comet-ISIM.pdf"
+      ],
+      "htmlRefsToCanonical": 2
+    },
+    {
+      "brand": "ehc",
+      "canonical": "ehc/ehc-SlIM-JIM_f.7067.pdf",
+      "deleted": [
+        "ehc/Ehc-Slim-Jim-ISIM.pdf"
+      ],
+      "htmlRefsToCanonical": 2
+    },
+    {
+      "brand": "elnur",
+      "canonical": "elnur/elnur-R1-MATTIRA-MAC-C-Installation-Guide.pdf",
+      "deleted": [
+        "elnur/Elnur-mattira-mac15c-ISIM.pdf"
+      ],
+      "htmlRefsToCanonical": 1
+    },
+    {
+      "brand": "elnur",
+      "canonical": "elnur/elnur-R5-MATTIRA-MAS-Installation-Guide.pdf",
+      "deleted": [
+        "elnur/Elnur-mattira-mas15-mas18-ISIM.pdf.pdf"
+      ],
+      "htmlRefsToCanonical": 2
+    },
+    {
+      "brand": "ferroli",
+      "canonical": "ferroli/ferroli-Arena_30_A_Manual.pdf",
+      "deleted": [
+        "ferroli/Ferroli-arena-30-a-ISIM.pdf"
+      ],
+      "htmlRefsToCanonical": 1
+    },
+    {
+      "brand": "ferroli",
+      "canonical": "ferroli/ferroli-Arena_30_C_Manual.pdf",
+      "deleted": [
+        "ferroli/Ferroli-arena-30-c-ISIM.pdf"
+      ],
+      "htmlRefsToCanonical": 1
+    },
+    {
+      "brand": "ferroli",
+      "canonical": "ferroli/ferroli-DOMIcompact_F24D_Manual.pdf",
+      "deleted": [
+        "ferroli/Ferroli-domicompact-f-24-d-ISIM.pdf"
+      ],
+      "htmlRefsToCanonical": 1
+    },
+    {
+      "brand": "ferroli",
+      "canonical": "ferroli/ferroli-Domicondens-f24-f28-3540s921.pdf",
+      "deleted": [
+        "ferroli/Ferroli-domicondens-F-24-28-ISIM.pdf"
+      ],
+      "htmlRefsToCanonical": 1
+    },
+    {
+      "brand": "ferroli",
+      "canonical": "ferroli/ferroli-DOMIcondens-HE-26c-Manual.pdf",
+      "deleted": [
+        "ferroli/Ferroli-domicondens-he-26-c-ISIM.pdf"
+      ],
+      "htmlRefsToCanonical": 1
+    },
+    {
+      "brand": "ferroli",
+      "canonical": "ferroli/ferroli-f30b-installation-servicing-instructions-manual.pdf",
+      "deleted": [
+        "ferroli/Ferroli-f-30-b-ISIM.pdf"
+      ],
+      "htmlRefsToCanonical": 1
+    },
+    {
+      "brand": "geminox",
+      "canonical": "geminox/geminox-microstar-mz-22c-installation-servicing-instructions-manual.pdf",
+      "deleted": [
+        "geminox/Geminox-microstar-mz-20-22-c-ISIM.pdf"
+      ],
+      "htmlRefsToCanonical": 1
+    },
+    {
+      "brand": "glowworm",
+      "canonical": "glowworm/Glow-worm-EnergySaver-60-ISIM.pdf",
+      "deleted": [
+        "glowworm/Glow-worm-energysaver-60-ISIM.pdf"
+      ],
+      "htmlRefsToCanonical": 0
+    },
+    {
+      "brand": "halstead",
+      "canonical": "halstead/Halstead-Eden-X-Type-CX-24-32-38-SBX-30-Installation-Servicing-Instructions-Manual.pdf",
+      "deleted": [
+        "halstead/halstead-EdenCBX-SBX_Installation.pdf"
+      ],
+      "htmlRefsToCanonical": 0
+    },
+    {
+      "brand": "heatline",
+      "canonical": "heatline/heatline-Sargon-24manual.pdf",
+      "deleted": [
+        "heatline/Heatline-sargon-24-30-35-ISIM.pdf"
+      ],
+      "htmlRefsToCanonical": 1
+    },
+    {
+      "brand": "ideal",
+      "canonical": "ideal/ideal-classic-nf-50-p-classic-nf-60-p-classic-nf-80-p-installation-servicing-instructions-manual.pdf",
+      "deleted": [
+        "ideal/Ideal-Classic-NF-50-60-80-P.pdf"
+      ],
+      "htmlRefsToCanonical": 3
+    },
+    {
+      "brand": "ideal",
+      "canonical": "ideal/ideal-mexico-super-rs3-50-installation-servicing-instructions-manual.pdf",
+      "deleted": [
+        "ideal/Ideal-Mexico-Super-RS-3-40 -50-60-70-80-Instructions Installation-Service-Manual.pdf"
+      ],
+      "htmlRefsToCanonical": 1
+    },
+    {
+      "brand": "ideal",
+      "canonical": "ideal/ideal-boxer-c24-boxer-c28-imax-w-60-installation-servicing-instructions-manual.pdf",
+      "deleted": [
+        "ideal/Ideal-boxer-c24-c28-ISIM.pdf"
+      ],
+      "htmlRefsToCanonical": 3
+    },
+    {
+      "brand": "ideal",
+      "canonical": "ideal/ideal-concord-cxd-40-100-installation-servicing-instructions-manual.pdf",
+      "deleted": [
+        "ideal/Ideal-concord-CXD-40-50-60-70-80-90-100-ISIM.pdf"
+      ],
+      "htmlRefsToCanonical": 1
+    },
+    {
+      "brand": "ideal",
+      "canonical": "ideal/ideal-excel-he-24-excel-he-28-excel-he-32-installation-servicing-instructions-manual.pdf",
+      "deleted": [
+        "ideal/Ideal-excel-he-c24-c28-c32-ISIM.pdf"
+      ],
+      "htmlRefsToCanonical": 3
+    },
+    {
+      "brand": "ideal",
+      "canonical": "ideal/ideal-isar-he-24-isar-he-30-isar-he-35-installation-servicing-instructions-manual.pdf",
+      "deleted": [
+        "ideal/ideal-isar-he-24-30-35-ISIM.pdf"
+      ],
+      "htmlRefsToCanonical": 3
+    },
+    {
+      "brand": "main",
+      "canonical": "main/Main-combi-24-HE-ISIM.pdf",
+      "deleted": [
+        "main/Main-combi-24-ISIM.pdf"
+      ],
+      "htmlRefsToCanonical": 0
+    },
+    {
+      "brand": "maxol",
+      "canonical": "maxol/maxol-Maxol_Installation.pdf",
+      "deleted": [
+        "maxol/Maxol-supacombi-he-28-ISIM.pdf"
+      ],
+      "htmlRefsToCanonical": 2
+    },
+    {
+      "brand": "potterton",
+      "canonical": "potterton/Potterton-Kingfisher2-RS40-50B-Installation-Servicing-Instructions-Manual.pdf",
+      "deleted": [
+        "potterton/POTTERTON-Kingfisher2-RS40-50B.pdf"
+      ],
+      "htmlRefsToCanonical": 0
+    },
+    {
+      "brand": "potterton",
+      "canonical": "potterton/potterton-profile-30e-40e-50e-60e-80e-installation-manual.pdf",
+      "deleted": [
+        "potterton/POTTERTON-PROFILE80eGCNo.41-605-43.pdf"
+      ],
+      "htmlRefsToCanonical": 0
+    },
+    {
+      "brand": "potterton",
+      "canonical": "potterton/Potterton-Kingfisher-2-RS60-RS80-RS100-installation-and-servicing-instructions-manual.pdf",
+      "deleted": [
+        "potterton/potterton-Kingfisher-2-RS60-80-100-Installation-and-Servicing-Instructions7.pdf"
+      ],
+      "htmlRefsToCanonical": 0
+    },
+    {
+      "brand": "potterton",
+      "canonical": "potterton/potterton-netaheat-mk-ii-installation-servicing-instructions-manual.pdf",
+      "deleted": [
+        "potterton/Potterton-Netaheat-Mk2F-10-16-and-16-22-Installation-Servicing-Manual.pdf"
+      ],
+      "htmlRefsToCanonical": 1
+    },
+    {
+      "brand": "potterton",
+      "canonical": "potterton/potterton-POTTERTONperforma24iHE.pdf",
+      "deleted": [
+        "potterton/Potterton-performa-24i-he-ISIM.pdf"
+      ],
+      "htmlRefsToCanonical": 1
+    },
+    {
+      "brand": "potterton",
+      "canonical": "potterton/potterton-2-ultra-30-dv-40-50-60-80-dvp-p-installation-servicing-instructions-manual.pdf",
+      "deleted": [
+        "potterton/potterton-ultra-2-30-40-50-60-80-dv-dvp-p-ISIM.pdf"
+      ],
+      "htmlRefsToCanonical": 20
+    },
+    {
+      "brand": "potterton",
+      "canonical": "potterton/potterton-Assure_System_Manual_compressed.pdf",
+      "deleted": [
+        "potterton/potterton-assure-system-15-18-ISIM.pdf"
+      ],
+      "htmlRefsToCanonical": 2
+    },
+    {
+      "brand": "potterton",
+      "canonical": "potterton/potterton-Potterton_Gold_HEA_Install.pdf",
+      "deleted": [
+        "potterton/potterton-gold-combi-24-28-33-he-a-ISIM.pdf"
+      ],
+      "htmlRefsToCanonical": 3
+    },
+    {
+      "brand": "potterton",
+      "canonical": "potterton/potterton-heatmax-combi-24-heatmax-combi-28-heatmax-combi-33-installation-servicing-instructions-manual.pdf",
+      "deleted": [
+        "potterton/potterton-heatmax-combi-he-installation-servicing-manual.pdf"
+      ],
+      "htmlRefsToCanonical": 3
+    },
+    {
+      "brand": "potterton",
+      "canonical": "potterton/potterton-performa-system-12e-18e-24e-28e.pdf",
+      "deleted": [
+        "potterton/potterton-performa-system-12e-18e-24e-28e-ISIM.pdf"
+      ],
+      "htmlRefsToCanonical": 0
+    },
+    {
+      "brand": "potterton",
+      "canonical": "potterton/potterton-powermax-he-90-installation-servicing-instructions-manual.pdf",
+      "deleted": [
+        "potterton/potterton-powermax-HE-Installation-service-manual.pdf"
+      ],
+      "htmlRefsToCanonical": 1
+    },
+    {
+      "brand": "saunier-duval",
+      "canonical": "saunier-duval/saunier-duval-installation_EnvioPlus.pdf",
+      "deleted": [
+        "saunier-duval/Saunier-Duval-enviroplus-f24e-f28e-f28e-sb-ISIM.pdf"
+      ],
+      "htmlRefsToCanonical": 1
+    },
+    {
+      "brand": "saunier-duval",
+      "canonical": "saunier-duval/saunier-duval-semia-condens-f30-e-installation-servicing-instructions-manual.pdf",
+      "deleted": [
+        "saunier-duval/Saunier-Duval-semia-condens-f24-f30-e-ISIM.pdf"
+      ],
+      "htmlRefsToCanonical": 1
+    },
+    {
+      "brand": "saunier-duval",
+      "canonical": "saunier-duval/saunier-duval-installation_ThemaF24e.pdf",
+      "deleted": [
+        "saunier-duval/Saunier-Duval-themaclassic-f24e-f18e-sb-ISIM.pdf"
+      ],
+      "htmlRefsToCanonical": 2
+    },
+    {
+      "brand": "saunier-duval",
+      "canonical": "saunier-duval/saunier-duval-installation_ThemaF30eSB.pdf",
+      "deleted": [
+        "saunier-duval/Saunier-Duval-themaclassic-f30e-f30e-sb-f35e-ISIM.pdf"
+      ],
+      "htmlRefsToCanonical": 1
+    },
+    {
+      "brand": "sime",
+      "canonical": "sime/Sime-Ecomfort-25-HE-Installation-manual-47-283-06.pdf",
+      "deleted": [
+        "sime/Sime-Ecomfort-25-30-35-HE-System-Combi-ISIM.pdf"
+      ],
+      "htmlRefsToCanonical": 4
+    },
+    {
+      "brand": "sime",
+      "canonical": "sime/sime-Murelle-EV-HE-25-30.55-Installation-Servicing-Guide.pdf",
+      "deleted": [
+        "sime/Sime-murelle-ev-he-25-55-30-55-ISIM.pdf"
+      ],
+      "htmlRefsToCanonical": 1
+    },
+    {
+      "brand": "sime",
+      "canonical": "sime/sime-Murelle-HE-25-30.55-Installation-Servicing-Guide.pdf",
+      "deleted": [
+        "sime/Sime-murelle-he-25-55-30-55-ISIM.pdf"
+      ],
+      "htmlRefsToCanonical": 2
+    },
+    {
+      "brand": "sime",
+      "canonical": "sime/sime-Planet-Super-4-W.M.-Installation.pdf",
+      "deleted": [
+        "sime/Sime-planet-super-4-W-M-ISIM.pdf"
+      ],
+      "htmlRefsToCanonical": 1
+    },
+    {
+      "brand": "sime",
+      "canonical": "sime/sime-Superior-MKII-Ci-Installation-Servicing-Guide.pdf",
+      "deleted": [
+        "sime/sime-superior-40-50-60-80-ci-mkII-ISIM.pdf"
+      ],
+      "htmlRefsToCanonical": 1
+    },
+    {
+      "brand": "vaillant",
+      "canonical": "vaillant/archive/vaillant-ecotec-installation-and-servicing-manual-261417-01.01.2014.pdf",
+      "deleted": [
+        "vaillant/vaillant-ecotec-plus-6xx-8xx-01-2014-ISIM.pdf"
+      ],
+      "htmlRefsToCanonical": 0
+    },
+    {
+      "brand": "vaillant",
+      "canonical": "vaillant/archive/vaillant-ecotec-installation-servicing-2007-372783.pdf",
+      "deleted": [
+        "vaillant/vaillant-ecotec-plus-6xx-8xx-pro-24-28-08-2007-ISIM.pdf"
+      ],
+      "htmlRefsToCanonical": 0
+    },
+    {
+      "brand": "vaillant",
+      "canonical": "vaillant/vaillant-ecoTEC-plus-412.pdf",
+      "deleted": [
+        "vaillant/vaillant-ecotec-plus-412-415-418-424-430-435-06-2018-ISIM.pdf"
+      ],
+      "htmlRefsToCanonical": 1
+    },
+    {
+      "brand": "vaillant",
+      "canonical": "vaillant/vaillant-turbomax-plus-824-installation-servicing-instructions-manual.pdf",
+      "deleted": [
+        "vaillant/vaillant-thermocompact-615-620-624-628.pdf"
+      ],
+      "htmlRefsToCanonical": 1
+    },
+    {
+      "brand": "vaillant",
+      "canonical": "vaillant/vaillant-turbomax242-1e-282-1e-installation-servicing-instructions-manual-01.06.1998.pdf",
+      "deleted": [
+        "vaillant/vaillant-turbomax242-1e-282-1e.pdf"
+      ],
+      "htmlRefsToCanonical": 4
+    },
+    {
+      "brand": "vokera",
+      "canonical": "vokera/vokera-Compact-A-User-and-Installation-manual.pdf",
+      "deleted": [
+        "vokera/Vokera-Compact-A-25-29-ISIM.pdf"
+      ],
+      "htmlRefsToCanonical": 2
+    },
+    {
+      "brand": "vokera",
+      "canonical": "vokera/vokera-hydra_installation_and_servicing_instructions.pdf",
+      "deleted": [
+        "vokera/Vokera-hydra-ISIM.pdf"
+      ],
+      "htmlRefsToCanonical": 1
+    },
+    {
+      "brand": "vokera",
+      "canonical": "vokera/vokera-mynute_10se_14se_20se_installation_and_servicing_instructions.pdf",
+      "deleted": [
+        "vokera/Vokera-mynute-10se-14se-20se-ISIM.pdf"
+      ],
+      "htmlRefsToCanonical": 1
+    },
+    {
+      "brand": "vokera",
+      "canonical": "vokera/vokera-synergy_e_installation_and_servicing_instructions.pdf",
+      "deleted": [
+        "vokera/Vokera-synergy-25-e-ISIM.pdf"
+      ],
+      "htmlRefsToCanonical": 1
+    },
+    {
+      "brand": "vokera",
+      "canonical": "vokera/vokera-syntesi_installation_and_servicing_instructions.pdf",
+      "deleted": [
+        "vokera/Vokera-syntesi-25-29-35-ISIM.pdf"
+      ],
+      "htmlRefsToCanonical": 1
+    },
+    {
+      "brand": "vokera",
+      "canonical": "vokera/vokera-verve-installation-servicing-instructions-manual.pdf",
+      "deleted": [
+        "vokera/Vokera-verve-ISIM.pdf"
+      ],
+      "htmlRefsToCanonical": 2
+    },
+    {
+      "brand": "vokera",
+      "canonical": "vokera/vokera-mynute-28e-35e-installation-and-servicing-instructions-manual.pdf",
+      "deleted": [
+        "vokera/vokera-mynute_28e_35e_installation_and_servicing_instructions.pdf"
+      ],
+      "htmlRefsToCanonical": 2
+    },
+    {
+      "brand": "warmhaus",
+      "canonical": "warmhaus/warmhaus-priwa-plus-enerwa-2530-3035-3540-3504-installation-servicing-instructions-manual.pdf",
+      "deleted": [
+        "warmhaus/Enerwa-and-Enerwa-plus-24-28-33-ISIM.pdf"
+      ],
+      "htmlRefsToCanonical": 8
+    },
+    {
+      "brand": "worcester-bosch",
+      "canonical": "worcester-bosch/worcester-bosch-installation-and-servicing-instructions-for-230--discontinued-dec-1997.pdf",
+      "deleted": [
+        "worcester-bosch/Worcester-230-Combi-RSF-Installation-and-Servicing-Instructions.pdf"
+      ],
+      "htmlRefsToCanonical": 1
+    },
+    {
+      "brand": "worcester-bosch",
+      "canonical": "worcester-bosch/Worcester-Bosch-Highflow-400-RSF-Installation-Servicing-Manual.pdf",
+      "deleted": [
+        "worcester-bosch/worcester-bosch-installation-and-servicing-instructions-for-highflow-400-rsf--manufactured-after-1997.pdf"
+      ],
+      "htmlRefsToCanonical": 0
+    },
+    {
+      "brand": "worcester-bosch",
+      "canonical": "worcester-bosch/Worcester-Greenstar-27CDi-30CDi-37CDi-42CDi-Installation-Servicing-Instructions-Manual.pdf",
+      "deleted": [
+        "worcester-bosch/worcester-bosch-installation-and-servicing-instructions-for-greenstar-cdi--part-1-of-2-1.pdf"
+      ],
+      "htmlRefsToCanonical": 0
+    },
+    {
+      "brand": "worcester-bosch",
+      "canonical": "worcester-bosch/worcester-bosch-Worcester-24-28-35MKII-CDi-Installation-and-Servicing-Instructions-2.pdf",
+      "deleted": [
+        "worcester-bosch/worcester-bosch-24-28-35-CDi-II-RSF-installation-and-servicing-instructions.pdf"
+      ],
+      "htmlRefsToCanonical": 6
+    },
+    {
+      "brand": "worcester-bosch",
+      "canonical": "worcester-bosch/worcester-bosch-240-BF-combi-installation-and-servicing-instructions-manual.pdf",
+      "deleted": [
+        "worcester-bosch/worcester-bosch-installation-and-servicing-instructions-for-240-bf--discontinued-dec-1997.pdf"
+      ],
+      "htmlRefsToCanonical": 0
+    },
+    {
+      "brand": "worcester-bosch",
+      "canonical": "worcester-bosch/worcester-bosch-240-combi-OF-installation-servicing-manual-original.pdf",
+      "deleted": [
+        "worcester-bosch/worcester-bosch-installation-and-servicing-instructions-for-240-of--discontinued-dec-1997.pdf"
+      ],
+      "htmlRefsToCanonical": 0
+    },
+    {
+      "brand": "worcester-bosch",
+      "canonical": "worcester-bosch/worcester-bosch-350-combi-installation-servicing-manual.pdf",
+      "deleted": [
+        "worcester-bosch/worcester-bosch-installation-and-servicing-instructions-for-350-rsf--discontinued-july-1998.pdf"
+      ],
+      "htmlRefsToCanonical": 0
+    },
+    {
+      "brand": "worcester-bosch",
+      "canonical": "worcester-bosch/worcester-bosch-british-gas-worcester-532-537-542-installation-servicing-instructions-manual.pdf",
+      "deleted": [
+        "worcester-bosch/worcester-bosch-british-gas-532-537-542-installation-and-servicing instructions-manual.pdf"
+      ],
+      "htmlRefsToCanonical": 6
+    },
+    {
+      "brand": "zanussi",
+      "canonical": "zanussi/zanussi-ultra-combi-30-ultra-combi-35-installation-servicing-instructions-manual.pdf",
+      "deleted": [
+        "zanussi/Zanussi-ultra-combi-30-35-ISIM.pdf"
+      ],
+      "htmlRefsToCanonical": 2
+    },
+    {
+      "brand": "zanussi",
+      "canonical": "zanussi/zanussi-system.compressed.pdf",
+      "deleted": [
+        "zanussi/Zanussi-ultra-system-15-18-24-30-ISIM.pdf"
+      ],
+      "htmlRefsToCanonical": 4
+    }
+  ],
+  "rewrites": {
+    "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/daxom/Daxom-2.pdf": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/daxom/daxom-ukdax-10-ebt-12-16-18-20-24-6-ebm-installation-servicing-instructions-manual.pdf",
+    "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/daxom/daxom-10-12-16-18-20-24-ebt-ebm-ISIM.pdf": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/daxom/daxom-ukdax-10-ebt-12-16-18-20-24-6-ebm-installation-servicing-instructions-manual.pdf",
+    "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/daxom/daxom-1.pdf": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/daxom/daxom-12-edt-ukdax-16-18-20-24-30-36-40-48-10-edm-ett-etm-72-installation-servicing-instructions-manual.pdf",
+    "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/daxom/daxom-ukdax-10-12-16-18-20-24-30-36-40-48-72-edt-edm-ett-etm-etp-ISIM.pdf": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/daxom/daxom-12-edt-ukdax-16-18-20-24-30-36-40-48-10-edm-ett-etm-72-installation-servicing-instructions-manual.pdf",
+    "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/acv/ACV-Delta-Performance-Ventouse-FV-35-50-ISIM.pdf": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/acv/acv-DeltaPerformanceVentouseFV.pdf",
+    "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/acv/acv-delta-performance-ventouses-sv-mv-35-50-ISIM.pdf": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/acv/acv-Delta-Performance-Ventouses.pdf",
+    "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/alpha/Alpha-intec-2-25XE-28XE-ISIM.pdf": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/alpha/alpha-intec2-25-28XE-instructions-and-users-04-15-1.pdf",
+    "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/ariston/Ariston-clas-net-system-one-ISIM.pdf": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/ariston/ariston-clas_net_one.pdf",
+    "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/ariston/Ariston-dia-system-27-rffi-ISIM.pdf": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/ariston/ariston-DIA_System27.pdf",
+    "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/atmos/Atmos-35C-40C-ISIM.pdf": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/atmos/atmos-CompactN35.pdf",
+    "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/atmos/Atmos-Multi-Mk2-ISIM-021208-Amend-180610.pdf": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/atmos/Atmos-Multi-Mk2-Installation-Manual.pdf",
+    "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/atmos/Atmos-fault-codes.pdf": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/atmos/fault-codes/Atmos-fault-codes.pdf",
+    "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/baxi/Baxi-duo-tec-2-combi-24-28-33-40-ga-ISIM.pdf": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/baxi/baxi-duo-tec-2-combi-24-28-33-40-ga-ISIM.pdf",
+    "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/baxi/baxi-solo-he-a-installation-instructions_2.pdf": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/baxi/baxi-solo-he-a-installation-service-instructions-manual.pdf",
+    "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/biasi/Biasi-active-a-12-15-20-25-ov-ISIM.pdf": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/biasi/biasi-activ-a-120v-150v-200v-250v-user-manual.pdf",
+    "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/biasi/Riva-compact-he-m96-24sm-28sm-32sm-c2-ISIM.pdf": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/biasi/biasi-compact-he-m96-24sm-28sm-32sm-c2-installation-servicing-instructions-manual.pdf",
+    "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/chaffoteaux/Chaffoteaux-Britony-system-40-60-ISIM.pdf": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/chaffoteaux/chaffoteaux-Britony_System_Installation___Operating.pdf",
+    "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/chaffoteaux/Chaffoteaux-britony-combi-se-80-100-ISIM.pdf": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/chaffoteaux/chaffoteaux-Britony_Combi_SE_Installation___Operating.pdf",
+    "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/chaffoteaux/Chaffoteaux-minima-he-system-24-30-ISIM.pdf": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/chaffoteaux/chaffoteaux-Minima_HE_System.pdf",
+    "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/chaffoteaux/Chaffoteaux-minima-mx2-24-30-ff-ISIM.pdf": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/chaffoteaux/chaffoteaux-Minima_MX2.pdf",
+    "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/drayton/drayton-lp811-IMUG.pdf": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/drayton/drayton-lp822-IMUG.pdf",
+    "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/eca/ECA-proteus-premix-ppr-24-30-35-hm-hst-hch-ISIM.pdf": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/eca/eca-proteus-premix-ppr-24-30-35-hm-hch-hst-ISIM.pdf",
+    "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/ehc/Ehc-Comet-Combi-ISIM.pdf": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/ehc/ehc-comet-combination-unit-electric-boiler-installation-servicing-instructions-manual.pdf",
+    "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/ehc/Ehc-Fusion-Comet-ISIM.pdf": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/ehc/ehc-comet-fusion-boiler-electric-boiler-installation-servicing-instructions-manual.pdf",
+    "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/ehc/Ehc-Slim-Jim-ISIM.pdf": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/ehc/ehc-SlIM-JIM_f.7067.pdf",
+    "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/elnur/Elnur-mattira-mac15c-ISIM.pdf": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/elnur/elnur-R1-MATTIRA-MAC-C-Installation-Guide.pdf",
+    "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/elnur/Elnur-mattira-mas15-mas18-ISIM.pdf.pdf": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/elnur/elnur-R5-MATTIRA-MAS-Installation-Guide.pdf",
+    "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/ferroli/Ferroli-arena-30-a-ISIM.pdf": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/ferroli/ferroli-Arena_30_A_Manual.pdf",
+    "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/ferroli/Ferroli-arena-30-c-ISIM.pdf": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/ferroli/ferroli-Arena_30_C_Manual.pdf",
+    "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/ferroli/Ferroli-domicompact-f-24-d-ISIM.pdf": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/ferroli/ferroli-DOMIcompact_F24D_Manual.pdf",
+    "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/ferroli/Ferroli-domicondens-F-24-28-ISIM.pdf": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/ferroli/ferroli-Domicondens-f24-f28-3540s921.pdf",
+    "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/ferroli/Ferroli-domicondens-he-26-c-ISIM.pdf": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/ferroli/ferroli-DOMIcondens-HE-26c-Manual.pdf",
+    "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/ferroli/Ferroli-f-30-b-ISIM.pdf": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/ferroli/ferroli-f30b-installation-servicing-instructions-manual.pdf",
+    "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/geminox/Geminox-microstar-mz-20-22-c-ISIM.pdf": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/geminox/geminox-microstar-mz-22c-installation-servicing-instructions-manual.pdf",
+    "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/glowworm/Glow-worm-energysaver-60-ISIM.pdf": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/glowworm/Glow-worm-EnergySaver-60-ISIM.pdf",
+    "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/halstead/halstead-EdenCBX-SBX_Installation.pdf": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/halstead/Halstead-Eden-X-Type-CX-24-32-38-SBX-30-Installation-Servicing-Instructions-Manual.pdf",
+    "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/heatline/Heatline-sargon-24-30-35-ISIM.pdf": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/heatline/heatline-Sargon-24manual.pdf",
+    "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/ideal/Ideal-Classic-NF-50-60-80-P.pdf": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/ideal/ideal-classic-nf-50-p-classic-nf-60-p-classic-nf-80-p-installation-servicing-instructions-manual.pdf",
+    "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/ideal/Ideal-Mexico-Super-RS-3-40 -50-60-70-80-Instructions Installation-Service-Manual.pdf": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/ideal/ideal-mexico-super-rs3-50-installation-servicing-instructions-manual.pdf",
+    "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/ideal/Ideal-boxer-c24-c28-ISIM.pdf": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/ideal/ideal-boxer-c24-boxer-c28-imax-w-60-installation-servicing-instructions-manual.pdf",
+    "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/ideal/Ideal-concord-CXD-40-50-60-70-80-90-100-ISIM.pdf": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/ideal/ideal-concord-cxd-40-100-installation-servicing-instructions-manual.pdf",
+    "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/ideal/Ideal-excel-he-c24-c28-c32-ISIM.pdf": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/ideal/ideal-excel-he-24-excel-he-28-excel-he-32-installation-servicing-instructions-manual.pdf",
+    "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/ideal/ideal-isar-he-24-30-35-ISIM.pdf": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/ideal/ideal-isar-he-24-isar-he-30-isar-he-35-installation-servicing-instructions-manual.pdf",
+    "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/main/Main-combi-24-ISIM.pdf": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/main/Main-combi-24-HE-ISIM.pdf",
+    "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/maxol/Maxol-supacombi-he-28-ISIM.pdf": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/maxol/maxol-Maxol_Installation.pdf",
+    "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/potterton/POTTERTON-Kingfisher2-RS40-50B.pdf": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/potterton/Potterton-Kingfisher2-RS40-50B-Installation-Servicing-Instructions-Manual.pdf",
+    "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/potterton/POTTERTON-PROFILE80eGCNo.41-605-43.pdf": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/potterton/potterton-profile-30e-40e-50e-60e-80e-installation-manual.pdf",
+    "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/potterton/potterton-Kingfisher-2-RS60-80-100-Installation-and-Servicing-Instructions7.pdf": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/potterton/Potterton-Kingfisher-2-RS60-RS80-RS100-installation-and-servicing-instructions-manual.pdf",
+    "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/potterton/Potterton-Netaheat-Mk2F-10-16-and-16-22-Installation-Servicing-Manual.pdf": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/potterton/potterton-netaheat-mk-ii-installation-servicing-instructions-manual.pdf",
+    "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/potterton/Potterton-performa-24i-he-ISIM.pdf": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/potterton/potterton-POTTERTONperforma24iHE.pdf",
+    "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/potterton/potterton-ultra-2-30-40-50-60-80-dv-dvp-p-ISIM.pdf": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/potterton/potterton-2-ultra-30-dv-40-50-60-80-dvp-p-installation-servicing-instructions-manual.pdf",
+    "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/potterton/potterton-assure-system-15-18-ISIM.pdf": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/potterton/potterton-Assure_System_Manual_compressed.pdf",
+    "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/potterton/potterton-gold-combi-24-28-33-he-a-ISIM.pdf": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/potterton/potterton-Potterton_Gold_HEA_Install.pdf",
+    "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/potterton/potterton-heatmax-combi-he-installation-servicing-manual.pdf": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/potterton/potterton-heatmax-combi-24-heatmax-combi-28-heatmax-combi-33-installation-servicing-instructions-manual.pdf",
+    "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/potterton/potterton-performa-system-12e-18e-24e-28e-ISIM.pdf": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/potterton/potterton-performa-system-12e-18e-24e-28e.pdf",
+    "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/potterton/potterton-powermax-HE-Installation-service-manual.pdf": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/potterton/potterton-powermax-he-90-installation-servicing-instructions-manual.pdf",
+    "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/saunier-duval/Saunier-Duval-enviroplus-f24e-f28e-f28e-sb-ISIM.pdf": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/saunier-duval/saunier-duval-installation_EnvioPlus.pdf",
+    "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/saunier-duval/Saunier-Duval-semia-condens-f24-f30-e-ISIM.pdf": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/saunier-duval/saunier-duval-semia-condens-f30-e-installation-servicing-instructions-manual.pdf",
+    "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/saunier-duval/Saunier-Duval-themaclassic-f24e-f18e-sb-ISIM.pdf": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/saunier-duval/saunier-duval-installation_ThemaF24e.pdf",
+    "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/saunier-duval/Saunier-Duval-themaclassic-f30e-f30e-sb-f35e-ISIM.pdf": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/saunier-duval/saunier-duval-installation_ThemaF30eSB.pdf",
+    "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/sime/Sime-Ecomfort-25-30-35-HE-System-Combi-ISIM.pdf": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/sime/Sime-Ecomfort-25-HE-Installation-manual-47-283-06.pdf",
+    "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/sime/Sime-murelle-ev-he-25-55-30-55-ISIM.pdf": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/sime/sime-Murelle-EV-HE-25-30.55-Installation-Servicing-Guide.pdf",
+    "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/sime/Sime-murelle-he-25-55-30-55-ISIM.pdf": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/sime/sime-Murelle-HE-25-30.55-Installation-Servicing-Guide.pdf",
+    "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/sime/Sime-planet-super-4-W-M-ISIM.pdf": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/sime/sime-Planet-Super-4-W.M.-Installation.pdf",
+    "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/sime/sime-superior-40-50-60-80-ci-mkII-ISIM.pdf": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/sime/sime-Superior-MKII-Ci-Installation-Servicing-Guide.pdf",
+    "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/vaillant/vaillant-ecotec-plus-6xx-8xx-01-2014-ISIM.pdf": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/vaillant/archive/vaillant-ecotec-installation-and-servicing-manual-261417-01.01.2014.pdf",
+    "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/vaillant/vaillant-ecotec-plus-6xx-8xx-pro-24-28-08-2007-ISIM.pdf": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/vaillant/archive/vaillant-ecotec-installation-servicing-2007-372783.pdf",
+    "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/vaillant/vaillant-ecotec-plus-412-415-418-424-430-435-06-2018-ISIM.pdf": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/vaillant/vaillant-ecoTEC-plus-412.pdf",
+    "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/vaillant/vaillant-thermocompact-615-620-624-628.pdf": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/vaillant/vaillant-turbomax-plus-824-installation-servicing-instructions-manual.pdf",
+    "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/vaillant/vaillant-turbomax242-1e-282-1e.pdf": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/vaillant/vaillant-turbomax242-1e-282-1e-installation-servicing-instructions-manual-01.06.1998.pdf",
+    "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/vokera/Vokera-Compact-A-25-29-ISIM.pdf": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/vokera/vokera-Compact-A-User-and-Installation-manual.pdf",
+    "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/vokera/Vokera-hydra-ISIM.pdf": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/vokera/vokera-hydra_installation_and_servicing_instructions.pdf",
+    "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/vokera/Vokera-mynute-10se-14se-20se-ISIM.pdf": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/vokera/vokera-mynute_10se_14se_20se_installation_and_servicing_instructions.pdf",
+    "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/vokera/Vokera-synergy-25-e-ISIM.pdf": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/vokera/vokera-synergy_e_installation_and_servicing_instructions.pdf",
+    "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/vokera/Vokera-syntesi-25-29-35-ISIM.pdf": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/vokera/vokera-syntesi_installation_and_servicing_instructions.pdf",
+    "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/vokera/Vokera-verve-ISIM.pdf": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/vokera/vokera-verve-installation-servicing-instructions-manual.pdf",
+    "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/vokera/vokera-mynute_28e_35e_installation_and_servicing_instructions.pdf": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/vokera/vokera-mynute-28e-35e-installation-and-servicing-instructions-manual.pdf",
+    "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/warmhaus/Enerwa-and-Enerwa-plus-24-28-33-ISIM.pdf": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/warmhaus/warmhaus-priwa-plus-enerwa-2530-3035-3540-3504-installation-servicing-instructions-manual.pdf",
+    "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/worcester-bosch/Worcester-230-Combi-RSF-Installation-and-Servicing-Instructions.pdf": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/worcester-bosch/worcester-bosch-installation-and-servicing-instructions-for-230--discontinued-dec-1997.pdf",
+    "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/worcester-bosch/worcester-bosch-installation-and-servicing-instructions-for-highflow-400-rsf--manufactured-after-1997.pdf": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/worcester-bosch/Worcester-Bosch-Highflow-400-RSF-Installation-Servicing-Manual.pdf",
+    "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/worcester-bosch/worcester-bosch-installation-and-servicing-instructions-for-greenstar-cdi--part-1-of-2-1.pdf": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/worcester-bosch/Worcester-Greenstar-27CDi-30CDi-37CDi-42CDi-Installation-Servicing-Instructions-Manual.pdf",
+    "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/worcester-bosch/worcester-bosch-24-28-35-CDi-II-RSF-installation-and-servicing-instructions.pdf": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/worcester-bosch/worcester-bosch-Worcester-24-28-35MKII-CDi-Installation-and-Servicing-Instructions-2.pdf",
+    "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/worcester-bosch/worcester-bosch-installation-and-servicing-instructions-for-240-bf--discontinued-dec-1997.pdf": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/worcester-bosch/worcester-bosch-240-BF-combi-installation-and-servicing-instructions-manual.pdf",
+    "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/worcester-bosch/worcester-bosch-installation-and-servicing-instructions-for-240-of--discontinued-dec-1997.pdf": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/worcester-bosch/worcester-bosch-240-combi-OF-installation-servicing-manual-original.pdf",
+    "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/worcester-bosch/worcester-bosch-installation-and-servicing-instructions-for-350-rsf--discontinued-july-1998.pdf": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/worcester-bosch/worcester-bosch-350-combi-installation-servicing-manual.pdf",
+    "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/worcester-bosch/worcester-bosch-british-gas-532-537-542-installation-and-servicing instructions-manual.pdf": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/worcester-bosch/worcester-bosch-british-gas-worcester-532-537-542-installation-servicing-instructions-manual.pdf",
+    "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/zanussi/Zanussi-ultra-combi-30-35-ISIM.pdf": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/zanussi/zanussi-ultra-combi-30-ultra-combi-35-installation-servicing-instructions-manual.pdf",
+    "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/zanussi/Zanussi-ultra-system-15-18-24-30-ISIM.pdf": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/zanussi/zanussi-system.compressed.pdf"
+  }
+}

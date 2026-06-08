@@ -1,0 +1,61 @@
+{
+  "slug": "jaguar",
+  "brandName": "Jaguar",
+  "count": 2,
+  "entries": [
+    {
+      "brand": "Jaguar",
+      "model": "28",
+      "qualifier": "",
+      "gc": "47-047-17",
+      "fuel": "mains gas",
+      "mainType": "combi",
+      "yearFrom": "2000",
+      "yearTo": "current",
+      "label": "Jaguar, 28",
+      "pcdbUrl": "https://www.ncm-pcdb.org.uk/sap/pcdbdetails.jsp?pid=26&id=008765&type=105&mid=000020",
+      "gcDashed": "47-047-17"
+    },
+    {
+      "brand": "Jaguar",
+      "model": "23",
+      "qualifier": "",
+      "gc": "47-047-16",
+      "fuel": "mains gas",
+      "mainType": "combi",
+      "yearFrom": "2000",
+      "yearTo": "current",
+      "label": "Jaguar, 23",
+      "pcdbUrl": "https://www.ncm-pcdb.org.uk/sap/pcdbdetails.jsp?pid=26&id=008768&type=105&mid=000020",
+      "gcDashed": "47-047-16"
+    }
+  ],
+  "byGc": {
+    "47-047-17": {
+      "brand": "Jaguar",
+      "model": "28",
+      "qualifier": "",
+      "gc": "47-047-17",
+      "fuel": "mains gas",
+      "mainType": "combi",
+      "yearFrom": "2000",
+      "yearTo": "current",
+      "label": "Jaguar, 28",
+      "pcdbUrl": "https://www.ncm-pcdb.org.uk/sap/pcdbdetails.jsp?pid=26&id=008765&type=105&mid=000020",
+      "gcDashed": "47-047-17"
+    },
+    "47-047-16": {
+      "brand": "Jaguar",
+      "model": "23",
+      "qualifier": "",
+      "gc": "47-047-16",
+      "fuel": "mains gas",
+      "mainType": "combi",
+      "yearFrom": "2000",
+      "yearTo": "current",
+      "label": "Jaguar, 23",
+      "pcdbUrl": "https://www.ncm-pcdb.org.uk/sap/pcdbdetails.jsp?pid=26&id=008768&type=105&mid=000020",
+      "gcDashed": "47-047-16"
+    }
+  }
+}

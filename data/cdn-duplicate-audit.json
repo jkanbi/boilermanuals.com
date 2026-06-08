@@ -1,0 +1,802 @@
+{
+  "total_pdfs": 1649,
+  "duplicate_groups": [
+    {
+      "brand": "daxom",
+      "size": 7051851,
+      "etag": "5adf62990d647460cf191273533b5085",
+      "files": [
+        "daxom/Daxom-2.pdf",
+        "daxom/daxom-10-12-16-18-20-24-ebt-ebm-ISIM.pdf",
+        "daxom/daxom-ukdax-10-ebt-12-16-18-20-24-6-ebm-installation-servicing-instructions-manual.pdf"
+      ]
+    },
+    {
+      "brand": "daxom",
+      "size": 750373,
+      "etag": "f14a8fc0e4483b701c8c9130ff510cfb",
+      "files": [
+        "daxom/daxom-1.pdf",
+        "daxom/daxom-12-edt-ukdax-16-18-20-24-30-36-40-48-10-edm-ett-etm-72-installation-servicing-instructions-manual.pdf",
+        "daxom/daxom-ukdax-10-12-16-18-20-24-30-36-40-48-72-edt-edm-ett-etm-etp-ISIM.pdf"
+      ]
+    },
+    {
+      "brand": "acv",
+      "size": 551387,
+      "etag": "dc4e831ec5b549b7c34fecc536efb3f0",
+      "files": [
+        "acv/ACV-Delta-Performance-Ventouse-FV-35-50-ISIM.pdf",
+        "acv/acv-DeltaPerformanceVentouseFV.pdf"
+      ]
+    },
+    {
+      "brand": "acv",
+      "size": 1118583,
+      "etag": "60ea25305022bb5c0397c0489d924a32",
+      "files": [
+        "acv/acv-Delta-Performance-Ventouses.pdf",
+        "acv/acv-delta-performance-ventouses-sv-mv-35-50-ISIM.pdf"
+      ]
+    },
+    {
+      "brand": "alpha",
+      "size": 4789522,
+      "etag": "f1cefd345b00530ea13a3f3f42c9841c",
+      "files": [
+        "alpha/Alpha-intec-2-25XE-28XE-ISIM.pdf",
+        "alpha/alpha-intec2-25-28XE-instructions-and-users-04-15-1.pdf"
+      ]
+    },
+    {
+      "brand": "ariston",
+      "size": 11875039,
+      "etag": "541f1801b6f082f6f8c54daa022abb3e",
+      "files": [
+        "ariston/Ariston-clas-net-system-one-ISIM.pdf",
+        "ariston/ariston-clas_net_one.pdf"
+      ]
+    },
+    {
+      "brand": "ariston",
+      "size": 3704769,
+      "etag": "d88151222c5981d9f671f07b57fbd9b6",
+      "files": [
+        "ariston/Ariston-dia-system-27-rffi-ISIM.pdf",
+        "ariston/ariston-DIA_System27.pdf"
+      ]
+    },
+    {
+      "brand": "atmos",
+      "size": 1029163,
+      "etag": "8f433b4ae1f4dbb0e1e91d05069fc629",
+      "files": [
+        "atmos/Atmos-35C-40C-ISIM.pdf",
+        "atmos/atmos-CompactN35.pdf"
+      ]
+    },
+    {
+      "brand": "atmos",
+      "size": 1388867,
+      "etag": "59030006f3b329dfe7dda1018c7b75ed",
+      "files": [
+        "atmos/Atmos-Multi-Mk2-ISIM-021208-Amend-180610.pdf",
+        "atmos/Atmos-Multi-Mk2-Installation-Manual.pdf"
+      ]
+    },
+    {
+      "brand": "atmos",
+      "size": 183201,
+      "etag": "467320a896b16aabc0c302d6160872a6",
+      "files": [
+        "atmos/Atmos-fault-codes.pdf",
+        "atmos/fault-codes/Atmos-fault-codes.pdf"
+      ]
+    },
+    {
+      "brand": "baxi",
+      "size": 8383896,
+      "etag": "030ada2f8ad08ea32255d1ca59a81e0a",
+      "files": [
+        "baxi/Baxi-duo-tec-2-combi-24-28-33-40-ga-ISIM.pdf",
+        "baxi/baxi-duo-tec-2-combi-24-28-33-40-ga-ISIM.pdf"
+      ]
+    },
+    {
+      "brand": "baxi",
+      "size": 3718466,
+      "etag": "183c6db5c0724c0f543e8bfe8ce03361",
+      "files": [
+        "baxi/baxi-solo-he-a-installation-instructions_2.pdf",
+        "baxi/baxi-solo-he-a-installation-service-instructions-manual.pdf"
+      ]
+    },
+    {
+      "brand": "biasi",
+      "size": 8332445,
+      "etag": "9cd006a2b8dac507e996a787b14ac6bd",
+      "files": [
+        "biasi/Biasi-active-a-12-15-20-25-ov-ISIM.pdf",
+        "biasi/biasi-activ-a-120v-150v-200v-250v-user-manual.pdf"
+      ]
+    },
+    {
+      "brand": "biasi",
+      "size": 2920121,
+      "etag": "bbb2ab5878063c13ea710981dc056588",
+      "files": [
+        "biasi/Riva-compact-he-m96-24sm-28sm-32sm-c2-ISIM.pdf",
+        "biasi/biasi-compact-he-m96-24sm-28sm-32sm-c2-installation-servicing-instructions-manual.pdf"
+      ]
+    },
+    {
+      "brand": "chaffoteaux",
+      "size": 1164764,
+      "etag": "3b458b53152591262c11457022b34b08",
+      "files": [
+        "chaffoteaux/Chaffoteaux-Britony-system-40-60-ISIM.pdf",
+        "chaffoteaux/chaffoteaux-Britony_System_Installation___Operating.pdf"
+      ]
+    },
+    {
+      "brand": "chaffoteaux",
+      "size": 1801279,
+      "etag": "2bf2d28d1994533c7b645819590289e1",
+      "files": [
+        "chaffoteaux/Chaffoteaux-britony-combi-se-80-100-ISIM.pdf",
+        "chaffoteaux/chaffoteaux-Britony_Combi_SE_Installation___Operating.pdf"
+      ]
+    },
+    {
+      "brand": "chaffoteaux",
+      "size": 7456500,
+      "etag": "d9cdf8df06d90db10287a1ec9412d3c7",
+      "files": [
+        "chaffoteaux/Chaffoteaux-minima-he-system-24-30-ISIM.pdf",
+        "chaffoteaux/chaffoteaux-Minima_HE_System.pdf"
+      ]
+    },
+    {
+      "brand": "chaffoteaux",
+      "size": 13520360,
+      "etag": "d038a17cd2ab9af31e988c51cf5e61ea",
+      "files": [
+        "chaffoteaux/Chaffoteaux-minima-mx2-24-30-ff-ISIM.pdf",
+        "chaffoteaux/chaffoteaux-Minima_MX2.pdf"
+      ]
+    },
+    {
+      "brand": "drayton",
+      "size": 5856744,
+      "etag": "1b5b0e3aa3b07507d065ca70de47263a",
+      "files": [
+        "drayton/drayton-lp811-IMUG.pdf",
+        "drayton/drayton-lp822-IMUG.pdf"
+      ]
+    },
+    {
+      "brand": "eca",
+      "size": 5757028,
+      "etag": "1636c2862bfdd96ec4cd3f7700b9d38f",
+      "files": [
+        "eca/ECA-proteus-premix-ppr-24-30-35-hm-hst-hch-ISIM.pdf",
+        "eca/eca-proteus-premix-ppr-24-30-35-hm-hch-hst-ISIM.pdf"
+      ]
+    },
+    {
+      "brand": "ehc",
+      "size": 8233092,
+      "etag": "744124ff2f894d1b94812c1b6577f617",
+      "files": [
+        "ehc/Ehc-Comet-Combi-ISIM.pdf",
+        "ehc/ehc-comet-combination-unit-electric-boiler-installation-servicing-instructions-manual.pdf"
+      ]
+    },
+    {
+      "brand": "ehc",
+      "size": 2498365,
+      "etag": "70f00705ac18e42c11693a2e1a2d2799",
+      "files": [
+        "ehc/Ehc-Fusion-Comet-ISIM.pdf",
+        "ehc/ehc-comet-fusion-boiler-electric-boiler-installation-servicing-instructions-manual.pdf"
+      ]
+    },
+    {
+      "brand": "ehc",
+      "size": 1523829,
+      "etag": "8c5d23850c79f1d2ea2e5eb6ce63e260",
+      "files": [
+        "ehc/Ehc-Slim-Jim-ISIM.pdf",
+        "ehc/ehc-SlIM-JIM_f.7067.pdf"
+      ]
+    },
+    {
+      "brand": "elnur",
+      "size": 1153732,
+      "etag": "138e21bcf7d5f05950ecc023d99e9811",
+      "files": [
+        "elnur/Elnur-mattira-mac15c-ISIM.pdf",
+        "elnur/elnur-R1-MATTIRA-MAC-C-Installation-Guide.pdf"
+      ]
+    },
+    {
+      "brand": "elnur",
+      "size": 796942,
+      "etag": "cb26164bd005db7852dbb83e1b73d47f",
+      "files": [
+        "elnur/Elnur-mattira-mas15-mas18-ISIM.pdf.pdf",
+        "elnur/elnur-R5-MATTIRA-MAS-Installation-Guide.pdf"
+      ]
+    },
+    {
+      "brand": "ferroli",
+      "size": 3247274,
+      "etag": "86ec1616f179e1182414bc1e7603754d",
+      "files": [
+        "ferroli/Ferroli-arena-30-a-ISIM.pdf",
+        "ferroli/ferroli-Arena_30_A_Manual.pdf"
+      ]
+    },
+    {
+      "brand": "ferroli",
+      "size": 3310670,
+      "etag": "20ce3e84f43cf002e5a8ba1adccf2885",
+      "files": [
+        "ferroli/Ferroli-arena-30-c-ISIM.pdf",
+        "ferroli/ferroli-Arena_30_C_Manual.pdf"
+      ]
+    },
+    {
+      "brand": "ferroli",
+      "size": 3734599,
+      "etag": "5e6dbfcc0d060bb52bb0dd34483dbd76",
+      "files": [
+        "ferroli/Ferroli-domicompact-f-24-d-ISIM.pdf",
+        "ferroli/ferroli-DOMIcompact_F24D_Manual.pdf"
+      ]
+    },
+    {
+      "brand": "ferroli",
+      "size": 920847,
+      "etag": "2027797e229150f07c3caa6adce77838",
+      "files": [
+        "ferroli/Ferroli-domicondens-F-24-28-ISIM.pdf",
+        "ferroli/ferroli-Domicondens-f24-f28-3540s921.pdf"
+      ]
+    },
+    {
+      "brand": "ferroli",
+      "size": 1839015,
+      "etag": "eefe7e2fad67c2655ecd10dbf52ca4bb",
+      "files": [
+        "ferroli/Ferroli-domicondens-he-26-c-ISIM.pdf",
+        "ferroli/ferroli-DOMIcondens-HE-26c-Manual.pdf"
+      ]
+    },
+    {
+      "brand": "ferroli",
+      "size": 3531072,
+      "etag": "4a4591a30e2f42a5ee41916e42849d43",
+      "files": [
+        "ferroli/Ferroli-f-30-b-ISIM.pdf",
+        "ferroli/ferroli-f30b-installation-servicing-instructions-manual.pdf"
+      ]
+    },
+    {
+      "brand": "geminox",
+      "size": 5147159,
+      "etag": "dff1207e2ad7b4b93457e41c7ea87390",
+      "files": [
+        "geminox/Geminox-microstar-mz-20-22-c-ISIM.pdf",
+        "geminox/geminox-microstar-mz-22c-installation-servicing-instructions-manual.pdf"
+      ]
+    },
+    {
+      "brand": "glowworm",
+      "size": 754606,
+      "etag": "e38bf14e2a549a2b14acf74a43b94a02",
+      "files": [
+        "glowworm/Glow-worm-EnergySaver-60-ISIM.pdf",
+        "glowworm/Glow-worm-energysaver-60-ISIM.pdf"
+      ]
+    },
+    {
+      "brand": "halstead",
+      "size": 5431641,
+      "etag": "20dec3934c215ac0949e58dded3ed87a",
+      "files": [
+        "halstead/Halstead-Eden-X-Type-CX-24-32-38-SBX-30-Installation-Servicing-Instructions-Manual.pdf",
+        "halstead/halstead-EdenCBX-SBX_Installation.pdf"
+      ]
+    },
+    {
+      "brand": "heatline",
+      "size": 3087918,
+      "etag": "d83ec2b4b0d535c99ca8f0d1ab665ab0",
+      "files": [
+        "heatline/Heatline-sargon-24-30-35-ISIM.pdf",
+        "heatline/heatline-Sargon-24manual.pdf"
+      ]
+    },
+    {
+      "brand": "ideal",
+      "size": 2225020,
+      "etag": "786757134a35ff5c2679379893731dae",
+      "files": [
+        "ideal/Ideal-Classic-NF-50-60-80-P.pdf",
+        "ideal/ideal-classic-nf-50-p-classic-nf-60-p-classic-nf-80-p-installation-servicing-instructions-manual.pdf"
+      ]
+    },
+    {
+      "brand": "ideal",
+      "size": 2769757,
+      "etag": "1abe1b7f89170bc2b245bd763c2a45b9",
+      "files": [
+        "ideal/Ideal-Mexico-Super-RS-3-40 -50-60-70-80-Instructions Installation-Service-Manual.pdf",
+        "ideal/ideal-mexico-super-rs3-50-installation-servicing-instructions-manual.pdf"
+      ]
+    },
+    {
+      "brand": "ideal",
+      "size": 2447805,
+      "etag": "d8c72c721f80a3e3fa9a2402864bfb9a",
+      "files": [
+        "ideal/Ideal-boxer-c24-c28-ISIM.pdf",
+        "ideal/ideal-boxer-c24-boxer-c28-imax-w-60-installation-servicing-instructions-manual.pdf"
+      ]
+    },
+    {
+      "brand": "ideal",
+      "size": 2238346,
+      "etag": "c0f758cdcd0d4f31c0683cafe9f56c83",
+      "files": [
+        "ideal/Ideal-concord-CXD-40-50-60-70-80-90-100-ISIM.pdf",
+        "ideal/ideal-concord-cxd-40-100-installation-servicing-instructions-manual.pdf"
+      ]
+    },
+    {
+      "brand": "ideal",
+      "size": 7850038,
+      "etag": "89ba9e863b0b19b05f38365fb3ad8ad3",
+      "files": [
+        "ideal/Ideal-excel-he-c24-c28-c32-ISIM.pdf",
+        "ideal/ideal-excel-he-24-excel-he-28-excel-he-32-installation-servicing-instructions-manual.pdf"
+      ]
+    },
+    {
+      "brand": "ideal",
+      "size": 5100365,
+      "etag": "72598c8d990a5f89f4a0bc8b71679dca",
+      "files": [
+        "ideal/ideal-isar-he-24-30-35-ISIM.pdf",
+        "ideal/ideal-isar-he-24-isar-he-30-isar-he-35-installation-servicing-instructions-manual.pdf"
+      ]
+    },
+    {
+      "brand": "main",
+      "size": 6856617,
+      "etag": "7c0c0345823f2fdb68ad6a2274d828fc",
+      "files": [
+        "main/Main-combi-24-HE-ISIM.pdf",
+        "main/Main-combi-24-ISIM.pdf"
+      ]
+    },
+    {
+      "brand": "maxol",
+      "size": 3975260,
+      "etag": "566b1afd38ae4c2060fd01e43e9284ae",
+      "files": [
+        "maxol/Maxol-supacombi-he-28-ISIM.pdf",
+        "maxol/maxol-Maxol_Installation.pdf"
+      ]
+    },
+    {
+      "brand": "potterton",
+      "size": 1699129,
+      "etag": "6d376f00d7faaa869e8df2774b7446ce",
+      "files": [
+        "potterton/POTTERTON-Kingfisher2-RS40-50B.pdf",
+        "potterton/Potterton-Kingfisher2-RS40-50B-Installation-Servicing-Instructions-Manual.pdf"
+      ]
+    },
+    {
+      "brand": "potterton",
+      "size": 727670,
+      "etag": "a0c71538c1f02a8952efed0a872d7f24",
+      "files": [
+        "potterton/POTTERTON-PROFILE80eGCNo.41-605-43.pdf",
+        "potterton/potterton-profile-30e-40e-50e-60e-80e-installation-manual.pdf"
+      ]
+    },
+    {
+      "brand": "potterton",
+      "size": 864009,
+      "etag": "c8689280b673d92354e86b4166ca36e8",
+      "files": [
+        "potterton/Potterton-Kingfisher-2-RS60-RS80-RS100-installation-and-servicing-instructions-manual.pdf",
+        "potterton/potterton-Kingfisher-2-RS60-80-100-Installation-and-Servicing-Instructions7.pdf"
+      ]
+    },
+    {
+      "brand": "potterton",
+      "size": 7575495,
+      "etag": "2b4564bc855fc99ae910561203ff3a1e",
+      "files": [
+        "potterton/Potterton-Netaheat-Mk2F-10-16-and-16-22-Installation-Servicing-Manual.pdf",
+        "potterton/potterton-netaheat-mk-ii-installation-servicing-instructions-manual.pdf"
+      ]
+    },
+    {
+      "brand": "potterton",
+      "size": 4131939,
+      "etag": "d8c774e2bf193b4b541605315c6eb5f2",
+      "files": [
+        "potterton/Potterton-performa-24i-he-ISIM.pdf",
+        "potterton/potterton-POTTERTONperforma24iHE.pdf"
+      ]
+    },
+    {
+      "brand": "potterton",
+      "size": 2585830,
+      "etag": "389df653441e3766b895b0ca1e340cac",
+      "files": [
+        "potterton/potterton-2-ultra-30-dv-40-50-60-80-dvp-p-installation-servicing-instructions-manual.pdf",
+        "potterton/potterton-ultra-2-30-40-50-60-80-dv-dvp-p-ISIM.pdf"
+      ]
+    },
+    {
+      "brand": "potterton",
+      "size": 4281228,
+      "etag": "b3b99f130e62221515aa7cf60a3a30b7",
+      "files": [
+        "potterton/potterton-Assure_System_Manual_compressed.pdf",
+        "potterton/potterton-assure-system-15-18-ISIM.pdf"
+      ]
+    },
+    {
+      "brand": "potterton",
+      "size": 8368861,
+      "etag": "40b483cf0224230d075f40bd81ffa715",
+      "files": [
+        "potterton/potterton-Potterton_Gold_HEA_Install.pdf",
+        "potterton/potterton-gold-combi-24-28-33-he-a-ISIM.pdf"
+      ]
+    },
+    {
+      "brand": "potterton",
+      "size": 7660384,
+      "etag": "0360d760db1d483629d2471b07663ba2",
+      "files": [
+        "potterton/potterton-heatmax-combi-24-heatmax-combi-28-heatmax-combi-33-installation-servicing-instructions-manual.pdf",
+        "potterton/potterton-heatmax-combi-he-installation-servicing-manual.pdf"
+      ]
+    },
+    {
+      "brand": "potterton",
+      "size": 3665454,
+      "etag": "64416c580eb03e5a9fe618fb1c905c23",
+      "files": [
+        "potterton/potterton-performa-system-12e-18e-24e-28e-ISIM.pdf",
+        "potterton/potterton-performa-system-12e-18e-24e-28e.pdf"
+      ]
+    },
+    {
+      "brand": "potterton",
+      "size": 2153103,
+      "etag": "af8af3098938e54cb163d29a0dfe76fb",
+      "files": [
+        "potterton/potterton-powermax-HE-Installation-service-manual.pdf",
+        "potterton/potterton-powermax-he-90-installation-servicing-instructions-manual.pdf"
+      ]
+    },
+    {
+      "brand": "saunier-duval",
+      "size": 3795395,
+      "etag": "be52d9960dedd731e0b8be609df9d550",
+      "files": [
+        "saunier-duval/Saunier-Duval-enviroplus-f24e-f28e-f28e-sb-ISIM.pdf",
+        "saunier-duval/saunier-duval-installation_EnvioPlus.pdf"
+      ]
+    },
+    {
+      "brand": "saunier-duval",
+      "size": 4336116,
+      "etag": "1e3f946af6a6b1bd213c36e3f6989d9b",
+      "files": [
+        "saunier-duval/Saunier-Duval-semia-condens-f24-f30-e-ISIM.pdf",
+        "saunier-duval/saunier-duval-semia-condens-f30-e-installation-servicing-instructions-manual.pdf"
+      ]
+    },
+    {
+      "brand": "saunier-duval",
+      "size": 1068275,
+      "etag": "b14f26fd86112ce6e83f5df84c2ee903",
+      "files": [
+        "saunier-duval/Saunier-Duval-themaclassic-f24e-f18e-sb-ISIM.pdf",
+        "saunier-duval/saunier-duval-installation_ThemaF24e.pdf"
+      ]
+    },
+    {
+      "brand": "saunier-duval",
+      "size": 1177050,
+      "etag": "6a255e8394622830827d81520b5a9d8b",
+      "files": [
+        "saunier-duval/Saunier-Duval-themaclassic-f30e-f30e-sb-f35e-ISIM.pdf",
+        "saunier-duval/saunier-duval-installation_ThemaF30eSB.pdf"
+      ]
+    },
+    {
+      "brand": "sime",
+      "size": 3653316,
+      "etag": "8a060fc1d538c8e19867db8ca8b5790f",
+      "files": [
+        "sime/Sime-Ecomfort-25-30-35-HE-System-Combi-ISIM.pdf",
+        "sime/Sime-Ecomfort-25-HE-Installation-manual-47-283-06.pdf"
+      ]
+    },
+    {
+      "brand": "sime",
+      "size": 3429087,
+      "etag": "7fd54bebc426e3ba2743a923c49c8701",
+      "files": [
+        "sime/Sime-murelle-ev-he-25-55-30-55-ISIM.pdf",
+        "sime/sime-Murelle-EV-HE-25-30.55-Installation-Servicing-Guide.pdf"
+      ]
+    },
+    {
+      "brand": "sime",
+      "size": 3092530,
+      "etag": "160a0e6c6079159ca860ba265da76a16",
+      "files": [
+        "sime/Sime-murelle-he-25-55-30-55-ISIM.pdf",
+        "sime/sime-Murelle-HE-25-30.55-Installation-Servicing-Guide.pdf"
+      ]
+    },
+    {
+      "brand": "sime",
+      "size": 1345403,
+      "etag": "8d5b2d5bc0b68ce11b57851050a14ab8",
+      "files": [
+        "sime/Sime-planet-super-4-W-M-ISIM.pdf",
+        "sime/sime-Planet-Super-4-W.M.-Installation.pdf"
+      ]
+    },
+    {
+      "brand": "sime",
+      "size": 1607005,
+      "etag": "559aadb06304c8c9555dc2f5178eb7de",
+      "files": [
+        "sime/sime-Superior-MKII-Ci-Installation-Servicing-Guide.pdf",
+        "sime/sime-superior-40-50-60-80-ci-mkII-ISIM.pdf"
+      ]
+    },
+    {
+      "brand": "vaillant",
+      "size": 15770820,
+      "etag": "250613b893c0881787677eb62f1200f7",
+      "files": [
+        "vaillant/archive/vaillant-ecotec-installation-and-servicing-manual-261417-01.01.2014.pdf",
+        "vaillant/vaillant-ecotec-plus-6xx-8xx-01-2014-ISIM.pdf"
+      ]
+    },
+    {
+      "brand": "vaillant",
+      "size": 8611849,
+      "etag": "f6eb6537a504703add9a72ed22195417",
+      "files": [
+        "vaillant/archive/vaillant-ecotec-installation-servicing-2007-372783.pdf",
+        "vaillant/vaillant-ecotec-plus-6xx-8xx-pro-24-28-08-2007-ISIM.pdf"
+      ]
+    },
+    {
+      "brand": "vaillant",
+      "size": 7036563,
+      "etag": "118489bf14fdc3dd575df8eb7f187e78",
+      "files": [
+        "vaillant/vaillant-ecoTEC-plus-412.pdf",
+        "vaillant/vaillant-ecotec-plus-412-415-418-424-430-435-06-2018-ISIM.pdf"
+      ]
+    },
+    {
+      "brand": "vaillant",
+      "size": 2138955,
+      "etag": "cf33c5b74d3cada439449c210d57dabb",
+      "files": [
+        "vaillant/vaillant-thermocompact-615-620-624-628.pdf",
+        "vaillant/vaillant-turbomax-plus-824-installation-servicing-instructions-manual.pdf"
+      ]
+    },
+    {
+      "brand": "vaillant",
+      "size": 2055624,
+      "etag": "94552e7add004d0957271f74e62bd710",
+      "files": [
+        "vaillant/vaillant-turbomax242-1e-282-1e-installation-servicing-instructions-manual-01.06.1998.pdf",
+        "vaillant/vaillant-turbomax242-1e-282-1e.pdf"
+      ]
+    },
+    {
+      "brand": "vokera",
+      "size": 7464402,
+      "etag": "851875ca7f0015d284159e0747ca92d0",
+      "files": [
+        "vokera/Vokera-Compact-A-25-29-ISIM.pdf",
+        "vokera/vokera-Compact-A-User-and-Installation-manual.pdf"
+      ]
+    },
+    {
+      "brand": "vokera",
+      "size": 3611685,
+      "etag": "bb31cbe39f48a3cd0bc7f68c9813f7f1",
+      "files": [
+        "vokera/Vokera-hydra-ISIM.pdf",
+        "vokera/vokera-hydra_installation_and_servicing_instructions.pdf"
+      ]
+    },
+    {
+      "brand": "vokera",
+      "size": 2594143,
+      "etag": "abfddfe98dc771f13192b10f1e4015e7",
+      "files": [
+        "vokera/Vokera-mynute-10se-14se-20se-ISIM.pdf",
+        "vokera/vokera-mynute_10se_14se_20se_installation_and_servicing_instructions.pdf"
+      ]
+    },
+    {
+      "brand": "vokera",
+      "size": 6414748,
+      "etag": "b818529d78837ad336e12e43887b82bf",
+      "files": [
+        "vokera/Vokera-synergy-25-e-ISIM.pdf",
+        "vokera/vokera-synergy_e_installation_and_servicing_instructions.pdf"
+      ]
+    },
+    {
+      "brand": "vokera",
+      "size": 6038632,
+      "etag": "cdb19237ebc1c41e36e7762357c5582e",
+      "files": [
+        "vokera/Vokera-syntesi-25-29-35-ISIM.pdf",
+        "vokera/vokera-syntesi_installation_and_servicing_instructions.pdf"
+      ]
+    },
+    {
+      "brand": "vokera",
+      "size": 7418110,
+      "etag": "aebefe630c420f6974bc76aba77c3679",
+      "files": [
+        "vokera/Vokera-verve-ISIM.pdf",
+        "vokera/vokera-verve-installation-servicing-instructions-manual.pdf"
+      ]
+    },
+    {
+      "brand": "vokera",
+      "size": 2009067,
+      "etag": "1e7babb447131af34ca31e52d1e3d19c",
+      "files": [
+        "vokera/vokera-mynute-28e-35e-installation-and-servicing-instructions-manual.pdf",
+        "vokera/vokera-mynute_28e_35e_installation_and_servicing_instructions.pdf"
+      ]
+    },
+    {
+      "brand": "warmhaus",
+      "size": 7723184,
+      "etag": "203cf4968ea30bb6d7380bd3088804d9",
+      "files": [
+        "warmhaus/Enerwa-and-Enerwa-plus-24-28-33-ISIM.pdf",
+        "warmhaus/warmhaus-priwa-plus-enerwa-2530-3035-3540-3504-installation-servicing-instructions-manual.pdf"
+      ]
+    },
+    {
+      "brand": "worcester-bosch",
+      "size": 1391337,
+      "etag": "00a9e0b84a46ca6c4a2ddf81c9d6c947",
+      "files": [
+        "worcester-bosch/Worcester-230-Combi-RSF-Installation-and-Servicing-Instructions.pdf",
+        "worcester-bosch/worcester-bosch-installation-and-servicing-instructions-for-230--discontinued-dec-1997.pdf"
+      ]
+    },
+    {
+      "brand": "worcester-bosch",
+      "size": 1031356,
+      "etag": "d308657468a5af5cece624f23041d18b",
+      "files": [
+        "worcester-bosch/Worcester-Bosch-Highflow-400-RSF-Installation-Servicing-Manual.pdf",
+        "worcester-bosch/worcester-bosch-installation-and-servicing-instructions-for-highflow-400-rsf--manufactured-after-1997.pdf"
+      ]
+    },
+    {
+      "brand": "worcester-bosch",
+      "size": 4723515,
+      "etag": "49f07ac43c7f1f8fdd7a5fb4722154a4",
+      "files": [
+        "worcester-bosch/Worcester-Greenstar-27CDi-30CDi-37CDi-42CDi-Installation-Servicing-Instructions-Manual.pdf",
+        "worcester-bosch/worcester-bosch-installation-and-servicing-instructions-for-greenstar-cdi--part-1-of-2-1.pdf"
+      ]
+    },
+    {
+      "brand": "worcester-bosch",
+      "size": 1253350,
+      "etag": "5318c4a424a57835270993cdb2a9e455",
+      "files": [
+        "worcester-bosch/worcester-bosch-24-28-35-CDi-II-RSF-installation-and-servicing-instructions.pdf",
+        "worcester-bosch/worcester-bosch-Worcester-24-28-35MKII-CDi-Installation-and-Servicing-Instructions-2.pdf"
+      ]
+    },
+    {
+      "brand": "worcester-bosch",
+      "size": 1428666,
+      "etag": "9c6e129df68bd4c1bc421dab0bc59b52",
+      "files": [
+        "worcester-bosch/worcester-bosch-240-BF-combi-installation-and-servicing-instructions-manual.pdf",
+        "worcester-bosch/worcester-bosch-installation-and-servicing-instructions-for-240-bf--discontinued-dec-1997.pdf"
+      ]
+    },
+    {
+      "brand": "worcester-bosch",
+      "size": 1384354,
+      "etag": "187906bb304b473d4227d48f992eee18",
+      "files": [
+        "worcester-bosch/worcester-bosch-240-combi-OF-installation-servicing-manual-original.pdf",
+        "worcester-bosch/worcester-bosch-installation-and-servicing-instructions-for-240-of--discontinued-dec-1997.pdf"
+      ]
+    },
+    {
+      "brand": "worcester-bosch",
+      "size": 3916106,
+      "etag": "7b99c3e3fd99d3b602e41c3b161e95a5",
+      "files": [
+        "worcester-bosch/worcester-bosch-350-combi-installation-servicing-manual.pdf",
+        "worcester-bosch/worcester-bosch-installation-and-servicing-instructions-for-350-rsf--discontinued-july-1998.pdf"
+      ]
+    },
+    {
+      "brand": "worcester-bosch",
+      "size": 2095094,
+      "etag": "f5d23e392835bc9fb8312fb1470592ec",
+      "files": [
+        "worcester-bosch/worcester-bosch-british-gas-532-537-542-installation-and-servicing instructions-manual.pdf",
+        "worcester-bosch/worcester-bosch-british-gas-worcester-532-537-542-installation-servicing-instructions-manual.pdf"
+      ]
+    },
+    {
+      "brand": "zanussi",
+      "size": 8090798,
+      "etag": "6410b4560bef7bd5a9c8834c178604b4",
+      "files": [
+        "zanussi/Zanussi-ultra-combi-30-35-ISIM.pdf",
+        "zanussi/zanussi-ultra-combi-30-ultra-combi-35-installation-servicing-instructions-manual.pdf"
+      ]
+    },
+    {
+      "brand": "zanussi",
+      "size": 7347477,
+      "etag": "24c2a6e6e0afea984503b8771f94db02",
+      "files": [
+        "zanussi/Zanussi-ultra-system-15-18-24-30-ISIM.pdf",
+        "zanussi/zanussi-system.compressed.pdf"
+      ]
+    }
+  ],
+  "rename_pairs_on_cdn": [
+    {
+      "old": "daxom/Daxom-2.pdf",
+      "new": "daxom/daxom-ukdax-10-ebt-12-16-18-20-24-6-ebm-installation-servicing-instructions-manual.pdf",
+      "identical": true,
+      "old_size": 7051851,
+      "new_size": 7051851,
+      "old_etag": "5adf62990d647460cf191273533b5085",
+      "new_etag": "5adf62990d647460cf191273533b5085"
+    },
+    {
+      "old": "daxom/daxom-1.pdf",
+      "new": "daxom/daxom-12-edt-ukdax-16-18-20-24-30-36-40-48-10-edm-ett-etm-72-installation-servicing-instructions-manual.pdf",
+      "identical": true,
+      "old_size": 750373,
+      "new_size": 750373,
+      "old_etag": "f14a8fc0e4483b701c8c9130ff510cfb",
+      "new_etag": "f14a8fc0e4483b701c8c9130ff510cfb"
+    }
+  ],
+  "wasted_bytes": 356597665
+}

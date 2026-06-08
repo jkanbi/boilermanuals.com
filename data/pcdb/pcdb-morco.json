@@ -1,0 +1,113 @@
+{
+  "slug": "morco",
+  "brandName": "Morco",
+  "count": 4,
+  "entries": [
+    {
+      "brand": "Morco",
+      "model": "IV",
+      "qualifier": "GB24 PROPANE",
+      "gc": "236485",
+      "fuel": "bulk LPG",
+      "mainType": "combi",
+      "yearFrom": "2023",
+      "yearTo": "current",
+      "label": "Morco, IV, GB24 PROPANE",
+      "pcdbUrl": "https://www.ncm-pcdb.org.uk/sap/pcdbdetails.jsp?pid=26&id=019111&type=105&mid=020099",
+      "gcDashed": "236485"
+    },
+    {
+      "brand": "Morco",
+      "model": "IV",
+      "qualifier": "GB30 PROPANE",
+      "gc": "236486",
+      "fuel": "bulk LPG",
+      "mainType": "combi",
+      "yearFrom": "2023",
+      "yearTo": "current",
+      "label": "Morco, IV, GB30 PROPANE",
+      "pcdbUrl": "https://www.ncm-pcdb.org.uk/sap/pcdbdetails.jsp?pid=26&id=019112&type=105&mid=020099",
+      "gcDashed": "236486"
+    },
+    {
+      "brand": "Morco",
+      "model": "IV",
+      "qualifier": "GB24 NG",
+      "gc": "236487",
+      "fuel": "mains gas",
+      "mainType": "combi",
+      "yearFrom": "2023",
+      "yearTo": "current",
+      "label": "Morco, IV, GB24 NG",
+      "pcdbUrl": "https://www.ncm-pcdb.org.uk/sap/pcdbdetails.jsp?pid=26&id=019113&type=105&mid=020099",
+      "gcDashed": "236487"
+    },
+    {
+      "brand": "Morco",
+      "model": "IV",
+      "qualifier": "GB30 NG",
+      "gc": "236488",
+      "fuel": "mains gas",
+      "mainType": "combi",
+      "yearFrom": "2023",
+      "yearTo": "current",
+      "label": "Morco, IV, GB30 NG",
+      "pcdbUrl": "https://www.ncm-pcdb.org.uk/sap/pcdbdetails.jsp?pid=26&id=019114&type=105&mid=020099",
+      "gcDashed": "236488"
+    }
+  ],
+  "byGc": {
+    "236485": {
+      "brand": "Morco",
+      "model": "IV",
+      "qualifier": "GB24 PROPANE",
+      "gc": "236485",
+      "fuel": "bulk LPG",
+      "mainType": "combi",
+      "yearFrom": "2023",
+      "yearTo": "current",
+      "label": "Morco, IV, GB24 PROPANE",
+      "pcdbUrl": "https://www.ncm-pcdb.org.uk/sap/pcdbdetails.jsp?pid=26&id=019111&type=105&mid=020099",
+      "gcDashed": "236485"
+    },
+    "236486": {
+      "brand": "Morco",
+      "model": "IV",
+      "qualifier": "GB30 PROPANE",
+      "gc": "236486",
+      "fuel": "bulk LPG",
+      "mainType": "combi",
+      "yearFrom": "2023",
+      "yearTo": "current",
+      "label": "Morco, IV, GB30 PROPANE",
+      "pcdbUrl": "https://www.ncm-pcdb.org.uk/sap/pcdbdetails.jsp?pid=26&id=019112&type=105&mid=020099",
+      "gcDashed": "236486"
+    },
+    "236487": {
+      "brand": "Morco",
+      "model": "IV",
+      "qualifier": "GB24 NG",
+      "gc": "236487",
+      "fuel": "mains gas",
+      "mainType": "combi",
+      "yearFrom": "2023",
+      "yearTo": "current",
+      "label": "Morco, IV, GB24 NG",
+      "pcdbUrl": "https://www.ncm-pcdb.org.uk/sap/pcdbdetails.jsp?pid=26&id=019113&type=105&mid=020099",
+      "gcDashed": "236487"
+    },
+    "236488": {
+      "brand": "Morco",
+      "model": "IV",
+      "qualifier": "GB30 NG",
+      "gc": "236488",
+      "fuel": "mains gas",
+      "mainType": "combi",
+      "yearFrom": "2023",
+      "yearTo": "current",
+      "label": "Morco, IV, GB30 NG",
+      "pcdbUrl": "https://www.ncm-pcdb.org.uk/sap/pcdbdetails.jsp?pid=26&id=019114&type=105&mid=020099",
+      "gcDashed": "236488"
+    }
+  }
+}

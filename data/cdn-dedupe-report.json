@@ -1,0 +1,183 @@
+{
+  "duplicateFiles": 25,
+  "bytesSaved": 43740158,
+  "htmlFilesUpdated": 10,
+  "htmlLinksRewritten": 32,
+  "groups": [
+    {
+      "duplicate": "upload-to-CDN/alpha/alpha-FlowSmart20Inst2020Serv20Inst2017-6-08_2.pdf",
+      "canonical": "upload-to-CDN/alpha/alpha-FlowSmart20Inst2020Serv20Inst2017-6-08.pdf",
+      "size": 114525,
+      "cdnDuplicate": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/alpha/alpha-FlowSmart20Inst2020Serv20Inst2017-6-08_2.pdf",
+      "cdnCanonical": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/alpha/alpha-FlowSmart20Inst2020Serv20Inst2017-6-08.pdf"
+    },
+    {
+      "duplicate": "upload-to-CDN/british-gas/british-gas-200548-inst.pdf",
+      "canonical": "upload-to-CDN/ideal/ideal-200548_inst.pdf",
+      "size": 2135560,
+      "cdnDuplicate": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/british-gas/british-gas-200548-inst.pdf",
+      "cdnCanonical": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/ideal/ideal-200548_inst.pdf"
+    },
+    {
+      "duplicate": "upload-to-CDN/ferroli/ferroli-option_installation_and_servicing_instructions.pdf",
+      "canonical": "upload-to-CDN/vokera/vokera-option-installation-and-servicing-instructions.pdf",
+      "size": 2986253,
+      "cdnDuplicate": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/ferroli/ferroli-option_installation_and_servicing_instructions.pdf",
+      "cdnCanonical": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/vokera/vokera-option-installation-and-servicing-instructions.pdf"
+    },
+    {
+      "duplicate": "upload-to-CDN/fondital/fondital-3150_IST_MINORCA_CONDENSING_EN.pdf",
+      "canonical": "upload-to-CDN/fondital/fondital-3026_IST_MINORCA_CONDENSING_EN.pdf",
+      "size": 5296872,
+      "cdnDuplicate": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/fondital/fondital-3150_IST_MINORCA_CONDENSING_EN.pdf",
+      "cdnCanonical": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/fondital/fondital-3026_IST_MINORCA_CONDENSING_EN.pdf"
+    },
+    {
+      "duplicate": "upload-to-CDN/fondital/fondital-439_IST_ANTEA_BITERMICA_ERP_EN.pdf",
+      "canonical": "upload-to-CDN/fondital/fondital-242-IST-ANTEA-BITERMICA-ERP-EN.pdf",
+      "size": 6121743,
+      "cdnDuplicate": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/fondital/fondital-439_IST_ANTEA_BITERMICA_ERP_EN.pdf",
+      "cdnCanonical": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/fondital/fondital-242-IST-ANTEA-BITERMICA-ERP-EN.pdf"
+    },
+    {
+      "duplicate": "upload-to-CDN/glow-worm/glow-worm-Icon-23-T-28-T-Inst.-Serv.pdf",
+      "canonical": "upload-to-CDN/hermann/hermann-Icon-23-T-28-T-Inst.-Serv.pdf",
+      "size": 2628055,
+      "cdnDuplicate": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/glow-worm/glow-worm-Icon-23-T-28-T-Inst.-Serv.pdf",
+      "cdnCanonical": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/hermann/hermann-Icon-23-T-28-T-Inst.-Serv.pdf"
+    },
+    {
+      "duplicate": "upload-to-CDN/laars/laars-187B-NH.pdf",
+      "canonical": "upload-to-CDN/laars/laars-4.pdf",
+      "size": 2337886,
+      "cdnDuplicate": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/laars/laars-187B-NH.pdf",
+      "cdnCanonical": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/laars/laars-4.pdf"
+    },
+    {
+      "duplicate": "upload-to-CDN/laars/laars-29.pdf",
+      "canonical": "upload-to-CDN/laars/laars-2.pdf",
+      "size": 2438093,
+      "cdnDuplicate": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/laars/laars-29.pdf",
+      "cdnCanonical": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/laars/laars-2.pdf"
+    },
+    {
+      "duplicate": "upload-to-CDN/laars/laars-30.pdf",
+      "canonical": "upload-to-CDN/laars/laars-3.pdf",
+      "size": 583990,
+      "cdnDuplicate": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/laars/laars-30.pdf",
+      "cdnCanonical": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/laars/laars-3.pdf"
+    },
+    {
+      "duplicate": "upload-to-CDN/maxol/maxol-751156-Maxol-Supacombi-Installation-Instructions.pdf",
+      "canonical": "upload-to-CDN/maxol/maxol-Maxol_Installation.pdf",
+      "size": 3975260,
+      "cdnDuplicate": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/maxol/maxol-751156-Maxol-Supacombi-Installation-Instructions.pdf",
+      "cdnCanonical": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/maxol/maxol-Maxol_Installation.pdf"
+    },
+    {
+      "duplicate": "upload-to-CDN/potterton/POTTERTON-PRIMAGCNo.41-605-73.pdf",
+      "canonical": "upload-to-CDN/potterton/POTTERTON-72.pdf",
+      "size": 603620,
+      "cdnDuplicate": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/potterton/POTTERTON-PRIMAGCNo.41-605-73.pdf",
+      "cdnCanonical": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/potterton/POTTERTON-72.pdf"
+    },
+    {
+      "duplicate": "upload-to-CDN/potterton/POTTERTON-PROFILE-30eGCNo.41-605-39.pdf",
+      "canonical": "upload-to-CDN/potterton/POTTERTON-PROFILE80eGCNo.41-605-43.pdf",
+      "size": 727670,
+      "cdnDuplicate": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/potterton/POTTERTON-PROFILE-30eGCNo.41-605-39.pdf",
+      "cdnCanonical": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/potterton/POTTERTON-PROFILE80eGCNo.41-605-43.pdf"
+    },
+    {
+      "duplicate": "upload-to-CDN/potterton/POTTERTON-PROFILE-40eGCNo.41-605-40.pdf",
+      "canonical": "upload-to-CDN/potterton/POTTERTON-PROFILE80eGCNo.41-605-43.pdf",
+      "size": 727670,
+      "cdnDuplicate": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/potterton/POTTERTON-PROFILE-40eGCNo.41-605-40.pdf",
+      "cdnCanonical": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/potterton/POTTERTON-PROFILE80eGCNo.41-605-43.pdf"
+    },
+    {
+      "duplicate": "upload-to-CDN/potterton/POTTERTON-PROFILEPRIMA100eGCNo.41-605-75.pdf",
+      "canonical": "upload-to-CDN/potterton/POTTERTON-72.pdf",
+      "size": 603620,
+      "cdnDuplicate": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/potterton/POTTERTON-PROFILEPRIMA100eGCNo.41-605-75.pdf",
+      "cdnCanonical": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/potterton/POTTERTON-72.pdf"
+    },
+    {
+      "duplicate": "upload-to-CDN/potterton/POTTERTON-PUMASAVERGCNo.47-393-01.pdf",
+      "canonical": "upload-to-CDN/potterton/POTTERTON-PUMA80GCNo.47-590-10.pdf",
+      "size": 1687532,
+      "cdnDuplicate": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/potterton/POTTERTON-PUMASAVERGCNo.47-393-01.pdf",
+      "cdnCanonical": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/potterton/POTTERTON-PUMA80GCNo.47-590-10.pdf"
+    },
+    {
+      "duplicate": "upload-to-CDN/potterton/POTTERTOn-71.pdf",
+      "canonical": "upload-to-CDN/potterton/POTTERTON-72.pdf",
+      "size": 603620,
+      "cdnDuplicate": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/potterton/POTTERTOn-71.pdf",
+      "cdnCanonical": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/potterton/POTTERTON-72.pdf"
+    },
+    {
+      "duplicate": "upload-to-CDN/potterton/potterton-POTTERTONPROFILE-PRIMA80eGCNo.41-605-74.pdf",
+      "canonical": "upload-to-CDN/potterton/POTTERTON-72.pdf",
+      "size": 603620,
+      "cdnDuplicate": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/potterton/potterton-POTTERTONPROFILE-PRIMA80eGCNo.41-605-74.pdf",
+      "cdnCanonical": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/potterton/POTTERTON-72.pdf"
+    },
+    {
+      "duplicate": "upload-to-CDN/potterton/potterton-POTTERTONPROFILE50eGCNo.41-605-41.pdf",
+      "canonical": "upload-to-CDN/potterton/POTTERTON-PROFILE80eGCNo.41-605-43.pdf",
+      "size": 727670,
+      "cdnDuplicate": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/potterton/potterton-POTTERTONPROFILE50eGCNo.41-605-41.pdf",
+      "cdnCanonical": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/potterton/POTTERTON-PROFILE80eGCNo.41-605-43.pdf"
+    },
+    {
+      "duplicate": "upload-to-CDN/potterton/potterton-POTTERTONPROFILE60eGCNo.41-605-42.pdf",
+      "canonical": "upload-to-CDN/potterton/POTTERTON-PROFILE80eGCNo.41-605-43.pdf",
+      "size": 727670,
+      "cdnDuplicate": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/potterton/potterton-POTTERTONPROFILE60eGCNo.41-605-42.pdf",
+      "cdnCanonical": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/potterton/POTTERTON-PROFILE80eGCNo.41-605-43.pdf"
+    },
+    {
+      "duplicate": "upload-to-CDN/potterton/potterton-POTTERTONPROFILEPRIMA30eGCNo.41-605-70.pdf",
+      "canonical": "upload-to-CDN/potterton/POTTERTON-72.pdf",
+      "size": 603620,
+      "cdnDuplicate": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/potterton/potterton-POTTERTONPROFILEPRIMA30eGCNo.41-605-70.pdf",
+      "cdnCanonical": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/potterton/POTTERTON-72.pdf"
+    },
+    {
+      "duplicate": "upload-to-CDN/potterton/potterton-POTTERTONPUMA100GCNo.47-590-12.pdf",
+      "canonical": "upload-to-CDN/potterton/POTTERTON-PUMA100eGCNo.47-590-13.pdf",
+      "size": 2293395,
+      "cdnDuplicate": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/potterton/potterton-POTTERTONPUMA100GCNo.47-590-12.pdf",
+      "cdnCanonical": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/potterton/POTTERTON-PUMA100eGCNo.47-590-13.pdf"
+    },
+    {
+      "duplicate": "upload-to-CDN/potterton/potterton-POTTERTONPUMA80eGCNo.47-590-11.pdf",
+      "canonical": "upload-to-CDN/potterton/POTTERTON-PUMA80GCNo.47-590-10.pdf",
+      "size": 1687532,
+      "cdnDuplicate": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/potterton/potterton-POTTERTONPUMA80eGCNo.47-590-11.pdf",
+      "cdnCanonical": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/potterton/POTTERTON-PUMA80GCNo.47-590-10.pdf"
+    },
+    {
+      "duplicate": "upload-to-CDN/servowarm/servowarm-malvern-30-40-50-7080.pdf",
+      "canonical": "upload-to-CDN/malvern/malvern-30-40-50-7080.pdf",
+      "size": 1050777,
+      "cdnDuplicate": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/servowarm/servowarm-malvern-30-40-50-7080.pdf",
+      "cdnCanonical": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/malvern/malvern-30-40-50-7080.pdf"
+    },
+    {
+      "duplicate": "upload-to-CDN/servowarm/servowarm-malvern-condensing-combi-mk1.pdf",
+      "canonical": "upload-to-CDN/malvern/malvern-condensing-combi-mk1.pdf",
+      "size": 1222423,
+      "cdnDuplicate": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/servowarm/servowarm-malvern-condensing-combi-mk1.pdf",
+      "cdnCanonical": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/malvern/malvern-condensing-combi-mk1.pdf"
+    },
+    {
+      "duplicate": "upload-to-CDN/sime/sime-Friendly-Friendly-E-Installation-Service-Guide.pdf",
+      "canonical": "upload-to-CDN/sime/sime-Friendly-Friendly-E-Inst.pdf",
+      "size": 1251482,
+      "cdnDuplicate": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/sime/sime-Friendly-Friendly-E-Installation-Service-Guide.pdf",
+      "cdnCanonical": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/sime/sime-Friendly-Friendly-E-Inst.pdf"
+    }
+  ]
+}
