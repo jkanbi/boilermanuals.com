@@ -6,8 +6,6 @@
     var searchSection = null;
     var resultsVisible = false;
     var searchHistoryPushed = false;
-    var autoDismissTimer = null;
-    var autoDismissMs = 5000;
 
     function currentUrl() {
         return window.location.pathname + window.location.search + window.location.hash;
@@ -102,23 +100,8 @@
         return false;
     }
 
-    function clearAutoDismissTimer() {
-        if (autoDismissTimer) {
-            clearTimeout(autoDismissTimer);
-            autoDismissTimer = null;
-        }
-    }
-
-    function scheduleAutoDismiss() {
-        clearAutoDismissTimer();
-        autoDismissTimer = setTimeout(function () {
-            dismissResults({ clearInput: true, skipHistory: true });
-        }, autoDismissMs);
-    }
-
     function markResultsHidden() {
         resultsVisible = false;
-        clearAutoDismissTimer();
         if (searchHistoryPushed) {
             searchHistoryPushed = false;
             history.replaceState(null, "", currentUrl());
@@ -131,7 +114,6 @@
             history.pushState({ homeSearchResults: true }, "", currentUrl());
             searchHistoryPushed = true;
         }
-        scheduleAutoDismiss();
     }
 
     function dismissResults(options) {
@@ -150,7 +132,6 @@
         if (searchHistoryPushed && !options.skipHistory) {
             searchHistoryPushed = false;
             resultsVisible = false;
-            clearAutoDismissTimer();
             history.back();
             return;
         }
@@ -310,21 +291,6 @@
             }
         });
 
-        searchInput.addEventListener("focus", function () {
-            if (resultsVisible) {
-                scheduleAutoDismiss();
-            }
-        });
-
-        var resultsContainer = document.getElementById("homeSearchResults");
-        if (resultsContainer) {
-            resultsContainer.addEventListener("mousedown", function () {
-                if (resultsVisible) {
-                    scheduleAutoDismiss();
-                }
-            });
-        }
-
         document.addEventListener("mousedown", function (event) {
             if (!resultsVisible || !searchSection) {
                 return;
@@ -342,7 +308,6 @@
             }
             searchHistoryPushed = false;
             resultsVisible = false;
-            clearAutoDismissTimer();
             if (searchInput) {
                 searchInput.value = "";
             }
