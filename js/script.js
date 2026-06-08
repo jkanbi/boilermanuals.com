@@ -68,6 +68,25 @@ function myTableFunction() {
   }
 }
 
+function showBrandPageTitle() {
+    var input = document.getElementById('myInput');
+    var table = document.getElementById('myTable');
+    if (!input || !table || document.getElementById('brandPageTitle')) {
+        return;
+    }
+
+    var match = document.title.match(/Boiler Manuals\s*-\s*(.+)$/i);
+    if (!match) {
+        return;
+    }
+
+    var heading = document.createElement('h1');
+    heading.id = 'brandPageTitle';
+    heading.className = 'brand-page__title';
+    heading.textContent = match[1].trim();
+    input.insertAdjacentElement('afterend', heading);
+}
+
 function enhanceTablesForMobile() {
     var table = document.getElementById('myTable');
     if (!table || table.dataset.mobileReady === 'true') {
@@ -109,6 +128,7 @@ function enhanceTablesForMobile() {
 }
 
 document.addEventListener('DOMContentLoaded', function() {
+    showBrandPageTitle();
     enhanceTablesForMobile();
 
     // Legacy hub rewrite — only on pages that still load urlUtils.js (e.g. index)
