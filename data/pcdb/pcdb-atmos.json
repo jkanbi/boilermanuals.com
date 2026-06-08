@@ -1,0 +1,113 @@
+{
+  "slug": "atmos",
+  "brandName": "Atmos",
+  "count": 4,
+  "entries": [
+    {
+      "brand": "Atmos",
+      "model": "Multi",
+      "qualifier": "24/80 Plus",
+      "gc": "CCB24/80+",
+      "fuel": "mains gas",
+      "mainType": "combi",
+      "yearFrom": "1995",
+      "yearTo": "current",
+      "label": "Atmos, Multi, 24/80 Plus",
+      "pcdbUrl": "https://www.ncm-pcdb.org.uk/sap/pcdbdetails.jsp?pid=26&id=005981&type=105&mid=000141",
+      "gcDashed": "CCB24/80+"
+    },
+    {
+      "brand": "Atmos",
+      "model": "Multi",
+      "qualifier": "24/80",
+      "gc": "CCB24/80",
+      "fuel": "mains gas",
+      "mainType": "combi",
+      "yearFrom": "1993",
+      "yearTo": "2010",
+      "label": "Atmos, Multi, 24/80",
+      "pcdbUrl": "https://www.ncm-pcdb.org.uk/sap/pcdbdetails.jsp?pid=26&id=005983&type=105&mid=000141",
+      "gcDashed": "CCB24/80"
+    },
+    {
+      "brand": "Atmos",
+      "model": "Multi",
+      "qualifier": "32/80",
+      "gc": "CCB32/80",
+      "fuel": "mains gas",
+      "mainType": "combi",
+      "yearFrom": "1997",
+      "yearTo": "2010",
+      "label": "Atmos, Multi, 32/80",
+      "pcdbUrl": "https://www.ncm-pcdb.org.uk/sap/pcdbdetails.jsp?pid=26&id=005984&type=105&mid=000141",
+      "gcDashed": "CCB32/80"
+    },
+    {
+      "brand": "Atmos",
+      "model": "Multi",
+      "qualifier": "32/80 Plus",
+      "gc": "CCB32/80+",
+      "fuel": "mains gas",
+      "mainType": "combi",
+      "yearFrom": "1997",
+      "yearTo": "2010",
+      "label": "Atmos, Multi, 32/80 Plus",
+      "pcdbUrl": "https://www.ncm-pcdb.org.uk/sap/pcdbdetails.jsp?pid=26&id=005985&type=105&mid=000141",
+      "gcDashed": "CCB32/80+"
+    }
+  ],
+  "byGc": {
+    "CCB24/80+": {
+      "brand": "Atmos",
+      "model": "Multi",
+      "qualifier": "24/80 Plus",
+      "gc": "CCB24/80+",
+      "fuel": "mains gas",
+      "mainType": "combi",
+      "yearFrom": "1995",
+      "yearTo": "current",
+      "label": "Atmos, Multi, 24/80 Plus",
+      "pcdbUrl": "https://www.ncm-pcdb.org.uk/sap/pcdbdetails.jsp?pid=26&id=005981&type=105&mid=000141",
+      "gcDashed": "CCB24/80+"
+    },
+    "CCB24/80": {
+      "brand": "Atmos",
+      "model": "Multi",
+      "qualifier": "24/80",
+      "gc": "CCB24/80",
+      "fuel": "mains gas",
+      "mainType": "combi",
+      "yearFrom": "1993",
+      "yearTo": "2010",
+      "label": "Atmos, Multi, 24/80",
+      "pcdbUrl": "https://www.ncm-pcdb.org.uk/sap/pcdbdetails.jsp?pid=26&id=005983&type=105&mid=000141",
+      "gcDashed": "CCB24/80"
+    },
+    "CCB32/80": {
+      "brand": "Atmos",
+      "model": "Multi",
+      "qualifier": "32/80",
+      "gc": "CCB32/80",
+      "fuel": "mains gas",
+      "mainType": "combi",
+      "yearFrom": "1997",
+      "yearTo": "2010",
+      "label": "Atmos, Multi, 32/80",
+      "pcdbUrl": "https://www.ncm-pcdb.org.uk/sap/pcdbdetails.jsp?pid=26&id=005984&type=105&mid=000141",
+      "gcDashed": "CCB32/80"
+    },
+    "CCB32/80+": {
+      "brand": "Atmos",
+      "model": "Multi",
+      "qualifier": "32/80 Plus",
+      "gc": "CCB32/80+",
+      "fuel": "mains gas",
+      "mainType": "combi",
+      "yearFrom": "1997",
+      "yearTo": "2010",
+      "label": "Atmos, Multi, 32/80 Plus",
+      "pcdbUrl": "https://www.ncm-pcdb.org.uk/sap/pcdbdetails.jsp?pid=26&id=005985&type=105&mid=000141",
+      "gcDashed": "CCB32/80+"
+    }
+  }
+}
