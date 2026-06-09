@@ -95,6 +95,21 @@
             border-radius: 0;
         }
 
+        @media screen and (min-width: 769px) {
+            .home-hero,
+            .home-search {
+                overflow: visible;
+            }
+
+            .home-search-results {
+                width: min(960px, calc(100vw - 80px));
+                position: relative;
+                left: 50%;
+                transform: translateX(-50%);
+                box-sizing: border-box;
+            }
+        }
+
         @media screen and (max-width: 640px) {
             .home-hero {
                 padding-top: calc(28vh - 64px);
