@@ -9,3 +9,5 @@
 .env
 *.py
 /upload-to-CDN
+missing-vs-dhsspares.md
+missing-vs-freeboilermanuals.md
