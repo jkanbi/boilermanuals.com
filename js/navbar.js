@@ -18,17 +18,28 @@
         return "";
     }
 
-    function getActiveItemId() {
+    function getActiveNavItem() {
         var page = window.location.pathname.split("/").pop() || "index.html";
         if (!page || page === "/") {
             page = "index.html";
         }
         for (var i = 0; i < NAV_ITEMS.length; i++) {
             if (NAV_ITEMS[i].href === page) {
-                return NAV_ITEMS[i].id;
+                return NAV_ITEMS[i];
             }
         }
-        return "";
+        return null;
+    }
+
+    function pageTitleSuffix(item) {
+        return item ? " - " + item.label : "";
+    }
+
+    function setDocumentTitle() {
+        var item = getActiveNavItem();
+        if (item) {
+            document.title = "Boiler Manuals" + pageTitleSuffix(item);
+        }
     }
 
     function escapeAttr(value) {
@@ -45,7 +56,8 @@
         }
 
         var basePath = getNavbarBasePath();
-        var activeId = getActiveItemId();
+        var activeItem = getActiveNavItem();
+        var activeId = activeItem ? activeItem.id : "";
         var menuHtml = "";
 
         for (var i = 0; i < NAV_ITEMS.length; i++) {
@@ -102,9 +114,14 @@
         }
     };
 
-    if (document.readyState === "loading") {
-        document.addEventListener("DOMContentLoaded", renderNavbar);
-    } else {
+    function init() {
+        setDocumentTitle();
         renderNavbar();
+    }
+
+    if (document.readyState === "loading") {
+        document.addEventListener("DOMContentLoaded", init);
+    } else {
+        init();
     }
 })();

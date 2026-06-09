@@ -59,19 +59,31 @@
 
         .navbar-menu {
             display: flex;
+            align-items: center;
             list-style: none;
             margin: 0;
             padding: 0;
         }
 
         .navbar-menu li {
+            display: flex;
+            align-items: center;
             margin: 0 10px;
         }
 
         .navbar-menu li a {
+            display: inline-flex;
+            align-items: center;
+            height: 44px;
             color: #202124;
             text-decoration: none;
             font-size: 0.9375rem;
+            font-weight: 500;
+            line-height: 1.2;
+        }
+
+        .navbar-menu li a[aria-current="page"] {
+            font-weight: 600;
         }
 
         .navbar-menu li a:hover {
