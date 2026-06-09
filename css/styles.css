@@ -217,6 +217,67 @@
             color: #3c4043;
         }
 
+        .contact-page {
+            max-width: 640px;
+            margin: 0 auto;
+            padding: 0 4px 48px;
+        }
+
+        .contact-page__title {
+            margin: 20px 0 24px;
+            font-size: 1.75rem;
+            font-weight: 400;
+            color: #202124;
+        }
+
+        .contact-card {
+            padding: 28px 24px;
+            border: 1px solid #e8eaed;
+            border-radius: 12px;
+            background: #fff;
+        }
+
+        .contact-card__heading {
+            margin: 0 0 12px;
+            font-size: 1.125rem;
+            font-weight: 500;
+            color: #202124;
+        }
+
+        .contact-card__text,
+        .contact-card__hint {
+            margin: 0 0 16px;
+            color: #5f6368;
+            line-height: 1.65;
+        }
+
+        .contact-card__request {
+            margin: 0 0 16px;
+            padding: 12px 14px;
+            border-radius: 8px;
+            background: #f8f9fa;
+            color: #202124;
+            font-size: 0.9375rem;
+        }
+
+        .contact-card__email {
+            margin: 0 0 12px;
+        }
+
+        .contact-card__email a {
+            color: #1a73e8;
+            text-decoration: none;
+        }
+
+        .contact-card__email a:hover {
+            text-decoration: underline;
+        }
+
+        .contact-card__hint {
+            margin-bottom: 0;
+            font-size: 0.875rem;
+        }
+
         * {
             margin: 0;
             padding: 0;

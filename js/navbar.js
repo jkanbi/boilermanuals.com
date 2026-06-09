@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', function() {
         + '    <ul class="navbar-menu">'
         + '      <li><a href="' + basePath + 'index.html">Boilers</a></li>'
         + '      <li><a href="' + basePath + 'controls.html">Controls</a></li>'
-        + '      <li><a href="' + basePath + 'index.html#contact">Contact</a></li>'
+        + '      <li><a href="' + basePath + 'contact.html">Contact</a></li>'
         + '      <li><a href="' + basePath + 'about.html">About</a></li>'
         + '    </ul>'
         + '  </div>'

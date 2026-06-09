@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon.ico" sizes="any">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <title>Contact - Boiler Manuals</title>
+    <link rel="stylesheet" type="text/css" href="css/navbar.css?v=3">
+    <link rel="stylesheet" type="text/css" href="css/styles.css?v=5">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="index.html" class="navbar-brand">
+            <img src="images/logo.png" alt="" class="navbar-logo" width="44" height="44">
+            <span class="navbar-title">Boiler Manuals</span>
+        </a>
+        <div class="navbar-actions">
+            <button class="navbar-toggle" onclick="toggleMenu()" aria-label="Open menu">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="navbar-menu">
+                <li><a href="index.html">Boilers</a></li>
+                <li><a href="controls.html">Controls</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="contact-page">
+        <button class="nav-button" type="button" onclick="goBack()">Go Back</button>
+
+        <h1 class="contact-page__title">Contact</h1>
+
+        <div class="contact-card">
+            <h2 class="contact-card__heading">Request a manual</h2>
+            <p class="contact-card__text">
+                Can&rsquo;t find the boiler or heating manual you need? Email us with the brand, model, and GC number if you have it. We&rsquo;ll do our best to track it down.
+            </p>
+            <p id="contactRequestDetail" class="contact-card__request" hidden></p>
+            <p class="contact-card__email">
+                <a id="contactEmailLink" href="mailto:manuals@myboiler.com?subject=Manual%20request">manuals@myboiler.com</a>
+            </p>
+            <p class="contact-card__hint">Please include as much detail as you can so we can help quickly.</p>
+        </div>
+    </main>
+
+    <script src="js/script.js?v=5"></script>
+    <script>
+        (function () {
+            var params = new URLSearchParams(window.location.search);
+            var request = (params.get("request") || "").trim();
+            var link = document.getElementById("contactEmailLink");
+            var detail = document.getElementById("contactRequestDetail");
+            var subject = "Manual request";
+            var body = "";
+
+            if (request) {
+                subject += ": " + request;
+                body =
+                    "Hello,\n\n" +
+                    "I would like to request the manual for:\n\n" +
+                    request +
+                    "\n\nThank you.";
+                detail.hidden = false;
+                detail.textContent = "Manual requested: " + request;
+            }
+
+            link.href =
+                "mailto:manuals@myboiler.com?subject=" +
+                encodeURIComponent(subject) +
+                (body ? "&body=" + encodeURIComponent(body) : "");
+        })();
+    </script>
+</body>
+</html>
