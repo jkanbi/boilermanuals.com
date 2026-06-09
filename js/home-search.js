@@ -187,12 +187,13 @@
                 html += "<span class=\"home-search-item__gc\">" + escapeHtml(entry.gc) + "</span>";
             }
             html += "<span class=\"home-search-item__model\">" + escapeHtml(entry.model) + "</span>";
-            html += "</div><div class=\"home-search-item__actions\">";
+            html += "</div>";
             if (entry.downloadUrl) {
+                html += "<div class=\"home-search-item__actions\">";
                 html += "<a href=\"" + escapeAttr(entry.downloadUrl) + "\">Download</a>";
+                html += "</div>";
             }
-            html += "<a href=\"" + escapeAttr(entry.brandUrl) + "\">" + escapeHtml(entry.brand) + " page</a>";
-            html += "</div></li>";
+            html += "</li>";
         }
         html += "</ul>";
 
