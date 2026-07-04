@@ -1,0 +1,242 @@
+{
+  "danfoss": [
+    {
+      "model": "FP715 Si",
+      "info": "2-channel programmer (CH + HW)",
+      "user": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/danfoss/danfoss-fp715si-IMUG.pdf",
+      "install": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/danfoss/danfoss-fp715si-IMUG.pdf"
+    },
+    {
+      "model": "FP715",
+      "info": "2-channel full programmer",
+      "user": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/danfoss/danfoss-fp715-IMUG.pdf",
+      "install": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/danfoss/danfoss-fp715-IMUG.pdf"
+    },
+    {
+      "model": "CP715 Si",
+      "info": "2-channel common-timebase programmer",
+      "user": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/danfoss/danfoss-cp715si-IMUG.pdf",
+      "install": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/danfoss/danfoss-cp715si-IMUG.pdf"
+    },
+    {
+      "model": "TS715 Si",
+      "info": "Single-channel timeswitch",
+      "user": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/danfoss/danfoss-ts715si-IMUG.pdf",
+      "install": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/danfoss/danfoss-ts715si-IMUG.pdf"
+    },
+    {
+      "model": "SET2E",
+      "info": "Electronic 24h mini-programmer",
+      "user": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/danfoss/danfoss-set2e-UG.pdf",
+      "install": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/danfoss/danfoss-set2e-UG.pdf"
+    },
+    {
+      "model": "SET3E",
+      "info": "Electronic 24h programmer (separate CH/HW)",
+      "user": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/danfoss/danfoss-set3e-UG.pdf",
+      "install": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/danfoss/danfoss-set3e-UG.pdf"
+    },
+    {
+      "model": "Randall 102",
+      "info": "Electro-mechanical mini-programmer",
+      "user": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/danfoss/danfoss-102-IMUG.pdf",
+      "install": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/danfoss/danfoss-102-IMUG.pdf"
+    },
+    {
+      "model": "Randall 103",
+      "info": "Electro-mechanical 24h timeswitch",
+      "user": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/danfoss/danfoss-103-IMUG.pdf",
+      "install": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/danfoss/danfoss-103-IMUG.pdf"
+    },
+    {
+      "model": "TP5000 Si",
+      "info": "5/2-day programmable room stat",
+      "user": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/danfoss/danfoss-tp5000si-IMUG.pdf",
+      "install": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/danfoss/danfoss-tp5000si-IMUG.pdf"
+    },
+    {
+      "model": "TP7000",
+      "info": "7-day programmable room stat",
+      "user": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/danfoss/danfoss-tp7000-datasheet.pdf",
+      "install": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/danfoss/danfoss-tp7000-datasheet.pdf"
+    },
+    {
+      "model": "TP9000 Si",
+      "info": "Programmable room stat + DHW timer",
+      "user": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/danfoss/danfoss-tp9000si-UG.pdf",
+      "install": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/danfoss/danfoss-tp9000si-IM.pdf"
+    }
+  ],
+  "esi": [
+    {
+      "model": "ESRTE2",
+      "info": "Basic electronic room thermostat",
+      "user": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/esi/esi-esrte2-UG.pdf",
+      "install": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/esi/esi-esrte2-UG.pdf"
+    },
+    {
+      "model": "ESRTD3",
+      "info": "Mains digital room stat",
+      "user": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/esi/esi-esrtd3-UG.pdf",
+      "install": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/esi/esi-esrtd3-IM.pdf"
+    },
+    {
+      "model": "ESRTD5",
+      "info": "5-series digital room stat",
+      "user": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/esi/esi-esrtd5-UG.pdf",
+      "install": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/esi/esi-esrtd5-IM.pdf"
+    },
+    {
+      "model": "ESRTP4+",
+      "info": "Wired 7-day programmable thermostat",
+      "user": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/esi/esi-esrtp4-plus-UG.pdf",
+      "install": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/esi/esi-esrtp4-plus-IM.pdf"
+    },
+    {
+      "model": "ESRTP4RF+",
+      "info": "Wireless programmable thermostat",
+      "user": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/esi/esi-esrtp4rf-plus-UG.pdf",
+      "install": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/esi/esi-esrtp4rf-plus-IM.pdf"
+    },
+    {
+      "model": "ESRTP4 Touch",
+      "info": "Touch programmable thermostat",
+      "user": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/esi/esi-esrtp4-touch-UG.pdf",
+      "install": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/esi/esi-esrtp4-touch-UG.pdf"
+    },
+    {
+      "model": "ESRTP5",
+      "info": "5-series wired programmable stat",
+      "user": null,
+      "install": null
+    },
+    {
+      "model": "ESRTP5 WiFi",
+      "info": "RF WiFi programmable thermostat",
+      "user": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/esi/esi-esrtp5-wifi-UG.pdf",
+      "install": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/esi/esi-esrtp5-wifi-IM.pdf"
+    },
+    {
+      "model": "ESRTP6WHW",
+      "info": "OpenTherm WiFi stat with HW control",
+      "user": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/esi/esi-esrtp6whw-UG.pdf",
+      "install": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/esi/esi-esrtp6whw-IM.pdf"
+    }
+  ],
+  "salus": [
+    {
+      "model": "RT500",
+      "info": "5/2 or 7-day programmable thermostat",
+      "user": null,
+      "install": null
+    },
+    {
+      "model": "RT510",
+      "info": "5/2 or 24h programmable thermostat",
+      "user": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/salus/salus-rt510-IMUG.pdf",
+      "install": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/salus/salus-rt510-IMUG.pdf"
+    },
+    {
+      "model": "RT310RF",
+      "info": "Wireless stat + RXRT510 receiver",
+      "user": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/salus/salus-rt310rf-IMUG.pdf",
+      "install": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/salus/salus-rt310rf-IMUG.pdf"
+    },
+    {
+      "model": "RT520",
+      "info": "Boiler Plus wired thermostat",
+      "user": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/salus/salus-rt520-IMUG.pdf",
+      "install": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/salus/salus-rt520-IMUG.pdf"
+    },
+    {
+      "model": "RT520RF",
+      "info": "Boiler Plus wireless kit",
+      "user": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/salus/salus-rt520rf-IMUG.pdf",
+      "install": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/salus/salus-rt520rf-IMUG.pdf"
+    },
+    {
+      "model": "iT500",
+      "info": "Internet-connected thermostat kit",
+      "user": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/salus/salus-it500-IMUG.pdf",
+      "install": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/salus/salus-it500-IMUG.pdf"
+    },
+    {
+      "model": "ST620WBC",
+      "info": "S-series programmable stat + RF module",
+      "user": null,
+      "install": null
+    }
+  ],
+  "google-nest": [
+    {
+      "model": "Nest Learning Thermostat 3rd gen (UK)",
+      "info": "UK install guide with Heat Link",
+      "user": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/google-nest/nest-learning-thermostat-3rd-gen-uk-IM.pdf",
+      "install": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/google-nest/nest-learning-thermostat-3rd-gen-uk-IM.pdf"
+    },
+    {
+      "model": "Nest Learning Thermostat (UK)",
+      "info": "UK installation guide (all gens)",
+      "user": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/google-nest/nest-learning-thermostat-uk-IM.pdf",
+      "install": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/google-nest/nest-learning-thermostat-uk-IM.pdf"
+    },
+    {
+      "model": "Nest Thermostat E",
+      "info": "Thermostat E install guide",
+      "user": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/google-nest/nest-thermostat-e-IM.pdf",
+      "install": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/google-nest/nest-thermostat-e-IM.pdf"
+    }
+  ],
+  "tado": [
+    {
+      "model": "Wired Smart Thermostat V3+",
+      "info": "Wired stat + Bridge installer manual",
+      "user": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/tado/tado-wired-smart-thermostat-v3-plus-IM.pdf",
+      "install": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/tado/tado-wired-smart-thermostat-v3-plus-IM.pdf"
+    },
+    {
+      "model": "Wireless Smart Thermostat V3+ (UK)",
+      "info": "UK wireless receiver + sensor",
+      "user": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/tado/tado-wireless-smart-thermostat-v3-plus-uk-IM.pdf",
+      "install": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/tado/tado-wireless-smart-thermostat-v3-plus-uk-IM.pdf"
+    },
+    {
+      "model": "Smart Radiator Thermostat X",
+      "info": "Smart TRV head (X series)",
+      "user": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/tado/tado-smart-radiator-thermostat-x-IM.pdf",
+      "install": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/tado/tado-smart-radiator-thermostat-x-IM.pdf"
+    }
+  ],
+  "hive": [
+    {
+      "model": "Hive Active Heating 1 (SLT2)",
+      "info": "Legacy Hive 1 wireless thermostat",
+      "user": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/hive/hive-active-heating-1-UG.pdf",
+      "install": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/hive/hive-active-heating-1-IM.pdf"
+    },
+    {
+      "model": "Hive Active Heating 2 (SLT3)",
+      "info": "Dial thermostat, hub + receiver",
+      "user": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/hive/hive-active-heating-2-UG.pdf",
+      "install": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/hive/hive-active-heating-2-IM.pdf"
+    },
+    {
+      "model": "Hive Active Heating 2 Wired (SLT5)",
+      "info": "Mains-powered wired thermostat",
+      "user": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/hive/hive-active-heating-2-wired-UG.pdf",
+      "install": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/hive/hive-active-heating-2-wired-UG.pdf"
+    },
+    {
+      "model": "Hive Thermostat Mini (SLT6)",
+      "info": "Compact wireless thermostat",
+      "user": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/hive/hive-thermostat-mini-UG.pdf",
+      "install": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/hive/hive-thermostat-mini-IM.pdf"
+    },
+    {
+      "model": "Hive Radiator Valve",
+      "info": "Smart TRV head",
+      "user": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/hive/hive-radiator-valve-IMUG.pdf",
+      "install": "https://boiler-manuals.ams3.cdn.digitaloceanspaces.com/hive/hive-radiator-valve-IMUG.pdf"
+    }
+  ]
+}
