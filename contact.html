@@ -8,10 +8,9 @@
     <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
     <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
     <title>Boiler Manuals - Contact</title>
-    <link rel="stylesheet" type="text/css" href="css/navbar.css?v=5">
-    <link rel="stylesheet" type="text/css" href="css/styles.css?v=5">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-    <script src="js/navbar.js?v=6"></script>
+    <link rel="stylesheet" type="text/css" href="css/navbar.css?v=6">
+    <link rel="stylesheet" type="text/css" href="css/styles.css?v=6">
+    <script src="js/navbar.js?v=7"></script>
 </head>
 <body>
 <main class="contact-page">
@@ -32,8 +31,40 @@
         </div>
     </main>
 
+    <footer class="site-footer">
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <p class="footer-logo">BoilerManuals.com</p>
+                <p class="footer-tagline">Free boiler manuals, installation guides, and service documentation for UK heating systems.</p>
+            </div>
+            <div class="footer-col">
+                <p class="footer-heading">Resources</p>
+                <nav class="footer-links" aria-label="Resources">
+                    <a href="index.html">Home</a>
+                    <a href="fault-codes.html">Fault Codes</a>
+                    <a href="controls.html">Controls</a>
+                    <a href="contact.html">Contact</a>
+                    <a href="about.html">About</a>
+                </nav>
+            </div>
+            <div class="footer-col">
+                <p class="footer-heading">Related sites</p>
+                <nav class="footer-links" aria-label="Related sites">
+                    <a href="https://myboiler.com" rel="noopener">MyBoiler.com</a>
+                    <a href="https://combiboiler.com" rel="noopener">CombiBoiler.com</a>
+                    <a href="https://boilerservice.com" rel="noopener">BoilerService.com</a>
+                </nav>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; <span id="year"></span> BoilerManuals.com — part of the <a href="https://myboiler.com" rel="noopener">MyBoiler.com</a> family</p>
+        </div>
+    </footer>
+
     <script src="js/script.js?v=5"></script>
     <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+        
         (function () {
             var params = new URLSearchParams(window.location.search);
             var request = (params.get("request") || "").trim();
