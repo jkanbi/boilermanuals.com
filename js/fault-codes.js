@@ -244,8 +244,8 @@
         html += '<p class="fault-handoff__text">Get instant AI-powered advice or speak to a Gas Safe registered engineer.</p>';
         html += '<div class="fault-handoff__actions">';
         html += '<a href="https://myboiler.com/chat/" class="fault-handoff__button fault-handoff__button--primary" rel="noopener">Ask Boiler Help AI</a>';
-        html += '<a href="https://wa.me/442081234411?text=I%20need%20help%20with%20a%20boiler%20fault%20code%20from%20BoilerManuals" class="fault-handoff__button fault-handoff__button--secondary" rel="noopener">Get a Quote</a>';
-        html += '<a href="tel:+442081234411" class="fault-handoff__button fault-handoff__button--secondary">Call: 020 8123 4411</a>';
+        html += '<a href="https://myboiler.com/quote/" class="fault-handoff__button fault-handoff__button--secondary" rel="noopener">Get a Quote</a>';
+        html += '<a href="https://wa.me/442081234411?text=I%20need%20help%20with%20a%20boiler%20fault%20code%20from%20BoilerManuals" class="fault-handoff__button fault-handoff__button--secondary" rel="noopener">WhatsApp</a>';
         html += "</div></div>";
 
         handoffPanel.innerHTML = html;
