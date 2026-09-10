@@ -246,7 +246,16 @@
         html += '<a href="https://myboiler.com/chat/" class="fault-handoff__button fault-handoff__button--primary" rel="noopener">Ask Boiler Help AI</a>';
         html += '<a href="https://myboiler.com/quote/" class="fault-handoff__button fault-handoff__button--secondary" rel="noopener">Get a Quote</a>';
         html += '<a href="https://wa.me/442081234411?text=I%20need%20help%20with%20a%20boiler%20fault%20code%20from%20BoilerManuals" class="fault-handoff__button fault-handoff__button--secondary" rel="noopener">WhatsApp</a>';
-        html += "</div></div>";
+        html += "</div>";
+        html += '<div class="fault-handoff__divider"></div>';
+        html += '<div class="fault-handoff__decision">';
+        html += '<p class="fault-handoff__decision-text">Not sure if you should repair or replace?</p>';
+        html += '<a href="https://myboiler.com/decide/" class="fault-handoff__button fault-handoff__button--secondary" rel="noopener">Compare Options</a>';
+        html += "</div>";
+        html += '<div class="fault-handoff__tertiary">';
+        html += '<a href="https://myboiler.com/heat-pump-checker/" class="fault-handoff__link" rel="noopener">Check heat pump readiness</a>';
+        html += "</div>";
+        html += "</div>";
 
         handoffPanel.innerHTML = html;
         handoffPanel.hidden = false;
