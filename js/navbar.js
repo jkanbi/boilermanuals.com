@@ -74,44 +74,40 @@
         }
 
         var navbarHtml =
-            '<nav class="navbar">' +
+            '<div class="site-header"><nav class="navbar">' +
             '<a href="' +
             escapeAttr(basePath + "index.html") +
             '" class="navbar-brand">' +
             '<img src="' +
             escapeAttr(basePath + "images/logo.png") +
-            '" alt="" class="navbar-logo" width="44" height="44">' +
+            '" alt="" class="navbar-logo" width="40" height="40">' +
             '<span class="navbar-title">Boiler Manuals</span>' +
             "</a>" +
             '<div class="navbar-actions">' +
-            '<button class="navbar-toggle" onclick="toggleMenu()" aria-label="Open menu">' +
-            '<i class="fas fa-bars"></i>' +
+            '<button class="navbar-toggle" type="button" onclick="toggleMenu()" aria-label="Open menu" aria-expanded="false">' +
+            '<span class="navbar-toggle-icon" aria-hidden="true"><span class="navbar-toggle-bar"></span></span>' +
             "</button>" +
             '<ul class="navbar-menu">' +
             menuHtml +
             "</ul>" +
             "</div>" +
-            "</nav>";
+            "</nav></div>";
 
         document.body.insertAdjacentHTML("afterbegin", navbarHtml);
     }
 
     window.toggleMenu = function toggleMenu() {
         var menu = document.querySelector(".navbar-menu");
-        var icon = document.querySelector(".navbar-toggle i");
-        if (!menu || !icon) {
+        var toggle = document.querySelector(".navbar-toggle");
+        if (!menu || !toggle) {
             return;
         }
 
-        menu.classList.toggle("active");
-
-        if (menu.classList.contains("active")) {
-            icon.classList.remove("fa-bars");
-            icon.classList.add("fa-times");
-        } else {
-            icon.classList.remove("fa-times");
-            icon.classList.add("fa-bars");
-        }
+        var open = !menu.classList.contains("active");
+        menu.classList.toggle("active", open);
+        toggle.classList.toggle("is-open", open);
+        toggle.setAttribute("aria-expanded", open ? "true" : "false");
+        toggle.setAttribute("aria-label", open ? "Close menu" : "Open menu");
     };
 
     function init() {

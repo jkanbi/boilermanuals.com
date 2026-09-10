@@ -9,23 +9,25 @@
     <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
     <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
     <title>Boiler Manuals</title>
-    <link rel="stylesheet" type="text/css" href="css/navbar.css?v=5">
-    <link rel="stylesheet" type="text/css" href="css/styles.css?v=4">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-    <script src="js/navbar.js?v=6"></script>
+    <link rel="stylesheet" type="text/css" href="css/navbar.css?v=6">
+    <link rel="stylesheet" type="text/css" href="css/styles.css?v=5">
+    <script src="js/navbar.js?v=7"></script>
     <script src="js/config.js"></script>
     <script src="js/urlUtils.js"></script>
 </head>
 <body>
 <div id="container">
+    <main>
     <header class="home-hero">
+        <div class="container">
         <section class="home-search">
             <input type="search" id="homeSearchInput" class="home-search__input" placeholder="Search by brand, GC number, or model" aria-label="Search by brand, GC number, or model" autocomplete="off" spellcheck="false">
             <div id="homeSearchResults" class="home-search-results" hidden></div>
         </section>
+        </div>
     </header>
 
-    <div class="home-content">
+    <div class="home-content container">
     <section class="home-section">
         <h2 class="home-section__title">Most Popular</h2>
         <ul id="myULpopular" class="styled-list">
@@ -180,14 +182,42 @@
     </section>
     </div>
 
+    </main>
+
     <footer class="site-footer">
-        <p>Boiler manuals for your particular boiler can be found here. You will also find manuals for hot water cylinders. Most files are in PDF format, including installation, service, and user manuals. New files are added when available.</p>
-        <p>Brands on this site include Alpha, Baxi, Glow-Worm, Halstead, Ideal, Keston, Main, Vaillant, Viessmann, and Worcester Bosch. If a manual is not available, you can <a href="contact.html">request it by email</a>. All manuals are free to download, in line with manufacturers&rsquo; copyright guidelines.</p>
-        <h2 class="site-footer__heading">Other resources</h2>
-        <p>If you are looking for anything else, please <a href="contact.html">contact us</a>. We will try to find boiler manuals, installation and servicing guides, fault code manuals, user manuals, and other documentation you need.</p>
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <p class="footer-logo">BoilerManuals.com</p>
+                <p class="footer-tagline">Free boiler manuals, installation guides, and service documentation for UK heating systems.</p>
+            </div>
+            <div class="footer-col">
+                <p class="footer-heading">Resources</p>
+                <nav class="footer-links" aria-label="Resources">
+                    <a href="index.html">Home</a>
+                    <a href="fault-codes.html">Fault Codes</a>
+                    <a href="controls.html">Controls</a>
+                    <a href="contact.html">Contact</a>
+                    <a href="about.html">About</a>
+                </nav>
+            </div>
+            <div class="footer-col">
+                <p class="footer-heading">Related sites</p>
+                <nav class="footer-links" aria-label="Related sites">
+                    <a href="https://myboiler.com" rel="noopener">MyBoiler.com</a>
+                    <a href="https://combiboiler.com" rel="noopener">CombiBoiler.com</a>
+                    <a href="https://boilerservice.com" rel="noopener">BoilerService.com</a>
+                </nav>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; <span id="year"></span> BoilerManuals.com — part of the <a href="https://myboiler.com" rel="noopener">MyBoiler.com</a> family</p>
+        </div>
     </footer>
 	</div>
     <script src="js/script.js?v=3"></script>
     <script src="js/home-search.js?v=4"></script>
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
 </body>
 </html>
