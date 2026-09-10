@@ -6,6 +6,7 @@
     var faultInput = document.getElementById("faultCodeSearch");
     var faultResults = document.getElementById("faultCodeResults");
     var detailPanel = document.getElementById("faultDetailPanel");
+    var handoffPanel = document.getElementById("faultHandoffPanel");
 
     function scriptBaseUrl(filename) {
         var scripts = document.getElementsByTagName("script");
@@ -229,6 +230,26 @@
         detailPanel.innerHTML = html;
         detailPanel.hidden = false;
         detailPanel.scrollIntoView({ behavior: "smooth", block: "nearest" });
+
+        showHandoffPanel();
+    }
+
+    function showHandoffPanel() {
+        if (!handoffPanel) {
+            return;
+        }
+
+        var html = '<div class="fault-handoff__card">';
+        html += '<h3 class="fault-handoff__title">Need help fixing this fault?</h3>';
+        html += '<p class="fault-handoff__text">Get instant AI-powered advice or speak to a Gas Safe registered engineer.</p>';
+        html += '<div class="fault-handoff__actions">';
+        html += '<a href="https://myboiler.com/chat/" class="fault-handoff__button fault-handoff__button--primary" rel="noopener">Ask Boiler Help AI</a>';
+        html += '<a href="https://myboiler.com/quote/" class="fault-handoff__button fault-handoff__button--secondary" rel="noopener">Get a Quote</a>';
+        html += '<a href="https://wa.me/442081234411?text=I%20need%20help%20with%20a%20boiler%20fault%20code%20from%20BoilerManuals" class="fault-handoff__button fault-handoff__button--secondary" rel="noopener">WhatsApp</a>';
+        html += "</div></div>";
+
+        handoffPanel.innerHTML = html;
+        handoffPanel.hidden = false;
     }
 
     function loadJson(url) {
@@ -261,6 +282,10 @@
                 if (detailPanel) {
                     detailPanel.hidden = true;
                     detailPanel.innerHTML = "";
+                }
+                if (handoffPanel) {
+                    handoffPanel.hidden = true;
+                    handoffPanel.innerHTML = "";
                 }
                 renderFaultResults(searchFaults(faultInput.value), faultInput.value);
             });
