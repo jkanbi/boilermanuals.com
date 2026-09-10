@@ -41,10 +41,10 @@ This PR adds a Fault → AI → pro/quote handoff flow to the fault codes page, 
 
 ### Link Tests
 1. **Hero "Ask Boiler Help AI" link** → Should open https://myboiler.com/chat/
-2. **Hero "get a quote" link** → Should open WhatsApp with prefilled message
+2. **Hero "get a quote" link** → Should open https://hub.myboiler.com/fixed-price-repairs/
 3. **Handoff "Ask Boiler Help AI" button** → Should open https://myboiler.com/chat/
-4. **Handoff "Get a Quote" button** → Should open WhatsApp with message: "I need help with a boiler fault code from BoilerManuals"
-5. **Handoff "Call" button** → Should initiate phone call to +442081234411
+4. **Handoff "Get a Quote" button** → Should open https://hub.myboiler.com/fixed-price-repairs/
+5. **Handoff "WhatsApp" button** → Should open WhatsApp with message: "I need help with a boiler fault code from BoilerManuals"
 
 ### Responsive/Mobile Test
 1. Resize browser to mobile width (<640px)

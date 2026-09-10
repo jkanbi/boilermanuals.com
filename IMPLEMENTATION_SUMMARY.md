@@ -9,18 +9,18 @@ Successfully implemented the Fault → AI → pro/quote handoff flow on the Boil
 ### 1. Hero-level Handoff (Subtle CTA)
 - Positioned below the search input in the hero section
 - Text: "Need help? Ask Boiler Help AI or get a quote"
-- Links to MyBoiler.com chat and WhatsApp
+- Links to MyBoiler.com chat and fixed-price repairs page
 - Always visible to provide early discovery
 
 ### 2. Handoff Card Component
 - Appears below fault detail after selecting a fault code
 - Contains:
   - Title: "Need help fixing this fault?"
-  - Description about AI help and Gas Safe engineers
+  - Description about AI help and fixed-price repairs with Gas Safe engineers
   - Three action buttons:
     1. **Ask Boiler Help AI** (primary blue) → https://myboiler.com/chat/
-    2. **Get a Quote** (secondary) → WhatsApp with prefilled message
-    3. **Call: 020 8123 4411** (secondary) → Phone link
+    2. **Get a Quote** (secondary) → https://hub.myboiler.com/fixed-price-repairs/
+    3. **WhatsApp** (secondary) → https://wa.me/442081234411 with prefilled message
 - Automatically hides when user starts a new search
 - Fully responsive with stacked buttons on mobile
 

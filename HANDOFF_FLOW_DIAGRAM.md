@@ -46,7 +46,7 @@
 │  ║                                                  ║   │
 │  ║  [Ask Boiler Help AI]  ← Primary Blue Button     ║   │
 │  ║  [Get a Quote]         ← Secondary Button        ║   │
-│  ║  [Call: 020 8123 4411] ← Secondary Button        ║   │
+│  ║  [WhatsApp]            ← Secondary Button        ║   │
 │  ╚══════════════════════════════════════════════════╝   │
 │                           ↓                              │
 └─────────────────────────────────────────────────────────┘
@@ -59,14 +59,15 @@
 │  → AI chatbot provides instant help                      │
 │                                                          │
 │  Option B: Get a Quote                                   │
+│  → Opens https://hub.myboiler.com/fixed-price-repairs/   │
+│  → View fixed-price repair options                       │
+│  → Book a Gas Safe engineer                              │
+│                                                          │
+│  Option C: WhatsApp                                      │
 │  → Opens WhatsApp with pre-filled message                │
 │  → "I need help with a boiler fault code from           │
 │     BoilerManuals"                                       │
-│  → Connect to Gas Safe engineer                          │
-│                                                          │
-│  Option C: Call                                          │
-│  → Initiates phone call to +442081234411                 │
-│  → Speak directly with support                           │
+│  → Connect to Gas Safe engineer via WhatsApp             │
 └─────────────────────────────────────────────────────────┘
 ```
 
@@ -82,14 +83,16 @@
 - Positioned below search input
 - Subtle text links
 - Provides early discovery
+- Quote links to fixed-price repairs page
 
 ### Handoff Card (Appears After Selection)
 ```
 ┌──────────────────────────────────────────┐
 │ Need help fixing this fault?             │
 │                                          │
-│ Get instant AI-powered advice or speak   │
-│ to a Gas Safe registered engineer.       │
+│ Get instant AI-powered advice or book    │
+│ a fixed-price repair with a Gas Safe     │
+│ engineer.                                │
 │                                          │
 │ ┌──────────────────────────┐             │
 │ │ Ask Boiler Help AI       │ ← Primary   │
@@ -100,7 +103,7 @@
 │ └──────────────────────────┘             │
 │                                          │
 │ ┌──────────────────────────┐             │
-│ │ Call: 020 8123 4411      │ ← Secondary │
+│ │ WhatsApp                 │ ← Secondary │
 │ └──────────────────────────┘             │
 └──────────────────────────────────────────┘
 ```
@@ -160,15 +163,14 @@
    - URL: https://myboiler.com/chat/
    - Target: New tab (rel="noopener")
 
-2. **WhatsApp Quote**
+2. **Fixed-Price Repairs**
+   - URL: https://hub.myboiler.com/fixed-price-repairs/
+   - Target: New tab (rel="noopener")
+
+3. **WhatsApp Quote**
    - URL: https://wa.me/442081234411
    - Pre-filled message about fault codes
    - Target: New tab (rel="noopener")
-
-3. **Phone**
-   - URL: tel:+442081234411
-   - Initiates phone call on mobile
-   - Direct action on desktop (Skype, etc.)
 
 ## Preserved Elements
 
