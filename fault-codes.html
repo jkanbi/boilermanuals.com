@@ -13,22 +13,33 @@
     <script src="js/navbar.js?v=7"></script>
 </head>
 <body>
-<div class="home-hero">
-        <section class="home-search" aria-label="Boiler fault codes">
-            <label class="visually-hidden" for="faultCodeSearch">Boiler fault codes</label>
-            <input
-                type="search"
-                id="faultCodeSearch"
-                class="home-search__input"
-                placeholder="Brand + code or code only (e.g. Worcester EA, Vaillant F.28 / F28, E133 etc.)"
-                autocomplete="off"
-                spellcheck="false"
-            >
-            <div id="faultCodeResults" class="home-search-results" hidden></div>
-        </section>
-    </div>
+    <div class="fault-codes-page">
+        <div class="fault-codes-hero">
+            <div class="container">
+                <h1 class="fault-codes-hero__title">Boiler Fault Codes</h1>
+                <p class="fault-codes-hero__intro">Look up fault codes from any boiler brand. Enter the brand name and code (e.g. Worcester EA, Vaillant F.28) or just the code to search.</p>
+            </div>
+        </div>
 
-    <div id="faultDetailPanel" class="fault-detail" hidden></div>
+        <div class="fault-codes-search-section">
+            <div class="container">
+                <section class="fault-codes-search" aria-label="Boiler fault codes">
+                    <label class="visually-hidden" for="faultCodeSearch">Boiler fault codes</label>
+                    <input
+                        type="search"
+                        id="faultCodeSearch"
+                        class="fault-codes-search__input"
+                        placeholder="Brand + code or code only (e.g. Worcester EA, Vaillant F.28 / F28, E133 etc.)"
+                        autocomplete="off"
+                        spellcheck="false"
+                    >
+                    <div id="faultCodeResults" class="fault-codes-search-results" hidden></div>
+                </section>
+            </div>
+        </div>
+
+        <div id="faultDetailPanel" class="fault-detail" hidden></div>
+    </div>
 
     <footer class="site-footer">
         <p>

@@ -152,35 +152,35 @@
 
         if (faultLoadState === "pending") {
             faultResults.hidden = false;
-            faultResults.innerHTML = '<p class="home-search-status">Loading fault codes…</p>';
+            faultResults.innerHTML = '<p class="fault-codes-search-status">Loading fault codes…</p>';
             return;
         }
 
         if (faultLoadState === "failed") {
             faultResults.hidden = false;
             faultResults.innerHTML =
-                '<p class="home-search-status">Fault codes are temporarily unavailable. Please refresh.</p>';
+                '<p class="fault-codes-search-status">Fault codes are temporarily unavailable. Please refresh.</p>';
             return;
         }
 
         if (!matches.length) {
             faultResults.hidden = false;
             faultResults.innerHTML =
-                '<p class="home-search-status">No fault codes found for <strong>' +
+                '<p class="fault-codes-search-status">No fault codes found for <strong>' +
                 escapeHtml(raw.trim()) +
                 "</strong>. Try a code like F.28, EA, or E133, optionally with a brand name.</p>";
             return;
         }
 
-        var html = '<ul class="home-search-list">';
+        var html = '<ul class="fault-codes-search-list">';
         for (var i = 0; i < matches.length; i++) {
             var entry = matches[i];
-            html += '<li class="home-search-item fault-code-item">';
-            html += '<button type="button" class="fault-code-item__button" data-index="' + i + '">';
-            html += '<span class="home-search-item__brand">' + escapeHtml(entry.brand) + "</span>";
-            html += '<span class="fault-code-item__code">' + escapeHtml(entry.code) + "</span>";
+            html += '<li class="fault-codes-search-item">';
+            html += '<button type="button" class="fault-codes-search-item__button" data-index="' + i + '">';
+            html += '<span class="fault-codes-search-item__brand">' + escapeHtml(entry.brand) + "</span>";
+            html += '<span class="fault-codes-search-item__code">' + escapeHtml(entry.code) + "</span>";
             if (entry.meaning) {
-                html += '<span class="fault-code-item__meaning">' + escapeHtml(entry.meaning) + "</span>";
+                html += '<span class="fault-codes-search-item__meaning">' + escapeHtml(entry.meaning) + "</span>";
             }
             html += "</button></li>";
         }
@@ -189,7 +189,7 @@
         faultResults.hidden = false;
         faultResults.innerHTML = html;
 
-        var buttons = faultResults.querySelectorAll(".fault-code-item__button");
+        var buttons = faultResults.querySelectorAll(".fault-codes-search-item__button");
         for (var j = 0; j < buttons.length; j++) {
             buttons[j].addEventListener("click", function () {
                 var idx = Number(this.getAttribute("data-index"));
