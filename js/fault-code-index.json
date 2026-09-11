@@ -5425,5 +5425,131 @@
     "meaning": "Reset button pressed by mistake.",
     "cause": "Press reset button again.",
     "brandUrl": "brands/worcester-bosch.html"
+  },
+  {
+    "brand": "Zanussi",
+    "brandSlug": "zanussi",
+    "code": "C0",
+    "codeNormalized": "c0",
+    "meaning": "Boiler chip card (BCC) activation fault",
+    "cause": "",
+    "brandUrl": "brands/zanussi.html"
+  },
+  {
+    "brand": "Zanussi",
+    "brandSlug": "zanussi",
+    "code": "C2",
+    "codeNormalized": "c2",
+    "meaning": "Boiler chip card (BCC) fault",
+    "cause": "",
+    "brandUrl": "brands/zanussi.html"
+  },
+  {
+    "brand": "Zanussi",
+    "brandSlug": "zanussi",
+    "code": "F1",
+    "codeNormalized": "f1",
+    "meaning": "Low water pressure",
+    "cause": "",
+    "brandUrl": "brands/zanussi.html"
+  },
+  {
+    "brand": "Zanussi",
+    "brandSlug": "zanussi",
+    "code": "F2",
+    "codeNormalized": "f2",
+    "meaning": "Flame loss",
+    "cause": "",
+    "brandUrl": "brands/zanussi.html"
+  },
+  {
+    "brand": "Zanussi",
+    "brandSlug": "zanussi",
+    "code": "F3",
+    "codeNormalized": "f3",
+    "meaning": "Fan fault",
+    "cause": "",
+    "brandUrl": "brands/zanussi.html"
+  },
+  {
+    "brand": "Zanussi",
+    "brandSlug": "zanussi",
+    "code": "F4",
+    "codeNormalized": "f4",
+    "meaning": "Flow thermistor",
+    "cause": "",
+    "brandUrl": "brands/zanussi.html"
+  },
+  {
+    "brand": "Zanussi",
+    "brandSlug": "zanussi",
+    "code": "F5",
+    "codeNormalized": "f5",
+    "meaning": "Return thermistor",
+    "cause": "",
+    "brandUrl": "brands/zanussi.html"
+  },
+  {
+    "brand": "Zanussi",
+    "brandSlug": "zanussi",
+    "code": "F6",
+    "codeNormalized": "f6",
+    "meaning": "Outside sensor failure",
+    "cause": "",
+    "brandUrl": "brands/zanussi.html"
+  },
+  {
+    "brand": "Zanussi",
+    "brandSlug": "zanussi",
+    "code": "F7",
+    "codeNormalized": "f7",
+    "meaning": "Low mains voltage",
+    "cause": "",
+    "brandUrl": "brands/zanussi.html"
+  },
+  {
+    "brand": "Zanussi",
+    "brandSlug": "zanussi",
+    "code": "F9",
+    "codeNormalized": "f9",
+    "meaning": "Unconfigured printed circuit board (PCB)",
+    "cause": "",
+    "brandUrl": "brands/zanussi.html"
+  },
+  {
+    "brand": "Zanussi",
+    "brandSlug": "zanussi",
+    "code": "L1",
+    "codeNormalized": "l1",
+    "meaning": "Flow temperature overheat or no water flow",
+    "cause": "",
+    "brandUrl": "brands/zanussi.html"
+  },
+  {
+    "brand": "Zanussi",
+    "brandSlug": "zanussi",
+    "code": "L2",
+    "codeNormalized": "l2",
+    "meaning": "Flame loss",
+    "cause": "",
+    "brandUrl": "brands/zanussi.html"
+  },
+  {
+    "brand": "Zanussi",
+    "brandSlug": "zanussi",
+    "code": "L5",
+    "codeNormalized": "l5",
+    "meaning": "5 boiler resets in 15 minutes",
+    "cause": "",
+    "brandUrl": "brands/zanussi.html"
+  },
+  {
+    "brand": "Zanussi",
+    "brandSlug": "zanussi",
+    "code": "L6",
+    "codeNormalized": "l6",
+    "meaning": "False flame lockout",
+    "cause": "",
+    "brandUrl": "brands/zanussi.html"
   }
 ]
