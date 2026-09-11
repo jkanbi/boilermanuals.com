@@ -222,9 +222,6 @@
         if (entry.brandUrl) {
             html += '<a href="' + escapeAttr(entry.brandUrl) + '">Browse ' + escapeHtml(entry.brand) + " manuals</a>";
         }
-        if (entry.hubUrl) {
-            html += ' · <a href="' + escapeAttr(entry.hubUrl) + '" rel="noopener noreferrer">Full code list on hub.myboiler.com</a>';
-        }
         html += "</p></div>";
 
         detailPanel.innerHTML = html;
