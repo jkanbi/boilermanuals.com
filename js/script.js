@@ -68,7 +68,7 @@ function showBrandPageTitle() {
     heading.id = 'brandPageTitle';
     heading.className = 'brand-page__title';
     heading.textContent = match[1].trim();
-    input.insertAdjacentElement('afterend', heading);
+    input.insertAdjacentElement('beforebegin', heading);
 }
 
 function isGcColumnHeader(label) {

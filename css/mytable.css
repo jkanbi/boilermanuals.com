@@ -1,52 +1,101 @@
+body:has(#myTable) {
+  display: grid;
+  grid-template-columns: minmax(2.5rem, 1fr) minmax(0, 80rem) minmax(2.5rem, 1fr);
+  padding-bottom: 3rem;
+}
+
+body:has(#myTable) > * {
+  grid-column: 2;
+}
+
+body:has(#myTable) > .site-header,
+body:has(#myTable) > .download-modal,
+body:has(#myTable) > script {
+  grid-column: 1 / -1;
+}
+
+body:has(#myTable) > .nav-button {
+  justify-self: start;
+  margin: 1.75rem 0 1.25rem;
+}
+
 .brand-page__title {
-  margin: 0 0 16px;
-  font-size: 1.5rem;
-  font-weight: 500;
-  color: #202124;
+  margin: 0 0 1rem;
+  font-size: clamp(1.5rem, 2.5vw, 1.875rem);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: var(--text);
   line-height: 1.3;
 }
 
 #myInput {
-  background-image: url('../images/searchicon.png');
-  background-position: 10px 12px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' stroke='%236b7280' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' viewBox='0 0 24 24'%3E%3Ccircle cx='11' cy='11' r='7'/%3E%3Cpath d='M20 20l-3.5-3.5'/%3E%3C/svg%3E");
+  background-position: 14px 50%;
   background-repeat: no-repeat;
+  background-size: 16px 16px;
   width: 100%;
   max-width: 100%;
   font-size: 16px;
-  padding: 12px 20px 12px 40px;
-  border: 1px solid #ddd;
-  margin-bottom: 12px;
+  padding: 12px 20px 12px 42px;
+  border: 1px solid var(--border);
+  margin: 0 0 1.25rem;
   box-sizing: border-box;
-  border-radius: 8px;
+  border-radius: 12px;
+  background-color: var(--surface);
+  box-shadow: var(--shadow-sm);
+}
+
+#myInput:focus {
+  outline: none;
+  border-color: var(--accent);
+  box-shadow: 0 0 0 4px rgba(24, 99, 220, 0.1), var(--shadow-sm);
 }
 
 #myTable {
   border-collapse: collapse;
   width: 100%;
-  border: 1px solid #ddd;
-  font-size: 18px;
+  border: none;
+  font-size: 0.9375rem;
+  background: var(--surface);
+}
+
+body:has(#myTable) > #myTable,
+.table-responsive {
+  background: var(--surface);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-sm);
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
 }
 
 #myTable th,
 #myTable td {
   text-align: left;
-  padding: 12px;
+  padding: 14px 16px;
   vertical-align: top;
 }
 
 #myTable thead th {
   font-weight: 600;
-  color: #202124;
-  background-color: #f8f9fa;
+  color: var(--text);
+  background-color: #f7f8f9;
+  font-size: 0.8125rem;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
 }
 
 #myTable tr {
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+#myTable tbody tr:last-child {
+  border-bottom: none;
 }
 
 #myTable tr.header,
-#myTable tr:hover {
-  background-color: #f1f1f1;
+#myTable tbody tr:hover {
+  background-color: #f4f6f8;
 }
 
 #myTable .size-thumbnail {
@@ -57,8 +106,9 @@
 }
 
 #myTable a {
-  color: #1a73e8;
+  color: var(--link);
   text-decoration: none;
+  font-weight: 500;
 }
 
 #myTable a:hover {
@@ -73,24 +123,49 @@
   pointer-events: none;
 }
 
+@media screen and (min-width: 769px) {
+  #myTable {
+    min-width: 760px;
+  }
+
+  #myTable td:first-child,
+  #myTable .gc-no {
+    white-space: nowrap;
+  }
+}
+
 .table-responsive {
   width: 100%;
   max-width: 100%;
-  overflow-x: auto;
-  -webkit-overflow-scrolling: touch;
 }
 
 @media screen and (max-width: 768px) {
+  body:has(#myTable) {
+    grid-template-columns: minmax(1rem, 1fr) minmax(0, 80rem) minmax(1rem, 1fr);
+    padding-bottom: 2rem;
+  }
+
+  body:has(#myTable) > .nav-button {
+    margin: 1rem 0;
+    width: 100%;
+    justify-self: stretch;
+  }
+
   .brand-page__title {
     font-size: 1.25rem;
-    margin-bottom: 12px;
+    margin-bottom: 0.75rem;
   }
 
   #myInput {
-    margin-bottom: 12px;
+    margin-bottom: 1rem;
   }
 
+  body:has(#myTable) > #myTable,
   .table-responsive {
+    background: none;
+    border: none;
+    box-shadow: none;
+    border-radius: 0;
     overflow: visible;
   }
 
