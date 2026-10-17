@@ -197,12 +197,13 @@
                 } else {
                     html += "<a href=\"" + escapeAttr(entry.downloadUrl) + "\">Download</a>";
                 }
+                html += "</div>";
+                // Report goes at the end of the result row, away from View.
                 var reportUrl = buildReportUrl(entry);
                 if (reportUrl) {
-                    html += " <a class=\"report-link\" rel=\"nofollow\" title=\"Report a wrong or broken link\" href=\"" +
+                    html += "<a class=\"report-link home-search-item__report\" rel=\"nofollow\" title=\"Report a wrong or broken link\" href=\"" +
                         escapeAttr(reportUrl) + "\">Report</a>";
                 }
-                html += "</div>";
             } else {
                 html += "<div class=\"home-search-item__actions\">";
                 html += "<a href=\"" + escapeAttr(buildRequestUrl(entry)) + "\">Request manual</a>";
@@ -238,7 +239,26 @@
         return escapeHtml(value);
     }
 
+    function injectResultStyle() {
+        if (document.getElementById("home-search-report-style")) {
+            return;
+        }
+        var style = document.createElement("style");
+        style.id = "home-search-report-style";
+        // Model + View on the left, Report pushed to the far end of the row.
+        style.textContent =
+            ".home-search-item{justify-content:flex-start;align-items:center}" +
+            ".home-search-item__main{flex:0 1 auto}" +
+            ".home-search-item a.home-search-item__report{margin-left:auto;white-space:nowrap}" +
+            "@media screen and (max-width:640px){" +
+            ".home-search-item{align-items:stretch;gap:8px}" +
+            ".home-search-item a.home-search-item__report{margin-left:0;align-self:flex-end}" +
+            "}";
+        document.head.appendChild(style);
+    }
+
     function buildReportUrl(entry) {
+        injectResultStyle();
         if (!window.BMReport || !window.BMReport.url) {
             return "";
         }

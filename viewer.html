@@ -139,6 +139,71 @@
             transform: translateY(-50%);
         }
         .pv-pagebox.is-rendered .pv-pagenum { display: none; }
+        /* In-manual text search */
+        .pv-searchbar {
+            position: sticky;
+            z-index: 899;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 4px;
+            padding: 4px 8px;
+            background: var(--surface, #fff);
+            border-bottom: 1px solid var(--border, #dfe2e6);
+            box-shadow: 0 1px 3px rgba(27, 27, 27, 0.06);
+            box-sizing: border-box;
+            width: 100%;
+        }
+        .pv-searchbar[hidden] { display: none; }
+        .pv-searchbar input {
+            flex: 1 1 6rem;
+            min-width: 0;
+            height: 36px;
+            padding: 0 10px;
+            border: 1px solid var(--border, #dfe2e6);
+            border-radius: 8px;
+            font: 400 1rem/1 var(--font, system-ui, sans-serif);
+            box-sizing: border-box;
+        }
+        .pv-search-count {
+            flex: 0 0 auto;
+            min-width: 3.2em;
+            font: 600 0.85rem/1 var(--font, system-ui, sans-serif);
+            color: var(--text-muted, #6b7280);
+            text-align: center;
+            white-space: nowrap;
+        }
+        .pv-btn--sm { min-width: 36px; height: 36px; padding: 0 6px; }
+        .pv-btn[hidden], .pv-search-count:empty { display: none; }
+        .pv-btn--text { font-size: 0.9rem; }
+        .pv-search-msg {
+            flex: 1 0 100%;
+            margin: 0;
+            padding: 2px 2px 4px;
+            font-size: 0.9rem;
+            color: var(--text-muted, #6b7280);
+        }
+        .pv-hl-layer { position: absolute; top: 0; right: 0; bottom: 0; left: 0; z-index: 1; pointer-events: none; }
+        .pv-hl {
+            position: absolute;
+            background: rgba(255, 213, 0, 0.45);
+            border-radius: 2px;
+            mix-blend-mode: multiply;
+        }
+        .pv-hl.is-current {
+            background: rgba(255, 120, 0, 0.55);
+            outline: 2px solid #e8590c;
+        }
+        @media (max-width: 599px) {
+            .pv-toolbar .pv-btn { min-width: 36px; padding: 0 6px; }
+        }
+        @media (max-width: 359px) {
+            .pv-searchbar { gap: 2px; padding: 4px; }
+            .pv-searchbar input { height: 34px; padding: 0 6px; }
+            .pv-btn--sm { min-width: 32px; height: 34px; padding: 0 3px; }
+            .pv-search-count { min-width: 2.6em; font-size: 0.78rem; }
+            .pv-toolbar .pv-btn { min-width: 34px; padding: 0 3px; }
+        }
     </style>
 </head>
 <body>
@@ -158,10 +223,22 @@
         <button class="pv-btn" id="pvZoomOut" type="button" aria-label="Zoom out" title="Zoom out" disabled>&minus;</button>
         <button class="pv-btn" id="pvZoomIn" type="button" aria-label="Zoom in" title="Zoom in" disabled>+</button>
     </div>
+    <div class="pv-group">
+        <button class="pv-btn" id="pvSearchToggle" type="button" aria-label="Search in this manual" title="Search in this manual" aria-expanded="false" aria-controls="pvSearchBar" disabled><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2.4"/><path d="m15.5 15.5 5 5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg></button>
+    </div>
     <div class="pv-spacer"></div>
     <div class="pv-group">
         <a class="pv-btn pv-btn--primary" id="pvDownload" href="/" rel="nofollow" aria-label="Download PDF" title="Download PDF"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" d="M12 3v12m-5-5 5 5 5-5M4 20h16"/></svg><span class="pv-label-wide">Download</span></a>
     </div>
+</div>
+<div class="pv-searchbar" id="pvSearchBar" role="search" aria-label="Search in this manual" hidden>
+    <input id="pvSearchInput" type="search" placeholder="Search (e.g. F28)" enterkeyhint="search" autocomplete="off" autocapitalize="off" spellcheck="false" aria-label="Search text in this manual">
+    <span class="pv-search-count" id="pvSearchCount" aria-live="polite"></span>
+    <button class="pv-btn pv-btn--sm" id="pvSearchPrev" type="button" aria-label="Previous match" title="Previous match" disabled><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m6 15 6-6 6 6" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+    <button class="pv-btn pv-btn--sm" id="pvSearchNext" type="button" aria-label="Next match" title="Next match" disabled><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m6 9 6 6 6-6" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+    <button class="pv-btn pv-btn--sm pv-btn--text" id="pvSearchStop" type="button" aria-label="Stop searching" title="Stop searching" hidden>Stop</button>
+    <button class="pv-btn pv-btn--sm" id="pvSearchClose" type="button" aria-label="Close search" title="Close search">&times;</button>
+    <p class="pv-search-msg" id="pvSearchMsg" hidden></p>
 </div>
 
 <main>
@@ -245,6 +322,6 @@
         }
     })();
 </script>
-<script type="module" src="/js/viewer.js?v=1"></script>
+<script type="module" src="/js/viewer.js?v=2"></script>
 </body>
 </html>

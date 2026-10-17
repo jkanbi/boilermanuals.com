@@ -82,7 +82,13 @@
         style.textContent =
             ".report-link{margin-left:.6em;font-size:.8em;color:#80868b;font-weight:400;white-space:nowrap}" +
             ".report-link:hover{color:#c5221f}" +
-            "#myTable td a.report-link{min-height:0;font-weight:400}";
+            "#myTable td a.report-link{min-height:0;font-weight:400}" +
+            // Report sits at the end of the row (last cell), away from View.
+            "#myTable td.report-cell--only{text-align:right}" +
+            "@media screen and (max-width:768px){" +
+            "#myTable td.report-cell--only{display:flex;justify-content:flex-end;padding-top:6px;padding-bottom:8px}" +
+            "#myTable td.report-cell--only::before{display:none}" +
+            "}";
         document.head.appendChild(style);
     }
 
@@ -136,9 +142,16 @@
             link.title = "Report a wrong or broken link";
             link.setAttribute("rel", "nofollow");
 
-            var last = pdfLinks[pdfLinks.length - 1];
-            last.parentNode.insertBefore(link, last.nextSibling);
-            last.parentNode.insertBefore(document.createTextNode(" "), link);
+            // Put Report at the end of the row (in its last cell), not next to View.
+            var lastCell = cells.length ? cells[cells.length - 1] : pdfLinks[pdfLinks.length - 1].parentNode;
+            if (!clean(lastCell.textContent) && !lastCell.querySelector("img")) {
+                lastCell.classList.add("report-cell--only");
+            }
+            lastCell.classList.remove("table-cell--empty");
+            if (lastCell.childNodes.length) {
+                lastCell.appendChild(document.createTextNode(" "));
+            }
+            lastCell.appendChild(link);
             added = true;
         });
 
