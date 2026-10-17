@@ -729,11 +729,11 @@ Brand page: https://boilermanuals.com/brands/ariston.html
 - Ariston E-System EVO 24 ErP | GC 41-116-44 | https://cdn.boilermanuals.com/ariston/Ariston-E-combi-24-30-38-and-system-24-30-evo-erp-ISIM.pdf
 - Ariston E-System EVO 30 ErP | GC 41-116-45 | https://cdn.boilermanuals.com/ariston/Ariston-E-combi-24-30-38-and-system-24-30-evo-erp-ISIM.pdf
 - Ariston Clas HE R 24KW Open Vent | GC 41-116-46 | https://cdn.boilermanuals.com/ariston/Ariston-clas-he-r-24-kw-openvent-ISIM.pdf
-- Ariston E-System One 24 KW | GC 41-116-47 | https://cdn.boilermanuals.com/ariston/Ariston-E-combi-24-30-38-and-system-24-30-evo-erp-ISIM.pdf
-- Ariston E-System One 30 KW | GC 41-116-48 | https://cdn.boilermanuals.com/ariston/Ariston-E-combi-24-30-38-and-system-24-30-evo-erp-ISIM.pdf
+- Ariston E-System One 24 KW | GC 41-116-47 | https://cdn.boilermanuals.com/ariston/Ariston-E-combi-and-system-24-30-one-ISIM.pdf
+- Ariston E-System One 30 KW | GC 41-116-48 | https://cdn.boilermanuals.com/ariston/Ariston-E-combi-and-system-24-30-one-ISIM.pdf
 - Ariston Compact 400 20/1 MFS | GC 47-116-01 | https://cdn.boilermanuals.com/ariston/Ariston-compact-400-combi-20-1-mfs-ISIM.pdf
-- Ariston Dia 20 MFFICE | GC 47-116-03 | https://cdn.boilermanuals.com/ariston/ariston-DIA-2024MI-CE.pdf
-- Ariston Dia 24 MFFICE | GC 47-116-04 | https://cdn.boilermanuals.com/ariston/ariston-DIA-2024MI-CE.pdf
+- Ariston Dia 20 MFFICE | GC 47-116-03 | https://cdn.boilermanuals.com/ariston/Ariston-DIA-20-24-MFFI-CE-Installation-Servicing-Instructions-Manual-May-05.pdf
+- Ariston Dia 24 MFFICE | GC 47-116-04 | https://cdn.boilermanuals.com/ariston/Ariston-DIA-20-24-MFFI-CE-Installation-Servicing-Instructions-Manual-May-05.pdf
 - Ariston Challenger 80e | GC 47-116-05 | https://cdn.boilermanuals.com/ariston/Ariston-challenger-80e-ISIM.pdf
 - Ariston Genus 23 MFFi | GC 47-116-08 | https://cdn.boilermanuals.com/ariston/Ariston-genus-23-27-30-Mffi-27-Rffi-system-ISIM.pdf
 - Ariston Genus 27 MFFi | GC 47-116-09 | https://cdn.boilermanuals.com/ariston/Ariston-genus-23-27-30-Mffi-27-Rffi-system-ISIM.pdf
@@ -790,8 +790,8 @@ Brand page: https://boilermanuals.com/brands/ariston.html
 - Ariston E-Combi EVO 30 ErP | GC 47-116-77 | https://cdn.boilermanuals.com/ariston/Ariston-E-combi-24-30-38-and-system-24-30-evo-erp-ISIM.pdf
 - Ariston E-Combi EVO 38 ErP | GC 47-116-78 | https://cdn.boilermanuals.com/ariston/Ariston-E-combi-24-30-38-and-system-24-30-evo-erp-ISIM.pdf
 - (model) | no manual online yet
-- Ariston E-Combi One 24 KW | GC 47-116-83 | https://cdn.boilermanuals.com/ariston/Ariston-E-combi-24-30-38-and-system-24-30-evo-erp-ISIM.pdf
-- Ariston E-Combi One 30 KW | GC 47-116-84 | https://cdn.boilermanuals.com/ariston/Ariston-E-combi-24-30-38-and-system-24-30-evo-erp-ISIM.pdf
+- Ariston E-Combi One 24 KW | GC 47-116-83 | https://cdn.boilermanuals.com/ariston/Ariston-E-combi-and-system-24-30-one-ISIM.pdf
+- Ariston E-Combi One 30 KW | GC 47-116-84 | https://cdn.boilermanuals.com/ariston/Ariston-E-combi-and-system-24-30-one-ISIM.pdf
 - Ariston E Tec Plus 28 kw | GC 47-532-77 | https://cdn.boilermanuals.com/ariston/ALP100.pdf
 - Ariston E Tec Plus 33 kw | GC 47-532-78 | https://cdn.boilermanuals.com/ariston/ALP100.pdf
 - Ariston E-Tec Plus 38 kw | GC 47-532-79 | https://cdn.boilermanuals.com/ariston/ALP100.pdf
@@ -1143,11 +1143,11 @@ Brand page: https://boilermanuals.com/brands/baxi.html
 - Baxi Bermuda SL3 [LPG] | GC 37-077-70 | LPG | https://cdn.boilermanuals.com/baxi/baxi-Bermuda-553.pdf
 - Baxi Bermuda VP 3 Propane | GC 37-077-72 | NG/LPG | https://cdn.boilermanuals.com/baxi/Baxi-bermuda-SP3-VP3-Renewal-ISIM.pdf
 - Baxi Bermuda C5 [LPG] | GC 37-077-74 | LPG | https://cdn.boilermanuals.com/baxi/baxi-bermuda-fires-pw5-delux-C5-and-C5W-installation-servicing-instructions-manual.pdf
-- Baxi EcoBlue 12 System ErP | GC 41-070-23 | NG | https://cdn.boilermanuals.com/baxi/baxi-ecoblue-system-12-15-18-24-28-32-installation-service-instructions-manual-2015.pdf
-- Baxi EcoBlue 15 System ErP | GC 41-070-24 | NG | https://cdn.boilermanuals.com/baxi/baxi-ecoblue-system-12-15-18-24-28-32-installation-service-instructions-manual-2015.pdf
-- Baxi EcoBlue 18 System ErP | GC 41-070-25 | NG | https://cdn.boilermanuals.com/baxi/baxi-ecoblue-system-12-15-18-24-28-32-installation-service-instructions-manual-2015.pdf
-- Baxi EcoBlue 24 System ErP | GC 41-070-26 | NG | https://cdn.boilermanuals.com/baxi/baxi-ecoblue-system-12-15-18-24-28-32-installation-service-instructions-manual-2015.pdf
-- Baxi EcoBlue 28 System ErP | GC 41-070-27 | NG | https://cdn.boilermanuals.com/baxi/baxi-ecoblue-system-12-15-18-24-28-32-installation-service-instructions-manual-2015.pdf
+- Baxi EcoBlue 12 System ErP | GC 41-070-23 | NG | https://cdn.boilermanuals.com/baxi/baxi-ecoblue-system-12-15-18-24-28-32-installation-service-instructions-manual.pdf
+- Baxi EcoBlue 15 System ErP | GC 41-070-24 | NG | https://cdn.boilermanuals.com/baxi/baxi-ecoblue-system-12-15-18-24-28-32-installation-service-instructions-manual.pdf
+- Baxi EcoBlue 18 System ErP | GC 41-070-25 | NG | https://cdn.boilermanuals.com/baxi/baxi-ecoblue-system-12-15-18-24-28-32-installation-service-instructions-manual.pdf
+- Baxi EcoBlue 24 System ErP | GC 41-070-26 | NG | https://cdn.boilermanuals.com/baxi/baxi-ecoblue-system-12-15-18-24-28-32-installation-service-instructions-manual.pdf
+- Baxi EcoBlue 28 System ErP | GC 41-070-27 | NG | https://cdn.boilermanuals.com/baxi/baxi-ecoblue-system-12-15-18-24-28-32-installation-service-instructions-manual.pdf
 - Baxi EcoBlue 32 System ErP | GC 41-070-28 | NG | https://cdn.boilermanuals.com/baxi/baxi-ecoblue-system-12-15-18-24-28-32-installation-service-instructions-manual-2015.pdf
 - Baxi Solo 2 70PF | GC 41-075-01 | NG | https://cdn.boilermanuals.com/baxi/Baxi-solo-2-30-40-50-60-70-80-pf-ISIM.pdf
 - Baxi Barcelona | GC 41-075-02 | NG | https://cdn.boilermanuals.com/baxi/baxi-boiler-barcelona.pdf
@@ -1279,11 +1279,11 @@ Brand page: https://boilermanuals.com/brands/baxi.html
 - Baxi Megaflo 24 System ErP | GC 41-470-20 | NG | https://cdn.boilermanuals.com/baxi/Baxi-megaflo-15-18-24-28-32-system-erp-ISIM.pdf
 - Baxi Megaflo 28 System ErP | GC 41-470-21 | NG | https://cdn.boilermanuals.com/baxi/Baxi-megaflo-15-18-24-28-32-system-erp-ISIM.pdf
 - Baxi Megaflo 32 System ErP | GC 41-470-22 | NG | https://cdn.boilermanuals.com/baxi/Baxi-megaflo-15-18-24-28-32-system-erp-ISIM.pdf
-- Baxi EcoBlue 12 System ErP | GC 41-470-23 | https://cdn.boilermanuals.com/baxi/baxi-ecoblue-system-12-15-18-24-28-32-installation-service-instructions-manual-2015.pdf
-- Baxi EcoBlue 15 System ErP | GC 41-470-24 | https://cdn.boilermanuals.com/baxi/baxi-ecoblue-system-12-15-18-24-28-32-installation-service-instructions-manual-2015.pdf
-- Baxi EcoBlue 18 System ErP | GC 41-470-25 | https://cdn.boilermanuals.com/baxi/baxi-ecoblue-system-12-15-18-24-28-32-installation-service-instructions-manual-2015.pdf
-- Baxi EcoBlue 24 System ErP | GC 41-470-26 | https://cdn.boilermanuals.com/baxi/baxi-ecoblue-system-12-15-18-24-28-32-installation-service-instructions-manual-2015.pdf
-- Baxi EcoBlue 28 System ErP | GC 41-470-27 | https://cdn.boilermanuals.com/baxi/baxi-ecoblue-system-12-15-18-24-28-32-installation-service-instructions-manual-2015.pdf
+- Baxi EcoBlue 12 System ErP | GC 41-470-23 | https://cdn.boilermanuals.com/baxi/baxi-ecoblue-system-12-15-18-24-28-32-installation-service-instructions-manual.pdf
+- Baxi EcoBlue 15 System ErP | GC 41-470-24 | https://cdn.boilermanuals.com/baxi/baxi-ecoblue-system-12-15-18-24-28-32-installation-service-instructions-manual.pdf
+- Baxi EcoBlue 18 System ErP | GC 41-470-25 | https://cdn.boilermanuals.com/baxi/baxi-ecoblue-system-12-15-18-24-28-32-installation-service-instructions-manual.pdf
+- Baxi EcoBlue 24 System ErP | GC 41-470-26 | https://cdn.boilermanuals.com/baxi/baxi-ecoblue-system-12-15-18-24-28-32-installation-service-instructions-manual.pdf
+- Baxi EcoBlue 28 System ErP | GC 41-470-27 | https://cdn.boilermanuals.com/baxi/baxi-ecoblue-system-12-15-18-24-28-32-installation-service-instructions-manual.pdf
 - Baxi EcoBlue 32 System ErP | GC 41-470-28 | https://cdn.boilermanuals.com/baxi/baxi-ecoblue-system-12-15-18-24-28-32-installation-service-instructions-manual-2015.pdf
 - Baxi EcoBlue 12 Heat ErP | GC 41-470-29 | NG | https://cdn.boilermanuals.com/baxi/Baxi-ecoblue-12-15-18-21-24-heat-erp-ISIM.pdf
 - Baxi EcoBlue 15 Heat ErP | GC 41-470-30 | NG | https://cdn.boilermanuals.com/baxi/Baxi-ecoblue-12-15-18-21-24-heat-erp-ISIM.pdf
@@ -1353,10 +1353,10 @@ Brand page: https://boilermanuals.com/brands/baxi.html
 - Baxi Platinum Combi 24 HE | GC 47-075-20 | NG | https://cdn.boilermanuals.com/baxi/baxi-Platinum-combi-40.pdf
 - Baxi Platinum Combi 28 HE | GC 47-075-21 | NG | https://cdn.boilermanuals.com/baxi/baxi-Platinum-combi-40.pdf
 - Baxi Platinum Combi 33 HE | GC 47-075-22 | NG | https://cdn.boilermanuals.com/baxi/baxi-Platinum-combi-40.pdf
-- Baxi Duo-tec Combi 24 HE | GC 47-075-23 | NG | https://cdn.boilermanuals.com/baxi/Baxi-Duo-tec-Combi-ErP-Installation-and-Servicing-Manual.pdf
-- Baxi Duo-tec Combi 33 HE | GC 47-075-24 | NG | https://cdn.boilermanuals.com/baxi/Baxi-Duo-tec-Combi-ErP-Installation-and-Servicing-Manual.pdf
-- Baxi Duo-tec Combi 28 HE | GC 47-075-25 | NG | https://cdn.boilermanuals.com/baxi/Baxi-Duo-tec-Combi-ErP-Installation-and-Servicing-Manual.pdf
-- Baxi Duo-tec Combi 40 HE | GC 47-075-26 | NG | https://cdn.boilermanuals.com/baxi/Baxi-Duo-tec-Combi-ErP-Installation-and-Servicing-Manual.pdf
+- Baxi Duo-tec Combi 24 HE | GC 47-075-23 | NG | https://cdn.boilermanuals.com/baxi/baxi-duo-tec-combi-he-24-28-33-40-Installation-servicing-instructions-manual-july-2007.pdf
+- Baxi Duo-tec Combi 33 HE | GC 47-075-24 | NG | https://cdn.boilermanuals.com/baxi/baxi-duo-tec-combi-he-24-28-33-40-Installation-servicing-instructions-manual-july-2007.pdf
+- Baxi Duo-tec Combi 28 HE | GC 47-075-25 | NG | https://cdn.boilermanuals.com/baxi/baxi-duo-tec-combi-he-24-28-33-40-Installation-servicing-instructions-manual-july-2007.pdf
+- Baxi Duo-tec Combi 40 HE | GC 47-075-26 | NG | https://cdn.boilermanuals.com/baxi/baxi-duo-tec-combi-he-24-28-33-40-Installation-servicing-instructions-manual-july-2007.pdf
 - Baxi Platinum Combi 24 HE | GC 47-075-27 | NG | https://cdn.boilermanuals.com/baxi/Plat-HE.pdf
 - Baxi Platinum Combi 28 HE | GC 47-075-28 | NG | https://cdn.boilermanuals.com/baxi/Plat-HE.pdf
 - Baxi Platinum Combi 33 HE | GC 47-075-29 | NG | https://cdn.boilermanuals.com/baxi/Plat-HE.pdf
@@ -1370,9 +1370,9 @@ Brand page: https://boilermanuals.com/brands/baxi.html
 - Baxi Duo-tec Combi 33 HE A | GC 47-075-37 | NG | https://cdn.boilermanuals.com/baxi/Baxi-Duotec-Combi-24-28-33-40-HE-A-Installation-Servicing-instructions-Manual.pdf
 - Baxi Duo-tec Combi 40 HE A | GC 47-075-38 | NG | https://cdn.boilermanuals.com/baxi/Baxi-Duotec-Combi-24-28-33-40-HE-A-Installation-Servicing-instructions-Manual.pdf
 - Baxi Duo-tec Combi 28 HE LPG | GC 47-075-39 | LPG | https://cdn.boilermanuals.com/baxi/Baxi-Duo-tec-Combi-28-HE-ISIM.pdf
-- Baxi Neta-tec Combi 24 GA | GC 47-075-51 | NG/LPG | https://cdn.boilermanuals.com/baxi/Baxi-neta-tec-plus-combi-24-28-33-ga-ISIM.pdf
-- Baxi Neta-tec Combi 28 GA | GC 47-075-52 | NG/LPG | https://cdn.boilermanuals.com/baxi/Baxi-neta-tec-plus-combi-24-28-33-ga-ISIM.pdf
-- Baxi Neta-tec Combi 33 GA | GC 47-075-53 | NG/LPG | https://cdn.boilermanuals.com/baxi/Baxi-neta-tec-plus-combi-24-28-33-ga-ISIM.pdf
+- Baxi Neta-tec Combi 24 GA | GC 47-075-51 | NG/LPG | https://cdn.boilermanuals.com/baxi/baxi-neta-tec-ga-installation-servicing-instructions-manual.pdf
+- Baxi Neta-tec Combi 28 GA | GC 47-075-52 | NG/LPG | https://cdn.boilermanuals.com/baxi/baxi-neta-tec-ga-installation-servicing-instructions-manual.pdf
+- Baxi Neta-tec Combi 33 GA | GC 47-075-53 | NG/LPG | https://cdn.boilermanuals.com/baxi/baxi-neta-tec-ga-installation-servicing-instructions-manual.pdf
 - Baxi Duo-tec 2 Combi 24 GA | GC 47-075-54 | NG/LPG | https://cdn.boilermanuals.com/baxi/baxi-duo-tec-2-combi-24-28-33-40-ga-ISIM.pdf
 - Baxi Duo-tec 2 Combi 28 GA | GC 47-075-55 | NG/LPG | https://cdn.boilermanuals.com/baxi/baxi-duo-tec-2-combi-24-28-33-40-ga-ISIM.pdf
 - Baxi Duo-tec 2 Combi 33 GA | GC 47-075-56 | NG/LPG | https://cdn.boilermanuals.com/baxi/baxi-duo-tec-2-combi-24-28-33-40-ga-ISIM.pdf
@@ -1405,10 +1405,10 @@ Brand page: https://boilermanuals.com/brands/baxi.html
 - Baxi Genesis 80 | GC 47-077-01 | NG/LPG | https://cdn.boilermanuals.com/baxi/GENESIS-80.pdf
 - Baxi Genesis 96 | GC 47-077-02 | NG/LPG | https://cdn.boilermanuals.com/baxi/GENESIS-80.pdf
 - Baxi Duo-tec 40 Combi ErP | GC 47-077-03 | NG | https://cdn.boilermanuals.com/baxi/Baxi-duo-tec-24-28-33-40-combi-erp-ISIM.pdf
-- Baxi Platinum 24 Combi ErP | GC 47-077-04 | NG | https://cdn.boilermanuals.com/baxi/baxi-Platinum-combi-40.pdf
-- Baxi Platinum 28 Combi ErP | GC 47-077-05 | NG | https://cdn.boilermanuals.com/baxi/baxi-Platinum-combi-40.pdf
-- Baxi Platinum 33 Combi ErP | GC 47-077-06 | NG | https://cdn.boilermanuals.com/baxi/baxi-Platinum-combi-40.pdf
-- Baxi Platinum 40 Combi ErP | GC 47-077-07 | NG | https://cdn.boilermanuals.com/baxi/baxi-Platinum-combi-40.pdf
+- Baxi Platinum 24 Combi ErP | GC 47-077-04 | NG | https://cdn.boilermanuals.com/baxi/baxi-platinum-combi-installation-and-service-manual.pdf
+- Baxi Platinum 28 Combi ErP | GC 47-077-05 | NG | https://cdn.boilermanuals.com/baxi/baxi-platinum-combi-installation-and-service-manual.pdf
+- Baxi Platinum 33 Combi ErP | GC 47-077-06 | NG | https://cdn.boilermanuals.com/baxi/baxi-platinum-combi-installation-and-service-manual.pdf
+- Baxi Platinum 40 Combi ErP | GC 47-077-07 | NG | https://cdn.boilermanuals.com/baxi/baxi-platinum-combi-installation-and-service-manual.pdf
 - Baxi EcoBlue Plus 24 Combi ErP | GC 47-077-08 | NG | https://cdn.boilermanuals.com/baxi/Baxi-ecoblue-plus-combi-24-28-33-ISIM.pdf
 - Baxi EcoBlue Plus 28 Combi ErP | GC 47-077-09 | NG | https://cdn.boilermanuals.com/baxi/Baxi-ecoblue-plus-combi-24-28-33-ISIM.pdf
 - Baxi EcoBlue Plus 33 Combi ErP | GC 47-077-10 | NG | https://cdn.boilermanuals.com/baxi/Baxi-ecoblue-plus-combi-24-28-33-ISIM.pdf
@@ -3742,18 +3742,18 @@ Brand page: https://boilermanuals.com/brands/glow-worm.html
 - 56FR BBU | GC 44-315-32 | NG | no manual online yet
 - 45/2 BBU | GC 44-315-39 | NG | https://cdn.boilermanuals.com/glow-worm/Glow-worm-co-ordinate45578kb.pdf
 - 56/2 BBU | GC 44-315-40 | NG | https://cdn.boilermanuals.com/glowworm/glowworm-56-2-Back-Boiler-Unit-BBU-ISIM.pdf
-- Ultracom 24cxi | GC 47-019-01 | NG | https://cdn.boilermanuals.com/glow-worm/glow-worm-24-30-38-cxi-installation-servicing-instructions-manual.pdf
-- Ultracom 30cxi | GC 47-019-02 | NG | https://cdn.boilermanuals.com/glow-worm/glow-worm-24-30-38-cxi-installation-servicing-instructions-manual.pdf
-- Ultracom 38cxi | GC 47-019-03 | NG | https://cdn.boilermanuals.com/glow-worm/glow-worm-24-30-38-cxi-installation-servicing-instructions-manual.pdf
+- Ultracom 24cxi | GC 47-019-01 | NG | https://cdn.boilermanuals.com/glowworm/glowworm-ultracom-24-30-38-cxi-installation-servicing-manual.pdf
+- Ultracom 30cxi | GC 47-019-02 | NG | https://cdn.boilermanuals.com/glowworm/glowworm-ultracom-24-30-38-cxi-installation-servicing-manual.pdf
+- Ultracom 38cxi | GC 47-019-03 | NG | https://cdn.boilermanuals.com/glowworm/glowworm-ultracom-24-30-38-cxi-installation-servicing-manual.pdf
 - Betacom 24 | GC 47-019-04 | NG/LPG | https://cdn.boilermanuals.com/glow-worm/glow-worm-betacom-24-30-installation-servicing-manual-instructions.pdf
 - Betacom 30 | GC 47-019-05 | NG/LPG | https://cdn.boilermanuals.com/glow-worm/glow-worm-betacom-24-30-installation-servicing-manual-instructions.pdf
 - Betacom 24c | GC 47-019-08 | NG | https://cdn.boilermanuals.com/glow-worm/glow-worm-betacom-24-30-installation-servicing-manual-instructions.pdf
 - Betacom 30c | GC 47-019-09 | NG | https://cdn.boilermanuals.com/glow-worm/glow-worm-betacom-24-30-installation-servicing-manual-instructions.pdf
-- Ultracom 2 24cxi | GC 47-019-10 | https://cdn.boilermanuals.com/glow-worm/glow-worm-ultracom-2-24cxi-30cxi-35cxi-installation-servicing-manual.pdf
-- Ultracom 2 30cxi | GC 47-019-11 | https://cdn.boilermanuals.com/glow-worm/glow-worm-ultracom-2-24cxi-30cxi-35cxi-installation-servicing-manual.pdf
-- Ultracom 2 35cxi | GC 47-019-12 | https://cdn.boilermanuals.com/glow-worm/glow-worm-ultracom-2-24cxi-30cxi-35cxi-installation-servicing-manual.pdf
-- Betacom 24a | GC 47-019-13 | NG/LPG | https://cdn.boilermanuals.com/glow-worm/glow-worm-betacom-24-30-installation-servicing-manual-instructions.pdf
-- Betacom 28a | GC 47-019-14 | NG/LPG | https://cdn.boilermanuals.com/glow-worm/glow-worm-betacom-24-30-installation-servicing-manual-instructions.pdf
+- Ultracom 2 24cxi | GC 47-019-10 | https://cdn.boilermanuals.com/glowworm/glowworm-ultracom-2-cxi-installation-manual.pdf
+- Ultracom 2 30cxi | GC 47-019-11 | https://cdn.boilermanuals.com/glowworm/glowworm-ultracom-2-cxi-installation-manual.pdf
+- Ultracom 2 35cxi | GC 47-019-12 | https://cdn.boilermanuals.com/glowworm/glowworm-ultracom-2-cxi-installation-manual.pdf
+- Betacom 24a | GC 47-019-13 | NG/LPG | https://cdn.boilermanuals.com/glowworm/glowworm-betacom-24a-28a-installation-and-servicing-manual.pdf
+- Betacom 28a | GC 47-019-14 | NG/LPG | https://cdn.boilermanuals.com/glowworm/glowworm-betacom-24a-28a-installation-and-servicing-manual.pdf
 - Betacom-2 24 | GC 47-019-16 | LPG | https://cdn.boilermanuals.com/glow-worm/betacom2-instn-serv.pdf
 - Betacom-2 28 | GC 47-019-17 | LPG | https://cdn.boilermanuals.com/glow-worm/betacom2-instn-serv.pdf
 - Easicom 24 | GC 47-019-18 | NG/LPG | https://cdn.boilermanuals.com/glowworm/Glow-worm-easicom-24-28-ISIM.pdf
@@ -3766,8 +3766,8 @@ Brand page: https://boilermanuals.com/brands/glow-worm.html
 - Essential 24c ErP | GC 47-019-27 | NG | https://cdn.boilermanuals.com/glow-worm/essential-combi-installation-and-maintenance-instructions-1949010.pdf
 - Essential 28c ErP | GC 47-019-28 | NG | https://cdn.boilermanuals.com/glow-worm/essential-combi-installation-and-maintenance-instructions-1949010.pdf
 - Energy 35 Store ErP | GC 47-019-37 | LPG | https://cdn.boilermanuals.com/glow-worm/Glow-worm-energy-35-store.pdf
-- Betacom-3 24c ErP | GC 47-019-41 | NG | https://cdn.boilermanuals.com/glow-worm/glow-worm-betacom-24-30-installation-servicing-manual-instructions.pdf
-- Betacom-3 30c ErP | GC 47-019-42 | NG | https://cdn.boilermanuals.com/glow-worm/glow-worm-betacom-24-30-installation-servicing-manual-instructions.pdf
+- Betacom-3 24c ErP | GC 47-019-41 | NG | https://cdn.boilermanuals.com/glowworm/glowworm-betacom-3-24c-30c-Erp-a-ISIM.pdf
+- Betacom-3 30c ErP | GC 47-019-42 | NG | https://cdn.boilermanuals.com/glowworm/glowworm-betacom-3-24c-30c-Erp-a-ISIM.pdf
 - Energysaver Combi 80 | GC 47-047-01 | NG | https://cdn.boilermanuals.com/glowworm/glow-worm-energysaver-combi-80-100-ISIM.pdf
 - Energysaver Combi 100 | GC 47-047-02 | NG | https://cdn.boilermanuals.com/glowworm/glow-worm-energysaver-combi-80-100-ISIM.pdf
 - Compact 75p | GC 47-047-03A | NG | https://cdn.boilermanuals.com/glow-worm/Glow-worm-Compact-75p-ISIM.pdf
@@ -3788,11 +3788,11 @@ Brand page: https://boilermanuals.com/brands/glow-worm.html
 - Xtrafast 120 | GC 47-047-26 | https://cdn.boilermanuals.com/glow-worm/glow-worm-xtrafast-96-120-installation-servicing-manual.pdf
 - 38cxi | GC 47-047-27 | NG | https://cdn.boilermanuals.com/glow-worm/glow-worm-24-30-38-cxi-installation-servicing-instructions-manual.pdf
 - 35ci | GC 47-047-28 | NG/LPG | https://cdn.boilermanuals.com/glow-worm/glow-worm-24-30-38-cxi-installation-servicing-instructions-manual.pdf
-- Flexicom 24cx (circa 2005) | GC 47-047-33 | NG | https://cdn.boilermanuals.com/glow-worm/glow-worm-flexicom-18sx-30sx-installation-servicing-instructions-manual.pdf
-- Flexicom 24cx (circa 2011) | GC 47-047-33 | NG | https://cdn.boilermanuals.com/glow-worm/glow-worm-flexicom-18sx-30sx-installation-servicing-instructions-manual.pdf
-- Flexicom 30cx (circa 2005) | GC 47-047-34 | NG | https://cdn.boilermanuals.com/glow-worm/glow-worm-flexicom-18sx-30sx-installation-servicing-instructions-manual.pdf
-- Flexicom 30cx (circa 2011) | GC 47-047-34 | NG | https://cdn.boilermanuals.com/glow-worm/glow-worm-flexicom-18sx-30sx-installation-servicing-instructions-manual.pdf
-- Flexicom 35cx (circa 2011) | GC 47-047-35 | NG | https://cdn.boilermanuals.com/glow-worm/glow-worm-flexicom-18sx-30sx-installation-servicing-instructions-manual.pdf
+- Flexicom 24cx (circa 2005) | GC 47-047-33 | NG | https://cdn.boilermanuals.com/glowworm/glow-worm-flexicom-cx-24-30-35-ISIM-12-2014.pdf
+- Flexicom 24cx (circa 2011) | GC 47-047-33 | NG | https://cdn.boilermanuals.com/glowworm/glow-worm-flexicom-cx-24-30-35-ISIM-12-2014.pdf
+- Flexicom 30cx (circa 2005) | GC 47-047-34 | NG | https://cdn.boilermanuals.com/glowworm/glow-worm-flexicom-cx-24-30-35-ISIM-12-2014.pdf
+- Flexicom 30cx (circa 2011) | GC 47-047-34 | NG | https://cdn.boilermanuals.com/glowworm/glow-worm-flexicom-cx-24-30-35-ISIM-12-2014.pdf
+- Flexicom 35cx (circa 2011) | GC 47-047-35 | NG | https://cdn.boilermanuals.com/glowworm/glow-worm-flexicom-cx-24-30-35-ISIM-12-2014.pdf
 - Fuelsaver Combination FF | GC 47-313-02 | NG | https://cdn.boilermanuals.com/glowworm/Glow-worm-Fuelsaver-Combi-FF-ISIM.pdf
 - Fuelsaver Combination OF | GC 47-313-03 | NG | https://cdn.boilermanuals.com/glowworm/Glow-worm-Fuelsaver-Combi-OF-ISIM.pdf
 - Express 80 | GC 47-313-04 | NG | no manual online yet
@@ -5444,9 +5444,9 @@ Brand page: https://boilermanuals.com/brands/ideal.html
 - Ideal Logic + Combi 24 | GC 47-348-65 | https://cdn.boilermanuals.com/ideal/ideal-logic-combi-24-logic-combi-30-logic-combi-35-installation-servicing-instructions-manual.pdf
 - Ideal Logic + Combi 30 | GC 47-348-66 | https://cdn.boilermanuals.com/ideal/ideal-logic-combi-24-logic-combi-30-logic-combi-35-installation-servicing-instructions-manual.pdf
 - Ideal Logic + Combi 35 | GC 47-348-67 | https://cdn.boilermanuals.com/ideal/ideal-logic-combi-24-logic-combi-30-logic-combi-35-installation-servicing-instructions-manual.pdf
-- Ideal Logic + Combi C24 | GC 47-349-18 | https://cdn.boilermanuals.com/ideal/ideal-logic-combi-c24-logic-combi-c30-logic-combi-c35-installation-servicing-instructions-manual.pdf
-- Ideal Logic + Combi C30 | GC 47-349-19 | https://cdn.boilermanuals.com/ideal/ideal-logic-combi-c24-logic-combi-c30-logic-combi-c35-installation-servicing-instructions-manual.pdf
-- Ideal Logic + Combi C35 | GC 47-349-20 | https://cdn.boilermanuals.com/ideal/ideal-logic-combi-c24-logic-combi-c30-logic-combi-c35-installation-servicing-instructions-manual.pdf
+- Ideal Logic Combi C24 | GC 47-349-18 | https://cdn.boilermanuals.com/ideal/Ideal-Logic-Combi-C24-C30-C35-Installation-Servicing-Instructions.pdf
+- Ideal Logic Combi C30 | GC 47-349-19 | https://cdn.boilermanuals.com/ideal/Ideal-Logic-Combi-C24-C30-C35-Installation-Servicing-Instructions.pdf
+- Ideal Logic Combi C35 | GC 47-349-20 | https://cdn.boilermanuals.com/ideal/Ideal-Logic-Combi-C24-C30-C35-Installation-Servicing-Instructions.pdf
 - Ideal Logic Code Combi 26 | GC 47-348-74 | https://cdn.boilermanuals.com/ideal/Ideal-logic-code-combi-26-33-38-ISIM.pdf
 - Ideal Logic Code Combi 33 | GC 47-348-75 | https://cdn.boilermanuals.com/ideal/Ideal-logic-code-combi-26-33-38-ISIM.pdf
 - Ideal Logic Code Combi 38 | GC 47-348-76 | https://cdn.boilermanuals.com/ideal/Ideal-logic-code-combi-26-33-38-ISIM.pdf
@@ -5959,8 +5959,8 @@ Brand page: https://boilermanuals.com/brands/keston.html
 - Keston Qudos 28SP | GC 41-930-18 | LPG | https://cdn.boilermanuals.com/keston/Keston-Qudos-28s-28sp-ISIM.pdf
 - Keston Qudos 28H | GC 41-930-19 | NG | https://cdn.boilermanuals.com/keston/Keston-Qudos-28h-28hp-ISIM.pdf
 - Keston Qudos 28HP | GC 41-930-20 | LPG | https://cdn.boilermanuals.com/keston/Keston-Qudos-28h-28hp-ISIM.pdf
-- Keston Qudos 37 | GC 41-930-23 | NG | https://cdn.boilermanuals.com/keston/Keston-Qudos-28s-28sp-ISIM.pdf
-- Keston Qudos 37P | GC 41-930-24 | LPG | https://cdn.boilermanuals.com/keston/Keston-Qudos-28s-28sp-ISIM.pdf
+- Keston Qudos 37 | GC 41-930-23 | NG | https://cdn.boilermanuals.com/keston/Keston-Qudos-37-37P-Installation-Servicing.pdf
+- Keston Qudos 37P | GC 41-930-24 | LPG | https://cdn.boilermanuals.com/keston/Keston-Qudos-37-37P-Installation-Servicing.pdf
 - Keston C45 | GC 41-930-25 | NG | https://cdn.boilermanuals.com/keston/Installation-C40P-C45-C55-C55P-Installation-and-Service-Manual.pdf
 - Keston System 30 | GC 41-930-39 | https://cdn.boilermanuals.com/keston/Keston-system-s30-ISIM.pdf
 - Keston Heat2 45 | GC 41-930-50 | NG | https://cdn.boilermanuals.com/keston/Keston-Heat-2-Installation-Manual-220446-3.pdf
@@ -6185,8 +6185,8 @@ Brand page: https://boilermanuals.com/brands/main.html
 - Main 15 HE | GC 41-474-03 | https://cdn.boilermanuals.com/main/Main-HE-9-12-15-18-24-ISIM.pdf
 - Main 18 HE | GC 41-474-04 | https://cdn.boilermanuals.com/main/Main-HE-9-12-15-18-24-ISIM.pdf
 - Main 24 HE | GC 41-474-05 | https://cdn.boilermanuals.com/main/Main-HE-9-12-15-18-24-ISIM.pdf
-- Main Combi 25 Eco | GC 47-467-01 | https://cdn.boilermanuals.com/main/Main-combi-30-HE-ISIM.pdf
-- Main Combi 30 Eco | GC 47-467-03 | https://cdn.boilermanuals.com/main/Main-combi-30-HE-ISIM.pdf
+- Main Combi 25 Eco | GC 47-467-01 | https://cdn.boilermanuals.com/main/Main-combi-eco-25-30-ISIM.pdf
+- Main Combi 30 Eco | GC 47-467-03 | https://cdn.boilermanuals.com/main/Main-combi-eco-25-30-ISIM.pdf
 - Main Eco Elite 25 Combi | GC 47-467-08 | https://cdn.boilermanuals.com/main/main-com25.pdf
 - Main Eco Elite 30 Combi | GC 47-467-09 | https://cdn.boilermanuals.com/main/main-com25.pdf
 - Main Eco Elite 25 Combi ErP | GC 47-467-12 | https://cdn.boilermanuals.com/main/Main-Combi-Eco-25-30-Elite-ErP-ISIM.pdf
@@ -7894,7 +7894,7 @@ Brand page: https://boilermanuals.com/brands/remeha.html
 - Remeha Avanta Plus 28c | GC 47-673-02 | NG/LPG | https://cdn.boilermanuals.com/remeha/Remeha-avanta-plus-system-18s-24s-30s-combi-24c-28c-35c-39c-ISIM.pdf
 - Remeha Avanta Plus 35c | GC 47-673-03 | NG/LPG | https://cdn.boilermanuals.com/remeha/Remeha-avanta-plus-system-18s-24s-30s-combi-24c-28c-35c-39c-ISIM.pdf
 - Remeha Avanta Plus 39c | GC 47-673-04 | NG/LPG | https://cdn.boilermanuals.com/remeha/Remeha-avanta-plus-system-18s-24s-30s-combi-24c-28c-35c-39c-ISIM.pdf
-- Remeha Gas 110 ECO | NG/LPG | https://cdn.boilermanuals.com/remeha/Remeha-gas-310-eco-ISIM.pdf
+- Remeha Gas 110 ECO | NG/LPG | https://cdn.boilermanuals.com/remeha/remeha-gas-110-eco-115-65-ISIM.PDF
 - Remeha Gas 210 ECO PRO | NG | https://cdn.boilermanuals.com/remeha/Remeha-gas-310-eco-ISIM.pdf
 - Remeha Gas 310 ECO | NG | https://cdn.boilermanuals.com/remeha/Remeha-gas-310-eco-ISIM.pdf
 - Remeha Gas 610 ECO | NG | https://cdn.boilermanuals.com/remeha/Remeha-gas-610-eco-ISIM.pdf
@@ -9496,23 +9496,23 @@ Brand page: https://boilermanuals.com/brands/viessmann.html
 - Viessmann Vitodens 200 WB2B Combi 26kW | GC 47-819-09 | NG | https://cdn.boilermanuals.com/viessmann/Viessmann-vitodens-200-W-WB2B-Combi-System-19-26-30-35-ISIM.pdf
 - Viessmann Vitodens 200 WB2B Combi 30kW | GC 47-819-10 | NG | https://cdn.boilermanuals.com/viessmann/Viessmann-vitodens-200-W-WB2B-Combi-System-19-26-30-35-ISIM.pdf
 - Viessmann Vitodens 200 WB2B Combi 35kW | GC 47-819-11 | NG | https://cdn.boilermanuals.com/viessmann/Viessmann-vitodens-200-W-WB2B-Combi-System-19-26-30-35-ISIM.pdf
-- Viessmann Vitodens 222-F Type FS2A 19KW | GC 47-819-15 | NG | https://cdn.boilermanuals.com/viessmann/Viessmann-vitodens-242-F-Type-FB2A-19-26-ISIM.pdf
+- Viessmann Vitodens 222-F Type FS2A 19KW | GC 47-819-15 | NG | https://cdn.boilermanuals.com/viessmann/Viessmann-vitodens-222-F-Type-FS2A-19-26-35-ISIM.PDF
 - Viessmann Vitodens 222-F Type FS2B 19KW | GC 47-819-15 | NG | https://cdn.boilermanuals.com/viessmann/Viessmann-Vitodens-222-F-Type-FS2B-19KW-26KW-35KW-ISIM.pdf
-- Viessmann Vitodens 222-F Type FS2A 26KW | GC 47-819-16 | NG | https://cdn.boilermanuals.com/viessmann/Viessmann-vitodens-242-F-Type-FB2A-19-26-ISIM.pdf
+- Viessmann Vitodens 222-F Type FS2A 26KW | GC 47-819-16 | NG | https://cdn.boilermanuals.com/viessmann/Viessmann-vitodens-222-F-Type-FS2A-19-26-35-ISIM.PDF
 - Viessmann Vitodens 222-F Type FS2B 26KW | GC 47-819-16 | NG | https://cdn.boilermanuals.com/viessmann/Viessmann-Vitodens-222-F-Type-FS2B-19KW-26KW-35KW-ISIM.pdf
-- Viessmann Vitodens 222-F Type FS2A 35KW | GC 47-819-17 | NG | https://cdn.boilermanuals.com/viessmann/Viessmann-vitodens-242-F-Type-FB2A-19-26-ISIM.pdf
+- Viessmann Vitodens 222-F Type FS2A 35KW | GC 47-819-17 | NG | https://cdn.boilermanuals.com/viessmann/Viessmann-vitodens-222-F-Type-FS2A-19-26-35-ISIM.PDF
 - Viessmann Vitodens 222-F Type FS2B 35KW | GC 47-819-17 | NG | https://cdn.boilermanuals.com/viessmann/Viessmann-Vitodens-222-F-Type-FS2B-19KW-26KW-35KW-ISIM.pdf
 - Viessmann Vitodens 242-F Type FB2A 19KW | GC 47-819-18 | NG | https://cdn.boilermanuals.com/viessmann/Viessmann-vitodens-242-F-Type-FB2A-19-26-ISIM.pdf
 - Viessmann Vitodens 242-F Type FB2A 26KW | GC 47-819-19 | NG | https://cdn.boilermanuals.com/viessmann/Viessmann-vitodens-242-F-Type-FB2A-19-26-ISIM.pdf
 - Viessmann Vitodens 100-W Type WB1B Combi 26KW | GC 47-819-18 | NG | https://cdn.boilermanuals.com/viessmann/viessmann-vitodens-100-W-WB1B-system-combi-ISIM.pdf
 - Viessmann Vitodens 100-W Type WB1B Combi 30KW | GC 47-819-19 | NG | https://cdn.boilermanuals.com/viessmann/viessmann-vitodens-100-W-WB1B-system-combi-ISIM.pdf
 - Viessmann Vitodens 100-W Type WB1B Combi 35KW | GC 47-819-20 | NG | https://cdn.boilermanuals.com/viessmann/viessmann-vitodens-100-W-WB1B-system-combi-ISIM.pdf
-- Viessmann Vitodens 111-W Type W1LA Storage Combi 26KW | GC 47-819-23 | NG | https://cdn.boilermanuals.com/viessmann/Viessmann-vitodens-100-WB1A-24kw-30kw-system-ISIM.pdf
-- Viessmann Vitodens 111-W Type W1LA Storage Combi 35KW | GC 47-819-25 | NG | https://cdn.boilermanuals.com/viessmann/Viessmann-vitodens-100-WB1A-24kw-30kw-system-ISIM.pdf
+- Viessmann Vitodens 111-W Type W1LA Storage Combi 26KW | GC 47-819-23 | NG | https://cdn.boilermanuals.com/viessmann/Viessmann-vitodens-111-w-26-35-ISIM.pdf
+- Viessmann Vitodens 111-W Type W1LA Storage Combi 35KW | GC 47-819-25 | NG | https://cdn.boilermanuals.com/viessmann/Viessmann-vitodens-111-w-26-35-ISIM.pdf
 - Viessmann Vitodens 050-W 29KW Condensing Boiler | GC 47-819-31 | NG | https://cdn.boilermanuals.com/viessmann/Viessmann-vitodens-050-w-type-bpjd-29kw-35kw-ISIM.pdf
 - Viessmann Vitodens 050-W 35KW Condensing Boiler | GC 47-819-32 | NG | https://cdn.boilermanuals.com/viessmann/Viessmann-vitodens-050-w-type-bpjd-29kw-35kw-ISIM.pdf
-- Viessmann Vitodens 050-W Type BPJD 29KW Condensing Boiler LPG | GC 47-819-38 | NG/LPG | https://cdn.boilermanuals.com/viessmann/Viessmann-vitodens-111-w-26-35-ISIM.pdf
-- Viessmann Vitodens 050-W Type BPJD 35KW Condensing Boiler LPG | GC 47-819-39 | NG/LPG | https://cdn.boilermanuals.com/viessmann/Viessmann-vitodens-111-w-26-35-ISIM.pdf
+- Viessmann Vitodens 050-W Type BPJD 29KW Condensing Boiler LPG | GC 47-819-38 | NG/LPG | https://cdn.boilermanuals.com/viessmann/Viessmann-vitodens-050-w-type-bpjd-ISIM.PDF
+- Viessmann Vitodens 050-W Type BPJD 35KW Condensing Boiler LPG | GC 47-819-39 | NG/LPG | https://cdn.boilermanuals.com/viessmann/Viessmann-vitodens-050-w-type-bpjd-ISIM.PDF
 - Viessmann Vitodens 100-W Type B1KC 26KW | GC 47-819-40 | NG | https://cdn.boilermanuals.com/viessmann/Vitodens-100-w-type-b1hc-b1kc-19-26-30-35-ISIM.pdf
 - Viessmann Vitodens 100-W Type B1KC 30KW | GC 47-819-41 | NG | https://cdn.boilermanuals.com/viessmann/Vitodens-100-w-type-b1hc-b1kc-19-26-30-35-ISIM.pdf
 - Viessmann Vitodens 100-W Type B1KC 35KW | GC 47-819-42 | NG | https://cdn.boilermanuals.com/viessmann/Vitodens-100-w-type-b1hc-b1kc-19-26-30-35-ISIM.pdf
@@ -9755,8 +9755,8 @@ Brand page: https://boilermanuals.com/brands/vokera.html
 - Vokera Compact 29A | GC 47-364-02 | NG/LPG | https://cdn.boilermanuals.com/vokera/vokera-Compact-A-User-and-Installation-manual.pdf
 - Vokera Compact 24 SE | GC 47-364-06 | NG/LPG | https://cdn.boilermanuals.com/vokera/vokera-compact-24-28-installation-servicing-manual-instructions.pdf
 - Vokera Compact 28 SE | GC 47-364-07 | NG/LPG | https://cdn.boilermanuals.com/vokera/vokera-compact-24-28-installation-servicing-manual-instructions.pdf
-- Vokera Vision 25C | GC 47-364-10 | NG/LPG | https://cdn.boilermanuals.com/vokera/vokera-vision-20-25-c-system-user-installation-and-servicing-instructions-manual.pdf
-- Vokera Vision 30C | GC 47-364-11 | NG/LPG | https://cdn.boilermanuals.com/vokera/vokera-vision-20-25-c-system-user-installation-and-servicing-instructions-manual.pdf
+- Vokera Vision 25C | GC 47-364-10 | NG/LPG | https://cdn.boilermanuals.com/vokera/Vokera-vision-25-30-C-ISIM.pdf
+- Vokera Vision 30C | GC 47-364-11 | NG/LPG | https://cdn.boilermanuals.com/vokera/Vokera-vision-25-30-C-ISIM.pdf
 - Vokera Unica i28 | GC 47-364-14 | NG/LPG | https://cdn.boilermanuals.com/vokera/vokera-unica-i28-i32-i36-ISIM.pdf
 - Vokera Unica i32 | GC 47-364-15 | NG/LPG | https://cdn.boilermanuals.com/vokera/vokera-unica-i28-i32-i36-ISIM.pdf
 - Vokera Unica i36 | GC 47-364-16 | NG/LPG | https://cdn.boilermanuals.com/vokera/vokera-unica-i28-i32-i36-ISIM.pdf
@@ -10290,18 +10290,18 @@ Brand page: https://boilermanuals.com/brands/worcester-bosch.html
 - Worcester Greenstar 18Ri Erp+ | GC 41-406-77 | https://cdn.boilermanuals.com/worcester-bosch/worcester-bosch-Greenstar-12-24Ri-ErP.pdf
 - Worcester Greenstar 21Ri Erp+ | GC 41-406-78 | https://cdn.boilermanuals.com/worcester-bosch/worcester-bosch-Greenstar-12-24Ri-ErP.pdf
 - Worcester Greenstar 24Ri Erp+ | GC 41-406-79 | https://cdn.boilermanuals.com/worcester-bosch/worcester-bosch-Greenstar-12-24Ri-ErP.pdf
-- Worcester Bosch Greenstar 8000 Style System GR8700iw 35 SB | GC 41-406-82 | https://cdn.boilermanuals.com/worcester-bosch/worcester-bosch-greenstar-30-cdi-classic-system-Installation-and-servicing-instructions-manual.pdf
-- Worcester Bosch Greenstar 8000 Style System GR8700iw 30 SB | GC 41-406-83 | https://cdn.boilermanuals.com/worcester-bosch/worcester-bosch-greenstar-30-cdi-classic-system-Installation-and-servicing-instructions-manual.pdf
-- Worcester Bosch Greenstar 8000 Style System GR8700iw 35 SB LPG | GC 41-406-84 | https://cdn.boilermanuals.com/worcester-bosch/worcester-bosch-greenstar-30-cdi-classic-system-Installation-and-servicing-instructions-manual.pdf
-- Worcester Bosch Greenstar 8000 Style System GR8700iw 30 SB LPG | GC 41-406-85 | https://cdn.boilermanuals.com/worcester-bosch/worcester-bosch-greenstar-30-cdi-classic-system-Installation-and-servicing-instructions-manual.pdf
-- Worcester Bosch Greenstar 8000 Style System GR8700iw 35 S | GC 41-406-86 | https://cdn.boilermanuals.com/worcester-bosch/worcester-bosch-greenstar-30-cdi-classic-system-Installation-and-servicing-instructions-manual.pdf
-- Worcester Bosch Greenstar 8000 Style System GR8700iw 30 S | GC 41-406-87 | https://cdn.boilermanuals.com/worcester-bosch/worcester-bosch-greenstar-30-cdi-classic-system-Installation-and-servicing-instructions-manual.pdf
-- Worcester Bosch Greenstar 8000 Style System GR8700iw 35 S LPG | GC 41-406-88 | https://cdn.boilermanuals.com/worcester-bosch/worcester-bosch-greenstar-30-cdi-classic-system-Installation-and-servicing-instructions-manual.pdf
-- Worcester Bosch Greenstar 8000 Style System GR8700iw 30 S LPG | GC 41-406-89 | https://cdn.boilermanuals.com/worcester-bosch/worcester-bosch-greenstar-30-cdi-classic-system-Installation-and-servicing-instructions-manual.pdf
-- Worcester Bosch Greenstar 8000 Life System GR8300iw 35 S | GC 41-406-90 | https://cdn.boilermanuals.com/worcester-bosch/worcester-bosch-greenstar-30-cdi-classic-system-Installation-and-servicing-instructions-manual.pdf
-- Worcester Bosch Greenstar 8000 Life System GR8300iw 30 S | GC 41-406-91 | https://cdn.boilermanuals.com/worcester-bosch/worcester-bosch-greenstar-30-cdi-classic-system-Installation-and-servicing-instructions-manual.pdf
-- Worcester Bosch Greenstar 8000 Life System GR8300iw 35 S LPG | GC 41-406-92 | https://cdn.boilermanuals.com/worcester-bosch/worcester-bosch-greenstar-30-cdi-classic-system-Installation-and-servicing-instructions-manual.pdf
-- Worcester Bosch Greenstar 8000 Life System GR8300iw 30 S LPG | GC 41-406-93 | https://cdn.boilermanuals.com/worcester-bosch/worcester-bosch-greenstar-30-cdi-classic-system-Installation-and-servicing-instructions-manual.pdf
+- Worcester Bosch Greenstar 8000 Style System GR8700iw 35 SB | GC 41-406-82 | https://cdn.boilermanuals.com/worcester-bosch/Worcester_Bosch_Greenstar_8000_Style_System_Installation_and_Maintenance_Instructions.pdf
+- Worcester Bosch Greenstar 8000 Style System GR8700iw 30 SB | GC 41-406-83 | https://cdn.boilermanuals.com/worcester-bosch/Worcester_Bosch_Greenstar_8000_Style_System_Installation_and_Maintenance_Instructions.pdf
+- Worcester Bosch Greenstar 8000 Style System GR8700iw 35 SB LPG | GC 41-406-84 | https://cdn.boilermanuals.com/worcester-bosch/Worcester_Bosch_Greenstar_8000_Style_System_Installation_and_Maintenance_Instructions.pdf
+- Worcester Bosch Greenstar 8000 Style System GR8700iw 30 SB LPG | GC 41-406-85 | https://cdn.boilermanuals.com/worcester-bosch/Worcester_Bosch_Greenstar_8000_Style_System_Installation_and_Maintenance_Instructions.pdf
+- Worcester Bosch Greenstar 8000 Style System GR8700iw 35 S | GC 41-406-86 | https://cdn.boilermanuals.com/worcester-bosch/Worcester_Bosch_Greenstar_8000_Style_System_Installation_and_Maintenance_Instructions.pdf
+- Worcester Bosch Greenstar 8000 Style System GR8700iw 30 S | GC 41-406-87 | https://cdn.boilermanuals.com/worcester-bosch/Worcester_Bosch_Greenstar_8000_Style_System_Installation_and_Maintenance_Instructions.pdf
+- Worcester Bosch Greenstar 8000 Style System GR8700iw 35 S LPG | GC 41-406-88 | https://cdn.boilermanuals.com/worcester-bosch/Worcester_Bosch_Greenstar_8000_Style_System_Installation_and_Maintenance_Instructions.pdf
+- Worcester Bosch Greenstar 8000 Style System GR8700iw 30 S LPG | GC 41-406-89 | https://cdn.boilermanuals.com/worcester-bosch/Worcester_Bosch_Greenstar_8000_Style_System_Installation_and_Maintenance_Instructions.pdf
+- Worcester Bosch Greenstar 8000 Life System GR8300iw 35 S | GC 41-406-90 | https://cdn.boilermanuals.com/worcester-bosch/Worcester_Bosch_Greenstar_8000_Life_System_Installation_and_Maintenance_Instructions.pdf
+- Worcester Bosch Greenstar 8000 Life System GR8300iw 30 S | GC 41-406-91 | https://cdn.boilermanuals.com/worcester-bosch/Worcester_Bosch_Greenstar_8000_Life_System_Installation_and_Maintenance_Instructions.pdf
+- Worcester Bosch Greenstar 8000 Life System GR8300iw 35 S LPG | GC 41-406-92 | https://cdn.boilermanuals.com/worcester-bosch/Worcester_Bosch_Greenstar_8000_Life_System_Installation_and_Maintenance_Instructions.pdf
+- Worcester Bosch Greenstar 8000 Life System GR8300iw 30 S LPG | GC 41-406-93 | https://cdn.boilermanuals.com/worcester-bosch/Worcester_Bosch_Greenstar_8000_Life_System_Installation_and_Maintenance_Instructions.pdf
 - Worcester Bosch Greenstar 8000 LifeRegular GR8300iw 50 R NG | GC 41-406-94 | https://cdn.boilermanuals.com/worcester-bosch/Worcester_Bosch_Greenstar_8000_Life_Regular_Installation_and_Maintenance_Instructions.pdf
 - Worcester Bosch Greenstar 8000 LifeRegular GR8300iw 45 R NG | GC 41-406-95 | https://cdn.boilermanuals.com/worcester-bosch/Worcester_Bosch_Greenstar_8000_Life_Regular_Installation_and_Maintenance_Instructions.pdf
 - Worcester Bosch Greenstar 8000 LifeRegular GR8300iw 40 R NG | GC 41-406-96 | https://cdn.boilermanuals.com/worcester-bosch/Worcester_Bosch_Greenstar_8000_Life_Regular_Installation_and_Maintenance_Instructions.pdf

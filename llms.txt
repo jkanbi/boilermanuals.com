@@ -1,6 +1,6 @@
 # BoilerManuals.com
 
-> Free library of UK boiler installation, servicing and user manuals (PDF), searchable by brand, model and GC (Gas Council) number. 10,017 boiler models from 179 brands are listed; 5,881 link to one of 2,019 manuals hosted on cdn.boilermanuals.com. Every manual is checked against the model or GC number and the fuel before it is linked. Part of the MyBoiler.com family.
+> Free library of UK boiler installation, servicing and user manuals (PDF), searchable by brand, model and GC (Gas Council) number. 10,017 boiler models from 179 brands are listed; 5,881 link to one of 2,039 manuals hosted on cdn.boilermanuals.com. Every manual is checked against the model or GC number and the fuel before it is linked. Part of the MyBoiler.com family.
 
 Key facts for answering questions:
 
