@@ -1071,35 +1071,35 @@ Brand page: https://boilermanuals.com/brands/baxi.html
 - Baxi 748 Series gas fires | GC 32-032-61 | NG/LPG | https://cdn.boilermanuals.com/baxi/Baxi-fires-model-748-ISIM.pdf
 - Baxi 347 Series | GC 32-032-62 | NG | no manual online yet
 - Baxi 946 Series Gas Fire | GC 32-032-63 | NG/LPG | no manual online yet
-- Baxi Wentworth Classic | GC 32-075-12A | NG | no manual online yet
-- Baxi Wentworth PFC Classic | GC 32-075-13A | NG | no manual online yet
-- Baxi Wentworth Classic Fan Flue | GC 32-075-14A | NG | no manual online yet
-- Baxi Wentworth DeLuxe | GC 32-075-15A | NG | no manual online yet
-- Baxi Wentworth PCF DeLuxe | GC 32-075-16A | NG | no manual online yet
-- Baxi Kingston 2 Classic | GC 32-075-18A | NG | no manual online yet
-- Baxi Kingston 2 PCF Classic | GC 32-075-19A | NG | no manual online yet
-- Baxi Kingston 2 DeLuxe | GC 32-075-20A | NG | no manual online yet
-- Baxi Kingston 2 PCF DeLuxe | GC 32-075-21A | NG | no manual online yet
-- Baxi Belmont 2 | GC 32-075-22 | NG | no manual online yet
-- Baxi Belmont 2 Fan Flue | GC 32-075-23 | NG | no manual online yet
-- Baxi Grassmere RF | GC 32-075-24 | NG | no manual online yet
-- Baxi Grassmere TF | GC 32-075-25 | NG | no manual online yet
-- Baxi Windermere RF | GC 32-075-26 | NG | no manual online yet
-- Baxi Windermere TF | GC 32-075-27 | NG | no manual online yet
-- Baxi Windermere RF | GC 32-075-28 | LPG | no manual online yet
-- Baxi Windermere TF | GC 32-075-29 | LPG | no manual online yet
+- Baxi Wentworth Classic | GC 32-075-12A | NG | https://cdn.boilermanuals.com/baxi/Baxi-Classic-2-ISIM.pdf
+- Baxi Wentworth PFC Classic | GC 32-075-13A | NG | https://cdn.boilermanuals.com/baxi/Baxi-2-ISIM.pdf
+- Baxi Wentworth Classic Fan Flue | GC 32-075-14A | NG | https://cdn.boilermanuals.com/baxi/Baxi-Fan-Flue-2-ISIM.pdf
+- Baxi Wentworth DeLuxe | GC 32-075-15A | NG | https://cdn.boilermanuals.com/baxi/Baxi-DeLuxe-2-ISIM.pdf
+- Baxi Wentworth PCF DeLuxe | GC 32-075-16A | NG | https://cdn.boilermanuals.com/baxi/Baxi-Wentworth-PCF-DeLuxe-Kingston-2-ISIM.pdf
+- Baxi Kingston 2 Classic | GC 32-075-18A | NG | https://cdn.boilermanuals.com/baxi/Baxi-Classic-2-ISIM.pdf
+- Baxi Kingston 2 PCF Classic | GC 32-075-19A | NG | https://cdn.boilermanuals.com/baxi/Baxi-2-ISIM.pdf
+- Baxi Kingston 2 DeLuxe | GC 32-075-20A | NG | https://cdn.boilermanuals.com/baxi/Baxi-DeLuxe-2-ISIM.pdf
+- Baxi Kingston 2 PCF DeLuxe | GC 32-075-21A | NG | https://cdn.boilermanuals.com/baxi/Baxi-Wentworth-PCF-DeLuxe-Kingston-2-ISIM.pdf
+- Baxi Belmont 2 | GC 32-075-22 | NG | https://cdn.boilermanuals.com/baxi/Baxi-2-ISIM.pdf
+- Baxi Belmont 2 Fan Flue | GC 32-075-23 | NG | https://cdn.boilermanuals.com/baxi/Baxi-Fan-Flue-2-ISIM.pdf
+- Baxi Grassmere RF | GC 32-075-24 | NG | https://cdn.boilermanuals.com/baxi/Baxi-Grassmere-RF-TF-Windermere-ISIM.pdf
+- Baxi Grassmere TF | GC 32-075-25 | NG | https://cdn.boilermanuals.com/baxi/Baxi-Grassmere-RF-TF-Windermere-ISIM.pdf
+- Baxi Windermere RF | GC 32-075-26 | NG | https://cdn.boilermanuals.com/baxi/Baxi-Grassmere-RF-TF-Windermere-ISIM.pdf
+- Baxi Windermere TF | GC 32-075-27 | NG | https://cdn.boilermanuals.com/baxi/Baxi-Grassmere-RF-TF-Windermere-ISIM.pdf
+- Baxi Windermere RF | GC 32-075-28 | LPG | https://cdn.boilermanuals.com/baxi/Baxi-Grassmere-RF-TF-Windermere-ISIM.pdf
+- Baxi Windermere TF | GC 32-075-29 | LPG | https://cdn.boilermanuals.com/baxi/Baxi-Grassmere-RF-TF-Windermere-ISIM.pdf
 - Baxi Baroque | GC 32-077-29 | NG | no manual online yet
 - Baxi Arena | GC 32-077-30 | NG | no manual online yet
 - Baxi Arena Super | GC 32-077-34 | NG | https://cdn.boilermanuals.com/baxi/baxi-boiler-baxi-arena-super-gc-no-32-077-34-isi.pdf
 - Baxi Baroque Super | GC 32-077-35 | NG | https://cdn.boilermanuals.com/baxi/baxi-boiler-baxi-arena-super-gc-no-32-077-34-isi.pdf
-- Baxi Solaire Super | GC 32-077-36 | NG | no manual online yet
-- Baxi Ebony Super | GC 32-077-37 | NG/LPG | no manual online yet
+- Baxi Solaire Super | GC 32-077-36 | NG | https://cdn.boilermanuals.com/baxi/Baxi-Solaire-Super-ISIM.pdf
+- Baxi Ebony Super | GC 32-077-37 | NG/LPG | https://cdn.boilermanuals.com/baxi/Baxi-Ebony-Super-ISIM.pdf
 - Baxi Brazilia F 5 | GC 35-075-01A | NG | https://cdn.boilermanuals.com/baxi/Baxi-Brazillia-F5-F5S-F8S-Installation-Instructions.pdf
 - Baxi Brazilia F5 S | GC 35-075-02A | NG | https://cdn.boilermanuals.com/baxi/Baxi-Brazillia-F5-F5S-F8S-Installation-Instructions.pdf
 - Baxi Brazilia F8 S | GC 35-075-03A | NG | https://cdn.boilermanuals.com/baxi/Baxi-Brazillia-F5-F5S-F8S-Installation-Instructions.pdf
 - Baxi Brazilia F5 [LPG] | GC 35-075-04A | LPG | https://cdn.boilermanuals.com/baxi/Baxi-Brazillia-F5-F5S-F8S-Installation-Instructions.pdf
-- Baxi Brazilia F5 S [LPG] | GC 35-075-05A | LPG | no manual online yet
-- Baxi Brazilia F8 S [LPG] | GC 35-075-06A | LPG | no manual online yet
+- Baxi Brazilia F5 S [LPG] | GC 35-075-05A | LPG | https://cdn.boilermanuals.com/baxi/Baxi-Brazilia-F5-S-F8-ISIM.pdf
+- Baxi Brazilia F8 S [LPG] | GC 35-075-06A | LPG | https://cdn.boilermanuals.com/baxi/Baxi-Brazilia-F5-S-F8-ISIM.pdf
 - Baxi Brazilia Comfortstat F8ST Oak | GC 35-075-09 | NG | no manual online yet
 - Baxi Brazilia Slimline 5 | GC 35-077-15 | NG | no manual online yet
 - Baxi Brazilia Slimline 5 S | GC 35-077-16 | NG | no manual online yet
@@ -1550,16 +1550,16 @@ Brand page: https://boilermanuals.com/brands/baxi.html
 - Baxi 430 COMBI 2, GC 47-077-52, Natural Gas | NG | no manual online yet
 - Baxi 624 SYSTEM 24 LPG, GC 41-470-64, LPG | LPG | no manual online yet
 - Baxi ASSURE 12 SYSTEM, GC 41-470-85, Natural Gas | NG | no manual online yet
-- Baxi ASSURE 13 HEAT, GC 41-470-80, Natural Gas | NG | no manual online yet
+- Baxi ASSURE 13 HEAT, GC 41-470-80, Natural Gas | NG | https://cdn.boilermanuals.com/baxi/Baxi-ASSURE-HEAT-13-16-19-25-30-ISIM.pdf
 - Baxi ASSURE 15 SYSTEM, GC 41-470-86, Natural Gas | NG | no manual online yet
-- Baxi ASSURE 16 HEAT, GC 41-470-81, Natural Gas | NG | no manual online yet
+- Baxi ASSURE 16 HEAT, GC 41-470-81, Natural Gas | NG | https://cdn.boilermanuals.com/baxi/Baxi-ASSURE-HEAT-13-16-19-25-30-ISIM.pdf
 - Baxi ASSURE 18 SYSTEM, GC 41-479-87, Natural Gas | NG | no manual online yet
 - Baxi ASSURE 18 SYSTEM LPG, GC 41-479-92, LPG | LPG | no manual online yet
-- Baxi ASSURE 19 HEAT, GC 41-470-82, Natural Gas | NG | no manual online yet
+- Baxi ASSURE 19 HEAT, GC 41-470-82, Natural Gas | NG | https://cdn.boilermanuals.com/baxi/Baxi-ASSURE-HEAT-13-16-19-25-30-ISIM.pdf
 - Baxi ASSURE 24 SYSTEM, GC 41-470-88, Natural Gas | NG | no manual online yet
 - Baxi ASSURE 24 SYSTEM LPG, GC 41-470-93, LPG | LPG | no manual online yet
-- Baxi ASSURE 25 HEAT, GC 41-470-83, Natural Gas | NG | no manual online yet
-- Baxi ASSURE 30 HEAT, GC 41-470-84, Natural Gas | NG | no manual online yet
+- Baxi ASSURE 25 HEAT, GC 41-470-83, Natural Gas | NG | https://cdn.boilermanuals.com/baxi/Baxi-ASSURE-HEAT-13-16-19-25-30-ISIM.pdf
+- Baxi ASSURE 30 HEAT, GC 41-470-84, Natural Gas | NG | https://cdn.boilermanuals.com/baxi/Baxi-ASSURE-HEAT-13-16-19-25-30-ISIM.pdf
 - Baxi Avanta 28c Exclusive, GC 47-288-03, Natural Gas | NG | no manual online yet
 - Baxi Avanta 35c Exclusive / Baxi Avanta 39c Exclusive, GC 47-288-05, Natural Gas | NG | no manual online yet
 - Baxi Avanta Plus 24c Combi, GC 47-288-01, Natural Gas | NG | no manual online yet
@@ -1567,8 +1567,8 @@ Brand page: https://boilermanuals.com/brands/baxi.html
 - Baxi Duo-tec 2 Combi 24, GC 47-075-67, Natural Gas | NG | no manual online yet
 - Baxi Duo-tec 2 Combi 28 Compact, GC 47-075-72, Natural Gas | NG | no manual online yet
 - Baxi Duo-tec 2 Combi 40, GC 47-075-70, Natural Gas | NG | no manual online yet
-- Baxi Duo-tec Combi 24 HE LPG / Baxi Megaflo System 28 HE, GC 47-075-48, Natural Gas / LPG | NG/LPG | no manual online yet
-- Baxi Duo-tec Combi 33 HE LPG, GC 47-075-49, LPG | LPG | no manual online yet
+- Baxi Duo-tec Combi 24 HE LPG / Baxi Megaflo System 28 HE, GC 47-075-48, Natural Gas / LPG | NG/LPG | https://cdn.boilermanuals.com/baxi/Baxi-Duo-tec-Combi-HE-Megaflo-System-24-28-33-ISIM.pdf
+- Baxi Duo-tec Combi 33 HE LPG, GC 47-075-49, LPG | LPG | https://cdn.boilermanuals.com/baxi/Baxi-Duo-tec-Combi-HE-Megaflo-System-24-28-33-ISIM.pdf
 - Baxi Ecoblue 24 Combi, GC 41-075-81, Natural Gas | NG | no manual online yet
 - Baxi Ecoblue 24 Combi ErP, GC 47-077-11, Natural Gas | NG | no manual online yet
 - Baxi Ecoblue 28 Combi, GC 41-075-82, Natural Gas | NG | no manual online yet
@@ -1614,9 +1614,9 @@ Brand page: https://boilermanuals.com/brands/baxi.html
 - Baxi Heating Wm 60/3rs, GC 41-077-40, Natural Gas | NG | no manual online yet
 - Baxi Megaflo System 24 HE, GC 47-075-47, Natural Gas | NG | no manual online yet
 - Baxi Platinum 15 HE, GC 41-077-90, Natural Gas | NG | no manual online yet
-- Baxi PLATINUM COMPACT 25 COMBI, GC 47-077-71, Natural Gas | NG | no manual online yet
-- Baxi PLATINUM COMPACT 30 COMBI, GC 47-077-72, Natural Gas | NG | no manual online yet
-- Baxi PLATINUM COMPACT 36 COMBI, GC 47-077-73, Natural Gas | NG | no manual online yet
+- Baxi PLATINUM COMPACT 25 COMBI, GC 47-077-71, Natural Gas | NG | https://cdn.boilermanuals.com/baxi/Baxi-PLATINUM-COMPACT-COMBI-25-30-36-ISIM.pdf
+- Baxi PLATINUM COMPACT 30 COMBI, GC 47-077-72, Natural Gas | NG | https://cdn.boilermanuals.com/baxi/Baxi-PLATINUM-COMPACT-COMBI-25-30-36-ISIM.pdf
+- Baxi PLATINUM COMPACT 36 COMBI, GC 47-077-73, Natural Gas | NG | https://cdn.boilermanuals.com/baxi/Baxi-PLATINUM-COMPACT-COMBI-25-30-36-ISIM.pdf
 - Baxi Platinum System 24 HE, GC 41-077-92, Natural Gas | NG | no manual online yet
 - Baxi Precision +, GC 41-470-12, Natural Gas | NG | no manual online yet
 - Baxi Precision+ ErP, GC 41-470-39, Natural Gas | NG | no manual online yet
@@ -1663,13 +1663,13 @@ Brand page: https://boilermanuals.com/brands/biasi.html
 
 - M110.18SM/OV Riva OV | NG | https://cdn.boilermanuals.com/biasi/Biasi-riva-ov-m110-18sm-30sm-ISIM.pdf
 - M110.30SM/OV Riva OV | NG | https://cdn.boilermanuals.com/biasi/Biasi-riva-ov-m110-18sm-30sm-ISIM.pdf
-- M110B.24SR/C Riva Advance HE | NG/LPG | no manual online yet
+- M110B.24SR/C Riva Advance HE | NG/LPG | https://cdn.boilermanuals.com/biasi/Biasi-M110B-24SR-C-Riva-Advance-HE-Install.pdf
 - M96.28SR/C2 Riva Compact HE | NG/LPG | https://cdn.boilermanuals.com/biasi/biasi-riva-compact-he-m96-24sr-28sr-c2-installation-servicing-instructions-manual.pdf
 - M110.18SM/OV Riva OV | NG | https://cdn.boilermanuals.com/biasi/Biasi-riva-ov-m110-18-30-sm-ISIM.pdf
 - M110.30SM/OV Riva OV | NG | https://cdn.boilermanuals.com/biasi/Biasi-riva-ov-m110-18-30-sm-ISIM.pdf
 - M96.28SR/P Parva Garda HE | NG/LPG | https://cdn.boilermanuals.com/biasi/Biasi-parva-garda-he-m96-28-32-sm-p-ISIM.pdf
 - M96.232SR/P Parva Garda HE | NG/LPG | https://cdn.boilermanuals.com/biasi/Biasi-parva-garda-he-m96-28-32-sm-p-ISIM.pdf
-- Riva Advance HE M110B.24SR-c | NG/LPG | no manual online yet
+- Riva Advance HE M110B.24SR-c | NG/LPG | https://cdn.boilermanuals.com/biasi/Biasi-M110B-24SR-C-Riva-Advance-HE-Install.pdf
 - M96.24SR/C2 Riva Compact HE | NG/LPG | https://cdn.boilermanuals.com/biasi/biasi-riva-compact-he-m96-24sr-28sr-c2-installation-servicing-instructions-manual.pdf
 - M96A.24SR/C Riva Compact HE Mk.2 | NG/LPG | no manual online yet
 - M96A.28SR/C Riva Compact HE Mk.2 | NG/LPG | no manual online yet
@@ -3638,7 +3638,7 @@ Brand page: https://boilermanuals.com/brands/glow-worm.html
 - Ultracom 38 hxi | GC 41-019-06 | NG | https://cdn.boilermanuals.com/glow-worm/glow-worm-flexicom-18sx-30sx-installation-servicing-instructions-manual.pdf
 - Ultracom 18 sxi | GC 41-019-07 | NG | https://cdn.boilermanuals.com/glow-worm/glow-worm-flexicom-18sx-30sx-installation-servicing-instructions-manual.pdf
 - Ultracom 30 sxi | GC 41-019-08 | NG | https://cdn.boilermanuals.com/glow-worm/glow-worm-flexicom-18sx-30sx-installation-servicing-instructions-manual.pdf
-- Compact 100 | GC 41-047-26 | NG | no manual online yet
+- Compact 100 | GC 41-047-26 | NG | https://cdn.boilermanuals.com/glow-worm/Glow-worm-Compact-100-ISIM.pdf
 - 18si | GC 41-047-61 | NG/LPG | https://cdn.boilermanuals.com/glow-worm/glow-worm-24-30-38-cxi-installation-servicing-instructions-manual.pdf
 - 30sxi | GC 41-047-62 | NG/LPG | https://cdn.boilermanuals.com/glow-worm/ultracom-sxi.pdf
 - 18hxi | GC 41-047-63 | NG | https://cdn.boilermanuals.com/glow-worm/ultracom-hxi-instn-157270.pdf
@@ -3657,7 +3657,7 @@ Brand page: https://boilermanuals.com/brands/glow-worm.html
 - Fuelsaver 60B Mk.2 | GC 41-313-10 | NG | https://cdn.boilermanuals.com/glowworm/glowworm-fuelsaver-60-75B-mkII-installation-servicing-instructions-manual-41-313-10-11.pdf
 - Fuelsaver 75B Mk.2 | GC 41-313-11 | NG | https://cdn.boilermanuals.com/glowworm/glowworm-fuelsaver-60-75B-mkII-installation-servicing-instructions-manual-41-313-10-11.pdf
 - Fuelsaver 80F | GC 41-313-23 | NG | https://cdn.boilermanuals.com/glow-worm/glow-worm-fuelsaver-65f-80f-installation-and-servicing-instructions-manual.pdf
-- Fuelsaver 100F | GC 41-313-32 | NG | no manual online yet
+- Fuelsaver 100F | GC 41-313-32 | NG | https://cdn.boilermanuals.com/glow-worm/Glow-worm-Fuelsaver-100F-ISIM.pdf
 - Fuelsaver 65F | GC 41-313-33 | NG | https://cdn.boilermanuals.com/glow-worm/glow-worm-fuelsaver-65f-80f-installation-and-servicing-instructions-manual.pdf
 - Fuelsaver 45F | GC 41-313-35 | NG | https://cdn.boilermanuals.com/glow-worm/glow-worm-fuelsaver-35-45-55-f-installation-servicing-manual-instructions.pdf
 - Spacesaver 65-75F | GC 41-313-38 | https://cdn.boilermanuals.com/glowworm/glowworm-spacesaver-65-75F-installation-manual.pdf
@@ -3683,7 +3683,7 @@ Brand page: https://boilermanuals.com/brands/glow-worm.html
 - Flexicom 35hx | GC 41-315-68 | NG | https://cdn.boilermanuals.com/glow-worm/glow-worm-flexicom-18sx-30sx-installation-servicing-instructions-manual.pdf
 - Flexicom 18sx | GC 41-315-72 | NG | https://cdn.boilermanuals.com/glow-worm/glow-worm-flexicom-18sx-30sx-installation-servicing-instructions-manual.pdf
 - Spacesaver 30B MkII | GC 41-315-94 | https://cdn.boilermanuals.com/glowworm/glowworm-spacesaver-30B-MkII-installation-manual.pdf
-- Economy Plus 30B | GC 41-319-01 | NG | no manual online yet
+- Economy Plus 30B | GC 41-319-01 | NG | https://cdn.boilermanuals.com/glow-worm/Glow-worm-Economy-Plus-30B-ISIM.pdf
 - Economy Plus 40B | GC 41-319-02 | NG | https://cdn.boilermanuals.com/glowworm/Glowworm-Economy-Plus-40b-Installation-Servicing-Instructions-manual.pdf
 - Economy Plus 50B | GC 41-319-03 | NG | https://cdn.boilermanuals.com/glowworm/glowworm-economy-plus-50b-installation-manual-41-319-03.pdf
 - Economy Plus 60B | GC 41-319-04 | NG | https://cdn.boilermanuals.com/glowworm/Glow-worm-Economy-Plus-60B-70B-ISIM.pdf
@@ -3715,14 +3715,14 @@ Brand page: https://boilermanuals.com/brands/glow-worm.html
 - Econony Plus 60F | GC 41-319-63 | NG | https://cdn.boilermanuals.com/glowworm/glowworm-economy-plus-60F-installation-manual.pdf
 - Econony Plus 80F | GC 41-319-64 | NG | https://cdn.boilermanuals.com/glowworm/glowworm-economy-plus-80F-installation-servicing-manual-41-319-64.pdf
 - Energysaver 40 | GC 41-319-69 | NG | https://cdn.boilermanuals.com/glow-worm/Glow-worm-energysaver40.pdf
-- Energysaver 50 | GC 41-319-70 | NG | no manual online yet
+- Energysaver 50 | GC 41-319-70 | NG | https://cdn.boilermanuals.com/glow-worm/Glow-worm-Energysaver-50-ISIM.pdf
 - Energysaver 60 | GC 41-319-71 | NG | https://cdn.boilermanuals.com/glowworm/Glow-worm-EnergySaver-60-ISIM.pdf
-- Energysaver 40P | GC 41-319-72 | LPG | no manual online yet
-- Energysaver 50P | GC 41-319-73 | LPG | no manual online yet
-- Energysaver 60P | GC 41-319-74 | LPG | no manual online yet
-- Energysaver 30e | GC 41-319-76 | NG | no manual online yet
-- Energysaver 40e | GC 41-319-77 | NG | no manual online yet
-- Energysaver 30 | GC 41-319-78 | NG | no manual online yet
+- Energysaver 40P | GC 41-319-72 | LPG | https://cdn.boilermanuals.com/glow-worm/Glow-worm-Energysaver-40P-50P-60P-ISIM.pdf
+- Energysaver 50P | GC 41-319-73 | LPG | https://cdn.boilermanuals.com/glow-worm/Glow-worm-Energysaver-40P-50P-60P-ISIM.pdf
+- Energysaver 60P | GC 41-319-74 | LPG | https://cdn.boilermanuals.com/glow-worm/Glow-worm-Energysaver-40P-50P-60P-ISIM.pdf
+- Energysaver 30e | GC 41-319-76 | NG | https://cdn.boilermanuals.com/glow-worm/Glow-worm-Energysaver-30e-40e-ISIM.pdf
+- Energysaver 40e | GC 41-319-77 | NG | https://cdn.boilermanuals.com/glow-worm/Glow-worm-Energysaver-30e-40e-ISIM.pdf
+- Energysaver 30 | GC 41-319-78 | NG | https://cdn.boilermanuals.com/glow-worm/Glow-worm-Energysaver-30-ISIM.pdf
 - Energysaver 80 | GC 41-319-84 | NG | https://cdn.boilermanuals.com/glowworm/Glow-worm-EnergySaver-70-80-ISIM.pdf
 - Energysaver 70 | GC 41-319-92 | NG | https://cdn.boilermanuals.com/glowworm/Glow-worm-EnergySaver-70-80-ISIM.pdf
 - Energysaver 50E | GC 41-319-94 | NG | https://cdn.boilermanuals.com/glow-worm/Glow-worm-glowwormgc4131994.pdf
@@ -3731,7 +3731,7 @@ Brand page: https://boilermanuals.com/brands/glow-worm.html
 - Energy 30c-A | GC 44-019-25 | NG | no manual online yet
 - Energy 35c-A | GC 44-019-26 | NG | no manual online yet
 - 56/3 pp BBU | GC 44-047-03A | NG | no manual online yet
-- 56/3e BBU | GC 44-047-04A | NG | no manual online yet
+- 56/3e BBU | GC 44-047-04A | NG | https://cdn.boilermanuals.com/glow-worm/Glow-worm-3e-BBU-56-ISIM.pdf
 - 54/4 BBU | GC 44-047-05 | NG | no manual online yet
 - 45/4 Back Boiler | GC 44-047-06 | NG | no manual online yet
 - 246 BBU | GC 44-315-25 | NG | no manual online yet
@@ -3770,9 +3770,9 @@ Brand page: https://boilermanuals.com/brands/glow-worm.html
 - Betacom-3 30c ErP | GC 47-019-42 | NG | https://cdn.boilermanuals.com/glow-worm/glow-worm-betacom-24-30-installation-servicing-manual-instructions.pdf
 - Energysaver Combi 80 | GC 47-047-01 | NG | https://cdn.boilermanuals.com/glowworm/glow-worm-energysaver-combi-80-100-ISIM.pdf
 - Energysaver Combi 100 | GC 47-047-02 | NG | https://cdn.boilermanuals.com/glowworm/glow-worm-energysaver-combi-80-100-ISIM.pdf
-- Compact 75p | GC 47-047-03A | NG | no manual online yet
+- Compact 75p | GC 47-047-03A | NG | https://cdn.boilermanuals.com/glow-worm/Glow-worm-Compact-75p-ISIM.pdf
 - Compact 80p | GC 47-047-04A | NG | https://cdn.boilermanuals.com/glow-worm/glow-worm-1-as-compact-gb-24c-h-28c-p-installation-servicing-instructions-manual.pdf
-- Compact 100p | GC 47-047-05A | NG | no manual online yet
+- Compact 100p | GC 47-047-05A | NG | https://cdn.boilermanuals.com/glow-worm/Glow-worm-Compact-100p-ISIM.pdf
 - Compact 75e | GC 47-047-06A | NG | https://cdn.boilermanuals.com/glowworm/Glow-worm-Compact-75E-ISIM.pdf
 - Compact 80e | GC 47-047-07A | NG | https://cdn.boilermanuals.com/glowworm/Glow-worm-Compact-80E-ISIM.pdf
 - Compact 100e | GC 47-047-08A | NG | https://cdn.boilermanuals.com/glowworm/glowworm-compact-100e-ISIM.pdf
@@ -3957,24 +3957,24 @@ Brand page: https://boilermanuals.com/brands/glow-worm.html
 - Glow-worm 56, GC 44-315-28, Natural Gas | NG | no manual online yet
 - Glow-worm Camelot 240/6, GC 37-314-07, Natural Gas | NG | no manual online yet
 - Glow-worm Capricorn 246, GC 44-315-18, Natural Gas | NG | no manual online yet
-- Glow-worm Compact 60 System A, GC 41-047-27, Natural Gas | NG | no manual online yet
+- Glow-worm Compact 60 System A, GC 41-047-27, Natural Gas | NG | https://cdn.boilermanuals.com/glow-worm/Glow-worm-Compact-System-A-60-ISIM.pdf
 - Glow-worm Economy Plus 24B, GC 41-319-90, Natural Gas | NG | no manual online yet
 - Glow-worm Economy Plus 24F, GC 41-319-28, Natural Gas | NG | no manual online yet
 - Glow-worm Energy7 15s - A (H-GB), GC 47-019-54, Natural Gas | NG | no manual online yet
 - Glow-worm Energy7 25s - A (H-GB), GC 47-019-56, Natural Gas | NG | no manual online yet
-- Glow-worm Energysaver 80P, GC 41-319-85, LPG | LPG | no manual online yet
-- Glow-worm Fuelsaver 25-30, GC 41-315-80, Natural Gas | NG | no manual online yet
-- Glow-worm Fuelsaver 25-30B, GC 41-315-79, Natural Gas | NG | no manual online yet
+- Glow-worm Energysaver 80P, GC 41-319-85, LPG | LPG | https://cdn.boilermanuals.com/glow-worm/Glow-worm-Energysaver-80P-ISIM.pdf
+- Glow-worm Fuelsaver 25-30, GC 41-315-80, Natural Gas | NG | https://cdn.boilermanuals.com/glow-worm/Glow-worm-Fuelsaver-25-30-40-50-ISIM.pdf
+- Glow-worm Fuelsaver 25-30B, GC 41-315-79, Natural Gas | NG | https://cdn.boilermanuals.com/glow-worm/Glow-worm-Fuelsaver-30B-40B-25-30-ISIM.pdf
 - Glow-worm Fuelsaver 30-40, GC 41-315-82, Natural Gas | NG | no manual online yet
-- Glow-worm Fuelsaver 30-40B, GC 41-315-81, Natural Gas | NG | no manual online yet
+- Glow-worm Fuelsaver 30-40B, GC 41-315-81, Natural Gas | NG | https://cdn.boilermanuals.com/glow-worm/Glow-worm-Fuelsaver-30B-40B-25-30-ISIM.pdf
 - Glow-worm Fuelsaver 30bmk2, GC 41-313-04, Natural Gas | NG | no manual online yet
-- Glow-worm Fuelsaver 30brmk2, GC 41-313-72, Natural Gas | NG | no manual online yet
+- Glow-worm Fuelsaver 30brmk2, GC 41-313-72, Natural Gas | NG | https://cdn.boilermanuals.com/glow-worm/Glow-worm-Fuelsaver-30brmk2-40brmk2-50brmk2-ISIM.pdf
 - Glow-worm Fuelsaver 30mk2, GC 41-313-18, Natural Gas | NG | no manual online yet
-- Glow-worm Fuelsaver 40-50, GC 41-315-84, Natural Gas | NG | no manual online yet
+- Glow-worm Fuelsaver 40-50, GC 41-315-84, Natural Gas | NG | https://cdn.boilermanuals.com/glow-worm/Glow-worm-Fuelsaver-25-30-40-50-ISIM.pdf
 - Glow-worm Fuelsaver 40-50b, GC 41-315-83, Natural Gas | NG | no manual online yet
-- Glow-worm Fuelsaver 40brmk2, GC 41-313-73, Natural Gas | NG | no manual online yet
+- Glow-worm Fuelsaver 40brmk2, GC 41-313-73, Natural Gas | NG | https://cdn.boilermanuals.com/glow-worm/Glow-worm-Fuelsaver-30brmk2-40brmk2-50brmk2-ISIM.pdf
 - Glow-worm Fuelsaver 40mk2, GC 41-313-19, Natural Gas | NG | no manual online yet
-- Glow-worm Fuelsaver 50brmk2, GC 41-313-74, Natural Gas | NG | no manual online yet
+- Glow-worm Fuelsaver 50brmk2, GC 41-313-74, Natural Gas | NG | https://cdn.boilermanuals.com/glow-worm/Glow-worm-Fuelsaver-30brmk2-40brmk2-50brmk2-ISIM.pdf
 - Glow-worm Fuelsaver 50mk2, GC 41-313-20, Natural Gas | NG | no manual online yet
 - Glow-worm Fuelsaver 55-60b, GC 41-315-85, Natural Gas | NG | no manual online yet
 - Glow-worm Fuelsaver 60-70b, GC 41-315-87, Natural Gas | NG | no manual online yet
@@ -3985,22 +3985,22 @@ Brand page: https://boilermanuals.com/brands/glow-worm.html
 - Glow-worm Galaxie 240/6, GC 37-314-05, Natural Gas | NG | no manual online yet
 - Glow-worm Hideaway 100, GC 44-313-27, Natural Gas | NG | no manual online yet
 - Glow-worm Hideaway 100B, GC 44-313-26, Natural Gas | NG | no manual online yet
-- Glow-worm Hideaway 100BFF, GC 41-047-36, Natural Gas | NG | no manual online yet
-- Glow-worm Hideaway 100CFF, GC 41-047-42, Natural Gas | NG | no manual online yet
-- Glow-worm Hideaway 115BFF, GC 41-047-37, Natural Gas | NG | no manual online yet
-- Glow-worm Hideaway 115CFF, GC 41-047-43, Natural Gas | NG | no manual online yet
+- Glow-worm Hideaway 100BFF, GC 41-047-36, Natural Gas | NG | https://cdn.boilermanuals.com/glow-worm/Glow-worm-Hideaway-100BFF-115BFF-ISIM.pdf
+- Glow-worm Hideaway 100CFF, GC 41-047-42, Natural Gas | NG | https://cdn.boilermanuals.com/glow-worm/Glow-worm-Hideaway-100CFF-115CFF-ISIM.pdf
+- Glow-worm Hideaway 115BFF, GC 41-047-37, Natural Gas | NG | https://cdn.boilermanuals.com/glow-worm/Glow-worm-Hideaway-100BFF-115BFF-ISIM.pdf
+- Glow-worm Hideaway 115CFF, GC 41-047-43, Natural Gas | NG | https://cdn.boilermanuals.com/glow-worm/Glow-worm-Hideaway-100CFF-115CFF-ISIM.pdf
 - Glow-worm Hideaway 120, GC 44-313-29, Natural Gas | NG | no manual online yet
 - Glow-worm Hideaway 120B, GC 44-313-28, Natural Gas | NG | no manual online yet
 - Glow-worm Hideaway 40, GC 44-313-17, Natural Gas | NG | no manual online yet
 - Glow-worm Hideaway 40B, GC 44-313-16, Natural Gas | NG | no manual online yet
-- Glow-worm Hideaway 40BFF / Glow-worm Hideaway 40CFF, GC 41-047-32, Natural Gas | NG | no manual online yet
+- Glow-worm Hideaway 40BFF / Glow-worm Hideaway 40CFF, GC 41-047-32, Natural Gas | NG | https://cdn.boilermanuals.com/glow-worm/Glow-worm-Hideaway-40BFF-40CFF-50BFF-60BFF-ISIM.pdf
 - Glow-worm Hideaway 50, GC 44-313-15, Natural Gas | NG | no manual online yet
 - Glow-worm Hideaway 50B, GC 44-313-14, Natural Gas | NG | no manual online yet
-- Glow-worm Hideaway 50BFF, GC 41-047-33, Natural Gas | NG | no manual online yet
-- Glow-worm Hideaway 50CFF, GC 41-047-39, Natural Gas | NG | no manual online yet
+- Glow-worm Hideaway 50BFF, GC 41-047-33, Natural Gas | NG | https://cdn.boilermanuals.com/glow-worm/Glow-worm-Hideaway-40BFF-40CFF-50BFF-60BFF-ISIM.pdf
+- Glow-worm Hideaway 50CFF, GC 41-047-39, Natural Gas | NG | https://cdn.boilermanuals.com/glow-worm/Glow-worm-Hideaway-50CFF-60CFF-ISIM.pdf
 - Glow-worm Hideaway 60B, GC 44-313-12, Natural Gas | NG | no manual online yet
-- Glow-worm Hideaway 60BFF, GC 41-047-34, Natural Gas | NG | no manual online yet
-- Glow-worm Hideaway 60CFF, GC 41-047-40, Natural Gas | NG | no manual online yet
+- Glow-worm Hideaway 60BFF, GC 41-047-34, Natural Gas | NG | https://cdn.boilermanuals.com/glow-worm/Glow-worm-Hideaway-40BFF-40CFF-50BFF-60BFF-ISIM.pdf
+- Glow-worm Hideaway 60CFF, GC 41-047-40, Natural Gas | NG | https://cdn.boilermanuals.com/glow-worm/Glow-worm-Hideaway-50CFF-60CFF-ISIM.pdf
 - Glow-worm Hideaway 70, GC 44-313-82, Natural Gas | NG | no manual online yet
 - Glow-worm Hideaway 70B, GC 44-313-83, Natural Gas | NG | no manual online yet
 - Glow-worm Hideaway 80, GC 44-313-25, Natural Gas | NG | no manual online yet
@@ -4023,24 +4023,24 @@ Brand page: https://boilermanuals.com/brands/glow-worm.html
 - Glow-worm Royale 246, GC 44-315-23, Natural Gas | NG | no manual online yet
 - Glow-worm Saunier Duval SB30e A, GC 41-920-31, Natural Gas | NG | https://cdn.boilermanuals.com/saunier-duval/Saunier-Duval-sb30-e-ISIM.pdf
 - Glow-worm Saunier Duval SD30e A, GC 47-920-16, Natural Gas | NG | https://cdn.boilermanuals.com/saunier-duval/installationSD30e.pdf
-- Glow-worm Spacesaver 20-30rf, GC 41-313-86, Natural Gas | NG | no manual online yet
+- Glow-worm Spacesaver 20-30rf, GC 41-313-86, Natural Gas | NG | https://cdn.boilermanuals.com/glow-worm/Glow-worm-Spacesaver-30rf-40rf-50rf-60rf-20-30-40-50-ISIM.pdf
 - Glow-worm Spacesaver 20-30rfs, GC 41-313-91, Natural Gas | NG | no manual online yet
 - Glow-worm Spacesaver 22-30b, GC 41-315-69, Natural Gas | NG | no manual online yet
 - Glow-worm Spacesaver 22-30f, GC 41-315-70, Natural Gas | NG | no manual online yet
-- Glow-worm Spacesaver 30-40rf, GC 41-313-87, Natural Gas | NG | no manual online yet
+- Glow-worm Spacesaver 30-40rf, GC 41-313-87, Natural Gas | NG | https://cdn.boilermanuals.com/glow-worm/Glow-worm-Spacesaver-30rf-40rf-50rf-60rf-20-30-40-50-ISIM.pdf
 - Glow-worm Spacesaver 30-40rfs, GC 41-313-92, Natural Gas | NG | no manual online yet
 - Glow-worm Spacesaver 30mk2, GC 41-313-07, Natural Gas | NG | no manual online yet
 - Glow-worm Spacesaver 30rmk2, GC 41-313-58, Natural Gas | NG | no manual online yet
 - Glow-worm Spacesaver 38, GC 41-315-44, Natural Gas | NG | no manual online yet
 - Glow-worm Spacesaver 38bf, GC 41-315-31, Natural Gas | NG | no manual online yet
-- Glow-worm Spacesaver 40-50rf, GC 41-313-88, Natural Gas | NG | no manual online yet
+- Glow-worm Spacesaver 40-50rf, GC 41-313-88, Natural Gas | NG | https://cdn.boilermanuals.com/glow-worm/Glow-worm-Spacesaver-30rf-40rf-50rf-60rf-20-30-40-50-ISIM.pdf
 - Glow-worm Spacesaver 40-50rfs, GC 41-313-93, Natural Gas | NG | no manual online yet
 - Glow-worm Spacesaver 40bmk2, GC 41-315-88, Natural Gas | NG | no manual online yet
 - Glow-worm Spacesaver 40f, GC 41-313-37, Natural Gas | NG | no manual online yet
 - Glow-worm Spacesaver 40mk2, GC 41-315-89, Natural Gas | NG | no manual online yet
 - Glow-worm Spacesaver 40rmk2, GC 41-313-59, Natural Gas | NG | no manual online yet
 - Glow-worm Spacesaver 45-60b, GC 41-315-64, Natural Gas | NG | no manual online yet
-- Glow-worm Spacesaver 50-60rf, GC 41-313-89, Natural Gas | NG | no manual online yet
+- Glow-worm Spacesaver 50-60rf, GC 41-313-89, Natural Gas | NG | https://cdn.boilermanuals.com/glow-worm/Glow-worm-Spacesaver-30rf-40rf-50rf-60rf-20-30-40-50-ISIM.pdf
 - Glow-worm Spacesaver 50-60rfs, GC 41-313-94, Natural Gas | NG | no manual online yet
 - Glow-worm Spacesaver 50bf, GC 41-315-27, Natural Gas | NG | no manual online yet
 - Glow-worm Spacesaver 50bmk2, GC 41-315-71, Natural Gas | NG | no manual online yet
@@ -4054,8 +4054,8 @@ Brand page: https://boilermanuals.com/brands/glow-worm.html
 - Glow-worm Spacesaver 75bf, GC 41-315-32, Natural Gas | NG | no manual online yet
 - Glow-worm Spacesaver 80bmk2, GC 41-313-05, Natural Gas | NG | no manual online yet
 - Glow-worm Spacesaver 80brmk2, GC 41-313-57, Natural Gas | NG | no manual online yet
-- Glow-worm Spacesaver Complheat 60, GC 41-319-45, Natural Gas | NG | no manual online yet
-- Glow-worm Spacesaver Complheat 70, GC 41-319-46, Natural Gas | NG | no manual online yet
+- Glow-worm Spacesaver Complheat 60, GC 41-319-45, Natural Gas | NG | https://cdn.boilermanuals.com/glow-worm/Glow-worm-Spacesaver-Complheat-60-70-ISIM.pdf
+- Glow-worm Spacesaver Complheat 70, GC 41-319-46, Natural Gas | NG | https://cdn.boilermanuals.com/glow-worm/Glow-worm-Spacesaver-Complheat-60-70-ISIM.pdf
 - Glow-worm Spacesaver Kfb 20, GC 41-319-22, Natural Gas | NG | no manual online yet
 - Glow-worm Spacesaver Kfb 60, GC 41-319-11, Natural Gas | NG | no manual online yet
 - Glow-worm Spacesaver Kfb 70, GC 41-319-12, Natural Gas | NG | no manual online yet
@@ -4065,11 +4065,11 @@ Brand page: https://boilermanuals.com/brands/glow-worm.html
 - Glow-worm Super 40, GC 41-315-65, Natural Gas | NG | no manual online yet
 - Glow-worm Super 40b, GC 41-315-66, Natural Gas | NG | no manual online yet
 - Glow-worm Super 52, GC 41-315-47, Natural Gas | NG | no manual online yet
-- Glow-worm Super 52b, GC 41-315-48, Natural Gas | NG | no manual online yet
+- Glow-worm Super 52b, GC 41-315-48, Natural Gas | NG | https://cdn.boilermanuals.com/glow-worm/Glow-worm-Super-52b-ISIM.pdf
 - Glow-worm SUSTAIN 25c, GC 47-109-32, Natural Gas | NG | no manual online yet
 - Glow-worm Swiftflow 120, GC 47-313-13, Natural Gas | NG | no manual online yet
 - Glow-worm Swiftflow 125e, GC 47-313-19, Natural Gas | NG | no manual online yet
-- Glow-worm Swiftflow 80e, GC 47-313-17, Natural Gas | NG | no manual online yet
+- Glow-worm Swiftflow 80e, GC 47-313-17, Natural Gas | NG | https://cdn.boilermanuals.com/glow-worm/Glow-worm-Swiftflow-80e-ISIM.pdf
 - Glow-worm Ultimate 100 FF, GC 41-047-60, Natural Gas | NG | no manual online yet
 - Glow-worm Ultimate 100FF, GC 41-319-61, Natural Gas | NG | no manual online yet
 - Glow-worm Ultimate 2 25r, GC 47-019-43, Natural Gas | NG | no manual online yet
@@ -5178,7 +5178,7 @@ Brand page: https://boilermanuals.com/brands/ideal.html
 - Ideal Mexico Super RS40/50 | GC 41-421-47 | NG | no manual online yet
 - Ideal Mexico Super RS50/60 | GC 41-421-48 | NG | no manual online yet
 - Ideal Mexico Super 2 CF 140 | GC 41-421-51 | NG | no manual online yet
-- Ideal Compact Extra | GC 41-421-52 | NG | no manual online yet
+- Ideal Compact Extra | GC 41-421-52 | NG | https://cdn.boilermanuals.com/ideal/Ideal-Compact-Extra-ISIM.pdf
 - Ideal Elan 2 40NF | GC 41-421-54 | NG | https://cdn.boilermanuals.com/ideal/Ideal-elan-2-30-40-50-60-80-NF-ISIM.pdf
 - Ideal Elan 2 50NF | GC 41-421-55 | NG | https://cdn.boilermanuals.com/ideal/Ideal-elan-2-30-40-50-60-80-NF-ISIM.pdf
 - Ideal Elan 2 60NF | GC 41-421-56 | NG | https://cdn.boilermanuals.com/ideal/Ideal-elan-2-30-40-50-60-80-NF-ISIM.pdf
@@ -5230,7 +5230,7 @@ Brand page: https://boilermanuals.com/brands/ideal.html
 - Ideal Elan2 NF 240 | GC 41-429-61 | NG | https://cdn.boilermanuals.com/ideal/Ideal-Elan2-NF-230-240-250-260-ISIM.pdf
 - Ideal Elan2 NF 250 | GC 41-429-62 | NG | https://cdn.boilermanuals.com/ideal/Ideal-Elan2-NF-230-240-250-260-ISIM.pdf
 - Ideal Elan2 NF 260 | GC 41-429-63 | NG | https://cdn.boilermanuals.com/ideal/Ideal-Elan2-NF-230-240-250-260-ISIM.pdf
-- Ideal Elan2 NF 280 | GC 41-429-64 | NG | no manual online yet
+- Ideal Elan2 NF 280 | GC 41-429-64 | NG | https://cdn.boilermanuals.com/ideal/Ideal-Elan2-NF-280-ISIM.pdf
 - Ideal Mexico HE18 | GC 41-429-65 | NG | https://cdn.boilermanuals.com/ideal/Ideal-mexico.pdf
 - Ideal Classic NF 70 | GC 41-429-77 | NG | https://cdn.boilermanuals.com/ideal/Ideal-Classic-NF-30-40-50-60-70-80-ISIM.pdf
 - Ideal Concord Super Series 4 50V | GC 41-429-78 | NG | https://cdn.boilermanuals.com/ideal/Ideal-Super-Series-Installation-Servicing-100920-12.pdf
@@ -5335,7 +5335,7 @@ Brand page: https://boilermanuals.com/brands/ideal.html
 - Ideal imax xtra F560 | NG | no manual online yet
 - Ideal imax xtra F80 | NG | no manual online yet
 - Ideal Solar Thermal | Solar | no manual online yet
-- Ideal Sprint 80 FP | LPG | no manual online yet
+- Ideal Sprint 80 FP | LPG | https://cdn.boilermanuals.com/ideal/Ideal-Sprint-FP-80-ISIM.pdf
 - Ideal Vangard HT Range | Oil/Gas | no manual online yet
 - Ideal Vangard S Range | Oil/Gas | no manual online yet
 - Ideal Viceroy GT | Oil/Gas | no manual online yet
@@ -5627,9 +5627,9 @@ Brand page: https://boilermanuals.com/brands/ideal.html
 - Caradon Ideal Mexico Super rs65, GC 41-407-41, Natural Gas | NG | no manual online yet
 - Caradon Ideal Mexico Super rs75, GC 41-407-43, Natural Gas | NG | no manual online yet
 - Caradon Ideal Mexico Super rs80, GC 41-407-45, Natural Gas | NG | no manual online yet
-- i-mini2 c24, GC 47-387-15, Natural Gas | NG | no manual online yet
-- i-mini2 c30, GC 47-387-16, Natural Gas | NG | no manual online yet
-- i-mini2 c35, GC 47-387-17, Natural Gas | NG | no manual online yet
+- i-mini2 c24, GC 47-387-15, Natural Gas | NG | https://cdn.boilermanuals.com/ideal/Ideal-i-mini2-c24-c30-c35-ISIM.pdf
+- i-mini2 c30, GC 47-387-16, Natural Gas | NG | https://cdn.boilermanuals.com/ideal/Ideal-i-mini2-c24-c30-c35-ISIM.pdf
+- i-mini2 c35, GC 47-387-17, Natural Gas | NG | https://cdn.boilermanuals.com/ideal/Ideal-i-mini2-c24-c30-c35-ISIM.pdf
 - Ideal Esprit 2 24, GC 47-348-71, Natural Gas | NG | https://cdn.boilermanuals.com/ideal/Ideal-esprit-2-24-30-35-ISIM.pdf
 - Ideal Esprit 2 30, GC 47-348-72, Natural Gas | NG | https://cdn.boilermanuals.com/ideal/Ideal-esprit-2-24-30-35-ISIM.pdf
 - Ideal Esprit 2 35, GC 47-348-73, Natural Gas | NG | https://cdn.boilermanuals.com/ideal/Ideal-esprit-2-24-30-35-ISIM.pdf
@@ -5641,18 +5641,18 @@ Brand page: https://boilermanuals.com/brands/ideal.html
 - Ideal Heating INDEPENDENT SYSTEM2 S24, GC 41-860-08, Natural Gas | NG | no manual online yet
 - Ideal Heating INDEPENDENT SYSTEM2 S30, GC 41-860-09, Natural Gas | NG | no manual online yet
 - Ideal Heating LOGIC CODE COMBI2 38, GC 47-387-20, Natural Gas | NG | no manual online yet
-- Ideal Heating LOGIC+ COMBI2 C24, GC 47-349-99, Natural Gas | NG | no manual online yet
-- Ideal Heating LOGIC+ COMBI2 C30, GC 47-387-01, Natural Gas | NG | no manual online yet
-- Ideal Heating LOGIC+ COMBI2 C35, GC 47-387-02, Natural Gas | NG | no manual online yet
-- Ideal Heating LOGIC+ HEAT2 H12, GC 41-860-20, Natural Gas | NG | no manual online yet
-- Ideal Heating LOGIC+ HEAT2 H15, GC 41-860-21, Natural Gas | NG | no manual online yet
-- Ideal Heating LOGIC+ HEAT2 H18, GC 41-860-22, Natural Gas | NG | no manual online yet
-- Ideal Heating LOGIC+ HEAT2 H24, GC 41-860-23, Natural Gas | NG | no manual online yet
-- Ideal Heating LOGIC+ HEAT2 H30, GC 41-860-24, Natural Gas | NG | no manual online yet
-- Ideal Heating LOGIC+ SYSTEM2 S15, GC 41-796-93, Natural Gas | NG | no manual online yet
-- Ideal Heating LOGIC+ SYSTEM2 S18, GC 41-796-94, Natural Gas | NG | no manual online yet
-- Ideal Heating LOGIC+ SYSTEM2 S24, GC 41-796-95, Natural Gas | NG | no manual online yet
-- Ideal Heating LOGIC+ SYSTEM2 S30, GC 41-796-96, Natural Gas | NG | no manual online yet
+- Ideal Heating LOGIC+ COMBI2 C24, GC 47-349-99, Natural Gas | NG | https://cdn.boilermanuals.com/ideal/Ideal-LOGIC-COMBI2-C24-C30-C35-ISIM.pdf
+- Ideal Heating LOGIC+ COMBI2 C30, GC 47-387-01, Natural Gas | NG | https://cdn.boilermanuals.com/ideal/Ideal-LOGIC-COMBI2-C24-C30-C35-ISIM.pdf
+- Ideal Heating LOGIC+ COMBI2 C35, GC 47-387-02, Natural Gas | NG | https://cdn.boilermanuals.com/ideal/Ideal-LOGIC-COMBI2-C24-C30-C35-ISIM.pdf
+- Ideal Heating LOGIC+ HEAT2 H12, GC 41-860-20, Natural Gas | NG | https://cdn.boilermanuals.com/ideal/Ideal-LOGIC-HEAT2-H12-H15-H18-H24-ISIM.pdf
+- Ideal Heating LOGIC+ HEAT2 H15, GC 41-860-21, Natural Gas | NG | https://cdn.boilermanuals.com/ideal/Ideal-LOGIC-HEAT2-H12-H15-H18-H24-ISIM.pdf
+- Ideal Heating LOGIC+ HEAT2 H18, GC 41-860-22, Natural Gas | NG | https://cdn.boilermanuals.com/ideal/Ideal-LOGIC-HEAT2-H12-H15-H18-H24-ISIM.pdf
+- Ideal Heating LOGIC+ HEAT2 H24, GC 41-860-23, Natural Gas | NG | https://cdn.boilermanuals.com/ideal/Ideal-LOGIC-HEAT2-H12-H15-H18-H24-ISIM.pdf
+- Ideal Heating LOGIC+ HEAT2 H30, GC 41-860-24, Natural Gas | NG | https://cdn.boilermanuals.com/ideal/Ideal-LOGIC-HEAT2-H12-H15-H18-H24-ISIM.pdf
+- Ideal Heating LOGIC+ SYSTEM2 S15, GC 41-796-93, Natural Gas | NG | https://cdn.boilermanuals.com/ideal/Ideal-LOGIC-SYSTEM2-S15-S18-S24-S30-ISIM.pdf
+- Ideal Heating LOGIC+ SYSTEM2 S18, GC 41-796-94, Natural Gas | NG | https://cdn.boilermanuals.com/ideal/Ideal-LOGIC-SYSTEM2-S15-S18-S24-S30-ISIM.pdf
+- Ideal Heating LOGIC+ SYSTEM2 S24, GC 41-796-95, Natural Gas | NG | https://cdn.boilermanuals.com/ideal/Ideal-LOGIC-SYSTEM2-S15-S18-S24-S30-ISIM.pdf
+- Ideal Heating LOGIC+ SYSTEM2 S30, GC 41-796-96, Natural Gas | NG | https://cdn.boilermanuals.com/ideal/Ideal-LOGIC-SYSTEM2-S15-S18-S24-S30-ISIM.pdf
 - Ideal icos HE15, GC 47-397-83, Natural Gas | NG | no manual online yet
 - Ideal icos HE18, GC 47-397-84, Natural Gas | NG | no manual online yet
 - Ideal icos HE24, GC 47-397-85, Natural Gas | NG | no manual online yet
@@ -6931,13 +6931,13 @@ Brand page: https://boilermanuals.com/brands/navien.html
 - Navien NCB500 NCB500-2S/37K, PCDB 019153 / 019154, Natural Gas / LPG | NG/LPG | https://cdn.boilermanuals.com/navien/navien-NCB500-Combi-CE-GB-Installation-Operation-Manual-EN-220225-4.pdf
 - Navien NCB700 NCB700-2S+/42K / Navien NCB700 NCB700-2S+/42k, PCDB 019149 / 019150, Natural Gas / LPG | NG/LPG | https://cdn.boilermanuals.com/navien/navien-NCB_700_combi_on.pdf
 - Navien NCB700 NCB700-3S/54K, PCDB 019151 / 019152, Natural Gas / LPG | NG/LPG | https://cdn.boilermanuals.com/navien/navien-NCB_700_combi_on.pdf
-- Navien NCB300 NCB300-30K, GC 47-709-17, Natural Gas / LPG | NG/LPG | no manual online yet
-- Navien NCB500 NCB500-15K System, GC 41-709-09, Natural Gas / LPG | NG/LPG | no manual online yet
-- Navien NCB500 NCB500-18K System, GC 41-709-10, Natural Gas / LPG | NG/LPG | no manual online yet
-- Navien NCB500 NCB500-1S+/30K, GC 47-709-18, Natural Gas / LPG | NG/LPG | no manual online yet
-- Navien NCB500 NCB500-24K System, GC 41-709-11, Natural Gas / LPG | NG/LPG | no manual online yet
-- Navien NCB500 NCB500-30K System, GC 41-709-12, Natural Gas / LPG | NG/LPG | no manual online yet
-- Navien NCB500 NCB500-1S+/32K, PCDB 019160 / 019161, Natural Gas / LPG | NG/LPG | no manual online yet
+- Navien NCB300 NCB300-30K, GC 47-709-17, Natural Gas / LPG | NG/LPG | https://cdn.boilermanuals.com/navien/Navien-NCB300-30K-ISIM.pdf
+- Navien NCB500 NCB500-15K System, GC 41-709-09, Natural Gas / LPG | NG/LPG | https://cdn.boilermanuals.com/navien/Navien-NCB500-15K-System-18K-24K-30K-ISIM.pdf
+- Navien NCB500 NCB500-18K System, GC 41-709-10, Natural Gas / LPG | NG/LPG | https://cdn.boilermanuals.com/navien/Navien-NCB500-15K-System-18K-24K-30K-ISIM.pdf
+- Navien NCB500 NCB500-1S+/30K, GC 47-709-18, Natural Gas / LPG | NG/LPG | https://cdn.boilermanuals.com/navien/Navien-NCB500-1S-30K-32K-ISIM.pdf
+- Navien NCB500 NCB500-24K System, GC 41-709-11, Natural Gas / LPG | NG/LPG | https://cdn.boilermanuals.com/navien/Navien-NCB500-15K-System-18K-24K-30K-ISIM.pdf
+- Navien NCB500 NCB500-30K System, GC 41-709-12, Natural Gas / LPG | NG/LPG | https://cdn.boilermanuals.com/navien/Navien-NCB500-15K-System-18K-24K-30K-ISIM.pdf
+- Navien NCB500 NCB500-1S+/32K, PCDB 019160 / 019161, Natural Gas / LPG | NG/LPG | https://cdn.boilermanuals.com/navien/Navien-NCB500-1S-30K-32K-ISIM.pdf
 - Navien NCN-21K, PCDB 016380 / 016381, Natural Gas / LPG | NG/LPG | no manual online yet
 - Navien NCN-25K, PCDB 016382 / 016383, Natural Gas / LPG | NG/LPG | no manual online yet
 - Navien NCN-32K, PCDB 016384 / 016385, Natural Gas / LPG | NG/LPG | no manual online yet
@@ -7002,9 +7002,9 @@ Brand page: https://boilermanuals.com/brands/perrymatics.html
 
 Brand page: https://boilermanuals.com/brands/potterton.html
 
-- Housewarmer Illusion | GC 37-590-16 | NG | no manual online yet
-- Housewarmer Stratton | GC 37-590-17 | NG | no manual online yet
-- Housewarmer Presence | GC 37-590-18 | NG | no manual online yet
+- Housewarmer Illusion | GC 37-590-16 | NG | https://cdn.boilermanuals.com/potterton/Potterton-Housewarmer-Illusion-Stratton-Presence-ISIM.pdf
+- Housewarmer Stratton | GC 37-590-17 | NG | https://cdn.boilermanuals.com/potterton/Potterton-Housewarmer-Illusion-Stratton-Presence-ISIM.pdf
+- Housewarmer Presence | GC 37-590-18 | NG | https://cdn.boilermanuals.com/potterton/Potterton-Housewarmer-Illusion-Stratton-Presence-ISIM.pdf
 - Potterton Powermax HE 85 Litre | GC 41-389-15 | https://cdn.boilermanuals.com/potterton/Potterton-Powermax-HE-User-Manual.pdf
 - Potterton Powermax HE 115 Litre | GC 41-389-16 | https://cdn.boilermanuals.com/potterton/Potterton-Powermax-HE-User-Manual.pdf
 - Potterton Powermax HE 150 Litre | GC 41-389-17 | https://cdn.boilermanuals.com/potterton/Potterton-Powermax-HE-User-Manual.pdf
@@ -7056,7 +7056,7 @@ Brand page: https://boilermanuals.com/brands/potterton.html
 - Potterton Performa System 18e | GC 41-590-89 | NG | https://cdn.boilermanuals.com/potterton/potterton-performa-system-12e-18e-24e-28e-isim.pdf
 - Potterton Performa System 24e | GC 41-590-90 | NG | https://cdn.boilermanuals.com/potterton/potterton-performa-system-12e-18e-24e-28e-isim.pdf
 - Potterton Performa System 28e | GC 41-590-91 | NG | https://cdn.boilermanuals.com/potterton/potterton-performa-system-12e-18e-24e-28e-isim.pdf
-- Performa System 12 HE | GC 41-591-24 | NG | no manual online yet
+- Performa System 12 HE | GC 41-591-24 | NG | https://cdn.boilermanuals.com/potterton/Potterton-Performa-System-HE-12-18-24-28-ISIM.pdf
 - Performa 9 SL HE | GC 41-592-05 | NG | https://cdn.boilermanuals.com/potterton/Potterton-performa-9-12-15-18-21-24-sl-he-ISIM.pdf
 - Performa 12 SL HE | GC 41-592-06 | NG | https://cdn.boilermanuals.com/potterton/Potterton-performa-9-12-15-18-21-24-sl-he-ISIM.pdf
 - Performa 15 SL HE | GC 41-592-07 | NG | https://cdn.boilermanuals.com/potterton/Potterton-performa-9-12-15-18-21-24-sl-he-ISIM.pdf
@@ -7437,9 +7437,9 @@ Brand page: https://boilermanuals.com/brands/potterton.html
 - Potterton Myson Rs70/21 rs70/21, GC 41-595-31, Natural Gas | NG | no manual online yet
 - Potterton Performa 24, GC 47-393-06, Natural Gas | NG | https://cdn.boilermanuals.com/potterton/potterton-performa-24-installation-manual.pdf
 - Potterton Performa 28, GC 47-393-07, Natural Gas | NG | https://cdn.boilermanuals.com/potterton/potterton-performa-28-installation-manual.pdf
-- Potterton Performa System 18 HE, GC 41-591-25, Natural Gas | NG | no manual online yet
-- Potterton Performa System 24 HE, GC 41-591-26, Natural Gas | NG | no manual online yet
-- Potterton Performa System 28 HE, GC 41-591-27, Natural Gas | NG | no manual online yet
+- Potterton Performa System 18 HE, GC 41-591-25, Natural Gas | NG | https://cdn.boilermanuals.com/potterton/Potterton-Performa-System-HE-12-18-24-28-ISIM.pdf
+- Potterton Performa System 24 HE, GC 41-591-26, Natural Gas | NG | https://cdn.boilermanuals.com/potterton/Potterton-Performa-System-HE-12-18-24-28-ISIM.pdf
+- Potterton Performa System 28 HE, GC 41-591-27, Natural Gas | NG | https://cdn.boilermanuals.com/potterton/Potterton-Performa-System-HE-12-18-24-28-ISIM.pdf
 - Potterton Powermax HE 115 CP, GC 51-063-48, Natural Gas | NG | no manual online yet
 - Potterton Powermax HE 115 CPIH, GC 51-063-50, Natural Gas | NG | no manual online yet
 - Potterton Powermax HE 150 CP, GC 51-063-52, Natural Gas | NG | no manual online yet
@@ -7453,13 +7453,13 @@ Brand page: https://boilermanuals.com/brands/potterton.html
 - Potterton Promax 32 System ErP, GC 41-592-46, Natural Gas | NG | https://cdn.boilermanuals.com/potterton/potterton-Promax_System_installation_and_servicing_manual1.pdf
 - Potterton Promax SL 30 Heat ErP, GC 41-592-38, Natural Gas | NG | no manual online yet
 - Potterton Suprima 120L, GC 41-590-49, Natural Gas | NG | no manual online yet
-- Potterton Titanium 12 Heat, GC 41-592-61, Natural Gas | NG | no manual online yet
-- Potterton Titanium 15 Heat, GC 41-592-62, Natural Gas | NG | no manual online yet
-- Potterton Titanium 18 Heat, GC 41-592-63, Natural Gas | NG | no manual online yet
+- Potterton Titanium 12 Heat, GC 41-592-61, Natural Gas | NG | https://cdn.boilermanuals.com/potterton/Potterton-Titanium-Heat-12-15-18-24-30-ISIM.pdf
+- Potterton Titanium 15 Heat, GC 41-592-62, Natural Gas | NG | https://cdn.boilermanuals.com/potterton/Potterton-Titanium-Heat-12-15-18-24-30-ISIM.pdf
+- Potterton Titanium 18 Heat, GC 41-592-63, Natural Gas | NG | https://cdn.boilermanuals.com/potterton/Potterton-Titanium-Heat-12-15-18-24-30-ISIM.pdf
 - Potterton Titanium 24, GC 47-393-39, Natural Gas | NG | no manual online yet
-- Potterton Titanium 24 Heat, GC 41-592-64, Natural Gas | NG | no manual online yet
+- Potterton Titanium 24 Heat, GC 41-592-64, Natural Gas | NG | https://cdn.boilermanuals.com/potterton/Potterton-Titanium-Heat-12-15-18-24-30-ISIM.pdf
 - Potterton Titanium 28, GC 47-393-40, Natural Gas | NG | no manual online yet
-- Potterton Titanium 30 Heat, GC 41-592-65, Natural Gas | NG | no manual online yet
+- Potterton Titanium 30 Heat, GC 41-592-65, Natural Gas | NG | https://cdn.boilermanuals.com/potterton/Potterton-Titanium-Heat-12-15-18-24-30-ISIM.pdf
 - Potterton Titanium 33, GC 47-393-41, Natural Gas | NG | no manual online yet
 - Potterton Titanium 40, GC 47-393-42, Natural Gas | NG | no manual online yet
 - Potterton International Heating BOA 148, PCDB 000711, Oil | Oil | no manual online yet
@@ -8415,12 +8415,12 @@ Brand page: https://boilermanuals.com/brands/sime.html
 - Sime Superior 60 MK.II, PCDB 008602, Natural Gas | NG | https://cdn.boilermanuals.com/sime/sime-Superior-MK-2-User-and-Installation.pdf
 - Sime Superior 75 MK.II, PCDB 008601, Natural Gas | NG | https://cdn.boilermanuals.com/sime/sime-Superior-MK-2-User-and-Installation.pdf
 - Sime Superior 90 MK.II, PCDB 008600, Natural Gas | NG | https://cdn.boilermanuals.com/sime/sime-Superior-MK-2-User-and-Installation.pdf
-- SIME EDEA 25T, GC 41-283-64, Natural Gas | NG | no manual online yet
-- SIME EDEA 30, GC 47-283-91, Natural Gas | NG | no manual online yet
-- SIME EDEA 35T, GC 41-283-65, Natural Gas | NG | no manual online yet
-- SIME EDEA 40, GC 47-283-92, Natural Gas | NG | no manual online yet
-- SIME GIULIA COMBI 30, GC 47-283-93, Natural Gas | NG | no manual online yet
-- SIME GIULIA SYSTEM 25, GC 41-283-66, Natural Gas | NG | no manual online yet
+- SIME EDEA 25T, GC 41-283-64, Natural Gas | NG | https://cdn.boilermanuals.com/sime/Sime-EDEA-25T-35T-ISIM.pdf
+- SIME EDEA 30, GC 47-283-91, Natural Gas | NG | https://cdn.boilermanuals.com/sime/Sime-EDEA-30-40-ISIM.pdf
+- SIME EDEA 35T, GC 41-283-65, Natural Gas | NG | https://cdn.boilermanuals.com/sime/Sime-EDEA-25T-35T-ISIM.pdf
+- SIME EDEA 40, GC 47-283-92, Natural Gas | NG | https://cdn.boilermanuals.com/sime/Sime-EDEA-30-40-ISIM.pdf
+- SIME GIULIA COMBI 30, GC 47-283-93, Natural Gas | NG | https://cdn.boilermanuals.com/sime/Sime-GIULIA-COMBI-30-ISIM.pdf
+- SIME GIULIA SYSTEM 25, GC 41-283-66, Natural Gas | NG | https://cdn.boilermanuals.com/sime/Sime-GIULIA-SYSTEM-25-ISIM.pdf
 - SIME MIA- 30, GC 47-283-90, Natural Gas | NG | no manual online yet
 - Sime Murelle Advanced HE 30 ErP, GC 47-283-68, Natural Gas / LPG | NG/LPG | no manual online yet
 - Sime MURELLE ADVANCED HE 30 MkII, GC 47-283-82, Natural Gas | NG | no manual online yet
@@ -9873,9 +9873,9 @@ Brand page: https://boilermanuals.com/brands/vokera.html
 - Vokera BY RIELLO evolve 28C, GC 40-364-57, LPG | LPG | no manual online yet
 - Vokera By Riello EXCEL-i 25C, GC 47-364-65, Natural Gas | NG | no manual online yet
 - Vokera By Riello EXCEL-i 30C, GC 47-364-66, Natural Gas | NG | no manual online yet
-- Vokera By Riello UNICA MAX 30C, GC 47-364-75, Natural Gas | NG | no manual online yet
-- Vokera By Riello VIBE MAX 20S, GC 41-364-19, Natural Gas | NG | no manual online yet
-- Vokera By Riello VIBE MAX 25S, GC 41-364-20, Natural Gas | NG | no manual online yet
+- Vokera By Riello UNICA MAX 30C, GC 47-364-75, Natural Gas | NG | https://cdn.boilermanuals.com/vokera/Vokera-Riello-UNICA-MAX-30C-ISIM.pdf
+- Vokera By Riello VIBE MAX 20S, GC 41-364-19, Natural Gas | NG | https://cdn.boilermanuals.com/vokera/Vokera-Riello-VIBE-MAX-20S-25S-ISIM.pdf
+- Vokera By Riello VIBE MAX 25S, GC 41-364-20, Natural Gas | NG | https://cdn.boilermanuals.com/vokera/Vokera-Riello-VIBE-MAX-20S-25S-ISIM.pdf
 - Vokera Compact 25HE, GC 47-094-74, Natural Gas | NG | no manual online yet
 - Vokera Compact 29HE, GC 47-094-76, Natural Gas | NG | no manual online yet
 - Vokera Excell 96E, GC 47-094-14, Natural Gas | NG | no manual online yet
@@ -10749,40 +10749,40 @@ Brand page: https://boilermanuals.com/brands/worcester-bosch.html
 - Worcester Greenstar 30 Si, GC 47-311-89, LPG | LPG | https://cdn.boilermanuals.com/worcester-bosch/worcester-bosch-greenstar-25-30-si-mk2-installation-and-servicing-Instructions.pdf
 - Worcester Greenstar 30 Si Compact, GC 47-406-52, Natural Gas | NG | https://cdn.boilermanuals.com/worcester-bosch/worcester-bosch-greenstar-25-30-Si-compact-combi-installation-servicing-instructions-manual.pdf
 - Worcester Greenstar 30 Si Compact, GC 47-406-53, LPG | LPG | https://cdn.boilermanuals.com/worcester-bosch/worcester-bosch-greenstar-25-30-Si-compact-combi-installation-servicing-instructions-manual.pdf
-- Worcester Greenstar 8000 F GR8700iF 35 C LPG, GC 47-800-57, LPG | LPG | no manual online yet
-- Worcester Greenstar 8000 F GR8700iF 35 C NG, GC 47-800-56, Natural Gas | NG | no manual online yet
-- Worcester Greenstar 8000 F GR8700iF 35 R LPG, GC 41-800-42, LPG | LPG | no manual online yet
-- Worcester Greenstar 8000 F GR8700iF 35 R NG, GC 41-800-41, Natural Gas | NG | no manual online yet
-- Worcester Greenstar 8000 F GR8700iF 50 C LPG, GC 47-800-59, LPG | LPG | no manual online yet
-- Worcester Greenstar 8000 F GR8700iF 50 C NG, GC 47-800-58, Natural Gas | NG | no manual online yet
-- Worcester Greenstar 8000 F GR8700iF 50 R LPG, GC 41-800-44, LPG | LPG | no manual online yet
-- Worcester Greenstar 8000 F GR8700iF 50 R NG, GC 41-800-43, Natural Gas | NG | no manual online yet
-- Worcester Greenstar 8000+ GR8701iW 30 R LPG, GC 41-800-36, LPG | LPG | no manual online yet
-- Worcester Greenstar 8000+ GR8701iW 30 R NG, GC 41-800-29, Natural Gas | NG | no manual online yet
-- Worcester Greenstar 8000+ GR8701iW 30 S LPG, GC 41-800-34, LPG | LPG | no manual online yet
-- Worcester Greenstar 8000+ GR8701iW 30 S NG, GC 41-800-27, Natural Gas | NG | no manual online yet
-- Worcester Greenstar 8000+ GR8701iW 32 C LPG / Worcester Greenstar 8000+ GR8701iW 32 C LPG V2, GC 47-800-51, LPG | LPG | no manual online yet
-- Worcester Greenstar 8000+ GR8701iW 32 C NG / Worcester Greenstar 8000+ GR8701iW 32 C NG V2, GC 47-800-44, Natural Gas | NG | no manual online yet
-- Worcester Greenstar 8000+ GR8701iW 35 R LPG, GC 41-800-37, LPG | LPG | no manual online yet
-- Worcester Greenstar 8000+ GR8701iW 35 R NG, GC 41-800-30, Natural Gas | NG | no manual online yet
-- Worcester Greenstar 8000+ GR8701iW 35 S LPG, GC 41-800-35, LPG | LPG | no manual online yet
-- Worcester Greenstar 8000+ GR8701iW 35 S NG, GC 41-800-28, Natural Gas | NG | no manual online yet
-- Worcester Greenstar 8000+ GR8701iW 36 C LPG, GC 47-800-52, LPG | LPG | no manual online yet
-- Worcester Greenstar 8000+ GR8701iW 36 C NG, GC 47-800-45, Natural Gas | NG | no manual online yet
-- Worcester Greenstar 8000+ GR8701iW 40 C LPG, GC 47-800-53, LPG | LPG | no manual online yet
-- Worcester Greenstar 8000+ GR8701iW 40 C NG, GC 47-800-46, Natural Gas | NG | no manual online yet
-- Worcester Greenstar 8000+ GR8701iW 40 R LPG, GC 41-800-38, LPG | LPG | no manual online yet
-- Worcester Greenstar 8000+ GR8701iW 40 R NG, GC 41-800-31, Natural Gas | NG | no manual online yet
-- Worcester Greenstar 8000+ GR8701iW 45 C LPG, GC 47-800-54, LPG | LPG | no manual online yet
-- Worcester Greenstar 8000+ GR8701iW 45 C NG, GC 47-800-47, Natural Gas | NG | no manual online yet
-- Worcester Greenstar 8000+ GR8701iW 45 R LPG, GC 41-800-39, LPG | LPG | no manual online yet
-- Worcester Greenstar 8000+ GR8701iW 45 R NG, GC 41-800-32, Natural Gas | NG | no manual online yet
-- Worcester Greenstar 8000+ GR8701iW 50 C LPG, GC 47-800-55, LPG | LPG | no manual online yet
-- Worcester Greenstar 8000+ GR8701iW 50 C NG, GC 47-800-48, Natural Gas | NG | no manual online yet
-- Worcester Greenstar 8000+ GR8701iW 50 R LPG, GC 41-800-40, LPG | LPG | no manual online yet
-- Worcester Greenstar 8000+ GR8701iW 50 R NG, GC 41-800-33, Natural Gas | NG | no manual online yet
-- Worcester Greenstar 8000+ Style GR8701iW 32 CB NG Style / Worcester Greenstar 8000+ Style GR8701iW 32 CB NG Style V2, GC 47-800-49, Natural Gas | NG | no manual online yet
-- Worcester Greenstar 8000+ Style GR8701iW 36 CB NG Style, GC 47-800-50, Natural Gas | NG | no manual online yet
+- Worcester Greenstar 8000 F GR8700iF 35 C LPG, GC 47-800-57, LPG | LPG | https://cdn.boilermanuals.com/worcester-bosch/Worcester-Bosch-Greenstar-F-GR8700iF-C-35-50-8000-ISIM.pdf
+- Worcester Greenstar 8000 F GR8700iF 35 C NG, GC 47-800-56, Natural Gas | NG | https://cdn.boilermanuals.com/worcester-bosch/Worcester-Bosch-Greenstar-F-GR8700iF-C-35-50-8000-ISIM.pdf
+- Worcester Greenstar 8000 F GR8700iF 35 R LPG, GC 41-800-42, LPG | LPG | https://cdn.boilermanuals.com/worcester-bosch/Worcester-Bosch-Greenstar-F-GR8700iF-R-35-50-8000-ISIM.pdf
+- Worcester Greenstar 8000 F GR8700iF 35 R NG, GC 41-800-41, Natural Gas | NG | https://cdn.boilermanuals.com/worcester-bosch/Worcester-Bosch-Greenstar-F-GR8700iF-R-35-50-8000-ISIM.pdf
+- Worcester Greenstar 8000 F GR8700iF 50 C LPG, GC 47-800-59, LPG | LPG | https://cdn.boilermanuals.com/worcester-bosch/Worcester-Bosch-Greenstar-F-GR8700iF-C-35-50-8000-ISIM.pdf
+- Worcester Greenstar 8000 F GR8700iF 50 C NG, GC 47-800-58, Natural Gas | NG | https://cdn.boilermanuals.com/worcester-bosch/Worcester-Bosch-Greenstar-F-GR8700iF-C-35-50-8000-ISIM.pdf
+- Worcester Greenstar 8000 F GR8700iF 50 R LPG, GC 41-800-44, LPG | LPG | https://cdn.boilermanuals.com/worcester-bosch/Worcester-Bosch-Greenstar-F-GR8700iF-R-35-50-8000-ISIM.pdf
+- Worcester Greenstar 8000 F GR8700iF 50 R NG, GC 41-800-43, Natural Gas | NG | https://cdn.boilermanuals.com/worcester-bosch/Worcester-Bosch-Greenstar-F-GR8700iF-R-35-50-8000-ISIM.pdf
+- Worcester Greenstar 8000+ GR8701iW 30 R LPG, GC 41-800-36, LPG | LPG | https://cdn.boilermanuals.com/worcester-bosch/Worcester-Bosch-Greenstar-GR8701iW-R-30-35-40-45-50-8000-ISIM.pdf
+- Worcester Greenstar 8000+ GR8701iW 30 R NG, GC 41-800-29, Natural Gas | NG | https://cdn.boilermanuals.com/worcester-bosch/Worcester-Bosch-Greenstar-GR8701iW-R-30-35-40-45-50-8000-ISIM.pdf
+- Worcester Greenstar 8000+ GR8701iW 30 S LPG, GC 41-800-34, LPG | LPG | https://cdn.boilermanuals.com/worcester-bosch/Worcester-Bosch-Greenstar-GR8701iW-S-30-35-8000-ISIM.pdf
+- Worcester Greenstar 8000+ GR8701iW 30 S NG, GC 41-800-27, Natural Gas | NG | https://cdn.boilermanuals.com/worcester-bosch/Worcester-Bosch-Greenstar-GR8701iW-S-30-35-8000-ISIM.pdf
+- Worcester Greenstar 8000+ GR8701iW 32 C LPG / Worcester Greenstar 8000+ GR8701iW 32 C LPG V2, GC 47-800-51, LPG | LPG | https://cdn.boilermanuals.com/worcester-bosch/Worcester-Bosch-Greenstar-GR8701iW-C-V2-Style-CB-32-36-40-45-50-8000-ISIM.pdf
+- Worcester Greenstar 8000+ GR8701iW 32 C NG / Worcester Greenstar 8000+ GR8701iW 32 C NG V2, GC 47-800-44, Natural Gas | NG | https://cdn.boilermanuals.com/worcester-bosch/Worcester-Bosch-Greenstar-GR8701iW-C-V2-Style-CB-32-36-40-45-50-8000-ISIM.pdf
+- Worcester Greenstar 8000+ GR8701iW 35 R LPG, GC 41-800-37, LPG | LPG | https://cdn.boilermanuals.com/worcester-bosch/Worcester-Bosch-Greenstar-GR8701iW-R-30-35-40-45-50-8000-ISIM.pdf
+- Worcester Greenstar 8000+ GR8701iW 35 R NG, GC 41-800-30, Natural Gas | NG | https://cdn.boilermanuals.com/worcester-bosch/Worcester-Bosch-Greenstar-GR8701iW-R-30-35-40-45-50-8000-ISIM.pdf
+- Worcester Greenstar 8000+ GR8701iW 35 S LPG, GC 41-800-35, LPG | LPG | https://cdn.boilermanuals.com/worcester-bosch/Worcester-Bosch-Greenstar-GR8701iW-S-30-35-8000-ISIM.pdf
+- Worcester Greenstar 8000+ GR8701iW 35 S NG, GC 41-800-28, Natural Gas | NG | https://cdn.boilermanuals.com/worcester-bosch/Worcester-Bosch-Greenstar-GR8701iW-S-30-35-8000-ISIM.pdf
+- Worcester Greenstar 8000+ GR8701iW 36 C LPG, GC 47-800-52, LPG | LPG | https://cdn.boilermanuals.com/worcester-bosch/Worcester-Bosch-Greenstar-GR8701iW-C-V2-Style-CB-32-36-40-45-50-8000-ISIM.pdf
+- Worcester Greenstar 8000+ GR8701iW 36 C NG, GC 47-800-45, Natural Gas | NG | https://cdn.boilermanuals.com/worcester-bosch/Worcester-Bosch-Greenstar-GR8701iW-C-V2-Style-CB-32-36-40-45-50-8000-ISIM.pdf
+- Worcester Greenstar 8000+ GR8701iW 40 C LPG, GC 47-800-53, LPG | LPG | https://cdn.boilermanuals.com/worcester-bosch/Worcester-Bosch-Greenstar-GR8701iW-C-V2-Style-CB-32-36-40-45-50-8000-ISIM.pdf
+- Worcester Greenstar 8000+ GR8701iW 40 C NG, GC 47-800-46, Natural Gas | NG | https://cdn.boilermanuals.com/worcester-bosch/Worcester-Bosch-Greenstar-GR8701iW-C-V2-Style-CB-32-36-40-45-50-8000-ISIM.pdf
+- Worcester Greenstar 8000+ GR8701iW 40 R LPG, GC 41-800-38, LPG | LPG | https://cdn.boilermanuals.com/worcester-bosch/Worcester-Bosch-Greenstar-GR8701iW-R-30-35-40-45-50-8000-ISIM.pdf
+- Worcester Greenstar 8000+ GR8701iW 40 R NG, GC 41-800-31, Natural Gas | NG | https://cdn.boilermanuals.com/worcester-bosch/Worcester-Bosch-Greenstar-GR8701iW-R-30-35-40-45-50-8000-ISIM.pdf
+- Worcester Greenstar 8000+ GR8701iW 45 C LPG, GC 47-800-54, LPG | LPG | https://cdn.boilermanuals.com/worcester-bosch/Worcester-Bosch-Greenstar-GR8701iW-C-V2-Style-CB-32-36-40-45-50-8000-ISIM.pdf
+- Worcester Greenstar 8000+ GR8701iW 45 C NG, GC 47-800-47, Natural Gas | NG | https://cdn.boilermanuals.com/worcester-bosch/Worcester-Bosch-Greenstar-GR8701iW-C-V2-Style-CB-32-36-40-45-50-8000-ISIM.pdf
+- Worcester Greenstar 8000+ GR8701iW 45 R LPG, GC 41-800-39, LPG | LPG | https://cdn.boilermanuals.com/worcester-bosch/Worcester-Bosch-Greenstar-GR8701iW-R-30-35-40-45-50-8000-ISIM.pdf
+- Worcester Greenstar 8000+ GR8701iW 45 R NG, GC 41-800-32, Natural Gas | NG | https://cdn.boilermanuals.com/worcester-bosch/Worcester-Bosch-Greenstar-GR8701iW-R-30-35-40-45-50-8000-ISIM.pdf
+- Worcester Greenstar 8000+ GR8701iW 50 C LPG, GC 47-800-55, LPG | LPG | https://cdn.boilermanuals.com/worcester-bosch/Worcester-Bosch-Greenstar-GR8701iW-C-V2-Style-CB-32-36-40-45-50-8000-ISIM.pdf
+- Worcester Greenstar 8000+ GR8701iW 50 C NG, GC 47-800-48, Natural Gas | NG | https://cdn.boilermanuals.com/worcester-bosch/Worcester-Bosch-Greenstar-GR8701iW-C-V2-Style-CB-32-36-40-45-50-8000-ISIM.pdf
+- Worcester Greenstar 8000+ GR8701iW 50 R LPG, GC 41-800-40, LPG | LPG | https://cdn.boilermanuals.com/worcester-bosch/Worcester-Bosch-Greenstar-GR8701iW-R-30-35-40-45-50-8000-ISIM.pdf
+- Worcester Greenstar 8000+ GR8701iW 50 R NG, GC 41-800-33, Natural Gas | NG | https://cdn.boilermanuals.com/worcester-bosch/Worcester-Bosch-Greenstar-GR8701iW-R-30-35-40-45-50-8000-ISIM.pdf
+- Worcester Greenstar 8000+ Style GR8701iW 32 CB NG Style / Worcester Greenstar 8000+ Style GR8701iW 32 CB NG Style V2, GC 47-800-49, Natural Gas | NG | https://cdn.boilermanuals.com/worcester-bosch/Worcester-Bosch-Greenstar-GR8701iW-C-V2-Style-CB-32-36-40-45-50-8000-ISIM.pdf
+- Worcester Greenstar 8000+ Style GR8701iW 36 CB NG Style, GC 47-800-50, Natural Gas | NG | https://cdn.boilermanuals.com/worcester-bosch/Worcester-Bosch-Greenstar-GR8701iW-C-V2-Style-CB-32-36-40-45-50-8000-ISIM.pdf
 - Worcester Heatslave 2 g40bf, GC 41-311-13, Natural Gas | NG | no manual online yet
 - Worcester Heatslave 2 g40of, GC 41-311-14, Natural Gas | NG | no manual online yet
 - Worcester Heatslave 2 g50bf, GC 41-311-17, Natural Gas | NG | no manual online yet
@@ -10806,8 +10806,8 @@ Brand page: https://boilermanuals.com/brands/worcester-bosch.html
 - Worcester Highflow 400 Electronic OF OF, GC 47-311-63, Natural Gas | NG | no manual online yet
 - Worcester Highflow 400 Electronic RSF RSF, GC 47-311-61, Natural Gas | NG | no manual online yet
 - Worcester Highflow 400 Electronic RSF RSF, GC 47-311-64, LPG | LPG | no manual online yet
-- Bosch Condens 7000 WP GC7000WP 50 23, ID 7736 702 194, PCDB 018970, Natural Gas | NG | no manual online yet
-- Bosch Condens 7000 WP GC7000WP 65 23, ID 7736 702 195, PCDB 018971, Natural Gas | NG | no manual online yet
+- Bosch Condens 7000 WP GC7000WP 50 23, ID 7736 702 194, PCDB 018970, Natural Gas | NG | https://cdn.boilermanuals.com/worcester-bosch/Worcester-Bosch-Condens-WP-GC7000WP-23-50-65-7000-ISIM.pdf
+- Bosch Condens 7000 WP GC7000WP 65 23, ID 7736 702 195, PCDB 018971, Natural Gas | NG | https://cdn.boilermanuals.com/worcester-bosch/Worcester-Bosch-Condens-WP-GC7000WP-23-50-65-7000-ISIM.pdf
 - Worcester 80 ic RSF, PCDB 001733, Natural Gas | NG | no manual online yet
 - Worcester Bosch 50/70.000, ID C14769/3-1, PCDB 001754, Oil | Oil | no manual online yet
 - Worcester Bosch 70/90-000-NI-L, ID C16395/1, PCDB 008856, Oil | Oil | no manual online yet

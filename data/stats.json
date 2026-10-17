@@ -8,24 +8,24 @@
   "records": 7238,
   "other_fuel_records": 0
  },
- "manuals_total": 1958,
+ "manuals_total": 2019,
  "models": {
   "listed": 10017,
-  "with_manual": 5729,
-  "pct": 57.2
+  "with_manual": 5881,
+  "pct": 58.7
  },
  "fuels": {
   "gas": {
    "label": "Gas",
    "pcdb_total": 4326,
-   "with_manual": 2060,
-   "pct": 47.6
+   "with_manual": 2168,
+   "pct": 50.1
   },
   "lpg": {
    "label": "LPG",
    "pcdb_total": 1213,
-   "with_manual": 461,
-   "pct": 38.0
+   "with_manual": 491,
+   "pct": 40.5
   },
   "oil": {
    "label": "Oil",
@@ -93,14 +93,14 @@
  ],
  "pcdb_overall": {
   "records": 7455,
-  "with_manual": 3295,
-  "pct": 44.2,
+  "with_manual": 3433,
+  "pct": 46.0,
   "denominator": "all PCDB boiler records: table 105 gas/oil + table 122 solid fuel and biomass + table 131 range cooker boilers + table 143 micro-CHP"
  },
  "pcdb_gas_oil": {
   "records": 7238,
-  "with_manual": 3248,
-  "pct": 44.9,
+  "with_manual": 3386,
+  "pct": 46.8,
   "note": "table 105 only (the figure published before solid fuel, cooker boilers and micro-CHP were added)"
  },
  "method": "A PCDB record counts when its GC number (gas/LPG) or its PCDB index appears on a site row that links a PDF on cdn.boilermanuals.com. Brochure/spec-sheet-only PDFs are not counted as manuals anywhere."
