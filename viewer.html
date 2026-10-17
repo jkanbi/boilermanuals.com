@@ -22,62 +22,88 @@
             top: 0;
             z-index: 900;
             display: flex;
-            flex-wrap: wrap;
+            flex-wrap: nowrap;
             align-items: center;
-            gap: 0.5rem;
-            padding: 0.5rem 0.75rem;
+            justify-content: space-between;
+            gap: 6px;
+            padding: 4px 8px;
             background: var(--surface, #fff);
             border-bottom: 1px solid var(--border, #dfe2e6);
             box-shadow: 0 1px 3px rgba(27, 27, 27, 0.06);
+            box-sizing: border-box;
+            width: 100%;
+            overflow: hidden;
         }
-        .pv-toolbar .pv-group { display: flex; align-items: center; gap: 0.4rem; }
-        .pv-toolbar .pv-spacer { flex: 1 1 auto; }
+        .pv-toolbar .pv-group { display: flex; flex: 0 0 auto; align-items: center; gap: 3px; }
+        .pv-toolbar .pv-spacer { flex: 1 1 auto; min-width: 0; }
         .pv-btn {
             display: inline-flex;
+            flex: 0 0 auto;
             align-items: center;
             justify-content: center;
-            min-width: 52px;
-            min-height: 52px;
-            padding: 0 1rem;
+            gap: 6px;
+            box-sizing: border-box;
+            min-width: 40px;
+            height: 40px;
+            padding: 0 8px;
             border: 1px solid var(--border, #dfe2e6);
-            border-radius: 10px;
+            border-radius: 8px;
             background: #f6f7f8;
             color: var(--text, #1b1b1b);
-            font: 600 1.1rem/1 var(--font, system-ui, sans-serif);
+            font: 600 1.05rem/1 var(--font, system-ui, sans-serif);
             text-decoration: none;
+            white-space: nowrap;
             cursor: pointer;
             -webkit-tap-highlight-color: transparent;
             touch-action: manipulation;
             user-select: none;
         }
+        .pv-btn svg { width: 20px; height: 20px; flex: 0 0 auto; }
         .pv-btn:hover, .pv-btn:focus-visible { border-color: var(--accent, #1863dc); color: var(--accent, #1863dc); }
         .pv-btn:disabled { opacity: 0.4; cursor: default; }
         .pv-btn--primary { background: var(--accent, #1863dc); border-color: var(--accent, #1863dc); color: #fff; }
         .pv-btn--primary:hover, .pv-btn--primary:focus-visible { background: var(--accent-dark, #0f4eb5); color: #fff; }
+        .pv-label-wide { display: none; }
         .pv-page {
             display: inline-flex;
+            flex: 0 0 auto;
             align-items: center;
-            gap: 0.35rem;
-            font: 600 1.1rem/1 var(--font, system-ui, sans-serif);
+            gap: 3px;
+            font: 600 0.95rem/1 var(--font, system-ui, sans-serif);
             white-space: nowrap;
         }
         .pv-page input {
-            width: 4.2em;
-            min-height: 52px;
-            padding: 0 0.4rem;
+            width: calc(3ch + 12px);
+            height: 40px;
+            padding: 0 4px;
             border: 1px solid var(--border, #dfe2e6);
-            border-radius: 10px;
-            font: inherit;
+            border-radius: 8px;
+            font: 600 1rem/1 var(--font, system-ui, sans-serif);
             text-align: center;
             box-sizing: border-box;
             -moz-appearance: textfield;
         }
         .pv-page input::-webkit-outer-spin-button,
         .pv-page input::-webkit-inner-spin-button { -webkit-appearance: none; margin: 0; }
+        @media (min-width: 600px) {
+            .pv-toolbar { gap: 10px; padding: 6px 12px; }
+            .pv-toolbar .pv-group { gap: 6px; }
+            .pv-label-wide { display: inline; }
+            .pv-btn { padding: 0 12px; }
+        }
+        @media (max-width: 359px) {
+            .pv-toolbar { gap: 3px; padding: 4px; }
+            .pv-toolbar .pv-group { gap: 2px; }
+            .pv-btn { min-width: 36px; height: 36px; padding: 0 4px; }
+            .pv-page input { height: 36px; width: calc(3ch + 8px); padding: 0 2px; }
+            .pv-page { font-size: 0.85rem; gap: 2px; }
+        }
         .pv-title {
             margin: 0;
-            padding: 0.75rem 1rem 0;
-            font-size: clamp(1rem, 2.4vw, 1.3rem);
+            padding: 0.5rem 1rem 0;
+            font-size: clamp(0.85rem, 2vw, 1.1rem);
+            font-weight: 600;
+            color: var(--text-muted, #6b7280);
             text-align: center;
             overflow-wrap: anywhere;
         }
@@ -113,34 +139,28 @@
             transform: translateY(-50%);
         }
         .pv-pagebox.is-rendered .pv-pagenum { display: none; }
-        @media (max-width: 560px) {
-            .pv-btn { min-width: 48px; min-height: 48px; padding: 0 0.7rem; }
-            .pv-page input { min-height: 48px; width: 3.6em; }
-            .pv-toolbar { gap: 0.35rem; padding: 0.4rem; }
-            .pv-hide-sm { display: none; }
-        }
     </style>
 </head>
 <body>
 <div class="pv-toolbar" id="pvToolbar" role="toolbar" aria-label="Manual viewer controls">
     <div class="pv-group">
-        <a class="pv-btn" id="pvBack" href="/">&larr;<span class="pv-hide-sm">&nbsp;Back</span></a>
+        <a class="pv-btn" id="pvBack" href="/" aria-label="Back" title="Back">&larr;<span class="pv-label-wide">Back</span></a>
     </div>
     <div class="pv-group">
-        <button class="pv-btn" id="pvPrev" type="button" aria-label="Previous page" disabled>&lsaquo;</button>
-        <label class="pv-page"><span class="pv-hide-sm">Page</span>
+        <button class="pv-btn" id="pvPrev" type="button" aria-label="Previous page" title="Previous page" disabled>&lsaquo;</button>
+        <label class="pv-page"><span class="pv-label-wide">Page</span>
             <input id="pvPageInput" type="number" inputmode="numeric" min="1" value="1" aria-label="Page number" disabled>
-            <span>/&nbsp;<span id="pvPageCount">&ndash;</span></span>
+            <span>/<span id="pvPageCount">&ndash;</span></span>
         </label>
-        <button class="pv-btn" id="pvNext" type="button" aria-label="Next page" disabled>&rsaquo;</button>
+        <button class="pv-btn" id="pvNext" type="button" aria-label="Next page" title="Next page" disabled>&rsaquo;</button>
     </div>
     <div class="pv-group">
-        <button class="pv-btn" id="pvZoomOut" type="button" aria-label="Zoom out" disabled>&minus;</button>
-        <button class="pv-btn" id="pvZoomIn" type="button" aria-label="Zoom in" disabled>+</button>
+        <button class="pv-btn" id="pvZoomOut" type="button" aria-label="Zoom out" title="Zoom out" disabled>&minus;</button>
+        <button class="pv-btn" id="pvZoomIn" type="button" aria-label="Zoom in" title="Zoom in" disabled>+</button>
     </div>
     <div class="pv-spacer"></div>
     <div class="pv-group">
-        <a class="pv-btn pv-btn--primary" id="pvDownload" href="/" rel="nofollow">Download</a>
+        <a class="pv-btn pv-btn--primary" id="pvDownload" href="/" rel="nofollow" aria-label="Download PDF" title="Download PDF"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" d="M12 3v12m-5-5 5 5 5-5M4 20h16"/></svg><span class="pv-label-wide">Download</span></a>
     </div>
 </div>
 
