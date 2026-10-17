@@ -11,8 +11,12 @@ from pathlib import Path
 
 CDN = 'https://cdn.boilermanuals.com/'
 CONTROLS = {'danfoss', 'esi', 'google-nest', 'hive', 'salus', 'tado', 'drayton', 'honeywell'}
-ELECTRIC_PAGES = {'amptec', 'ehc', 'fischer', 'strom', 'thermaflow', 'elnur'}
-ELECTRIC_WORDS = re.compile(r'\b(electromax|amptec|electric (boiler|combi|flow boiler))\b', re.I)
+ELECTRIC_PAGES = {'amptec', 'ehc', 'fischer', 'strom', 'thermaflow', 'elnur', 'kospel'}
+ELECTRIC_WORDS = re.compile(r'\b(electromax|amptec|electramate|eloblock|e-?tech [wsp]|electric (boiler|combi|flow boiler|system|storage combi))\b|,\s*Electric$', re.I)
+NON_ELECTRIC_FUEL = re.compile(r'^\s*(ng|lpg|oil|hvo|natural gas|gas|ng/lpg)\b', re.I)
+HEAT_PUMP = re.compile(r'heat pump|ashp|\bPCDB\b', re.I)
+# PDFs whose link text says they are a brochure/catalogue/spec sheet are NOT counted as manuals
+BROCHURE = re.compile(r'brochure|catalogue|catalog|spec sheet|technical specs|data ?sheet', re.I)
 ELECTRIC_FUEL = re.compile(r'^\s*elec', re.I)
 NOT_BOILER = re.compile(r'warm air|electricaire|storage heater|programmer|thermostat|timeswitch', re.I)
 GC_TXT = re.compile(r'\bGC\s*(?:No\.?\s*)?(\d{2})[\s.\-/]?(\d{3})[\s.\-/]?(\d{2})(?!\d)', re.I)
@@ -57,8 +61,9 @@ def site_rows(root):
             tds = re.findall(r'<td\b[^>]*>(.*?)</td>', tr, re.S)
             if not tds: continue
             cells = [text_of(x) for x in tds]
-            hrefs = [html.unescape(h) for h in re.findall(r'href\s*=\s*"([^"]*)"', tr)]
-            yield (p.stem, cells, cells[fi] if 0 <= fi < len(cells) else '', hrefs, cells[gi] if 0 <= gi < len(cells) else '')
+            links = [(html.unescape(h), text_of(t)) for h, t in re.findall(r'<a\b[^>]*?href\s*=\s*"([^"]*)"[^>]*>(.*?)(?=</a>|<a\b|</td>|$)', tr, re.S)]
+            hrefs = [h for h, _ in links]
+            yield (p.stem, cells, cells[fi] if 0 <= fi < len(cells) else '', links, cells[gi] if 0 <= gi < len(cells) else '')
 
 def main():
     ap = argparse.ArgumentParser(); ap.add_argument('--root', default='.'); ap.add_argument('--pcdb', default=None)
@@ -66,23 +71,36 @@ def main():
     pc = a.pcdb or os.environ.get('PCDB_DAT') or ('pcdb10.dat' if Path('pcdb10.dat').exists() else None)
     meta, recs = load_pcdb(pc)
 
-    manuals = set(); gcs_with = set(); pcdb_with = set(); electric = set()
-    for slug, cells, fuel, hrefs, gccell in site_rows(root):
-        pdfs = [h for h in hrefs if is_cdn_pdf(h)]
+    rows = list(site_rows(root))
+    # a CDN PDF is a brochure if every link to it on the site is labelled as a brochure/spec sheet
+    labels = {}
+    for _, _, _, links, _ in rows:
+        for h, t in links:
+            if is_cdn_pdf(h): labels.setdefault(cdn_key(h), []).append(t)
+    brochures = {k for k, ts in labels.items() if all(BROCHURE.search(t) for t in ts)}
+    is_manual = lambda h: is_cdn_pdf(h) and cdn_key(h) not in brochures
+    manuals = set(); gcs_with = set(); pcdb_with = set(); electric_with = set(); electric_listed = set(); brochure_rows = 0
+    for slug, cells, fuel, links, gccell in rows:
+        hrefs = [h for h, _ in links]
+        pdfs = [h for h in hrefs if is_manual(h)]
         for h in pdfs: manuals.add(cdn_key(h))
-        if not pdfs or slug in CONTROLS: continue
         txt = ' '.join(cells)
+        if slug not in CONTROLS and not NOT_BOILER.search(txt) and not HEAT_PUMP.search(txt) and not NON_ELECTRIC_FUEL.match(fuel) \
+                and (slug in ELECTRIC_PAGES or ELECTRIC_FUEL.match(fuel) or ELECTRIC_WORDS.search(txt)) and txt.strip():
+            if '(any model)' not in txt:
+                electric_listed.add((slug, txt))
+                if pdfs: electric_with.add((slug, txt))
+                elif any(is_cdn_pdf(h) for h in hrefs): brochure_rows += 1
+        if not pdfs or slug in CONTROLS: continue
         m = GC_CELL.match(gccell)
         if m: gcs_with.add(''.join(m.groups()))
         for m in GC_TXT.finditer(txt): gcs_with.add(''.join(m.groups()))
         for m in PCDB_TXT.finditer(txt): pcdb_with.update(re.findall(r'\d{6}', m.group(1)))
-        if not NOT_BOILER.search(txt) and (slug in ELECTRIC_PAGES or ELECTRIC_FUEL.match(fuel) or ELECTRIC_WORDS.search(txt)):
-            electric.add((slug, txt))
     idx = json.loads((root / 'js/boiler-search-index.json').read_text(encoding='utf-8'))
     models = [r for r in idx if r['brandUrl'].split('/')[-1][:-5] not in CONTROLS and '(any model)' not in r['model']]
-    with_manual = [r for r in models if is_cdn_pdf(r['downloadUrl'])]
+    with_manual = [r for r in models if is_manual(r['downloadUrl'])]
     for r in idx:
-        if is_cdn_pdf(r['downloadUrl']): manuals.add(cdn_key(r['downloadUrl']))
+        if is_manual(r['downloadUrl']): manuals.add(cdn_key(r['downloadUrl']))
     for r in with_manual:
         if len(r.get('gcDigits') or '') == 7: gcs_with.add(r['gcDigits'])
         for m in GC_TXT.finditer(r['model']): gcs_with.add(''.join(m.groups()))
@@ -104,9 +122,12 @@ def main():
         'manuals_total': len(manuals),
         'models': {'listed': len(models), 'with_manual': len(with_manual), 'pct': round(100 * len(with_manual) / len(models), 1)},
         'fuels': fuels,
-        'electric': {'models_with_manual': len(electric), 'note': 'not in PCDB'},
+        'electric': {'models_listed': len(electric_listed), 'models_with_manual': len(electric_with),
+                     'pct': round(100 * len(electric_with) / len(electric_listed), 1) if electric_listed else 0,
+                     'brochure_only_rows_excluded': brochure_rows, 'note': 'not in PCDB; share of the electric models we list, not part of the PCDB overall figure'},
+        'brochure_pdfs_excluded': sorted(brochures),
         'pcdb_overall': {'records': len(recs), 'with_manual': total_with, 'pct': round(100 * total_with / len(recs), 1)},
-        'method': 'A PCDB record counts when its GC number (gas/LPG) or its PCDB index appears on a site row that links a PDF on cdn.boilermanuals.com.',
+        'method': 'A PCDB record counts when its GC number (gas/LPG) or its PCDB index appears on a site row that links a PDF on cdn.boilermanuals.com. Brochure/spec-sheet-only PDFs are not counted as manuals anywhere.',
     }
     (root / 'data').mkdir(exist_ok=True)
     (root / 'data/stats.json').write_text(json.dumps(stats, indent=1) + '\n', encoding='utf-8')
@@ -140,8 +161,11 @@ def render(root, st):
                 f'                    <div class="bm-stats__bar" role="img" aria-label="{label}: {pct}% of PCDB boilers have a manual">'
                 f'<span class="bm-stats__fill" style="width:{pct}%"></span></div>\n                </li>\n')
     rows = ''.join(bar(f['label'], f['with_manual'], f['pcdb_total'], f['pct']) for f in st['fuels'].values() if f['pcdb_total'])
+    e = st['electric']
     rows += (f'                <li class="bm-stats__row">\n                    <div class="bm-stats__head"><span>Electric</span>'
-             f'<span>{num(st["electric"]["models_with_manual"])} models with a manual &middot; <em>not in PCDB</em></span></div>\n                </li>\n')
+             f'<span>{num(e["models_with_manual"])} / {num(e["models_listed"])} &middot; {e["pct"]}% <em>of models we list (not in PCDB)</em></span></div>\n'
+             f'                    <div class="bm-stats__bar" role="img" aria-label="Electric: {e["pct"]}% of the electric boiler models we list have a manual">'
+             f'<span class="bm-stats__fill" style="width:{e["pct"]}%"></span></div>\n                </li>\n')
     o = st['pcdb_overall']; m = st['models']
     panel = f'''<!-- stats:start -->
         <section class="bm-stats" aria-labelledby="bm-stats-title">
@@ -154,7 +178,7 @@ def render(root, st):
             <h3>PCDB boilers with a manual, by fuel</h3>
             <ul class="bm-stats__rows">
 {rows}            </ul>
-            <p class="bm-stats__note">A boiler counts when its GC number or PCDB index is on a row that links a manual we host. Data: SAP 10 PCDB revision {st["pcdb"]["revision"]}, updated {d(st["pcdb"]["file_date"])}.</p>
+            <p class="bm-stats__note">A boiler counts when its GC number or PCDB index is on a row that links a manual we host; brochures and spec sheets don&rsquo;t count. Electric boilers are not in the PCDB, so they are shown against the models we list and are not part of the PCDB figure. Data: SAP 10 PCDB revision {st["pcdb"]["revision"]}, updated {d(st["pcdb"]["file_date"])}.</p>
         </section>
         <!-- stats:end -->'''
     if '<!-- stats:start -->' in s:

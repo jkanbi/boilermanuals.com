@@ -8,11 +8,11 @@
   "records": 7238,
   "other_fuel_records": 0
  },
- "manuals_total": 1710,
+ "manuals_total": 1709,
  "models": {
-  "listed": 9757,
-  "with_manual": 4310,
-  "pct": 44.2
+  "listed": 9812,
+  "with_manual": 4299,
+  "pct": 43.8
  },
  "fuels": {
   "gas": {
@@ -41,13 +41,19 @@
   }
  },
  "electric": {
-  "models_with_manual": 138,
-  "note": "not in PCDB"
+  "models_listed": 198,
+  "models_with_manual": 128,
+  "pct": 64.6,
+  "brochure_only_rows_excluded": 11,
+  "note": "not in PCDB; share of the electric models we list, not part of the PCDB overall figure"
  },
+ "brochure_pdfs_excluded": [
+  "fischer/fischer-electric-boilers-product-catalogue.pdf"
+ ],
  "pcdb_overall": {
   "records": 7238,
   "with_manual": 1882,
   "pct": 26.0
  },
- "method": "A PCDB record counts when its GC number (gas/LPG) or its PCDB index appears on a site row that links a PDF on cdn.boilermanuals.com."
+ "method": "A PCDB record counts when its GC number (gas/LPG) or its PCDB index appears on a site row that links a PDF on cdn.boilermanuals.com. Brochure/spec-sheet-only PDFs are not counted as manuals anywhere."
 }
