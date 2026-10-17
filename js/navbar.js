@@ -36,6 +36,10 @@
     }
 
     function setDocumentTitle() {
+        // Pages with a hand-written SEO <title> opt out of the runtime title.
+        if (document.documentElement.hasAttribute("data-static-title")) {
+            return;
+        }
         var item = getActiveNavItem();
         if (item) {
             document.title = "Boiler Manuals" + pageTitleSuffix(item);

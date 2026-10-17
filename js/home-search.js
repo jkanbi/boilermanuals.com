@@ -191,6 +191,15 @@
             if (entry.downloadUrl) {
                 html += "<div class=\"home-search-item__actions\">";
                 html += "<a href=\"" + escapeAttr(entry.downloadUrl) + "\">Download</a>";
+                var reportUrl = buildReportUrl(entry);
+                if (reportUrl) {
+                    html += " <a class=\"report-link\" rel=\"nofollow\" title=\"Report a wrong or broken link\" href=\"" +
+                        escapeAttr(reportUrl) + "\">Report</a>";
+                }
+                html += "</div>";
+            } else {
+                html += "<div class=\"home-search-item__actions\">";
+                html += "<a href=\"" + escapeAttr(buildRequestUrl(entry)) + "\">Request manual</a>";
                 html += "</div>";
             }
             html += "</li>";
@@ -221,6 +230,42 @@
 
     function escapeAttr(value) {
         return escapeHtml(value);
+    }
+
+    function buildReportUrl(entry) {
+        if (!window.BMReport || !window.BMReport.url) {
+            return "";
+        }
+        if (window.BMReport.injectStyle) {
+            window.BMReport.injectStyle();
+        }
+        var page = entry.brandUrl
+            ? new URL(entry.brandUrl, window.location.href).href
+            : window.location.href.split("#")[0];
+        return window.BMReport.url({
+            brand: entry.brand,
+            model: entry.model,
+            gc: entry.gc,
+            page: page,
+            pdf: entry.downloadUrl
+        });
+    }
+
+    function buildRequestUrl(entry) {
+        // Same pattern as the brand-page request links: contact.html?request=<GC>-<Brand>-<Model>
+        var parts = [];
+        if (entry.gc) {
+            parts.push(entry.gc);
+        }
+        var model = String(entry.model || "").replace(/,\s*GC\s.*$/, "");
+        var brand = String(entry.brand || "");
+        var brandFirstWord = brand.split(/[\s-]+/)[0].toLowerCase();
+        if (brand && (!brandFirstWord || model.toLowerCase().indexOf(brandFirstWord) !== 0)) {
+            parts.push(brand);
+        }
+        parts.push(model);
+        var request = parts.join("-").replace(/\s+/g, "-");
+        return "contact.html?request=" + encodeURIComponent(request);
     }
 
     function getBrandFilter() {
@@ -270,7 +315,13 @@
         renderResults(matches, totalMatches, rawQuery.trim());
     }
 
+    var indexRequested = false;
+
     function loadIndex() {
+        if (indexRequested) {
+            return;
+        }
+        indexRequested = true;
         return fetch(getIndexUrl())
             .then(function (response) {
                 if (!response.ok) {
@@ -300,10 +351,33 @@
             return;
         }
 
-        loadIndex();
+        // Lazy-load the 1 MB search index: only fetch it when the visitor first
+        // focuses or types in the search box. If the box already has a value on
+        // load (e.g. restored by the browser), fetch it straight away.
+        searchInput.addEventListener("focus", loadIndex);
+        searchInput.addEventListener("pointerdown", loadIndex);
+
+        // ?q=<term> (used by the WebSite SearchAction): fill the box, load the
+        // index immediately and run the search.
+        var initialQuery = "";
+        try {
+            initialQuery = (new URLSearchParams(window.location.search).get("q") || "").trim();
+        } catch (e) {
+            initialQuery = "";
+        }
+        if (initialQuery) {
+            searchInput.value = initialQuery;
+        }
+        if (searchInput.value.trim() || document.activeElement === searchInput) {
+            loadIndex();
+            if (searchInput.value.trim()) {
+                runSearch(searchInput.value);
+            }
+        }
 
         var timer;
         searchInput.addEventListener("input", function () {
+            loadIndex();
             clearTimeout(timer);
             timer = setTimeout(function () {
                 runSearch(searchInput.value);

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-static-title>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,7 +7,14 @@
     <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
     <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
-    <title>Boiler Manuals - Contact</title>
+    <title>Contact &amp; Request a Boiler Manual | BoilerManuals.com</title>
+    <meta name="description" content="Can&#x27;t find a boiler manual? Request it by brand, model and GC number, or report a wrong or broken manual link.">
+    <link rel="canonical" href="https://boilermanuals.com/contact.html">
+    <meta property="og:title" content="Contact &amp; Request a Boiler Manual | BoilerManuals.com">
+    <meta property="og:description" content="Can&#x27;t find a boiler manual? Request it by brand, model and GC number, or report a wrong or broken manual link.">
+    <meta property="og:url" content="https://boilermanuals.com/contact.html">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="BoilerManuals.com">
     <link rel="stylesheet" type="text/css" href="css/navbar.css?v=6">
     <link rel="stylesheet" type="text/css" href="css/styles.css?v=6">
     <script src="js/navbar.js?v=7"></script>
@@ -73,7 +80,35 @@
             var subject = "Manual request";
             var body = "";
 
-            if (request) {
+            if (params.get("report")) {
+                var reportBrand = (params.get("brand") || "").trim();
+                var reportModel = (params.get("model") || "").trim();
+                var reportGc = (params.get("gc") || "").trim();
+                var reportPage = (params.get("page") || "").trim();
+                var reportPdf = (params.get("pdf") || "").trim();
+                var reportName = [reportBrand, reportModel].filter(Boolean).join(" - ");
+                subject = "Wrong link report" + (reportName ? ": " + reportName : "");
+                body =
+                    "Hello,\n\n" +
+                    "I think this download is wrong or broken:\n\n" +
+                    "Brand: " + reportBrand + "\n" +
+                    "Model: " + reportModel + "\n" +
+                    "GC number: " + reportGc + "\n" +
+                    "Page: " + reportPage + "\n" +
+                    "PDF: " + reportPdf + "\n\n" +
+                    "What is wrong (wrong model, wrong document, does not open...):\n\n\n" +
+                    "Thank you.";
+                var heading = document.querySelector(".contact-card__heading");
+                if (heading) {
+                    heading.textContent = "Report a wrong link";
+                }
+                detail.hidden = false;
+                detail.textContent = (reportName || reportPdf)
+                    ? "Reporting: " + (reportName || reportPdf) +
+                        (reportGc ? " (GC " + reportGc + ")" : "") +
+                        ". Click the email address below to send the report, and tell us what is wrong."
+                    : "Click the email address below and tell us the page, the model and what is wrong with the link.";
+            } else if (request) {
                 subject += ": " + request;
                 body =
                     "Hello,\n\n" +
