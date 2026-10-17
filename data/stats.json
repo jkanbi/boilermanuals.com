@@ -1,18 +1,18 @@
 {
  "generated": "2026-10-17",
  "pcdb": {
-  "source": "SAP 10 PCDB (pcdb10.dat) table 105, gas and oil boilers",
+  "source": "SAP 10 PCDB (pcdb10.dat): table 105 gas and oil boilers, table 122 solid fuel and biomass boilers, table 131 twin-burner range cooker boilers, table 143 micro-CHP (SAP illustrative placeholder entries excluded)",
   "revision": "599",
   "file_date": "2026-09-30",
   "table105_date": "2026-05-29",
   "records": 7238,
   "other_fuel_records": 0
  },
- "manuals_total": 1942,
+ "manuals_total": 1958,
  "models": {
-  "listed": 9810,
-  "with_manual": 5682,
-  "pct": 57.9
+  "listed": 10017,
+  "with_manual": 5729,
+  "pct": 57.2
  },
  "fuels": {
   "gas": {
@@ -36,6 +36,29 @@
   "hvo": {
    "label": "HVO",
    "pcdb_total": 19,
+   "with_manual": 0,
+   "pct": 0.0
+  }
+ },
+ "categories": {
+  "solid_fuel": {
+   "label": "Solid fuel &amp; biomass",
+   "pcdb_table": 122,
+   "pcdb_total": 171,
+   "with_manual": 25,
+   "pct": 14.6
+  },
+  "cooker": {
+   "label": "Range cooker boilers",
+   "pcdb_table": 131,
+   "pcdb_total": 36,
+   "with_manual": 22,
+   "pct": 61.1
+  },
+  "micro_chp": {
+   "label": "Micro-CHP",
+   "pcdb_table": 143,
+   "pcdb_total": 10,
    "with_manual": 0,
    "pct": 0.0
   }
@@ -69,9 +92,16 @@
   "fischer/fischer-electric-boilers-product-catalogue.pdf"
  ],
  "pcdb_overall": {
+  "records": 7455,
+  "with_manual": 3295,
+  "pct": 44.2,
+  "denominator": "all PCDB boiler records: table 105 gas/oil + table 122 solid fuel and biomass + table 131 range cooker boilers + table 143 micro-CHP"
+ },
+ "pcdb_gas_oil": {
   "records": 7238,
   "with_manual": 3248,
-  "pct": 44.9
+  "pct": 44.9,
+  "note": "table 105 only (the figure published before solid fuel, cooker boilers and micro-CHP were added)"
  },
  "method": "A PCDB record counts when its GC number (gas/LPG) or its PCDB index appears on a site row that links a PDF on cdn.boilermanuals.com. Brochure/spec-sheet-only PDFs are not counted as manuals anywhere."
 }

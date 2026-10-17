@@ -154,6 +154,12 @@ Brand page: https://boilermanuals.com/brands/acv.html
 - ACV E-Tech S 160 Tri, 160 (model size), combi (with integrated cylinder), Electric | Electric | no manual online yet
 - ACV E-Tech S 240 Tri, 240 (model size), combi (with integrated cylinder), Electric | Electric | no manual online yet
 
+## Aga boilers
+
+Brand page: https://boilermanuals.com/brands/aga.html
+
+- Aga Much Wenlock, multi-fuel room heater with boiler, 4.7 kW, from 2007, PCDB 700005 / 700006, Wood logs / Smokeless fuel | Wood logs / Smokeless fuel | no manual online yet
+
 ## Alde boilers
 
 Brand page: https://boilermanuals.com/brands/alde.html
@@ -607,6 +613,22 @@ Brand page: https://boilermanuals.com/brands/andrews.html
 - Andrews WHX42 - External FastFlo | LPG | no manual online yet
 - Andrews WSC42 | LPG | no manual online yet
 
+## Angus boilers
+
+Brand page: https://boilermanuals.com/brands/angus.html
+
+- Angus Super 18kW, log boiler, 7–18 kW, from 1984, PCDB 700026, Wood logs | Wood logs | no manual online yet
+- Angus Super 25kW, log boiler, 10–25 kW, from 1984, PCDB 700027, Wood logs | Wood logs | no manual online yet
+- Angus Super 40kW, log boiler, 16–40 kW, from 1984, PCDB 700028, Wood logs | Wood logs | no manual online yet
+- Angus Super 60kW, log boiler, 24–60 kW, from 1984, PCDB 700029, Wood logs | Wood logs | no manual online yet
+- Angus Orligno 200 18kW, log boiler, 7–18 kW, from 1984, PCDB 700030, Wood logs | Wood logs | no manual online yet
+- Angus Orligno 200 25kW, log boiler, 10–25 kW, from 1984, PCDB 700031, Wood logs | Wood logs | no manual online yet
+- Angus Orligno 500 25kW, wood pellet boiler, 7–25 kW, from 1984, PCDB 700032, Wood pellets | Wood pellets | no manual online yet
+- Angus Orligno 200 40kW, log boiler, 16–40 kW, from 1984, PCDB 700033, Wood logs | Wood logs | no manual online yet
+- Angus Orligno 200 60kW, log boiler, 24–60 kW, from 1984, PCDB 700034, Wood logs | Wood logs | no manual online yet
+- Angus Orligno 400 16kW, wood pellet boiler, 15.1 kW, from 2012, PCDB 700153, Wood pellets | Wood pellets | no manual online yet
+- Angus Orligno 400 30kW, wood pellet boiler, 29.9 kW, from 2012, PCDB 700154, Wood pellets | Wood pellets | no manual online yet
+
 ## Aquaflame boilers
 
 Brand page: https://boilermanuals.com/brands/aquaflame.html
@@ -834,6 +856,13 @@ Brand page: https://boilermanuals.com/brands/ariston.html
 - Ariston Microsystem 15 RFFI, GC 41-116-05, Natural Gas | no manual online yet
 - Ariston E-System 24, PCDB 016673, Natural Gas | no manual online yet
 - Ariston E-System 30, PCDB 016674, Natural Gas | no manual online yet
+
+## Ariterm boilers
+
+Brand page: https://boilermanuals.com/brands/ariterm.html
+
+- Ariterm Biomatic +20, wood pellet boiler, 20 kW, from 2009, PCDB 700172, Wood pellets | Wood pellets | no manual online yet
+- Ariterm Biomatic +40, wood pellet boiler, 40 kW, from 2011, PCDB 700173, Wood pellets | Wood pellets | no manual online yet
 
 ## Atag boilers
 
@@ -1604,6 +1633,8 @@ Brand page: https://boilermanuals.com/brands/baxi.html
 - Baxi Megaflo 24 System IE ErP, PCDB 017654, Natural Gas | NG | no manual online yet
 - Baxi Megaflow 2 System 24 Compact, ID GV No. 41-075-092, PCDB 017144, Natural Gas | NG | no manual online yet
 - Baxi Solo 30 Heat IE ErP, PCDB 017735, Natural Gas | NG | no manual online yet
+- Baxi Ecogen 24/1.0, micro-CHP unit, 24 kW, from 2009, PCDB 040001, NG | NG | no manual online yet
+- Baxi Ecogen System, micro-CHP unit, 24 kW, from 2014, PCDB 040010, NG | NG | no manual online yet
 
 ## Beeston boilers
 
@@ -1857,6 +1888,18 @@ Brand page: https://boilermanuals.com/brands/biasi.html
 - Coopra BV Biasi Riva Condensing M101.31 S (P), PCDB 009634, Natural Gas | NG | no manual online yet
 - Coopra BV Biasi Riva Condensing M101.31 SR (P), PCDB 009635, Natural Gas | NG | no manual online yet
 - Coopra BV Biasi Riva Condensing M101.31 SRB (P), PCDB 009636, Natural Gas | NG | no manual online yet
+
+## Biotech boilers
+
+Brand page: https://boilermanuals.com/brands/biotech.html
+
+- Biotech Top Light M, wood pellet boiler, 15.5 kW, from 2006, PCDB 700113, Wood pellets | Wood pellets | no manual online yet
+- Biotech PZ 25 RL, wood pellet boiler, 25 kW, from 2004, PCDB 700114, Wood pellets | Wood pellets | no manual online yet
+- Biotech PZ 35 RL, wood pellet boiler, 35 kW, from 2004, PCDB 700115, Wood pellets | Wood pellets | no manual online yet
+- Biotech Top Light M MBW, wood pellet boiler, 15.5 kW, from 2010, PCDB 700118, Wood pellets | Wood pellets | no manual online yet
+- Biotech PZ 65 RL, wood pellet boiler, 64.7 kW, from 2009, PCDB 700119, Wood pellets | Wood pellets | no manual online yet
+- Biotech PZ 8 RL, wood pellet boiler, 13.5 kW, from 2006, PCDB 700120, Wood pellets | Wood pellets | no manual online yet
+- Biotech Top Light, wood pellet boiler, 8.6 kW, from 2005, PCDB 700121, Wood pellets | Wood pellets | no manual online yet
 
 ## BoilerPlan boilers
 
@@ -2611,6 +2654,13 @@ Brand page: https://boilermanuals.com/brands/ehc.html
 - EHC Comet PV EHCEPV14.4KW, 7.2-14.4kW, system, Electric | Electric | no manual online yet
 - EHC Comet PV EHCEPV24KW, 12-24kW (3-phase), system, Electric | Electric | no manual online yet
 
+## EHE boilers
+
+Brand page: https://boilermanuals.com/brands/ehe.html
+
+- EHE Whispergen EU1, micro-CHP unit, 14 kW, from 2010, PCDB 040005, NG | NG | no manual online yet
+- EHE Whispergen EU1A, micro-CHP unit, 12.5 kW, from 2011, PCDB 040009, NG | NG | no manual online yet
+
 ## EHS boilers
 
 Brand page: https://boilermanuals.com/brands/ehs.html
@@ -2666,6 +2716,43 @@ Brand page: https://boilermanuals.com/brands/eogb.html
 - EOGB KERRO GREEN, PCDB 018532, Oil | Oil | no manual online yet
 - Sapphire 23 HVO, PCDB 019075, HVO | HVO | no manual online yet
 - Sapphire 28 HVO, PCDB 019074, HVO | HVO | no manual online yet
+
+## Esse boilers
+
+Brand page: https://boilermanuals.com/brands/esse.html
+
+- Esse Oil Century O-106, range cooker boiler, 29.3 kW, from 2000, PCDB 800026, Oil | Oil | https://cdn.boilermanuals.com/esse/Esse-Oil-Century-O-60-O-80-O-106-Install.pdf
+- Esse Oil Century O-80, range cooker boiler, 23.4 kW, from 2000, PCDB 800027, Oil | Oil | https://cdn.boilermanuals.com/esse/Esse-Oil-Century-O-60-O-80-O-106-Install.pdf
+- Esse Oil Century O-60, range cooker boiler, 17.5 kW, from 2000, PCDB 800028, Oil | Oil | https://cdn.boilermanuals.com/esse/Esse-Oil-Century-O-60-O-80-O-106-Install.pdf
+
+## ETA boilers
+
+Brand page: https://boilermanuals.com/brands/eta.html
+
+- ETA Hack 20, wood chip boiler, 5.9–19.9 kW, PCDB 700065, Wood chips | Wood chips | no manual online yet
+- ETA Hack 25, wood chip/pellet boiler, 7.1–26.1 kW, PCDB 700066 / 700067, Wood pellets / Wood chips | Wood pellets / Wood chips | no manual online yet
+- ETA Hack 35, wood chip/pellet boiler, 10.5–35 kW, PCDB 700068 / 700069, Wood chips / Wood pellets | Wood chips / Wood pellets | no manual online yet
+- ETA Hack 45, wood chip/pellet boiler, 13.5–45 kW, PCDB 700070 / 700071, Wood chips / Wood pellets | Wood chips / Wood pellets | no manual online yet
+- ETA Hack 50, wood chip/pellet boiler, 14.4–46.5 kW, PCDB 700072 / 700073, Wood chips / Wood pellets | Wood chips / Wood pellets | no manual online yet
+- ETA Hack 70, wood chip/pellet boiler, 21–70 kW, PCDB 700074 / 700075, Wood chips / Wood pellets | Wood chips / Wood pellets | no manual online yet
+- ETA Pellets Compact PC 20, wood pellet boiler, 6–20 kW, PCDB 700078, Wood pellets | Wood pellets | no manual online yet
+- ETA Pellets Compact PC 25, wood pellet boiler, 7.3–25.1 kW, PCDB 700079, Wood pellets | Wood pellets | no manual online yet
+- ETA Pellets Compact PC 32, wood pellet boiler, 7.3–31.7 kW, PCDB 700080, Wood pellets | Wood pellets | no manual online yet
+- ETA PE-K 35, wood pellet boiler, 9.4–35 kW, PCDB 700081, Wood pellets | Wood pellets | no manual online yet
+- ETA PE-K 45, wood pellet boiler, 13.5–45 kW, PCDB 700082, Wood pellets | Wood pellets | no manual online yet
+- ETA PE-K 50, wood pellet boiler, 14.1–48.7 kW, PCDB 700083, Wood pellets | Wood pellets | no manual online yet
+- ETA PE-K 70, wood pellet boiler, 21–70 kW, PCDB 700084, Wood pellets | Wood pellets | no manual online yet
+- ETA Pellets Unit PU 7, wood pellet boiler, 2.3–8.2 kW, PCDB 700085, Wood pellets | Wood pellets | no manual online yet
+- ETA Pellets Unit PU 11, wood pellet boiler, 2.3–11.2 kW, PCDB 700086, Wood pellets | Wood pellets | no manual online yet
+- ETA Pellets Unit PU 15, wood pellet boiler, 4.4–15 kW, PCDB 700087, Wood pellets | Wood pellets | no manual online yet
+- ETA SH 20, log boiler, 10.4–20.7 kW, PCDB 700088, Wood logs | Wood logs | no manual online yet
+- ETA SH 30, log boiler, 15.2–29 kW, PCDB 700089, Wood logs | Wood logs | no manual online yet
+- ETA SH 40, log boiler, 20–40 kW, PCDB 700090, Wood logs | Wood logs | no manual online yet
+- ETA SH 50, log boiler, 20–49.9 kW, PCDB 700091, Wood logs | Wood logs | no manual online yet
+- ETA SH 60, log boiler, 20.2–60.9 kW, PCDB 700092, Wood logs | Wood logs | no manual online yet
+- ETA Pellets Compact ETA PC 40, wood pellet boiler, 40 kW, from 2014, PCDB 700214, Wood pellets | Wood pellets | no manual online yet
+- ETA Pellets Compact ETA PC 45, wood pellet boiler, 45 kW, from 2014, PCDB 700215, Wood pellets | Wood pellets | no manual online yet
+- ETA eHack 25, wood chip/pellet boiler, 25.4 kW, from 2015, PCDB 700220 / 700221, Wood pellets / Wood chips | Wood pellets / Wood chips | no manual online yet
 
 ## Evinox boilers
 
@@ -3157,6 +3244,10 @@ Brand page: https://boilermanuals.com/brands/firebird.html
 - Rhino Savannah RP15/20 Combipac, PCDB 017022, Oil | Oil | no manual online yet
 - Rhino Savannah RP20/26 Combipac, PCDB 017027, Oil | Oil | no manual online yet
 - Rhino Savannah RP26/35 Combipac, PCDB 017032, Oil | Oil | no manual online yet
+- Firebird 16" Inset Backboiler Stove, multi-fuel room heater with boiler, 7.3 kW, from 2012, PCDB 700021 / 700022, Wood logs / Smokeless fuel | Wood logs / Smokeless fuel | no manual online yet
+- Firebird 18" Inset Backboiler Stove, multi-fuel room heater with boiler, 6.9 kW, from 2012, PCDB 700023 / 700024, Wood logs / Smokeless fuel | Wood logs / Smokeless fuel | no manual online yet
+- Firebird Range Cooker 35kW, range cooker boiler, 35 kW, PCDB 800048, Oil | Oil | no manual online yet
+- Firebird Range Cooker 26KW, range cooker boiler, 26 kW, PCDB 800049, Oil | Oil | no manual online yet
 
 ## Fischer boilers
 
@@ -3175,6 +3266,12 @@ Brand page: https://boilermanuals.com/brands/fischer.html
 - Fischer Thermal Combi Wall Mounted 12kW | Electric | no manual online yet
 - Fischer Eco Electric Combi Boiler (modulating), modulating, combi, Electric | Electric | no manual online yet
 - Fischer Eco Electric Heat Only Boiler (modulating), modulating, system (heat only), Electric | Electric | no manual online yet
+
+## Flow boilers
+
+Brand page: https://boilermanuals.com/brands/flow.html
+
+- Flow 14H/1.0, micro-CHP unit, 12.8 kW, from 2010, PCDB 040013, NG | NG | no manual online yet
 
 ## Fondital boilers
 
@@ -3272,6 +3369,24 @@ Brand page: https://boilermanuals.com/brands/fontecal.html
 - Fontecal Polycal 26 A 100, PCDB 009696, Oil | Oil | no manual online yet
 - Fontecal Polycal 26 A 50, PCDB 009695, Oil | Oil | no manual online yet
 - Fontecal Polycal 26 S, PCDB 009698, Oil | Oil | no manual online yet
+
+## Froling boilers
+
+Brand page: https://boilermanuals.com/brands/froling.html
+
+- Froling PE1 Pellet 7, wood pellet boiler, 7 kW, PCDB 700191, Wood pellets | Wood pellets | https://cdn.boilermanuals.com/froling/Froling-PE1-Pellet-7-35-Installation.pdf
+- Froling PE1 Pellet 10, wood pellet boiler, 10 kW, PCDB 700192, Wood pellets | Wood pellets | https://cdn.boilermanuals.com/froling/Froling-PE1-Pellet-7-35-Installation.pdf
+- Froling PE1 Pellet 15, wood pellet boiler, 15 kW, PCDB 700194, Wood pellets | Wood pellets | https://cdn.boilermanuals.com/froling/Froling-PE1-Pellet-7-35-Installation.pdf
+- Froling PE1 Pellet 20, wood pellet boiler, 20 kW, PCDB 700195, Wood pellets | Wood pellets | https://cdn.boilermanuals.com/froling/Froling-PE1-Pellet-7-35-Installation.pdf
+- Froling PE1 Pellet 25, wood pellet boiler, 25 kW, PCDB 700196, Wood pellets | Wood pellets | https://cdn.boilermanuals.com/froling/Froling-PE1-Pellet-7-35-Installation.pdf
+- Froling PE1 Pellet 30, wood pellet boiler, 30 kW, PCDB 700197, Wood pellets | Wood pellets | https://cdn.boilermanuals.com/froling/Froling-PE1-Pellet-7-35-Installation.pdf
+- Froling PE1 Pellet 35, wood pellet boiler, 35 kW, PCDB 700198, Wood pellets | Wood pellets | https://cdn.boilermanuals.com/froling/Froling-PE1-Pellet-7-35-Installation.pdf
+- Froling S4 Turbo 60, log boiler, 60 kW, from 2007, PCDB 700200, Wood logs | Wood logs | https://cdn.boilermanuals.com/froling/Froling-S4-Turbo-Operating-Instructions.pdf
+- Froling S4 Turbo 22, log boiler, 22 kW, PCDB 700201, Wood logs | Wood logs | https://cdn.boilermanuals.com/froling/Froling-S4-Turbo-Operating-Instructions.pdf
+- Froling S4 Turbo 28, log boiler, 28 kW, PCDB 700202, Wood logs | Wood logs | https://cdn.boilermanuals.com/froling/Froling-S4-Turbo-Operating-Instructions.pdf
+- Froling S4 Turbo 34, log boiler, 34 kW, PCDB 700203, Wood logs | Wood logs | https://cdn.boilermanuals.com/froling/Froling-S4-Turbo-Operating-Instructions.pdf
+- Froling S4 Turbo 40, log boiler, 40 kW, PCDB 700204, Wood logs | Wood logs | https://cdn.boilermanuals.com/froling/Froling-S4-Turbo-Operating-Instructions.pdf
+- Froling S4 Turbo 50, log boiler, 50 kW, PCDB 700205, Wood logs | Wood logs | https://cdn.boilermanuals.com/froling/Froling-S4-Turbo-Operating-Instructions.pdf
 
 ## Gabarron boilers
 
@@ -4104,7 +4219,7 @@ Brand page: https://boilermanuals.com/brands/grant.html
 - Grant Outdoor Module 70/90 | https://cdn.boilermanuals.com/grant/grant-module-outdoor-50-70-90-120-110-140-installation-servicing-instructions-manual.pdf
 - Grant Outdoor Module 90/120 | https://cdn.boilermanuals.com/grant/grant-module-outdoor-50-70-90-120-110-140-installation-servicing-instructions-manual.pdf
 - Grant Outdoor Module 110/140 | https://cdn.boilermanuals.com/grant/grant-module-outdoor-50-70-90-120-110-140-installation-servicing-instructions-manual.pdf
-- Grant Spira Condensing wood pellet boilers | Oil | https://cdn.boilermanuals.com/grant/grant-UK-DOC0042-Rev2.0-Oct15-SpiraWoodPellet.pdf
+- Grant Spira Condensing wood pellet boilers | Wood pellets | https://cdn.boilermanuals.com/grant/grant-UK-DOC0042-Rev2.0-Oct15-SpiraWoodPellet.pdf
 - Grant Vortex Blue internal combi condensing oil | Oil | https://cdn.boilermanuals.com/grant/grant-vortexblue-internal-combi-installer-uk-doc-0131-rev-1-1-october-2020.pdf
 - Grant Vortex Cindensing Oil boiler range | Oil | https://cdn.boilermanuals.com/grant/grant-vortex-cindensing-oil-boiler-range-installation-servicing-instructions-manual.pdf
 - Grant Vortex Eco External floor standing | https://cdn.boilermanuals.com/grant/Grant-Vortex-Eco-External-Floor-Standing-installation-and-servicing-manual-DOC81-Rev02-November-2008.pdf
@@ -4197,6 +4312,8 @@ Brand page: https://boilermanuals.com/brands/grant.html
 - Grant VortexBlue Internal Sealed System 21kW, PCDB 017875, Oil | Oil | https://cdn.boilermanuals.com/grant/Grant-VortexBlue-Internal-and-Internal-System-21-26-36-DOC0129-Oil-Install.pdf
 - Grant VortexBlue Internal Sealed System 26kW, PCDB 017876, Oil | Oil | https://cdn.boilermanuals.com/grant/Grant-VortexBlue-Internal-and-Internal-System-21-26-36-DOC0129-Oil-Install.pdf
 - Grant VortexBlue Internal Sealed System 36kW, PCDB 017877, Oil | Oil | https://cdn.boilermanuals.com/grant/Grant-VortexBlue-Internal-and-Internal-System-21-26-36-DOC0129-Oil-Install.pdf
+- Grant Spira 9-36, wood pellet boiler, 12.9–35.8 kW, from 2011, PCDB 700019, Wood pellets | Wood pellets | https://cdn.boilermanuals.com/grant/grant-UK-DOC0042-Rev2.0-Oct15-SpiraWoodPellet.pdf
+- Grant Spira 6-26, wood pellet boiler, 8–27.5 kW, from 2011, PCDB 700020, Wood pellets | Wood pellets | https://cdn.boilermanuals.com/grant/grant-UK-DOC0042-Rev2.0-Oct15-SpiraWoodPellet.pdf
 - Grant Euroflame 90-120 Outdoor, PCDB 008405, Oil | Oil | no manual online yet
 - Grant Euroflame Condensing Module 50-70, PCDB 015860, Oil | Oil | no manual online yet
 - Grant Euroflame Condensing Module 70-90, PCDB 015861, Oil | Oil | no manual online yet
@@ -4423,6 +4540,17 @@ Brand page: https://boilermanuals.com/brands/hamworthy.html
 - Hamworthy Varmax Twin 550-900 Kw | https://cdn.boilermanuals.com/hamworthy/hamworthy-varmax-twin-550-900-kw-installation-servicing-instructions-manual.pdf
 - Hamworthy Wessex modumax Mk3 | https://cdn.boilermanuals.com/hamworthy/hamworthy-modumax-mk3-ins.pdf
 
+## Hargassner boilers
+
+Brand page: https://boilermanuals.com/brands/hargassner.html
+
+- Hargassner Nano-PK 6, wood pellet boiler, 6.6 kW, PCDB 700222, Wood pellets | Wood pellets | no manual online yet
+- Hargassner Nano-PK 9, wood pellet boiler, 9 kW, PCDB 700223, Wood pellets | Wood pellets | no manual online yet
+- Hargassner Nano-PK 12, wood pellet boiler, 12 kW, PCDB 700224, Wood pellets | Wood pellets | no manual online yet
+- Hargassner Neo-HV 20, log boiler, 25.4 kW, PCDB 700225, Wood logs | Wood logs | no manual online yet
+- Hargassner Smart-Duo 17, log/pellet boiler, 17 kW, PCDB 700226 / 700228, Wood logs / Wood pellets | Wood logs / Wood pellets | no manual online yet
+- Hargassner Smart-PK 17, wood pellet boiler, 17 kW, PCDB 700227, Wood pellets | Wood pellets | no manual online yet
+
 ## Heating World Group boilers
 
 Brand page: https://boilermanuals.com/brands/heating-world-group.html
@@ -4596,6 +4724,22 @@ Brand page: https://boilermanuals.com/brands/hermann.html
 - Hermann Srl Euromini 24 SE, PCDB 009783, Natural Gas | NG | no manual online yet
 - Hermann Srl Supermicra 24 SE, PCDB 009784, Natural Gas | NG | no manual online yet
 - Hermann Srl Supermicra 30 SE, PCDB 009785, Natural Gas | NG | no manual online yet
+
+## Herz boilers
+
+Brand page: https://boilermanuals.com/brands/herz.html
+
+- Herz Pelletstar 10, wood pellet boiler, 12.4 kW, PCDB 700060, Wood pellets | Wood pellets | no manual online yet
+- Herz Pelletstar 20, wood pellet boiler, 21.2 kW, PCDB 700061, Wood pellets | Wood pellets | no manual online yet
+- Herz Pelletstar 30, wood pellet boiler, 28.2 kW, PCDB 700062, Wood pellets | Wood pellets | no manual online yet
+- Herz Pelletstar 45, wood pellet boiler, 46.5 kW, PCDB 700063, Wood pellets | Wood pellets | no manual online yet
+- Herz Pelletstar 60, wood pellet boiler, 60.7 kW, PCDB 700064, Wood pellets | Wood pellets | no manual online yet
+
+## Highland Biomass Solutions boilers
+
+Brand page: https://boilermanuals.com/brands/highland-biomass-solutions.html
+
+- Highland Biomass Solutions Bio-Flame 15, wood pellet boiler, 3–16.1 kW, from 2011, PCDB 700048, Wood pellets | Wood pellets | no manual online yet
 
 ## Hoval boilers
 
@@ -5878,6 +6022,21 @@ Brand page: https://boilermanuals.com/brands/kidd.html
 Brand page: https://boilermanuals.com/brands/kinder.html
 
 
+## Klover boilers
+
+Brand page: https://boilermanuals.com/brands/klover.html
+
+- Klover Diva, wood pellet room heater with boiler, 13.9 kW, from 2007, PCDB 700180, Wood pellets | Wood pellets | no manual online yet
+- Klover Ecompact 250, wood pellet boiler, 23.3 kW, from 2017, PCDB 700181, Wood pellets | Wood pellets | no manual online yet
+- Klover Ecompact 290, wood pellet boiler, 26.8 kW, from 2017, PCDB 700182, Wood pellets | Wood pellets | no manual online yet
+- Klover Smart 80, wood pellet room heater with boiler, 19.1 kW, from 2012, PCDB 700183, Wood pellets | Wood pellets | no manual online yet
+- Klover Smart 120, wood pellet room heater with boiler, 14.6 kW, from 2011, PCDB 700184, Wood pellets | Wood pellets | no manual online yet
+- Klover Ecompact 150, wood pellet boiler, 14.6 kW, from 2017, PCDB 700185, Wood pellets | Wood pellets | no manual online yet
+- Klover Ecompact 190, wood pellet boiler, 18.2 kW, PCDB 700186, Wood pellets | Wood pellets | no manual online yet
+- Klover BELVEDERE 18 BV16, wood pellet room heater with boiler, 18.4 kW, from 2017, PCDB 700187, Wood pellets | Wood pellets | no manual online yet
+- Klover THERMOAURA HA, wood pellet room heater with boiler, 15 kW, from 2019, PCDB 700188, Wood pellets | Wood pellets | no manual online yet
+- Klover PELLET BOILER 24 PB24-A0001, wood pellet boiler, 17.6 kW, 2013–2017, PCDB 700189, Wood pellets | Wood pellets | no manual online yet
+
 ## Kospel boilers
 
 Brand page: https://boilermanuals.com/brands/kospel.html
@@ -5904,6 +6063,32 @@ Brand page: https://boilermanuals.com/brands/kospel.html
 - Kospel EKCO.LN2-18, 18kW, system, Electric | Electric | no manual online yet
 - Kospel EKCO.LN2-21, 21kW, system, Electric | Electric | no manual online yet
 - Kospel EKCO.LN2-24, 24kW, system, Electric | Electric | no manual online yet
+
+## KWB boilers
+
+Brand page: https://boilermanuals.com/brands/kwb.html
+
+- KWB Easyfire EF 2 V 35, wood pellet boiler, 34.5 kW, from 2011, PCDB 700122, Wood pellets | Wood pellets | no manual online yet
+- KWB Easyfire EF2 S 35, wood pellet boiler, 34.5 kW, from 2011, PCDB 700123, Wood pellets | Wood pellets | no manual online yet
+- KWB Easyfire EF2 GS 35, wood pellet boiler, 34.5 kW, from 2011, PCDB 700124, Wood pellets | Wood pellets | no manual online yet
+- KWB Easyfire EF2 S 30, wood pellet boiler, 30 kW, from 2011, PCDB 700125, Wood pellets | Wood pellets | no manual online yet
+- KWB Easyfire EF2 GS 30, wood pellet boiler, 30 kW, from 2011, PCDB 700126, Wood pellets | Wood pellets | no manual online yet
+- KWB Easyfire EF2 V 30, wood pellet boiler, 30 kW, from 2011, PCDB 700127, Wood pellets | Wood pellets | no manual online yet
+- KWB Easyfire EF2 GS 25, wood pellet boiler, 25 kW, from 2011, PCDB 700128, Wood pellets | Wood pellets | no manual online yet
+- KWB Easyfire EF2 S 25, wood pellet boiler, 25 kW, from 2011, PCDB 700129, Wood pellets | Wood pellets | no manual online yet
+- KWB Easyfire EF2 V 25, wood pellet boiler, 25 kW, from 2011, PCDB 700130, Wood pellets | Wood pellets | no manual online yet
+- KWB Easyfire EF2 S 22, wood pellet boiler, 22 kW, from 2011, PCDB 700131, Wood pellets | Wood pellets | no manual online yet
+- KWB Easyfire EF2 GS 22, wood pellet boiler, 22 kW, from 2011, PCDB 700132, Wood pellets | Wood pellets | no manual online yet
+- KWB Easyfire EF2 V 22, wood pellet boiler, 22 kW, from 2011, PCDB 700133, Wood pellets | Wood pellets | no manual online yet
+- KWB Easyfire EF2 V 12, wood pellet boiler, 11.6 kW, from 2011, PCDB 700134, Wood pellets | Wood pellets | no manual online yet
+- KWB Easyfire EF2 S 12, wood pellet boiler, 11.6 kW, from 2011, PCDB 700135, Wood pellets | Wood pellets | no manual online yet
+- KWB Easyfire EF2 GS 12, wood pellet boiler, 11.6 kW, from 2011, PCDB 700136, Wood pellets | Wood pellets | no manual online yet
+- KWB Easyfire EF2 S 15, wood pellet boiler, 15 kW, from 2011, PCDB 700137, Wood pellets | Wood pellets | no manual online yet
+- KWB Easyfire EF2 V 15, wood pellet boiler, 15 kW, from 2011, PCDB 700138, Wood pellets | Wood pellets | no manual online yet
+- KWB Easyfire EF2 GS 15, wood pellet boiler, 15 kW, from 2011, PCDB 700139, Wood pellets | Wood pellets | no manual online yet
+- KWB Easyfire EF2 GS 8, wood pellet boiler, 8.4 kW, from 2011, PCDB 700140, Wood pellets | Wood pellets | no manual online yet
+- KWB Easyfire EF2 V 8, wood pellet boiler, 8.4 kW, from 2011, PCDB 700141, Wood pellets | Wood pellets | no manual online yet
+- KWB Easyfire EF2 S 8, wood pellet boiler, 8.4 kW, from 2011, PCDB 700142, Wood pellets | Wood pellets | no manual online yet
 
 ## Laars boilers
 
@@ -7650,6 +7835,49 @@ Brand page: https://boilermanuals.com/brands/ravenheat.html
 - Ravenheat White Star 29T, PCDB 009747, Natural Gas | NG | no manual online yet
 - Ravenheat White Star 29T LPG, PCDB 009748, LPG | LPG | no manual online yet
 
+## Rayburn boilers
+
+Brand page: https://boilermanuals.com/brands/rayburn.html
+
+- Rayburn 480 CD, range cooker boiler, 23.5 kW, from 2006, PCDB 800008, NG | NG | https://cdn.boilermanuals.com/rayburn/Rayburn-Heatranger-480CD-Gas-Install.pdf
+- Rayburn 8150K (M), range cooker boiler, 43.8 kW, from 2006, PCDB 800011, Oil | Oil | https://cdn.boilermanuals.com/rayburn/Rayburn-Heatranger-880K-8120K-8150K-Install.pdf
+- Rayburn 8120K (M), range cooker boiler, 37 kW, from 2006, PCDB 800012, Oil | Oil | https://cdn.boilermanuals.com/rayburn/Rayburn-Heatranger-880K-8120K-8150K-Install.pdf
+- Rayburn 880K (M), range cooker boiler, 24.3 kW, from 2006, PCDB 800013, Oil | Oil | https://cdn.boilermanuals.com/rayburn/Rayburn-Heatranger-880K-8120K-8150K-Install.pdf
+- Rayburn 460 KB, range cooker boiler, 17.6 kW, from 1998, PCDB 800019, Oil | Oil | https://cdn.boilermanuals.com/rayburn/Rayburn-Heatranger-440-460-480-499KB-Install.pdf
+- Rayburn 480 KB, range cooker boiler, 23.8 kW, from 1998, PCDB 800021, Oil | Oil | https://cdn.boilermanuals.com/rayburn/Rayburn-Heatranger-440-460-480-499KB-Install.pdf
+- Rayburn 499 KB, range cooker boiler, 29.1 kW, from 1998, PCDB 800022, Oil | Oil | https://cdn.boilermanuals.com/rayburn/Rayburn-Heatranger-440-460-480-499KB-Install.pdf
+- Rayburn 660K, range cooker boiler, 17.5 kW, from 2009, PCDB 800029, Oil | Oil | https://cdn.boilermanuals.com/rayburn/Rayburn-660K-680K-699K-Install.pdf
+- Rayburn 680K, range cooker boiler, 23.5 kW, from 2009, PCDB 800031, Oil | Oil | https://cdn.boilermanuals.com/rayburn/Rayburn-660K-680K-699K-Install.pdf
+- Rayburn 699K, range cooker boiler, 29.3 kW, from 2009, PCDB 800032, Oil | Oil | https://cdn.boilermanuals.com/rayburn/Rayburn-660K-680K-699K-Install.pdf
+- Rayburn 680 KCD, range cooker boiler, 23.4 kW, from 2010, PCDB 800034, Oil | Oil | https://cdn.boilermanuals.com/rayburn/Rayburn-680KCD-780KCD-Install.pdf
+- Rayburn 460K, range cooker boiler, 17.6 kW, from 1998, PCDB 800015, Oil | Oil | no manual online yet
+- Rayburn 480K, range cooker boiler, 23.8 kW, from 1998, PCDB 800016, Oil | Oil | no manual online yet
+- Rayburn 499K, range cooker boiler, 29.1 kW, from 1998, PCDB 800018, Oil | Oil | no manual online yet
+- Rayburn 680 KCD C/F, range cooker boiler, 23.4 kW, from 2011, PCDB 800045, Oil | Oil | no manual online yet
+
+## RED boilers
+
+Brand page: https://boilermanuals.com/brands/red.html
+
+- RED Compact 18, wood pellet boiler, 3.8–17 kW, from 2012, PCDB 700035, Wood pellets | Wood pellets | no manual online yet
+- RED Compact 24, wood pellet boiler, 3.8–22.1 kW, from 2012, PCDB 700036, Wood pellets | Wood pellets | no manual online yet
+- RED Compact 35, wood pellet boiler, 8.1–32 kW, from 2012, PCDB 700037, Wood pellets | Wood pellets | no manual online yet
+- RED Logika 25, wood pellet boiler, 8.3–24.8 kW, from 2012, PCDB 700038, Wood pellets | Wood pellets | no manual online yet
+- RED Logika 35, wood pellet boiler, 8.3–32.1 kW, from 2012, PCDB 700039, Wood pellets | Wood pellets | no manual online yet
+
+## Redfyre boilers
+
+Brand page: https://boilermanuals.com/brands/redfyre.html
+
+- Redfyre Central Heating 60 Oil, range cooker boiler, 17.6 kW, from 2006, PCDB 800037, Oil | Oil | no manual online yet
+- Redfyre Central Heating 120 Oil, range cooker boiler, 35.2 kW, from 2006, PCDB 800038, Oil | Oil | no manual online yet
+- Redfyre Central Heating 100 Oil, range cooker boiler, 29.3 kW, from 2006, PCDB 800039, Oil | Oil | no manual online yet
+- Redfyre Central Heating 80 Oil, range cooker boiler, 21.9 kW, from 2006, PCDB 800040, Oil | Oil | no manual online yet
+- Redfyre Central Heating 120 Gas, range cooker boiler, 35.2 kW, from 2006, PCDB 800041, NG | NG | no manual online yet
+- Redfyre Central Heating 100 Gas, range cooker boiler, 29.3 kW, from 2006, PCDB 800042, NG | NG | no manual online yet
+- Redfyre Central Heating 80 Gas, range cooker boiler, 23.4 kW, from 2006, PCDB 800043, NG | NG | no manual online yet
+- Redfyre Central Heating 60 Gas, range cooker boiler, 17.6 kW, from 2006, PCDB 800044, NG | NG | no manual online yet
+
 ## Remeha boilers
 
 Brand page: https://boilermanuals.com/brands/remeha.html
@@ -8302,6 +8530,26 @@ Brand page: https://boilermanuals.com/brands/sime.html
 Brand page: https://boilermanuals.com/brands/slantfin.html
 
 
+## Solarfocus boilers
+
+Brand page: https://boilermanuals.com/brands/solarfocus.html
+
+- Solarfocus pellet top 45, wood pellet boiler, 44.9 kW, from 2014, PCDB 700097, Wood pellets | Wood pellets | no manual online yet
+- Solarfocus pellet top 35, wood pellet boiler, 34.5 kW, from 2012, PCDB 700098, Wood pellets | Wood pellets | no manual online yet
+
+## Stanley boilers
+
+Brand page: https://boilermanuals.com/brands/stanley.html
+
+- Stanley Brandon 80K, range cooker boiler, 23.4 kW, from 1995, PCDB 800004, NG | NG | https://cdn.boilermanuals.com/stanley/Stanley-Brandon-80K-100K-Gas-Install.pdf
+- Stanley Brandon 60k, range cooker boiler, 17.6 kW, from 2000, PCDB 800005, Oil | Oil | https://cdn.boilermanuals.com/stanley/Stanley-Brandon-60K-80K-100K-Oil-Install.pdf
+- Stanley Brandon 100k, range cooker boiler, 29.3 kW, from 1995, PCDB 800006, Oil | Oil | https://cdn.boilermanuals.com/stanley/Stanley-Brandon-60K-80K-100K-Oil-Install.pdf
+- Stanley Brandon 80k, range cooker boiler, 23.5 kW, from 1995, PCDB 800007, Oil | Oil | https://cdn.boilermanuals.com/stanley/Stanley-Brandon-60K-80K-100K-Oil-Install.pdf
+- Stanley Alpha 150 K, range cooker boiler, 43.8 kW, from 2006, PCDB 800023, Oil | Oil | https://cdn.boilermanuals.com/stanley/Stanley-Alpha-120-150K-Site-Requirements-Commissioning.pdf
+- Stanley Alpha 120 K, range cooker boiler, 37 kW, from 2006, PCDB 800024, Oil | Oil | https://cdn.boilermanuals.com/stanley/Stanley-Alpha-120-150K-Site-Requirements-Commissioning.pdf
+- Stanley Brandon OCD, range cooker boiler, 23.4 kW, from 2010, PCDB 800035, Oil | Oil | https://cdn.boilermanuals.com/stanley/Stanley-Brandon-OCD-Install.pdf
+- Stanley Brandon 80 CD CF, range cooker boiler, 23.4 kW, from 2011, PCDB 800046, Oil | Oil | https://cdn.boilermanuals.com/stanley/Stanley-Brandon-80-CD-CF-Install.pdf
+
 ## Strebel boilers
 
 Brand page: https://boilermanuals.com/brands/strebel.html
@@ -8609,6 +8857,12 @@ Brand page: https://boilermanuals.com/brands/trianco.html
 - Trianco TRO EVOLUTION 40 HEAT ONLY OUTDOOR, PCDB 018196, Oil | Oil | https://cdn.boilermanuals.com/trianco/Trianco-TRO-Evolution-Heat-Only-Outdoor-20-30-40-Oil-Install.pdf
 - Trianco TRO EVOLUTION 40 INC DHW ACCU, PCDB 018197, Oil | Oil | https://cdn.boilermanuals.com/trianco/Trianco-TRO-Evolution-Accu-20-30-40-Oil-Install.pdf
 - Trianco TRO EVOLUTION 40 SYSTEM, PCDB 018198, Oil | Oil | https://cdn.boilermanuals.com/trianco/Trianco-TRO-Evolution-System-20-30-40-Oil-Install.pdf
+- Trianco Greenflame 28, wood pellet boiler, 8–27.7 kW, from 2012, PCDB 700053, Wood pellets | Wood pellets | https://cdn.boilermanuals.com/trianco/Trianco-Greenflame-28kW-Wood-Pellet-Install.pdf
+- Trianco Greenflame ECO 25kW, wood pellet boiler, 26.9 kW, from 2013, PCDB 700055, Wood pellets | Wood pellets | https://cdn.boilermanuals.com/trianco/Trianco-Greenflame-Eco-10-60kW-Wood-Pellet-Install.pdf
+- Trianco Greenflame ECO 15kW, wood pellet boiler, 16.1 kW, from 2013, PCDB 700056, Wood pellets | Wood pellets | https://cdn.boilermanuals.com/trianco/Trianco-Greenflame-Eco-10-60kW-Wood-Pellet-Install.pdf
+- Trianco Greenflame ECO 10kW, wood pellet boiler, 10.5 kW, from 2013, PCDB 700057, Wood pellets | Wood pellets | https://cdn.boilermanuals.com/trianco/Trianco-Greenflame-Eco-10-60kW-Wood-Pellet-Install.pdf
+- Trianco Greenflame ECO 40kW, wood pellet boiler, 38.4 kW, from 2013, PCDB 700058, Wood pellets | Wood pellets | https://cdn.boilermanuals.com/trianco/Trianco-Greenflame-Eco-10-60kW-Wood-Pellet-Install.pdf
+- Trianco Greenflame ECO 60kW, wood pellet boiler, 63.7 kW, from 2013, PCDB 700059, Wood pellets | Wood pellets | https://cdn.boilermanuals.com/trianco/Trianco-Greenflame-Eco-10-60kW-Wood-Pellet-Install.pdf
 - Trianco firelite, GC 37-898-03, Natural Gas | NG | no manual online yet
 - Trianco Tristar 35f, GC 41-898-44, Natural Gas | NG | no manual online yet
 - Trianco Tristar 45f, GC 41-898-45, Natural Gas | NG | no manual online yet
@@ -8689,6 +8943,7 @@ Brand page: https://boilermanuals.com/brands/trianco.html
 - Trianco Aztec Maxi Combination 6kW, 6kW, combi, Electric | Electric | no manual online yet
 - Trianco Aztec Maxi Combination 9kW, 9kW, combi, Electric | Electric | no manual online yet
 - Trianco Aztec Maxi Combination 12kW, 12kW, combi, Electric | Electric | no manual online yet
+- Trianco Greenflame 15, wood pellet boiler, 3–16.1 kW, from 2011, PCDB 700052, Wood pellets | Wood pellets | no manual online yet
 
 ## Trisave boilers
 
@@ -8702,6 +8957,13 @@ Brand page: https://boilermanuals.com/brands/trisave.html
 - Trisave Turbo 30, GC 41-159-07, Natural Gas | NG | no manual online yet
 - Trisave Turbo 45, GC 41-159-03, Natural Gas | NG | no manual online yet
 - Trisave Turbo 60, GC 41-159-04, Natural Gas | NG | no manual online yet
+
+## Turco boilers
+
+Brand page: https://boilermanuals.com/brands/turco.html
+
+- Turco Woodsman 16, wood pellet boiler, 3–16.1 kW, from 2011, PCDB 700049, Wood pellets | Wood pellets | no manual online yet
+- Turco Woodsman 28, wood pellet boiler, 8–27.7 kW, from 2012, PCDB 700050, Wood pellets | Wood pellets | no manual online yet
 
 ## Turkington boilers
 
@@ -9390,6 +9652,11 @@ Brand page: https://boilermanuals.com/brands/viessmann.html
 - Viessmann Vitodens 300 WB3A - 66kW, PCDB 010260, Natural Gas | NG | no manual online yet
 - Viessmann Vitodens 343F, PCDB 015871 / 015872, Natural Gas / LPG | NG/LPG | no manual online yet
 - Viessmann Vitopend 100 Combi WH1-24kW, PCDB 008393, Natural Gas | NG | no manual online yet
+- Viessmann Vitovalor 300-P, micro-CHP unit, 20 kW, from 2017, PCDB 040014, NG | NG | no manual online yet
+- Viessmann VITOVALOR PT2 E11T, micro-CHP unit, 11.4 kW, from 2019, PCDB 040017, NG | NG | no manual online yet
+- Viessmann VITOVALOR PT2 E19T, micro-CHP unit, 19 kW, from 2019, PCDB 040019, NG | NG | no manual online yet
+- Viessmann VITOVALOR PT2 E25T, micro-CHP unit, 24.5 kW, from 2019, PCDB 040020, NG | NG | no manual online yet
+- Viessmann VITOVALOR PT2 E32T, micro-CHP unit, 30.8 kW, from 2019, PCDB 040022, NG | NG | no manual online yet
 
 ## Vokera boilers
 
@@ -9769,6 +10036,8 @@ Brand page: https://boilermanuals.com/brands/warmflow.html
 - Warmflow I44 Agentis HVO Internal 44, PCDB 019206, HVO | HVO | no manual online yet
 - Warmflow System S70HE, PCDB 010517, Oil | Oil | no manual online yet
 - Warmflow System S90HE, PCDB 010516, Oil | Oil | no manual online yet
+- Warmflow WS 18 Wood Pellet Boiler, wood pellet boiler, 17.3 kW, from 2014, PCDB 700111, Wood pellets | Wood pellets | no manual online yet
+- Warmflow WP18 Wood Pellet Boiler, wood pellet boiler, 17.3 kW, from 2014, PCDB 700112, Wood pellets | Wood pellets | no manual online yet
 
 ## Warmhas boilers
 
@@ -9858,6 +10127,42 @@ Brand page: https://boilermanuals.com/brands/wickes.html
 - Wickes 65f, GC 41-333-12, Natural Gas | NG | no manual online yet
 - Wickes combi, GC 47-705-02, Natural Gas | NG | no manual online yet
 
+## Windhager boilers
+
+Brand page: https://boilermanuals.com/brands/windhager.html
+
+- Windhager FireWIN Exklusiv FWE090, wood pellet room heater with boiler, 7.8 kW, from 2008, PCDB 700164, Wood pellets | Wood pellets | https://cdn.boilermanuals.com/windhager/Windhager-FireWIN-Klassik-Premium-Exklusiv-Operating-Manual.pdf
+- Windhager FireWIN Klassik/Premium FWK/P 090, wood pellet room heater with boiler, 7.8 kW, from 2008, PCDB 700165, Wood pellets | Wood pellets | https://cdn.boilermanuals.com/windhager/Windhager-FireWIN-Klassik-Premium-Exklusiv-Operating-Manual.pdf
+- Windhager FireWIN Exklusiv FWE120, wood pellet room heater with boiler, 10.6 kW, from 2008, PCDB 700166, Wood pellets | Wood pellets | https://cdn.boilermanuals.com/windhager/Windhager-FireWIN-Klassik-Premium-Exklusiv-Operating-Manual.pdf
+- Windhager FireWIN Klassik/Premium FWK/P 120, wood pellet room heater with boiler, 10.6 kW, from 2008, PCDB 700167, Wood pellets | Wood pellets | https://cdn.boilermanuals.com/windhager/Windhager-FireWIN-Klassik-Premium-Exklusiv-Operating-Manual.pdf
+- Windhager BioWIN 2 Exklusiv BWE 102, wood pellet boiler, 10.2 kW, from 2013, PCDB 700099, Wood pellets | Wood pellets | no manual online yet
+- Windhager Biowin 2 Exklusiv BWE 152, wood pellet boiler, 15.1 kW, from 2013, PCDB 700100, Wood pellets | Wood pellets | no manual online yet
+- Windhager Biowin 2 Exklusiv BWE 212, wood pellet boiler, 26 kW, from 2013, PCDB 700101, Wood pellets | Wood pellets | no manual online yet
+- Windhager Biowin 2 Exklusiv BWE 262, wood pellet boiler, 26 kW, from 2013, PCDB 700102, Wood pellets | Wood pellets | no manual online yet
+- Windhager Biowin 2 Premium BWP 102, wood pellet boiler, 10.2 kW, from 2013, PCDB 700103, Wood pellets | Wood pellets | no manual online yet
+- Windhager Biowin 2 Premium BWP 152, wood pellet boiler, 15.1 kW, from 2013, PCDB 700104, Wood pellets | Wood pellets | no manual online yet
+- Windhager Biowin 2 Premium BWP 212, wood pellet boiler, 26 kW, from 2013, PCDB 700105, Wood pellets | Wood pellets | no manual online yet
+- Windhager Biowin 2 Premium BWP 262, wood pellet boiler, 26 kW, from 2013, PCDB 700106, Wood pellets | Wood pellets | no manual online yet
+- Windhager Biowin 2 Klassik BWK 102, wood pellet boiler, 10.2 kW, from 2013, PCDB 700107, Wood pellets | Wood pellets | no manual online yet
+- Windhager Biowin 2 Klassik BWK 152, wood pellet boiler, 15.1 kW, from 2013, PCDB 700108, Wood pellets | Wood pellets | no manual online yet
+- Windhager Biowin 2 Klassik BWK 212, wood pellet boiler, 26 kW, from 2013, PCDB 700109, Wood pellets | Wood pellets | no manual online yet
+- Windhager Biowin 2 Klassik BWK 262, wood pellet boiler, 26 kW, from 2013, PCDB 700110, Wood pellets | Wood pellets | no manual online yet
+- Windhager LogWIN Premium LWP300, log boiler, 31.1 kW, from 2008, PCDB 700155, Wood logs | Wood logs | no manual online yet
+- Windhager LogWIN Premium LWP360, log boiler, 35.6 kW, from 2008, PCDB 700156, Wood logs | Wood logs | no manual online yet
+- Windhager LogWIN Premium LWP500, log boiler, 49.7 kW, from 2008, PCDB 700157, Wood logs | Wood logs | no manual online yet
+- Windhager BioWIN XL Exklusiv BWE 600, wood pellet boiler, 59.3 kW, PCDB 700158, Wood pellets | Wood pellets | no manual online yet
+- Windhager BioWIN XL Exklusiv BWE 450, wood pellet boiler, 45 kW, PCDB 700160, Wood pellets | Wood pellets | no manual online yet
+- Windhager BioWIN XL Exklusiv BWE 350, wood pellet boiler, 34.9 kW, PCDB 700161, Wood pellets | Wood pellets | no manual online yet
+- Windhager LogWIN Premium LWP180, log boiler, 17.8 kW, from 2008, PCDB 700162, Wood logs | Wood logs | no manual online yet
+- Windhager LogWIN Premium LWP250, log boiler, 25 kW, from 2008, PCDB 700163, Wood logs | Wood logs | no manual online yet
+- Windhager LogWIN Klassik LWK180, log boiler, 19.4 kW, from 2013, PCDB 700168, Wood logs | Wood logs | no manual online yet
+- Windhager LogWIN Klassik LWK300, log boiler, 30 kW, from 2013, PCDB 700170, Wood logs | Wood logs | no manual online yet
+- Windhager LogWIN Klassik LWK250, log boiler, 25 kW, from 2013, PCDB 700171, Wood logs | Wood logs | no manual online yet
+- Windhager BioWIN Exclusiv BWE 100, wood pellet boiler, 10.2 kW, 2004–2013, PCDB 700174, Wood pellets | Wood pellets | no manual online yet
+- Windhager BioWIN Exclusiv BWE 150, wood pellet boiler, 15.2 kW, 2004–2013, PCDB 700175, Wood pellets | Wood pellets | no manual online yet
+- Windhager BioWIN Exclusiv BWE 210, wood pellet boiler, 21 kW, 2004–2013, PCDB 700176, Wood pellets | Wood pellets | no manual online yet
+- Windhager BioWIN Exclusiv BWE 260, wood pellet boiler, 25.9 kW, 2004–2013, PCDB 700177, Wood pellets | Wood pellets | no manual online yet
+
 ## Wolf boilers
 
 Brand page: https://boilermanuals.com/brands/wolf.html
@@ -9884,6 +10189,18 @@ Brand page: https://boilermanuals.com/brands/wolf.html
 - Wolf TGG-K-18 Topline Combi Boiler, GC 86-027-54, LPG | LPG | no manual online yet
 - Wolf TGG-K-24 Topline Combi Boiler, GC 86-027-57, Natural Gas | NG | no manual online yet
 - Wolf TGG-K-24 Topline Combi Boiler / Wolf TGG-24 Topline Boiler, GC 86-027-60, LPG | LPG | no manual online yet
+
+## Wood Energy Solutions boilers
+
+Brand page: https://boilermanuals.com/brands/wood-energy-solutions.html
+
+- Wood Energy Solutions E-Compact 15, wood pellet boiler, 3–16.1 kW, from 2011, PCDB 700041, Wood pellets | Wood pellets | no manual online yet
+- Wood Energy Solutions E-Compact 28, wood pellet boiler, 8–27.7 kW, from 2012, PCDB 700042, Wood pellets | Wood pellets | no manual online yet
+- Wood Energy Solutions E-Compact 55, wood pellet boiler, 15.7–54.8 kW, from 2013, PCDB 700043, Wood pellets | Wood pellets | no manual online yet
+- Wood Energy Solutions E-Compact 85, wood pellet boiler, 26.8 kW, from 2012, PCDB 700044, Wood pellets | Wood pellets | no manual online yet
+- Wood Energy Solutions E-Compact 100, wood pellet boiler, 30 kW, from 2012, PCDB 700045, Wood pellets | Wood pellets | no manual online yet
+- Wood Energy Solutions E-Compact 125, wood pellet boiler, 27 kW, from 2013, PCDB 700046, Wood pellets | Wood pellets | no manual online yet
+- Wood Energy Solutions E-Compact 199, wood pellet boiler, 57 kW, from 2013, PCDB 700047, Wood pellets | Wood pellets | no manual online yet
 
 ## Worcester Bosch boilers
 

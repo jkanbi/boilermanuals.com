@@ -73,7 +73,7 @@
       "@type": "Dataset",
       "@id": "https://boilermanuals.com/#dataset",
       "name": "BoilerManuals.com UK boiler model and manual index",
-      "description": "Index of 9,810 UK boiler models with GC numbers, fuel type and links to 1,942 checked installation, servicing and user manuals (PDF). Gas and oil models are based on the SAP 10 PCDB (revision 599).",
+      "description": "Index of 10,017 UK boiler models with GC numbers, fuel type and links to 1,958 checked installation, servicing and user manuals (PDF). Gas, oil, solid fuel, biomass, range cooker and micro-CHP models are based on the SAP 10 PCDB (revision 599).",
       "url": "https://boilermanuals.com/about.html",
       "creator": {
         "@id": "https://boilermanuals.com/#organization"
@@ -143,11 +143,11 @@
         <section class="bm-stats" aria-labelledby="bm-stats-title">
             <h2 id="bm-stats-title">The library in numbers</h2>
             <ul class="bm-stats__grid">
-                <li class="bm-stats__card"><span class="bm-stats__num">1,942</span><span class="bm-stats__lbl">manuals (PDF files on our CDN)</span></li>
-                <li class="bm-stats__card"><span class="bm-stats__num">5,682 / 9,810</span><span class="bm-stats__lbl">listed boiler models with a manual (57.9%)</span></li>
-                <li class="bm-stats__card"><span class="bm-stats__num">44.9%</span><span class="bm-stats__lbl">of all 7,238 PCDB boilers have a verified manual (3,248)</span></li>
+                <li class="bm-stats__card"><span class="bm-stats__num">1,958</span><span class="bm-stats__lbl">manuals (PDF files on our CDN)</span></li>
+                <li class="bm-stats__card"><span class="bm-stats__num">5,729 / 10,017</span><span class="bm-stats__lbl">listed boiler models with a manual (57.2%)</span></li>
+                <li class="bm-stats__card"><span class="bm-stats__num">44.2%</span><span class="bm-stats__lbl">of all 7,455 PCDB boilers (gas, oil, solid fuel, cooker boilers and micro-CHP) have a verified manual (3,295)</span></li>
             </ul>
-            <h3>PCDB boilers with a manual, by fuel</h3>
+            <h3>PCDB boilers with a manual, by fuel and type</h3>
             <ul class="bm-stats__rows">
                 <li class="bm-stats__row">
                     <div class="bm-stats__head"><span>Gas</span><span>2,060 / 4,326 &middot; 47.6%</span></div>
@@ -166,6 +166,18 @@
                     <div class="bm-stats__bar" role="img" aria-label="HVO: 0.0% of PCDB boilers have a manual"><span class="bm-stats__fill" style="width:0.0%"></span></div>
                 </li>
                 <li class="bm-stats__row">
+                    <div class="bm-stats__head"><span>Solid fuel &amp; biomass</span><span>25 / 171 &middot; 14.6%</span></div>
+                    <div class="bm-stats__bar" role="img" aria-label="Solid fuel &amp; biomass: 14.6% of PCDB boilers have a manual"><span class="bm-stats__fill" style="width:14.6%"></span></div>
+                </li>
+                <li class="bm-stats__row">
+                    <div class="bm-stats__head"><span>Range cooker boilers</span><span>22 / 36 &middot; 61.1%</span></div>
+                    <div class="bm-stats__bar" role="img" aria-label="Range cooker boilers: 61.1% of PCDB boilers have a manual"><span class="bm-stats__fill" style="width:61.1%"></span></div>
+                </li>
+                <li class="bm-stats__row">
+                    <div class="bm-stats__head"><span>Micro-CHP</span><span>0 / 10 &middot; 0.0%</span></div>
+                    <div class="bm-stats__bar" role="img" aria-label="Micro-CHP: 0.0% of PCDB boilers have a manual"><span class="bm-stats__fill" style="width:0.0%"></span></div>
+                </li>
+                <li class="bm-stats__row">
                     <div class="bm-stats__head"><span>Electric</span><span>136 / 198 &middot; 68.7% <em>of models we list (not in PCDB)</em></span></div>
                     <div class="bm-stats__bar" role="img" aria-label="Electric: 68.7% of the electric boiler models we list have a manual"><span class="bm-stats__fill" style="width:68.7%"></span></div>
                 </li>
@@ -174,7 +186,7 @@
                     <div class="bm-stats__bar" role="img" aria-label="Controls: 100.0% of the heating controls we list have a manual"><span class="bm-stats__fill" style="width:100.0%"></span></div>
                 </li>
             </ul>
-            <p class="bm-stats__note">A boiler counts when its GC number or PCDB index is on a row that links a manual we host; brochures and spec sheets don&rsquo;t count. Electric boilers are not in the PCDB, so they are shown against the models we list and are not part of the PCDB figure. Heating controls are counted separately and are not included in the boiler totals. Data: SAP 10 PCDB revision 599, updated 30 September 2026.</p>
+            <p class="bm-stats__note">A boiler counts when its GC number or PCDB index is on a row that links a manual we host; brochures and spec sheets don&rsquo;t count. Solid fuel and biomass boilers, range cooker boilers and micro-CHP units are counted by PCDB index. The PCDB total is all 7,455 boiler records in PCDB tables 105, 122, 131 and 143. Electric boilers are not in the PCDB, so they are shown against the models we list and are not part of the PCDB figure. Heating controls are counted separately and are not included in the boiler totals. Data: SAP 10 PCDB revision 599, updated 30 September 2026.</p>
         </section>
         <!-- stats:end -->
 
@@ -184,7 +196,7 @@
 
             <h2 id="bm-how">How we check manuals</h2>
             <ul>
-                <li><strong>Every boiler we list:</strong> gas and oil boilers come from the UK Product Characteristics Database (PCDB, SAP 10), so the model names, fuels and GC numbers match the official register. Electric boilers and heating controls are not in the PCDB, so they are listed and counted separately.</li>
+                <li><strong>Every boiler we list:</strong> gas and oil boilers, solid fuel and biomass boilers, twin-burner range cooker boilers and micro-CHP units come from the UK Product Characteristics Database (PCDB, SAP 10), so the model names, fuels, GC numbers and PCDB numbers match the official register. Electric boilers and heating controls are not in the PCDB, so they are listed and counted separately.</li>
                 <li><strong>A manual is linked only after the PDF is checked:</strong> we open it and confirm it names the same model or GC number and the same fuel as the row. Anything we can&rsquo;t confirm stays unlinked and shows <em>Request manual</em>.</li>
                 <li><strong>Natural gas and LPG:</strong> one manual is linked to both fuels only when the PDF lists both, or shows the LPG GC number.</li>
                 <li><strong>Brochures are not manuals:</strong> brochures, spec sheets and price lists are never counted as manuals.</li>

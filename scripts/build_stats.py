@@ -25,6 +25,9 @@ GC_TXT = re.compile(r'\bGC\s*(?:No\.?\s*)?(\d{2})[\s.\-/]?(\d{3})[\s.\-/]?(\d{2}
 GC_CELL = re.compile(r'^\s*(\d{2})[\s.\-/]?(\d{3})[\s.\-/]?(\d{2})\s*$')
 GC_STRICT = re.compile(r'^\s*(?:g\.?\s*c\.?\s*(?:no\.?)?\s*)?(\d{2})\s*[./\-]?\s*(\d{3})\s*[./\-]?\s*(\d{2})\s*[a-z]{0,3}\s*$', re.I)
 PCDB_TXT = re.compile(r'\bPCDB\s+((?:\d{6})(?:\s*/\s*\d{6})*)')
+# Other PCDB boiler tables, counted by PCDB index only: (table, manufacturer column)
+OTHER_TABLES = [('122', 4), ('131', 4), ('143', 5)]
+CATEGORIES = [('122', 'solid_fuel', 'Solid fuel &amp; biomass'), ('131', 'cooker', 'Range cooker boilers'), ('143', 'micro_chp', 'Micro-CHP')]
 FUELS = [('1', 'gas', 'Gas'), ('2', 'lpg', 'LPG'), ('4', 'oil', 'Oil'), ('71', 'hvo', 'HVO')]
 MONTHS = 'January February March April May June July August September October November December'.split()
 
@@ -46,7 +49,19 @@ def load_pcdb(path):
         if l.startswith('$'): break
         if l.startswith('#') or not l.strip(): continue
         recs.append(next(csv.reader([l])))
-    return {'revision': rev[1], 'date': f'{rev[2]}-{rev[3]}-{rev[4]}', 'table105_date': f'{t105[3]}-{t105[4]}-{t105[5]}'}, recs
+    extra = {}
+    for num, mfr_col in OTHER_TABLES:
+        j = next((k for k, l in enumerate(lines) if l.startswith(f'${num},')), None)
+        out = []
+        if j is not None:
+            for l in lines[j + 1:]:
+                if l.startswith('$'): break
+                if l.startswith('#') or not l.strip(): continue
+                f = next(csv.reader([l.rstrip('\r')]))
+                if f[mfr_col] == 'SAP Illustrative Products': continue  # SAP placeholder entries, not real products
+                out.append(f)
+        extra[num] = out
+    return {'revision': rev[1], 'date': f'{rev[2]}-{rev[3]}-{rev[4]}', 'table105_date': f'{t105[3]}-{t105[4]}-{t105[5]}'}, recs, extra
 
 def site_rows(root):
     """yield (page_slug, cells_text, fuel_text, hrefs, gc_cell) for every brand-table row"""
@@ -71,7 +86,7 @@ def main():
     ap = argparse.ArgumentParser(); ap.add_argument('--root', default='.'); ap.add_argument('--pcdb', default=None)
     a = ap.parse_args(); root = Path(a.root)
     pc = a.pcdb or os.environ.get('PCDB_DAT') or ('pcdb10.dat' if Path('pcdb10.dat').exists() else None)
-    meta, recs = load_pcdb(pc)
+    meta, recs, extra = load_pcdb(pc)
 
     rows = list(site_rows(root))
     # a CDN PDF is a brochure if every link to it on the site is labelled as a brochure/spec sheet
@@ -122,14 +137,20 @@ def main():
             if (g and ''.join(g.groups()) in gcs_with) or f[0] in pcdb_with: n += 1
         fuels[key] = {'label': label, 'pcdb_total': len(rs), 'with_manual': n, 'pct': round(100 * n / len(rs), 1) if rs else 0}
         total_with += n
+    cats = {}; cat_with = 0; cat_total = 0
+    for num, key, label in CATEGORIES:
+        rs = extra.get(num, []); n = sum(1 for f in rs if f[0] in pcdb_with)
+        cats[key] = {'label': label, 'pcdb_table': int(num), 'pcdb_total': len(rs), 'with_manual': n, 'pct': round(100 * n / len(rs), 1) if rs else 0}
+        cat_with += n; cat_total += len(rs)
     other = len([f for f in recs if f[11] not in {c for c, _, _ in FUELS}])
     stats = {
         'generated': meta['date'] and __import__('datetime').date.today().isoformat(),
-        'pcdb': {'source': 'SAP 10 PCDB (pcdb10.dat) table 105, gas and oil boilers', 'revision': meta['revision'],
+        'pcdb': {'source': 'SAP 10 PCDB (pcdb10.dat): table 105 gas and oil boilers, table 122 solid fuel and biomass boilers, table 131 twin-burner range cooker boilers, table 143 micro-CHP (SAP illustrative placeholder entries excluded)', 'revision': meta['revision'],
                  'file_date': meta['date'], 'table105_date': meta['table105_date'], 'records': len(recs), 'other_fuel_records': other},
         'manuals_total': len(manuals),
         'models': {'listed': len(models), 'with_manual': len(with_manual), 'pct': round(100 * len(with_manual) / len(models), 1)},
         'fuels': fuels,
+        'categories': cats,
         'electric': {'models_listed': len(electric_listed), 'models_with_manual': len(electric_with),
                      'pct': round(100 * len(electric_with) / len(electric_listed), 1) if electric_listed else 0,
                      'brochure_only_rows_excluded': brochure_rows, 'note': 'not in PCDB; share of the electric models we list, not part of the PCDB overall figure'},
@@ -138,7 +159,9 @@ def main():
                      'files': len(control_files), 'listed_on_boiler_pages': controls_elsewhere, 'pages': sorted(CONTROLS),
                      'note': 'not in PCDB; heating controls (thermostats, programmers, smart controls) from the controls brand pages linked on controls.html plus control rows on boiler pages. Excluded from the boiler model totals and from the PCDB figures.'},
         'brochure_pdfs_excluded': sorted(brochures),
-        'pcdb_overall': {'records': len(recs), 'with_manual': total_with, 'pct': round(100 * total_with / len(recs), 1)},
+        'pcdb_overall': {'records': len(recs) + cat_total, 'with_manual': total_with + cat_with, 'pct': round(100 * (total_with + cat_with) / (len(recs) + cat_total), 1),
+                         'denominator': 'all PCDB boiler records: table 105 gas/oil + table 122 solid fuel and biomass + table 131 range cooker boilers + table 143 micro-CHP'},
+        'pcdb_gas_oil': {'records': len(recs), 'with_manual': total_with, 'pct': round(100 * total_with / len(recs), 1), 'note': 'table 105 only (the figure published before solid fuel, cooker boilers and micro-CHP were added)'},
         'method': 'A PCDB record counts when its GC number (gas/LPG) or its PCDB index appears on a site row that links a PDF on cdn.boilermanuals.com. Brochure/spec-sheet-only PDFs are not counted as manuals anywhere.',
     }
     (root / 'data').mkdir(exist_ok=True)
@@ -173,6 +196,7 @@ def render(root, st):
                 f'                    <div class="bm-stats__bar" role="img" aria-label="{label}: {pct}% of PCDB boilers have a manual">'
                 f'<span class="bm-stats__fill" style="width:{pct}%"></span></div>\n                </li>\n')
     rows = ''.join(bar(f['label'], f['with_manual'], f['pcdb_total'], f['pct']) for f in st['fuels'].values() if f['pcdb_total'])
+    rows += ''.join(bar(f['label'], f['with_manual'], f['pcdb_total'], f['pct']) for f in st.get('categories', {}).values() if f['pcdb_total'])
     e = st['electric']
     rows += (f'                <li class="bm-stats__row">\n                    <div class="bm-stats__head"><span>Electric</span>'
              f'<span>{num(e["models_with_manual"])} / {num(e["models_listed"])} &middot; {e["pct"]}% <em>of models we list (not in PCDB)</em></span></div>\n'
@@ -190,12 +214,12 @@ def render(root, st):
             <ul class="bm-stats__grid">
                 <li class="bm-stats__card"><span class="bm-stats__num">{num(st["manuals_total"])}</span><span class="bm-stats__lbl">manuals (PDF files on our CDN)</span></li>
                 <li class="bm-stats__card"><span class="bm-stats__num">{num(m["with_manual"])} / {num(m["listed"])}</span><span class="bm-stats__lbl">listed boiler models with a manual ({m["pct"]}%)</span></li>
-                <li class="bm-stats__card"><span class="bm-stats__num">{o["pct"]}%</span><span class="bm-stats__lbl">of all {num(o["records"])} PCDB boilers have a verified manual ({num(o["with_manual"])})</span></li>
+                <li class="bm-stats__card"><span class="bm-stats__num">{o["pct"]}%</span><span class="bm-stats__lbl">of all {num(o["records"])} PCDB boilers (gas, oil, solid fuel, cooker boilers and micro-CHP) have a verified manual ({num(o["with_manual"])})</span></li>
             </ul>
-            <h3>PCDB boilers with a manual, by fuel</h3>
+            <h3>PCDB boilers with a manual, by fuel and type</h3>
             <ul class="bm-stats__rows">
 {rows}            </ul>
-            <p class="bm-stats__note">A boiler counts when its GC number or PCDB index is on a row that links a manual we host; brochures and spec sheets don&rsquo;t count. Electric boilers are not in the PCDB, so they are shown against the models we list and are not part of the PCDB figure. Heating controls are counted separately and are not included in the boiler totals. Data: SAP 10 PCDB revision {st["pcdb"]["revision"]}, updated {d(st["pcdb"]["file_date"])}.</p>
+            <p class="bm-stats__note">A boiler counts when its GC number or PCDB index is on a row that links a manual we host; brochures and spec sheets don&rsquo;t count. Solid fuel and biomass boilers, range cooker boilers and micro-CHP units are counted by PCDB index. The PCDB total is all {num(o["records"])} boiler records in PCDB tables 105, 122, 131 and 143. Electric boilers are not in the PCDB, so they are shown against the models we list and are not part of the PCDB figure. Heating controls are counted separately and are not included in the boiler totals. Data: SAP 10 PCDB revision {st["pcdb"]["revision"]}, updated {d(st["pcdb"]["file_date"])}.</p>
         </section>
         <!-- stats:end -->'''
     if '<!-- stats:start -->' in s:
