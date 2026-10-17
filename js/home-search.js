@@ -190,10 +190,13 @@
             html += "</div>";
             if (entry.downloadUrl) {
                 html += "<div class=\"home-search-item__actions\">";
+                // Show only "View" when the online viewer is available (it has its own
+                // download button); otherwise fall back to the direct Download link.
                 if (entry.viewUrl) {
-                    html += "<a href=\"" + escapeAttr(entry.viewUrl) + "\">View</a> ";
+                    html += "<a href=\"" + escapeAttr(entry.viewUrl) + "\">View</a>";
+                } else {
+                    html += "<a href=\"" + escapeAttr(entry.downloadUrl) + "\">Download</a>";
                 }
-                html += "<a href=\"" + escapeAttr(entry.downloadUrl) + "\">Download</a>";
                 var reportUrl = buildReportUrl(entry);
                 if (reportUrl) {
                     html += " <a class=\"report-link\" rel=\"nofollow\" title=\"Report a wrong or broken link\" href=\"" +

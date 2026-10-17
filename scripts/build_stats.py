@@ -18,6 +18,8 @@ HEAT_PUMP = re.compile(r'heat pump|ashp|\bPCDB\b', re.I)
 # PDFs whose link text says they are a brochure/catalogue/spec sheet are NOT counted as manuals
 BROCHURE = re.compile(r'brochure|catalogue|catalog|spec sheet|technical specs|data ?sheet', re.I)
 ELECTRIC_FUEL = re.compile(r'^\s*elec', re.I)
+# heating controls listed on boiler pages (e.g. a thermostat manual on a boiler brand page)
+CONTROL_ROW = re.compile(r'\b(thermostat|room stat|programmer|timeswitch|time switch)\b', re.I)
 NOT_BOILER = re.compile(r'warm air|electricaire|storage heater|programmer|thermostat|timeswitch', re.I)
 GC_TXT = re.compile(r'\bGC\s*(?:No\.?\s*)?(\d{2})[\s.\-/]?(\d{3})[\s.\-/]?(\d{2})(?!\d)', re.I)
 GC_CELL = re.compile(r'^\s*(\d{2})[\s.\-/]?(\d{3})[\s.\-/]?(\d{2})\s*$')
@@ -79,12 +81,18 @@ def main():
             if is_cdn_pdf(h): labels.setdefault(cdn_key(h), []).append(t)
     brochures = {k for k, ts in labels.items() if all(BROCHURE.search(t) for t in ts)}
     is_manual = lambda h: is_cdn_pdf(h) and cdn_key(h) not in brochures
+    controls_listed = set(); controls_with = set(); control_files = set(); controls_elsewhere = 0
     manuals = set(); gcs_with = set(); pcdb_with = set(); electric_with = set(); electric_listed = set(); brochure_rows = 0
     for slug, cells, fuel, links, gccell in rows:
         hrefs = [h for h, _ in links]
         pdfs = [h for h in hrefs if is_manual(h)]
         for h in pdfs: manuals.add(cdn_key(h))
         txt = ' '.join(cells)
+        is_control = slug in CONTROLS or bool(CONTROL_ROW.search(txt))
+        if is_control and txt.strip() and '(any model)' not in txt:
+            controls_listed.add((slug, txt)); controls_elsewhere += slug not in CONTROLS
+            if pdfs: controls_with.add((slug, txt)); control_files.update(cdn_key(h) for h in pdfs)
+        if is_control: continue
         if slug not in CONTROLS and not NOT_BOILER.search(txt) and not HEAT_PUMP.search(txt) and not NON_ELECTRIC_FUEL.match(fuel) \
                 and (slug in ELECTRIC_PAGES or ELECTRIC_FUEL.match(fuel) or ELECTRIC_WORDS.search(txt)) and txt.strip():
             if '(any model)' not in txt:
@@ -97,7 +105,7 @@ def main():
         for m in GC_TXT.finditer(txt): gcs_with.add(''.join(m.groups()))
         for m in PCDB_TXT.finditer(txt): pcdb_with.update(re.findall(r'\d{6}', m.group(1)))
     idx = json.loads((root / 'js/boiler-search-index.json').read_text(encoding='utf-8'))
-    models = [r for r in idx if r['brandUrl'].split('/')[-1][:-5] not in CONTROLS and '(any model)' not in r['model']]
+    models = [r for r in idx if r['brandUrl'].split('/')[-1][:-5] not in CONTROLS and not CONTROL_ROW.search(r['model']) and '(any model)' not in r['model']]
     with_manual = [r for r in models if is_manual(r['downloadUrl'])]
     for r in idx:
         if is_manual(r['downloadUrl']): manuals.add(cdn_key(r['downloadUrl']))
@@ -125,6 +133,10 @@ def main():
         'electric': {'models_listed': len(electric_listed), 'models_with_manual': len(electric_with),
                      'pct': round(100 * len(electric_with) / len(electric_listed), 1) if electric_listed else 0,
                      'brochure_only_rows_excluded': brochure_rows, 'note': 'not in PCDB; share of the electric models we list, not part of the PCDB overall figure'},
+        'controls': {'models_listed': len(controls_listed), 'models_with_manual': len(controls_with),
+                     'pct': round(100 * len(controls_with) / len(controls_listed), 1) if controls_listed else 0,
+                     'files': len(control_files), 'listed_on_boiler_pages': controls_elsewhere, 'pages': sorted(CONTROLS),
+                     'note': 'not in PCDB; heating controls (thermostats, programmers, smart controls) from the controls brand pages linked on controls.html plus control rows on boiler pages. Excluded from the boiler model totals and from the PCDB figures.'},
         'brochure_pdfs_excluded': sorted(brochures),
         'pcdb_overall': {'records': len(recs), 'with_manual': total_with, 'pct': round(100 * total_with / len(recs), 1)},
         'method': 'A PCDB record counts when its GC number (gas/LPG) or its PCDB index appears on a site row that links a PDF on cdn.boilermanuals.com. Brochure/spec-sheet-only PDFs are not counted as manuals anywhere.',
@@ -166,19 +178,24 @@ def render(root, st):
              f'<span>{num(e["models_with_manual"])} / {num(e["models_listed"])} &middot; {e["pct"]}% <em>of models we list (not in PCDB)</em></span></div>\n'
              f'                    <div class="bm-stats__bar" role="img" aria-label="Electric: {e["pct"]}% of the electric boiler models we list have a manual">'
              f'<span class="bm-stats__fill" style="width:{e["pct"]}%"></span></div>\n                </li>\n')
+    c = st['controls']
+    rows += (f'                <li class="bm-stats__row">\n                    <div class="bm-stats__head"><span>Controls</span>'
+             f'<span>{num(c["models_with_manual"])} / {num(c["models_listed"])} &middot; {c["pct"]}% <em>of controls we list (not in PCDB)</em> &middot; {num(c["files"])} PDF files</span></div>\n'
+             f'                    <div class="bm-stats__bar" role="img" aria-label="Controls: {c["pct"]}% of the heating controls we list have a manual">'
+             f'<span class="bm-stats__fill" style="width:{c["pct"]}%"></span></div>\n                </li>\n')
     o = st['pcdb_overall']; m = st['models']
     panel = f'''<!-- stats:start -->
         <section class="bm-stats" aria-labelledby="bm-stats-title">
             <h2 id="bm-stats-title">The library in numbers</h2>
             <ul class="bm-stats__grid">
                 <li class="bm-stats__card"><span class="bm-stats__num">{num(st["manuals_total"])}</span><span class="bm-stats__lbl">manuals (PDF files on our CDN)</span></li>
-                <li class="bm-stats__card"><span class="bm-stats__num">{num(m["with_manual"])} / {num(m["listed"])}</span><span class="bm-stats__lbl">listed models with a manual ({m["pct"]}%)</span></li>
+                <li class="bm-stats__card"><span class="bm-stats__num">{num(m["with_manual"])} / {num(m["listed"])}</span><span class="bm-stats__lbl">listed boiler models with a manual ({m["pct"]}%)</span></li>
                 <li class="bm-stats__card"><span class="bm-stats__num">{o["pct"]}%</span><span class="bm-stats__lbl">of all {num(o["records"])} PCDB boilers have a verified manual ({num(o["with_manual"])})</span></li>
             </ul>
             <h3>PCDB boilers with a manual, by fuel</h3>
             <ul class="bm-stats__rows">
 {rows}            </ul>
-            <p class="bm-stats__note">A boiler counts when its GC number or PCDB index is on a row that links a manual we host; brochures and spec sheets don&rsquo;t count. Electric boilers are not in the PCDB, so they are shown against the models we list and are not part of the PCDB figure. Data: SAP 10 PCDB revision {st["pcdb"]["revision"]}, updated {d(st["pcdb"]["file_date"])}.</p>
+            <p class="bm-stats__note">A boiler counts when its GC number or PCDB index is on a row that links a manual we host; brochures and spec sheets don&rsquo;t count. Electric boilers are not in the PCDB, so they are shown against the models we list and are not part of the PCDB figure. Heating controls are counted separately and are not included in the boiler totals. Data: SAP 10 PCDB revision {st["pcdb"]["revision"]}, updated {d(st["pcdb"]["file_date"])}.</p>
         </section>
         <!-- stats:end -->'''
     if '<!-- stats:start -->' in s:

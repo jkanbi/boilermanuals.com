@@ -10,8 +10,8 @@
  },
  "manuals_total": 1797,
  "models": {
-  "listed": 9812,
-  "with_manual": 5028,
+  "listed": 9810,
+  "with_manual": 5026,
   "pct": 51.2
  },
  "fuels": {
@@ -46,6 +46,24 @@
   "pct": 64.6,
   "brochure_only_rows_excluded": 11,
   "note": "not in PCDB; share of the electric models we list, not part of the PCDB overall figure"
+ },
+ "controls": {
+  "models_listed": 79,
+  "models_with_manual": 79,
+  "pct": 100.0,
+  "files": 90,
+  "listed_on_boiler_pages": 2,
+  "pages": [
+   "danfoss",
+   "drayton",
+   "esi",
+   "google-nest",
+   "hive",
+   "honeywell",
+   "salus",
+   "tado"
+  ],
+  "note": "not in PCDB; heating controls (thermostats, programmers, smart controls) from the controls brand pages linked on controls.html plus control rows on boiler pages. Excluded from the boiler model totals and from the PCDB figures."
  },
  "brochure_pdfs_excluded": [
   "fischer/fischer-electric-boilers-product-catalogue.pdf"
