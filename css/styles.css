@@ -335,6 +335,22 @@
             color: var(--link);
         }
 
+        .site-footer .footer-family-logo {
+            margin: 0.75rem 0 0;
+            line-height: 0;
+        }
+
+        .site-footer .footer-family-logo a {
+            display: inline-block;
+        }
+
+        .site-footer .footer-family-logo img {
+            display: block;
+            height: 22px;
+            width: auto;
+            max-width: 100%;
+        }
+
         .contact-page {
             max-width: 640px;
             margin: 0 auto;
