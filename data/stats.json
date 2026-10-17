@@ -8,11 +8,11 @@
   "records": 7238,
   "other_fuel_records": 0
  },
- "manuals_total": 1776,
+ "manuals_total": 1797,
  "models": {
   "listed": 9812,
-  "with_manual": 4808,
-  "pct": 49.0
+  "with_manual": 5028,
+  "pct": 51.2
  },
  "fuels": {
   "gas": {
@@ -30,8 +30,8 @@
   "oil": {
    "label": "Oil",
    "pcdb_total": 1680,
-   "with_manual": 509,
-   "pct": 30.3
+   "with_manual": 727,
+   "pct": 43.3
   },
   "hvo": {
    "label": "HVO",
@@ -52,8 +52,8 @@
  ],
  "pcdb_overall": {
   "records": 7238,
-  "with_manual": 2391,
-  "pct": 33.0
+  "with_manual": 2609,
+  "pct": 36.0
  },
  "method": "A PCDB record counts when its GC number (gas/LPG) or its PCDB index appears on a site row that links a PDF on cdn.boilermanuals.com. Brochure/spec-sheet-only PDFs are not counted as manuals anywhere."
 }
