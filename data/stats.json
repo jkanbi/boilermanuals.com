@@ -1,0 +1,53 @@
+{
+ "generated": "2026-10-17",
+ "pcdb": {
+  "source": "SAP 10 PCDB (pcdb10.dat) table 105, gas and oil boilers",
+  "revision": "599",
+  "file_date": "2026-09-30",
+  "table105_date": "2026-05-29",
+  "records": 7238,
+  "other_fuel_records": 0
+ },
+ "manuals_total": 1710,
+ "models": {
+  "listed": 9757,
+  "with_manual": 4310,
+  "pct": 44.2
+ },
+ "fuels": {
+  "gas": {
+   "label": "Gas",
+   "pcdb_total": 4326,
+   "with_manual": 1605,
+   "pct": 37.1
+  },
+  "lpg": {
+   "label": "LPG",
+   "pcdb_total": 1213,
+   "with_manual": 277,
+   "pct": 22.8
+  },
+  "oil": {
+   "label": "Oil",
+   "pcdb_total": 1680,
+   "with_manual": 0,
+   "pct": 0.0
+  },
+  "hvo": {
+   "label": "HVO",
+   "pcdb_total": 19,
+   "with_manual": 0,
+   "pct": 0.0
+  }
+ },
+ "electric": {
+  "models_with_manual": 138,
+  "note": "not in PCDB"
+ },
+ "pcdb_overall": {
+  "records": 7238,
+  "with_manual": 1882,
+  "pct": 26.0
+ },
+ "method": "A PCDB record counts when its GC number (gas/LPG) or its PCDB index appears on a site row that links a PDF on cdn.boilermanuals.com."
+}
