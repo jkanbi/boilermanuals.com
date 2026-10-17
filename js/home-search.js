@@ -177,6 +177,7 @@
             return;
         }
 
+        injectResultStyle();
         var html = "<ul class=\"home-search-list\">";
         for (var i = 0; i < results.length; i++) {
             var entry = results[i];
@@ -192,10 +193,15 @@
                 html += "<div class=\"home-search-item__actions\">";
                 // Show only "View" when the online viewer is available (it has its own
                 // download button); otherwise fall back to the direct Download link.
+                // Visible text stays "View"/"Download"; the model name is added as
+                // visually hidden text so the link is descriptive for crawlers and screen readers.
+                var docName = fullModelName(entry);
                 if (entry.viewUrl) {
-                    html += "<a href=\"" + escapeAttr(entry.viewUrl) + "\">View</a>";
+                    html += "<a href=\"" + escapeAttr(entry.viewUrl) + "\" title=\"" + escapeAttr("View " + docName + " manual online") +
+                        "\">View<span class=\"bm-vh\"> " + escapeHtml(docName) + " manual</span></a>";
                 } else {
-                    html += "<a href=\"" + escapeAttr(entry.downloadUrl) + "\">Download</a>";
+                    html += "<a href=\"" + escapeAttr(entry.downloadUrl) + "\" title=\"" + escapeAttr(docName + " manual (PDF)") +
+                        "\">Download<span class=\"bm-vh\"> " + escapeHtml(docName) + " manual PDF</span></a>";
                 }
                 html += "</div>";
                 // Report goes at the end of the result row, away from View.
@@ -206,7 +212,7 @@
                 }
             } else {
                 html += "<div class=\"home-search-item__actions\">";
-                html += "<a href=\"" + escapeAttr(buildRequestUrl(entry)) + "\">Request manual</a>";
+                html += "<a href=\"" + escapeAttr(buildRequestUrl(entry)) + "\" rel=\"nofollow\">Request manual</a>";
                 html += "</div>";
             }
             html += "</li>";
@@ -250,6 +256,7 @@
             ".home-search-item{justify-content:flex-start;align-items:center}" +
             ".home-search-item__main{flex:0 1 auto}" +
             ".home-search-item a.home-search-item__report{margin-left:auto;white-space:nowrap}" +
+            ".bm-vh{position:absolute!important;width:1px!important;height:1px!important;padding:0!important;margin:-1px!important;overflow:hidden!important;clip:rect(0 0 0 0)!important;clip-path:inset(50%)!important;white-space:nowrap!important;border:0!important}" +
             "@media screen and (max-width:640px){" +
             ".home-search-item{align-items:stretch;gap:8px}" +
             ".home-search-item a.home-search-item__report{margin-left:0;align-self:flex-end}" +
@@ -275,6 +282,21 @@
             page: page,
             pdf: entry.downloadUrl
         });
+    }
+
+    function fullModelName(entry) {
+        // "<Brand> <Model>", without repeating the brand when the model already starts with it.
+        var model = String(entry.model || "").replace(/,\s*GC\s.*$/, "").trim();
+        var brand = String(entry.brand || "").trim();
+        var norm = function (v) { return String(v).toLowerCase().replace(/[^a-z0-9]/g, ""); };
+        var first = norm(brand.split(/\s+/)[0] || "");
+        if (!model) {
+            return brand + (entry.gc ? " GC " + entry.gc : "");
+        }
+        if (!brand || norm(model).indexOf(norm(brand)) === 0 || (first && norm(model).indexOf(first) === 0)) {
+            return model;
+        }
+        return brand + " " + model;
     }
 
     function buildRequestUrl(entry) {

@@ -1,6 +1,6 @@
 (function () {
     var NAV_ITEMS = [
-        { id: "boilers", label: "Boilers", href: "index.html" },
+        { id: "boilers", label: "Boilers", href: "index.html", url: "/" },
         { id: "fault-codes", label: "Fault Codes", href: "fault-codes.html" },
         { id: "controls", label: "Controls", href: "controls.html" },
         { id: "contact", label: "Contact", href: "contact.html" },
@@ -69,7 +69,7 @@
             var current = item.id === activeId ? ' aria-current="page"' : "";
             menuHtml +=
                 '<li><a href="' +
-                escapeAttr(basePath + item.href) +
+                escapeAttr(item.url || basePath + item.href) +
                 '"' +
                 current +
                 ">" +
@@ -80,7 +80,7 @@
         var navbarHtml =
             '<div class="site-header"><nav class="navbar">' +
             '<a href="' +
-            escapeAttr(basePath + "index.html") +
+            escapeAttr("/") +
             '" class="navbar-brand">' +
             '<img src="' +
             escapeAttr(basePath + "images/logo.png") +
