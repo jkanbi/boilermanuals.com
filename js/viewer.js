@@ -374,13 +374,36 @@ function updateSearchButtons() {
     search.stopBtn.hidden = !search.running;
 }
 
+async function readTextContent(page) {
+    // PDF.js 6.x getTextContent() does `for await` over a ReadableStream. Safari
+    // before 26, older iOS WebViews and Chromium before 124 (e.g. car browsers)
+    // have no async iterator on ReadableStream, so it throws on every page.
+    // Read the same stream with getReader(), which every browser supports.
+    if (typeof page.streamTextContent === "function") {
+        var reader = page.streamTextContent().getReader();
+        var items = [];
+        for (;;) {
+            var chunk = await reader.read();
+            if (chunk.done) {
+                break;
+            }
+            var got = (chunk.value && chunk.value.items) || [];
+            for (var i = 0; i < got.length; i++) {
+                items.push(got[i]);
+            }
+        }
+        return { items: items };
+    }
+    return page.getTextContent();
+}
+
 async function pageText(num) {
     if (search.texts[num]) {
         return search.texts[num];
     }
     var page = pages[num - 1].pdfPage || (pages[num - 1].pdfPage = await pdfDoc.getPage(num));
     var vp = page.getViewport({ scale: 1 });
-    var content = await page.getTextContent();
+    var content = await readTextContent(page);
     var str = "";
     var map = [];
     var items = [];
@@ -550,28 +573,49 @@ function goToMatch(i) {
 }
 
 async function checkHasText(runId) {
-    // Sample a few pages: scanned manuals return no text at all.
-    if (search.hasText !== null) {
-        return search.hasText;
+    // Sample a few pages. Returns "text", "none" (every sampled page was read
+    // and had no text at all: a scanned manual) or "unknown" (a page couldn't
+    // be read). Errors are never treated as "scanned".
+    if (search.hasText === true) {
+        return "text";
+    }
+    if (search.hasText === false) {
+        return "none";
     }
     var n = pdfDoc.numPages;
     var sample = [1, 2, 3, Math.ceil(n / 2), n].filter(function (v, i, a) {
         return v >= 1 && v <= n && a.indexOf(v) === i;
     });
     var chars = 0;
+    var failed = 0;
     for (var i = 0; i < sample.length; i++) {
         if (runId !== search.runId) {
             return null;
         }
         setCount("Checking\u2026");
-        var t = await pageText(sample[i]);
-        chars += t.str.replace(/\s+/g, "").length;
-        if (chars >= 20) {
+        try {
+            var t = await pageText(sample[i]);
+            chars += t.str.replace(/\s+/g, "").length;
+        } catch (err) {
+            console.error("Search: text check on page " + sample[i] + " failed", err);
+            failed++;
+        }
+        if (chars > 0) {
             break;
         }
     }
-    search.hasText = chars >= 20;
-    return search.hasText;
+    if (runId !== search.runId) {
+        return null;
+    }
+    if (chars > 0) {
+        search.hasText = true;
+        return "text";
+    }
+    if (failed) {
+        return "unknown";     // not cached: try again next time
+    }
+    search.hasText = false;
+    return "none";
 }
 
 function stopSearch(reason) {
@@ -611,12 +655,12 @@ async function runSearch(query) {
         hasText = await checkHasText(runId);
     } catch (err) {
         console.error(err);
-        hasText = true;
+        hasText = "unknown";
     }
     if (runId !== search.runId) {
         return;
     }
-    if (!hasText) {
+    if (hasText === "none") {
         search.running = false;
         setCount("");
         setSearchMsg("This manual is a scanned image, so search isn\u2019t available. Use the page numbers or zoom instead.");
@@ -630,6 +674,7 @@ async function runSearch(query) {
         order.push(((currentPage - 1 + k) % n) + 1);
     }
     var textChars = 0;
+    var pagesFailed = 0;
     for (var j = 0; j < order.length; j++) {
         var num = order[j];
         if (runId !== search.runId) {
@@ -645,12 +690,13 @@ async function runSearch(query) {
             t = await pageText(num);
         } catch (err) {
             console.error("Search: page " + num + " failed", err);
+            pagesFailed++;
             continue;
         }
         if (runId !== search.runId) {
             return;
         }
-        textChars += t.str.length;
+        textChars += t.str.replace(/\s+/g, "").length;
         var found = findInPage(num, t, re);
         if (found.length) {
             search.matches = search.matches.concat(found);
@@ -678,12 +724,22 @@ async function runSearch(query) {
     search.running = false;
     updateSearchButtons();
     if (!search.matches.length) {
-        setCount("0");
-        setSearchMsg(textChars < 20 ?
-            "This manual is a scanned image, so search isn\u2019t available." :
-            "No matches for \u201c" + query.trim() + "\u201d.");
+        if (textChars === 0 && pagesFailed > 0) {
+            // Pages could not be read: never call this "scanned".
+            setCount("");
+            setSearchMsg("Couldn\u2019t read the text in this manual. Please try again (press Search or Enter).");
+        } else if (textChars === 0) {
+            // Every page was read and none has any text.
+            search.hasText = false;
+            setCount("0");
+            setSearchMsg("This manual is a scanned image, so search isn\u2019t available.");
+        } else {
+            setCount("0");
+            setSearchMsg("No matches for \u201c" + query.trim() + "\u201d." +
+                (pagesFailed ? " " + pagesFailed + " page" + (pagesFailed > 1 ? "s" : "") + " couldn\u2019t be read; try again to include them." : ""));
+        }
     } else {
-        setSearchMsg("");
+        setSearchMsg(pagesFailed ? pagesFailed + " page" + (pagesFailed > 1 ? "s" : "") + " couldn\u2019t be read and were skipped." : "");
         showCurrentCount();
     }
 }
