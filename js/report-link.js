@@ -38,6 +38,10 @@
     }
 
     function isPdfHref(href) {
+        // Skip "View" links to the online viewer; the raw PDF link is reported.
+        if (/viewer\.html/i.test(href || "")) {
+            return false;
+        }
         return /\.pdf(?:[?#]|$)/i.test(href || "");
     }
 

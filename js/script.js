@@ -200,7 +200,12 @@ function isPdfDownloadLink(anchor) {
     if (!anchor || anchor.tagName !== 'A') {
         return false;
     }
-    return /\.pdf(?:[?#]|$)/i.test(anchor.getAttribute('href') || '');
+    const href = anchor.getAttribute('href') || '';
+    // Links to the online viewer open a page, not a file download.
+    if (/viewer\.html/i.test(href)) {
+        return false;
+    }
+    return /\.pdf(?:[?#]|$)/i.test(href);
 }
 
 function setupDownloadModal() {

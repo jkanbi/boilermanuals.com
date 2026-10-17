@@ -190,6 +190,9 @@
             html += "</div>";
             if (entry.downloadUrl) {
                 html += "<div class=\"home-search-item__actions\">";
+                if (entry.viewUrl) {
+                    html += "<a href=\"" + escapeAttr(entry.viewUrl) + "\">View</a> ";
+                }
                 html += "<a href=\"" + escapeAttr(entry.downloadUrl) + "\">Download</a>";
                 var reportUrl = buildReportUrl(entry);
                 if (reportUrl) {
