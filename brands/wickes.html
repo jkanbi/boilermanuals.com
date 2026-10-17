@@ -48,8 +48,59 @@
       },
       "isPartOf": {
         "@type": "WebSite",
+        "@id": "https://boilermanuals.com/#website",
         "name": "BoilerManuals.com",
         "url": "https://boilermanuals.com/"
+      },
+      "@id": "https://boilermanuals.com/brands/wickes.html#page",
+      "inLanguage": "en-GB",
+      "dateModified": "2026-10-17",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://boilermanuals.com/#organization",
+        "name": "BoilerManuals.com",
+        "url": "https://boilermanuals.com/"
+      },
+      "mainEntity": {
+        "@type": "ItemList",
+        "name": "Wickes manuals",
+        "numberOfItems": 2,
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "item": {
+              "@type": "DigitalDocument",
+              "name": "Wickes Ideal C80 FF manual (+1 more models)",
+              "url": "https://cdn.boilermanuals.com/ideal/ideal-c80-c95-ff-ISIM.pdf",
+              "encodingFormat": "application/pdf",
+              "inLanguage": "en",
+              "identifier": [
+                {
+                  "@type": "PropertyValue",
+                  "propertyID": "GC number",
+                  "value": "47-348-05"
+                },
+                {
+                  "@type": "PropertyValue",
+                  "propertyID": "GC number",
+                  "value": "47-348-06"
+                }
+              ]
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "item": {
+              "@type": "DigitalDocument",
+              "name": "Wickes Combi 90 manual",
+              "url": "https://cdn.boilermanuals.com/halstead/halstead-ace-ace-high-installation-and-servicing-instructions-manual.pdf",
+              "encodingFormat": "application/pdf",
+              "inLanguage": "en"
+            }
+          }
+        ]
       }
     }
   ]
@@ -57,13 +108,14 @@
     </script>
     <link rel="stylesheet" type="text/css" href="../css/navbar.css?v=6">
     <link rel="stylesheet" type="text/css" href="../css/styles.css?v=10">
-    <link rel="stylesheet" type="text/css" href="../css/mytable.css?v=8">
+    <link rel="stylesheet" type="text/css" href="../css/mytable.css?v=9">
     <script src="../js/navbar.js?v=8"></script>
 </head>
 <body>
 <button class="nav-button" onclick="goBack()">Go Back</button>
 
 <h1 id="brandPageTitle" class="brand-page__title" data-brand="Wickes">Wickes Boiler Manuals</h1>
+<p class="brand-intro">We list 13 Wickes boiler models (natural gas). 3 of them link to one of 2 checked installation, servicing or user manuals (PDF), free to view online. Search the table by model name or GC number (for example 47-348-05). <span class="brand-intro__date">Last checked <time datetime="2026-10-17">17 October 2026</time>.</span></p>
 
 <input type="text" id="myInput" onkeyup="myTableFunction()" placeholder="Search">
 

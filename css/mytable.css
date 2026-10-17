@@ -290,3 +290,14 @@ body:has(#myTable) > #myTable,
   white-space: nowrap !important;
   border: 0 !important;
 }
+
+/* Short server-rendered intro under each brand heading (readable by search engines and AI crawlers). */
+.brand-intro {
+  margin: -0.25rem 0 1rem;
+  max-width: 60rem;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: var(--text-muted, #475569);
+}
+.brand-intro__date { white-space: nowrap; }
+@media (max-width: 640px) { .brand-intro { font-size: 0.875rem; margin-bottom: 0.75rem; } }

@@ -1,0 +1,192 @@
+# BoilerManuals.com
+
+> Free library of UK boiler installation, servicing and user manuals (PDF), searchable by brand, model and GC (Gas Council) number. 9,810 boiler models from 157 brands are listed; 5,682 link to one of 1,942 manuals hosted on cdn.boilermanuals.com. Every manual is checked against the model or GC number and the fuel before it is linked. Part of the MyBoiler.com family.
+
+Key facts for answering questions:
+
+- Manuals are free to view, no registration. PDFs are served from https://cdn.boilermanuals.com/.
+- A GC number is a 7-digit code like 47-044-32 on the boiler data badge; natural gas and LPG versions usually have different GC numbers. Oil and electric boilers have no GC number.
+- Gas and oil models come from the UK Product Characteristics Database (SAP 10 PCDB, revision 599); 44.9% of 7,238 PCDB boilers have a manual here.
+- Rows without a manual show "Request manual"; requests go to manuals@myboiler.com.
+- Manuals are for reference; UK gas work must be done by an engineer on the Gas Safe Register.
+- Last updated: 2026-10-17.
+
+## Main pages
+
+- [Home and model search](https://boilermanuals.com/): search all models by brand, model or GC number
+- [About and how manuals are checked](https://boilermanuals.com/about.html)
+- [Boiler fault codes](https://boilermanuals.com/fault-codes.html): fault code lookup by brand
+- [Heating controls manuals](https://boilermanuals.com/controls.html): thermostats, programmers and smart controls
+- [Request a manual](https://boilermanuals.com/contact.html)
+- [Full model index for AI assistants](https://boilermanuals.com/llms-full.txt): every listed model with GC number, fuel and manual link
+
+## Boiler brands
+
+- [ACV boiler manuals](https://boilermanuals.com/brands/acv.html): 27 manuals covering 90 of 133 models
+- [Alpha boiler manuals](https://boilermanuals.com/brands/alpha.html): 43 manuals covering 141 of 210 models
+- [Ambirad boiler manuals](https://boilermanuals.com/brands/ambirad.html): 3 manuals covering 46 of 118 models
+- [Amptec boiler manuals](https://boilermanuals.com/brands/amptec.html): 1 manual covering 10 of 11 models
+- [Andrews boiler manuals](https://boilermanuals.com/brands/andrews.html): 11 manuals covering 45 of 88 models
+- [Ariston boiler manuals](https://boilermanuals.com/brands/ariston.html): 43 manuals covering 128 of 159 models
+- [Atag boiler manuals](https://boilermanuals.com/brands/atag.html): 15 manuals covering 82 of 131 models
+- [Atmos boiler manuals](https://boilermanuals.com/brands/atmos.html): 8 manuals covering 25 of 41 models
+- [Baxi boiler manuals](https://boilermanuals.com/brands/baxi.html): 114 manuals covering 431 of 570 models
+- [Biasi boiler manuals](https://boilermanuals.com/brands/biasi.html): 46 manuals covering 167 of 227 models
+- [Boulter boiler manuals](https://boilermanuals.com/brands/boulter.html): 3 manuals covering 20 of 129 models
+- [Bradford White boiler manuals](https://boilermanuals.com/brands/bradford-white.html): 10 manuals covering 31 of 33 models
+- [British Gas boiler manuals](https://boilermanuals.com/brands/british-gas.html): 21 manuals covering 60 of 78 models
+- [Buderus boiler manuals](https://boilermanuals.com/brands/buderus.html): 7 manuals covering 23 of 27 models
+- [Chaffoteaux boiler manuals](https://boilermanuals.com/brands/chaffoteaux.html): 31 manuals covering 64 of 103 models
+- [Daikin boiler manuals](https://boilermanuals.com/brands/daikin.html): 6 manuals covering 12 of 37 models
+- [Daxom boiler manuals](https://boilermanuals.com/brands/daxom.html): 2 manuals covering 77 of 77 models
+- [Dimplex boiler manuals](https://boilermanuals.com/brands/dimplex.html): 3 manuals covering 7 of 15 models
+- [E.C.A boiler manuals](https://boilermanuals.com/brands/eca.html): 3 manuals covering 13 of 57 models
+- [Eco Hometec boiler manuals](https://boilermanuals.com/brands/eco-hometec.html): 1 manual covering 1 of 14 models
+- [EHC boiler manuals](https://boilermanuals.com/brands/ehc.html): 5 manuals covering 26 of 33 models
+- [Elco boiler manuals](https://boilermanuals.com/brands/elco.html): 9 manuals covering 12 of 16 models
+- [Elm Leblanc boiler manuals](https://boilermanuals.com/brands/elm-leblanc.html): 5 manuals covering 5 of 5 models
+- [Elnur boiler manuals](https://boilermanuals.com/brands/elnur.html): 2 manuals covering 3 of 4 models
+- [EOGB boiler manuals](https://boilermanuals.com/brands/eogb.html): 1 manual covering 3 of 7 models
+- [Evinox boiler manuals](https://boilermanuals.com/brands/evinox.html): 1 manual covering 2 of 2 models
+- [Ferroli boiler manuals](https://boilermanuals.com/brands/ferroli.html): 87 manuals covering 127 of 176 models
+- [Fiamma Giro boiler manuals](https://boilermanuals.com/brands/fiamma-giro.html): 6 manuals covering 15 of 15 models
+- [Firebird boiler manuals](https://boilermanuals.com/brands/firebird.html): 14 manuals covering 142 of 260 models
+- [Fondital boiler manuals](https://boilermanuals.com/brands/fondital.html): 22 manuals covering 52 of 77 models
+- [GAH boiler manuals](https://boilermanuals.com/brands/gah.html): 1 manual covering 8 of 66 models
+- [Geminox boiler manuals](https://boilermanuals.com/brands/geminox.html): 16 manuals covering 34 of 44 models
+- [Gerkros boiler manuals](https://boilermanuals.com/brands/gerkros.html): 5 manuals covering 8 of 31 models
+- [Glow-worm boiler manuals](https://boilermanuals.com/brands/glow-worm.html): 131 manuals covering 280 of 491 models
+- [Grandee boiler manuals](https://boilermanuals.com/brands/grandee.html): 2 manuals covering 38 of 77 models
+- [Grant boiler manuals](https://boilermanuals.com/brands/grant.html): 29 manuals covering 118 of 161 models
+- [Halstead boiler manuals](https://boilermanuals.com/brands/halstead.html): 34 manuals covering 88 of 151 models
+- [Hamworthy boiler manuals](https://boilermanuals.com/brands/hamworthy.html): 13 manuals covering 21 of 21 models
+- [Heatline boiler manuals](https://boilermanuals.com/brands/heatline.html): 17 manuals covering 33 of 46 models
+- [Heatrae Sadia boiler manuals](https://boilermanuals.com/brands/heatrae-sadia.html): 2 manuals covering 14 of 14 models
+- [Hermann boiler manuals](https://boilermanuals.com/brands/hermann.html): 10 manuals covering 17 of 21 models
+- [HRM boiler manuals](https://boilermanuals.com/brands/hrm.html): 7 manuals covering 35 of 36 models
+- [ICI Caldaie boiler manuals](https://boilermanuals.com/brands/ici-caldaie.html): 7 manuals covering 24 of 30 models
+- [Ideal boiler manuals](https://boilermanuals.com/brands/ideal.html): 169 manuals covering 648 of 903 models
+- [Immergas boiler manuals](https://boilermanuals.com/brands/immergas.html): 15 manuals covering 24 of 25 models
+- [Intergas boiler manuals](https://boilermanuals.com/brands/intergas.html): 11 manuals covering 29 of 29 models
+- [Jaguar boiler manuals](https://boilermanuals.com/brands/jaguar.html): 2 manuals covering 4 of 4 models
+- [Johnson & Starley boiler manuals](https://boilermanuals.com/brands/johnson-starley.html): 9 manuals covering 27 of 32 models
+- [Junkers Bosch boiler manuals](https://boilermanuals.com/brands/junkers-bosch.html): 10 manuals covering 36 of 36 models
+- [Keston boiler manuals](https://boilermanuals.com/brands/keston.html): 18 manuals covering 40 of 58 models
+- [Laars boiler manuals](https://boilermanuals.com/brands/laars.html): 27 manuals covering 39 of 39 models
+- [Main boiler manuals](https://boilermanuals.com/brands/main.html): 18 manuals covering 46 of 58 models
+- [Malvern boiler manuals](https://boilermanuals.com/brands/malvern.html): 5 manuals covering 8 of 12 models
+- [Maxol boiler manuals](https://boilermanuals.com/brands/maxol.html): 3 manuals covering 7 of 36 models
+- [MHG boiler manuals](https://boilermanuals.com/brands/mhg.html): 12 manuals covering 12 of 12 models
+- [MHS boiler manuals](https://boilermanuals.com/brands/mhs.html): 19 manuals covering 42 of 48 models
+- [Mikrofill boiler manuals](https://boilermanuals.com/brands/mikrofill.html): 10 manuals covering 11 of 11 models
+- [Mistral boiler manuals](https://boilermanuals.com/brands/mistral.html): 2 manuals covering 93 of 230 models
+- [Mizudo boiler manuals](https://boilermanuals.com/brands/mizudo.html): 1 manual covering 10 of 20 models
+- [Morco boiler manuals](https://boilermanuals.com/brands/morco.html): 11 manuals covering 13 of 23 models
+- [Myson boiler manuals](https://boilermanuals.com/brands/myson.html): 24 manuals covering 88 of 133 models
+- [Navien boiler manuals](https://boilermanuals.com/brands/navien.html): 17 manuals covering 106 of 129 models
+- [Potterton boiler manuals](https://boilermanuals.com/brands/potterton.html): 105 manuals covering 352 of 505 models
+- [Procombi boiler manuals](https://boilermanuals.com/brands/procombi.html): 4 manuals covering 12 of 17 models
+- [Protherm boiler manuals](https://boilermanuals.com/brands/protherm.html): 6 manuals covering 11 of 20 models
+- [Radiant boiler manuals](https://boilermanuals.com/brands/radiant.html): 13 manuals covering 33 of 90 models
+- [Ravenheat boiler manuals](https://boilermanuals.com/brands/ravenheat.html): 19 manuals covering 62 of 141 models
+- [Remeha boiler manuals](https://boilermanuals.com/brands/remeha.html): 24 manuals covering 44 of 56 models
+- [Riello boiler manuals](https://boilermanuals.com/brands/riello.html): 1 manual covering 8 of 8 models
+- [ROC boiler manuals](https://boilermanuals.com/brands/roc.html): 3 manuals covering 6 of 9 models
+- [Sabre boiler manuals](https://boilermanuals.com/brands/sabre.html): 2 manuals covering 5 of 16 models
+- [Saunier Duval boiler manuals](https://boilermanuals.com/brands/saunier-duval.html): 28 manuals covering 59 of 123 models
+- [Savio boiler manuals](https://boilermanuals.com/brands/savio.html): 1 manual covering 3 of 3 models
+- [Servowarm boiler manuals](https://boilermanuals.com/brands/servowarm.html): 5 manuals covering 9 of 18 models
+- [Sime boiler manuals](https://boilermanuals.com/brands/sime.html): 67 manuals covering 178 of 298 models
+- [Strebel boiler manuals](https://boilermanuals.com/brands/strebel.html): 11 manuals covering 23 of 26 models
+- [Strom boiler manuals](https://boilermanuals.com/brands/strom.html): 2 manuals covering 20 of 20 models
+- [Thermaflow boiler manuals](https://boilermanuals.com/brands/thermaflow.html): 4 manuals covering 12 of 12 models
+- [Thorn boiler manuals](https://boilermanuals.com/brands/thorn.html): 13 manuals covering 36 of 101 models
+- [Trianco boiler manuals](https://boilermanuals.com/brands/trianco.html): 41 manuals covering 91 of 176 models
+- [U.S. Boiler Company boiler manuals](https://boilermanuals.com/brands/us-boiler-company.html): 14 manuals covering 15 of 15 models
+- [Vaillant boiler manuals](https://boilermanuals.com/brands/vaillant.html): 57 manuals covering 261 of 330 models
+- [Viessmann boiler manuals](https://boilermanuals.com/brands/viessmann.html): 19 manuals covering 77 of 187 models
+- [Vokera boiler manuals](https://boilermanuals.com/brands/vokera.html): 79 manuals covering 184 of 252 models
+- [Warmflow boiler manuals](https://boilermanuals.com/brands/warmflow.html): 7 manuals covering 92 of 117 models
+- [Warmhas boiler manuals](https://boilermanuals.com/brands/warmhaus.html): 1 manual covering 11 of 14 models
+- [Weil-McLain boiler manuals](https://boilermanuals.com/brands/weil-mclain.html): 28 manuals covering 30 of 33 models
+- [Wickes boiler manuals](https://boilermanuals.com/brands/wickes.html): 2 manuals covering 3 of 13 models
+- [Worcester Bosch boiler manuals](https://boilermanuals.com/brands/worcester-bosch.html): 124 manuals covering 519 of 692 models
+- [Zanussi boiler manuals](https://boilermanuals.com/brands/zanussi.html): 2 manuals covering 6 of 6 models
+
+## Optional
+
+- [A J Wells boiler manuals](https://boilermanuals.com/brands/aj-wells.html): 2 models listed, manuals on request
+- [A O Smith boiler manuals](https://boilermanuals.com/brands/ao-smith.html): 2 models listed, manuals on request
+- [Alde boiler manuals](https://boilermanuals.com/brands/alde.html): 2 models listed, manuals on request
+- [Aquaflame boiler manuals](https://boilermanuals.com/brands/aquaflame.html): 36 models listed, manuals on request
+- [ARCA boiler manuals](https://boilermanuals.com/brands/arca.html): 20 models listed, manuals on request
+- [Atlantic boiler manuals](https://boilermanuals.com/brands/atlantic.html): 9 models listed, manuals on request
+- [Beeston boiler manuals](https://boilermanuals.com/brands/beeston.html): 9 models listed, manuals on request
+- [Benson boiler manuals](https://boilermanuals.com/brands/benson.html): 4 models listed, manuals on request
+- [BoilerPlan boiler manuals](https://boilermanuals.com/brands/boilerplan.html): 2 models listed, manuals on request
+- [Charles Portway boiler manuals](https://boilermanuals.com/brands/portway.html): 6 models listed, manuals on request
+- [Clyde boiler manuals](https://boilermanuals.com/brands/clyde.html): 9 models listed, manuals on request
+- [Coopra boiler manuals](https://boilermanuals.com/brands/coopra.html): 4 models listed, manuals on request
+- [Cosmogas boiler manuals](https://boilermanuals.com/brands/cosmogas.html): 8 models listed, manuals on request
+- [DD Heating boiler manuals](https://boilermanuals.com/brands/dd-heating.html): 15 models listed, manuals on request
+- [De Dietrich boiler manuals](https://boilermanuals.com/brands/de-dietrich.html): 10 models listed, manuals on request
+- [Drugasar boiler manuals](https://boilermanuals.com/brands/drugasar.html): 1 model listed, manuals on request
+- [Econoflame boiler manuals](https://boilermanuals.com/brands/econoflame.html): 5 models listed, manuals on request
+- [EHS boiler manuals](https://boilermanuals.com/brands/ehs.html): 1 model listed, manuals on request
+- [Fagor boiler manuals](https://boilermanuals.com/brands/fagor.html): 14 models listed, manuals on request
+- [Fischer boiler manuals](https://boilermanuals.com/brands/fischer.html): 13 models listed, manuals on request
+- [Fontecal boiler manuals](https://boilermanuals.com/brands/fontecal.html): 11 models listed, manuals on request
+- [Gabarron boiler manuals](https://boilermanuals.com/brands/gabarron.html): 1 model listed, manuals on request
+- [GEM boiler manuals](https://boilermanuals.com/brands/gem.html): 29 models listed, manuals on request
+- [Gledhill boiler manuals](https://boilermanuals.com/brands/gledhill.html): 21 models listed, manuals on request
+- [Glotec boiler manuals](https://boilermanuals.com/brands/glotec.html): 2 models listed, manuals on request
+- [Heating World Group boiler manuals](https://boilermanuals.com/brands/heating-world-group.html): 68 models listed, manuals on request
+- [HEB boiler manuals](https://boilermanuals.com/brands/heb.html): 2 models listed, manuals on request
+- [Hoval boiler manuals](https://boilermanuals.com/brands/hoval.html): 5 models listed, manuals on request
+- [Husqvarna boiler manuals](https://boilermanuals.com/brands/husqvarna.html): 2 models listed, manuals on request
+- [Icon Heating boiler manuals](https://boilermanuals.com/brands/icon-heating.html): 4 models listed, manuals on request
+- [Ikon boiler manuals](https://boilermanuals.com/brands/ikon.html): 2 models listed, manuals on request
+- [iQE boiler manuals](https://boilermanuals.com/brands/iqe.html): 14 models listed, manuals on request
+- [IRSAP boiler manuals](https://boilermanuals.com/brands/irsap.html): 9 models listed, manuals on request
+- [Itho boiler manuals](https://boilermanuals.com/brands/itho.html): 4 models listed, manuals on request
+- [Kidd boiler manuals](https://boilermanuals.com/brands/kidd.html): 7 models listed, manuals on request
+- [Kinder boiler manuals](https://boilermanuals.com/brands/kinder.html): 1 model listed, manuals on request
+- [Kospel boiler manuals](https://boilermanuals.com/brands/kospel.html): 23 models listed, manuals on request
+- [Lamborghini boiler manuals](https://boilermanuals.com/brands/lamborghini.html): 13 models listed, manuals on request
+- [Lukey boiler manuals](https://boilermanuals.com/brands/lukey.html): 2 models listed, manuals on request
+- [Merlin boiler manuals](https://boilermanuals.com/brands/merlin.html): 16 models listed, manuals on request
+- [Mixergy boiler manuals](https://boilermanuals.com/brands/mixergy.html): 1 model listed, manuals on request
+- [Motan boiler manuals](https://boilermanuals.com/brands/motan.html): 3 models listed, manuals on request
+- [NST boiler manuals](https://boilermanuals.com/brands/nst.html): 9 models listed, manuals on request
+- [Nu-Way boiler manuals](https://boilermanuals.com/brands/nu-way.html): 1 model listed, manuals on request
+- [Oceanspa boiler manuals](https://boilermanuals.com/brands/oceanspa.html): 3 models listed, manuals on request
+- [Parkray boiler manuals](https://boilermanuals.com/brands/parkray.html): 4 models listed, manuals on request
+- [Perrymatics boiler manuals](https://boilermanuals.com/brands/perrymatics.html): 6 models listed, manuals on request
+- [Powermax boiler manuals](https://boilermanuals.com/brands/powermax.html): 5 models listed, manuals on request
+- [Powrmatic boiler manuals](https://boilermanuals.com/brands/powrmatic.html): 3 models listed, manuals on request
+- [Quantum boiler manuals](https://boilermanuals.com/brands/quantum.html): 7 models listed, manuals on request
+- [R H Ingham boiler manuals](https://boilermanuals.com/brands/rh-ingham.html): 8 models listed, manuals on request
+- [Rinnai boiler manuals](https://boilermanuals.com/brands/rinnai.html): 2 models listed, manuals on request
+- [Rotex boiler manuals](https://boilermanuals.com/brands/rotex.html): 32 models listed, manuals on request
+- [SARIgas boiler manuals](https://boilermanuals.com/brands/sarigas.html): 5 models listed, manuals on request
+- [Sile boiler manuals](https://boilermanuals.com/brands/sile.html): 21 models listed, manuals on request
+- [Slant/Fin boiler manuals](https://boilermanuals.com/brands/slantfin.html): 0 models listed, manuals on request
+- [Termet boiler manuals](https://boilermanuals.com/brands/termet.html): 11 models listed, manuals on request
+- [The White Boiler Company boiler manuals](https://boilermanuals.com/brands/white-boiler-company.html): 10 models listed, manuals on request
+- [Trisave boiler manuals](https://boilermanuals.com/brands/trisave.html): 9 models listed, manuals on request
+- [Turkington boiler manuals](https://boilermanuals.com/brands/turkington.html): 71 models listed, manuals on request
+- [Unical boiler manuals](https://boilermanuals.com/brands/unical.html): 23 models listed, manuals on request
+- [Utica boiler manuals](https://boilermanuals.com/brands/utica.html): 0 models listed, manuals on request
+- [Valor boiler manuals](https://boilermanuals.com/brands/valor.html): 1 model listed, manuals on request
+- [Viadrus boiler manuals](https://boilermanuals.com/brands/viadrus.html): 25 models listed, manuals on request
+- [Warmworld boiler manuals](https://boilermanuals.com/brands/warmworld.html): 9 models listed, manuals on request
+- [Wolf boiler manuals](https://boilermanuals.com/brands/wolf.html): 23 models listed, manuals on request
+- [Yorkpark boiler manuals](https://boilermanuals.com/brands/yorkpark.html): 7 models listed, manuals on request
+- [Danfoss heating controls manuals](https://boilermanuals.com/brands/danfoss.html): 12 guides for 11 products
+- [Drayton heating controls manuals](https://boilermanuals.com/brands/drayton.html): 10 guides for 20 products
+- [ESi heating controls manuals](https://boilermanuals.com/brands/esi.html): 16 guides for 9 products
+- [Google Nest heating controls manuals](https://boilermanuals.com/brands/google-nest.html): 3 guides for 3 products
+- [Hive heating controls manuals](https://boilermanuals.com/brands/hive.html): 8 guides for 5 products
+- [Honeywell heating controls manuals](https://boilermanuals.com/brands/honeywell.html): 29 guides for 19 products
+- [Salus heating controls manuals](https://boilermanuals.com/brands/salus.html): 7 guides for 7 products
+- [Tado heating controls manuals](https://boilermanuals.com/brands/tado.html): 3 guides for 3 products

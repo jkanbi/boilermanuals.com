@@ -22,8 +22,19 @@
       "parentOrganization": {
         "@type": "Organization",
         "name": "MyBoiler.com",
-        "url": "https://myboiler.com"
-      }
+        "url": "https://myboiler.com",
+        "@id": "https://myboiler.com/#organization"
+      },
+      "description": "Free library of UK boiler installation, servicing and user manuals, searchable by brand, model and GC number.",
+      "email": "manuals@myboiler.com",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "customer support",
+        "email": "manuals@myboiler.com",
+        "areaServed": "GB",
+        "availableLanguage": "en"
+      },
+      "areaServed": "GB"
     },
     {
       "@type": "WebSite",
@@ -40,7 +51,77 @@
           "urlTemplate": "https://boilermanuals.com/?q={search_term_string}"
         },
         "query-input": "required name=search_term_string"
-      }
+      },
+      "inLanguage": "en-GB",
+      "description": "Free UK boiler manuals by brand, model and GC number."
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://boilermanuals.com/#webpage",
+      "url": "https://boilermanuals.com/",
+      "name": "Free Boiler Manuals by Brand, Model & GC Number",
+      "isPartOf": {
+        "@id": "https://boilermanuals.com/#website"
+      },
+      "about": {
+        "@id": "https://boilermanuals.com/#organization"
+      },
+      "inLanguage": "en-GB",
+      "dateModified": "2026-10-17"
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://boilermanuals.com/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Are the boiler manuals free?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Every manual on BoilerManuals.com is free to view online, with no registration. Manuals are hosted on our own server (cdn.boilermanuals.com)."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I find the manual for my boiler?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Type your boiler’s brand, model name or GC number into the search box at the top of the home page, or open the brand page and search its table. Each model row shows its GC number, fuel and a View link when we hold a checked manual."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is a GC number and where do I find it?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The GC (Gas Council) number is a 7-digit code, written like 47-044-32, that identifies a UK gas boiler model and fuel. It is printed on the boiler’s data badge, usually under or behind the front cover, and in the user manual. Natural gas and LPG versions of the same boiler normally have different GC numbers. Oil and electric boilers do not have GC numbers, so search those by model name."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does one manual cover both natural gas and LPG?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sometimes. We only link a natural gas row and an LPG row to the same manual when the PDF itself lists both fuels or the LPG GC number."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What if my manual is not listed?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Use the Request manual link on the model’s row, or email manuals@myboiler.com with the brand, model and GC number. If a link looks wrong, use the Report link on that row."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I work on my gas boiler using these manuals?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The manuals are for reference. In the UK, work on a gas boiler must be carried out by an engineer on the Gas Safe Register; follow the safety instructions in the manual."
+          }
+        }
+      ]
     }
   ]
 }
@@ -56,6 +137,16 @@
     <script src="js/navbar.js?v=8"></script>
     <script src="js/config.js"></script>
     <script src="js/urlUtils.js"></script>
+    <style>
+        .bm-about-lib { margin: 2rem 0 0; }
+        .bm-about-lib p { max-width: 60rem; line-height: 1.6; }
+        .bm-faq { margin: 0.75rem 0 0; max-width: 60rem; }
+        .bm-faq__item { border-top: 1px solid #e2e8f0; padding: 0.6rem 0; }
+        .bm-faq__item:last-child { border-bottom: 1px solid #e2e8f0; }
+        .bm-faq__item summary { cursor: pointer; font-weight: 600; }
+        .bm-faq__item p { margin: 0.5rem 0 0.25rem; line-height: 1.6; }
+        .bm-updated { font-size: 0.85rem; opacity: 0.75; }
+    </style>
 </head>
 <body>
 <div id="container">
@@ -284,6 +375,21 @@
 		</div>
 		</div><!--flexcontainer -->
     </ul>
+    </section>
+
+    <section class="home-section bm-about-lib" aria-labelledby="bm-about-lib-title">
+        <h2 id="bm-about-lib-title" class="home-section__title">Free UK boiler manuals, checked against the model</h2>
+        <p>BoilerManuals.com lists 9,810 UK boiler models from 157 brands, each with its GC number where it has one, and links 5,682 of them to one of 1,942 installation, servicing and user manuals (PDF) that you can view online free. Before a manual is linked, we open the PDF and check it names the same model or GC number and the same fuel. Gas and oil boilers are listed from the official UK Product Characteristics Database (PCDB); 44.9% of the 7,238 PCDB boilers currently have a manual here. <a href="about.html">How we check manuals</a>.</p>
+        <h3>Common questions</h3>
+<div class="bm-faq">
+  <details class="bm-faq__item"><summary>Are the boiler manuals free?</summary><p>Yes. Every manual on BoilerManuals.com is free to view online, with no registration. Manuals are hosted on our own server (cdn.boilermanuals.com).</p></details>
+  <details class="bm-faq__item"><summary>How do I find the manual for my boiler?</summary><p>Type your boiler&rsquo;s brand, model name or GC number into the search box at the top of the home page, or open the brand page and search its table. Each model row shows its GC number, fuel and a View link when we hold a checked manual.</p></details>
+  <details class="bm-faq__item"><summary>What is a GC number and where do I find it?</summary><p>The GC (Gas Council) number is a 7-digit code, written like 47-044-32, that identifies a UK gas boiler model and fuel. It is printed on the boiler&rsquo;s data badge, usually under or behind the front cover, and in the user manual. Natural gas and LPG versions of the same boiler normally have different GC numbers. Oil and electric boilers do not have GC numbers, so search those by model name.</p></details>
+  <details class="bm-faq__item"><summary>Does one manual cover both natural gas and LPG?</summary><p>Sometimes. We only link a natural gas row and an LPG row to the same manual when the PDF itself lists both fuels or the LPG GC number.</p></details>
+  <details class="bm-faq__item"><summary>What if my manual is not listed?</summary><p>Use the Request manual link on the model&rsquo;s row, or email <a href="mailto:manuals@myboiler.com">manuals@myboiler.com</a> with the brand, model and GC number. If a link looks wrong, use the Report link on that row.</p></details>
+  <details class="bm-faq__item"><summary>Can I work on my gas boiler using these manuals?</summary><p>The manuals are for reference. In the UK, work on a gas boiler must be carried out by an engineer on the Gas Safe Register; follow the safety instructions in the manual.</p></details>
+</div>
+        <p class="bm-updated">Last updated <time datetime="2026-10-17">17 October 2026</time>.</p>
     </section>
     </div>
 

@@ -8,10 +8,10 @@
     <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
     <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
     <title>About BoilerManuals.com – Free UK Boiler Manuals</title>
-    <meta name="description" content="About BoilerManuals.com, a free library of UK boiler installation, servicing and user manuals, part of the MyBoiler.com family.">
+    <meta name="description" content="About BoilerManuals.com: a free UK boiler manual library run by the MyBoiler.com team. How we list models from the PCDB and check every manual against the model, GC number and fuel.">
     <link rel="canonical" href="https://boilermanuals.com/about.html">
     <meta property="og:title" content="About BoilerManuals.com – Free UK Boiler Manuals">
-    <meta property="og:description" content="About BoilerManuals.com, a free library of UK boiler installation, servicing and user manuals, part of the MyBoiler.com family.">
+    <meta property="og:description" content="About BoilerManuals.com: a free UK boiler manual library run by the MyBoiler.com team. How we list models from the PCDB and check every manual against the model, GC number and fuel.">
     <meta property="og:url" content="https://boilermanuals.com/about.html">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="BoilerManuals.com">
@@ -20,6 +20,97 @@
     <script src="js/navbar.js?v=8"></script>
     <script src="js/config.js"></script>
     <script src="js/urlUtils.js"></script>
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://boilermanuals.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "About",
+          "item": "https://boilermanuals.com/about.html"
+        }
+      ]
+    },
+    {
+      "@type": "AboutPage",
+      "@id": "https://boilermanuals.com/about.html#page",
+      "url": "https://boilermanuals.com/about.html",
+      "name": "About BoilerManuals.com",
+      "inLanguage": "en-GB",
+      "dateModified": "2026-10-17",
+      "isPartOf": {
+        "@id": "https://boilermanuals.com/#website"
+      },
+      "about": {
+        "@id": "https://boilermanuals.com/#organization"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://boilermanuals.com/#organization",
+      "name": "BoilerManuals.com",
+      "url": "https://boilermanuals.com/",
+      "logo": "https://boilermanuals.com/images/apple-touch-icon.png",
+      "email": "manuals@myboiler.com",
+      "parentOrganization": {
+        "@type": "Organization",
+        "@id": "https://myboiler.com/#organization",
+        "name": "MyBoiler.com",
+        "url": "https://myboiler.com"
+      }
+    },
+    {
+      "@type": "Dataset",
+      "@id": "https://boilermanuals.com/#dataset",
+      "name": "BoilerManuals.com UK boiler model and manual index",
+      "description": "Index of 9,810 UK boiler models with GC numbers, fuel type and links to 1,942 checked installation, servicing and user manuals (PDF). Gas and oil models are based on the SAP 10 PCDB (revision 599).",
+      "url": "https://boilermanuals.com/about.html",
+      "creator": {
+        "@id": "https://boilermanuals.com/#organization"
+      },
+      "isAccessibleForFree": true,
+      "inLanguage": "en-GB",
+      "spatialCoverage": "United Kingdom",
+      "dateModified": "2026-10-17",
+      "keywords": [
+        "boiler manuals",
+        "GC number",
+        "installation manual",
+        "servicing manual",
+        "user manual",
+        "PCDB"
+      ],
+      "distribution": [
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "text/markdown",
+          "contentUrl": "https://boilermanuals.com/llms-full.txt"
+        }
+      ]
+    }
+  ]
+}
+    </script>
+    <style>
+        .bm-about-lib { margin: 2rem 0 0; }
+        .bm-about-lib p { max-width: 60rem; line-height: 1.6; }
+        .bm-faq { margin: 0.75rem 0 0; max-width: 60rem; }
+        .bm-faq__item { border-top: 1px solid #e2e8f0; padding: 0.6rem 0; }
+        .bm-faq__item:last-child { border-bottom: 1px solid #e2e8f0; }
+        .bm-faq__item summary { cursor: pointer; font-weight: 600; }
+        .bm-faq__item p { margin: 0.5rem 0 0.25rem; line-height: 1.6; }
+        .bm-updated { font-size: 0.85rem; opacity: 0.75; }
+    </style>
     <!-- stats-css:start -->
     <style>
         .bm-stats { margin: 2rem 0 0; }
@@ -40,7 +131,7 @@
     <main class="contact-page">
         <button class="nav-button" type="button" onclick="goBack()">Go Back</button>
 
-        <h1 class="contact-page__title">About</h1>
+        <h1 class="contact-page__title">About BoilerManuals.com</h1>
 
         <p>
             This microsite was created to provide literature resources for boilers. Here you may find installation &amp; servicing manuals, user manuals and other technical documents. On this site, you will also find manuals for heating controls that are commonly used with boilers and also complete heating systems ie Drayton, Honeywell etc
@@ -86,6 +177,23 @@
             <p class="bm-stats__note">A boiler counts when its GC number or PCDB index is on a row that links a manual we host; brochures and spec sheets don&rsquo;t count. Electric boilers are not in the PCDB, so they are shown against the models we list and are not part of the PCDB figure. Heating controls are counted separately and are not included in the boiler totals. Data: SAP 10 PCDB revision 599, updated 30 September 2026.</p>
         </section>
         <!-- stats:end -->
+
+        <section class="bm-about-lib" aria-labelledby="bm-who">
+            <h2 id="bm-who">Who runs BoilerManuals.com</h2>
+            <p>BoilerManuals.com is run by the team behind <a href="https://myboiler.com/" rel="noopener">MyBoiler.com</a>, a UK home heating site. It is a free reference library, with no registration and no paywall. Questions and manual requests go to <a href="mailto:manuals@myboiler.com">manuals@myboiler.com</a>.</p>
+
+            <h2 id="bm-how">How we check manuals</h2>
+            <ul>
+                <li><strong>Every boiler we list:</strong> gas and oil boilers come from the UK Product Characteristics Database (PCDB, SAP 10), so the model names, fuels and GC numbers match the official register. Electric boilers and heating controls are not in the PCDB, so they are listed and counted separately.</li>
+                <li><strong>A manual is linked only after the PDF is checked:</strong> we open it and confirm it names the same model or GC number and the same fuel as the row. Anything we can&rsquo;t confirm stays unlinked and shows <em>Request manual</em>.</li>
+                <li><strong>Natural gas and LPG:</strong> one manual is linked to both fuels only when the PDF lists both, or shows the LPG GC number.</li>
+                <li><strong>Brochures are not manuals:</strong> brochures, spec sheets and price lists are never counted as manuals.</li>
+                <li><strong>Hosted by us:</strong> every manual is served from our own server (cdn.boilermanuals.com), so links don&rsquo;t break when a manufacturer changes its website. Each file is stored once and checked for duplicates before upload.</li>
+                <li><strong>Corrections:</strong> every row has a <em>Report</em> link. If a manual looks wrong, tell us and we&rsquo;ll recheck it.</li>
+            </ul>
+            <p>Manuals are provided for reference. In the UK, work on a gas boiler must be carried out by an engineer on the Gas Safe Register.</p>
+            <p class="bm-updated">Last updated <time datetime="2026-10-17">17 October 2026</time>.</p>
+        </section>
     </main>
 
     <footer class="site-footer">
