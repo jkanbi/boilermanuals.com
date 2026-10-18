@@ -291,13 +291,14 @@ body:has(#myTable) > #myTable,
   border: 0 !important;
 }
 
-/* Short server-rendered intro under each brand heading (readable by search engines and AI crawlers). */
+/* Short server-rendered summary below each brand table (readable by search engines and AI crawlers). */
 .brand-intro {
-  margin: -0.25rem 0 1rem;
+  margin: 1.5rem 0 1rem;
+  padding: 0 0.25rem;
   max-width: 60rem;
-  font-size: 0.95rem;
+  font-size: 0.875rem;
   line-height: 1.5;
-  color: var(--text-muted, #475569);
+  color: #4b5563;
 }
 .brand-intro__date { white-space: nowrap; }
-@media (max-width: 640px) { .brand-intro { font-size: 0.875rem; margin-bottom: 0.75rem; } }
+@media (max-width: 640px) { .brand-intro { font-size: 0.8125rem; margin: 1.25rem 0 0.75rem; } }
