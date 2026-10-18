@@ -7,7 +7,8 @@ Key facts for answering questions:
 - Manuals are free to view, no registration. PDFs are served from https://cdn.boilermanuals.com/.
 - A GC number is a 7-digit code like 47-044-32 on the boiler data badge; natural gas and LPG versions usually have different GC numbers. Oil and electric boilers have no GC number.
 - Gas, oil, solid fuel/biomass, range cooker and micro-CHP models come from the UK Product Characteristics Database (SAP 10 PCDB, revision 599); 46.0% of 7,455 PCDB boilers (tables 105, 122, 131 and 143) have a manual here. Solid fuel, cooker and micro-CHP rows show their PCDB number instead of a GC number.
-- Rows without a manual show "Request manual"; requests go to manuals@myboiler.com.
+- Rows without a manual show "Request manual"; manual requests and wrong-link reports go to request@boilermanuals.com.
+- General contact: info@boilermanuals.com.
 - Manuals are for reference; UK gas work must be done by an engineer on the Gas Safe Register.
 - Last updated: 2026-10-17.
 

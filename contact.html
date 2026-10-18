@@ -32,9 +32,19 @@
             </p>
             <p id="contactRequestDetail" class="contact-card__request" hidden></p>
             <p class="contact-card__email">
-                <a id="contactEmailLink" href="mailto:manuals@myboiler.com?subject=Manual%20request">manuals@myboiler.com</a>
+                <a id="contactEmailLink" href="mailto:request@boilermanuals.com?subject=Manual%20request">request@boilermanuals.com</a>
             </p>
             <p class="contact-card__hint">Please include as much detail as you can so we can help quickly.</p>
+        </div>
+
+        <div class="contact-card">
+            <h2 class="contact-card__heading">General enquiries</h2>
+            <p class="contact-card__text">
+                For anything else about BoilerManuals.com, email us here.
+            </p>
+            <p class="contact-card__email">
+                <a href="mailto:info@boilermanuals.com">info@boilermanuals.com</a>
+            </p>
         </div>
     </main>
 
@@ -121,7 +131,7 @@
             }
 
             link.href =
-                "mailto:manuals@myboiler.com?subject=" +
+                "mailto:request@boilermanuals.com?subject=" +
                 encodeURIComponent(subject) +
                 (body ? "&body=" + encodeURIComponent(body) : "");
         })();
