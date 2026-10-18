@@ -3116,15 +3116,15 @@ Brand page: https://boilermanuals.com/brands/firebird.html
 - Firebird S (White cased) 90-120, PCDB 009030, Oil | Oil | https://cdn.boilermanuals.com/firebird/firebird-s-range-installation-servicing-instructions-manual.pdf
 - Firebird S (White Cased) 90-120 System, PCDB 009995, Oil | Oil | https://cdn.boilermanuals.com/firebird/Firebird-System-50-70.pdf
 - Firebird Sealed System 70-90, PCDB 009121, Oil | Oil | https://cdn.boilermanuals.com/firebird/Firebird-System-50-70.pdf
-- Firebird Silver Boiilerhouse C20kW, PCDB 016626, Oil | Oil | https://cdn.boilermanuals.com/firebird/firebird-Envirolite-Boiler-Installation-Manual-May-19.pdf
-- Firebird Silver Boiilerhouse C35KW, PCDB 016628, Oil | Oil | https://cdn.boilermanuals.com/firebird/firebird-Envirolite-Boiler-Installation-Manual-May-19.pdf
-- Firebird Silver Boilerhouse C26kW, PCDB 016627, Oil | Oil | https://cdn.boilermanuals.com/firebird/firebird-Envirolite-Boiler-Installation-Manual-May-19.pdf
-- Firebird Silver Utility C20kW, PCDB 016623, Oil | Oil | https://cdn.boilermanuals.com/firebird/firebird-Envirolite-Boiler-Installation-Manual-May-19.pdf
-- Firebird Silver Utility C26kW, PCDB 016624, Oil | Oil | https://cdn.boilermanuals.com/firebird/firebird-Envirolite-Boiler-Installation-Manual-May-19.pdf
-- Firebird Silver Utility C35kW, PCDB 016625, Oil | Oil | https://cdn.boilermanuals.com/firebird/firebird-Envirolite-Boiler-Installation-Manual-May-19.pdf
-- Firebird Silverpac C20kW, PCDB 016629, Oil | Oil | https://cdn.boilermanuals.com/firebird/firebird-Envirolite-Boiler-Installation-Manual-May-19.pdf
-- Firebird Silverpac C26kW, PCDB 016630, Oil | Oil | https://cdn.boilermanuals.com/firebird/firebird-Envirolite-Boiler-Installation-Manual-May-19.pdf
-- Firebird Silverpac C35kW, PCDB 016631, Oil | Oil | https://cdn.boilermanuals.com/firebird/firebird-Envirolite-Boiler-Installation-Manual-May-19.pdf
+- Firebird Silver Boilerhouse C20kW, PCDB 016626, Oil | Oil | https://cdn.boilermanuals.com/firebird/Firebird-Silver-Condensing-Silverpac-Boilerhouse-Utility-Oil-Install.pdf
+- Firebird Silver Boilerhouse C35kW, PCDB 016628, Oil | Oil | https://cdn.boilermanuals.com/firebird/Firebird-Silver-Condensing-Silverpac-Boilerhouse-Utility-Oil-Install.pdf
+- Firebird Silver Boilerhouse C26kW, PCDB 016627, Oil | Oil | https://cdn.boilermanuals.com/firebird/Firebird-Silver-Condensing-Silverpac-Boilerhouse-Utility-Oil-Install.pdf
+- Firebird Silver Utility C20kW, PCDB 016623, Oil | Oil | https://cdn.boilermanuals.com/firebird/Firebird-Silver-Condensing-Silverpac-Boilerhouse-Utility-Oil-Install.pdf
+- Firebird Silver Utility C26kW, PCDB 016624, Oil | Oil | https://cdn.boilermanuals.com/firebird/Firebird-Silver-Condensing-Silverpac-Boilerhouse-Utility-Oil-Install.pdf
+- Firebird Silver Utility C35kW, PCDB 016625, Oil | Oil | https://cdn.boilermanuals.com/firebird/Firebird-Silver-Condensing-Silverpac-Boilerhouse-Utility-Oil-Install.pdf
+- Firebird Silverpac C20kW, PCDB 016629, Oil | Oil | https://cdn.boilermanuals.com/firebird/Firebird-Silver-Condensing-Silverpac-Boilerhouse-Utility-Oil-Install.pdf
+- Firebird Silverpac C26kW, PCDB 016630, Oil | Oil | https://cdn.boilermanuals.com/firebird/Firebird-Silver-Condensing-Silverpac-Boilerhouse-Utility-Oil-Install.pdf
+- Firebird Silverpac C35kW, PCDB 016631, Oil | Oil | https://cdn.boilermanuals.com/firebird/Firebird-Silver-Condensing-Silverpac-Boilerhouse-Utility-Oil-Install.pdf
 - Firebird Enviromax Systempac C12/20kW, PCDB 018175, Oil | Oil | https://cdn.boilermanuals.com/firebird/Firebird-Enviromax-System-Systempac-Slimline-Systempac-Oil-Install.pdf
 - Firebird Enviromax Combi C | no manual online yet
 - Firebird Enviromax Heatpac C | no manual online yet
@@ -10973,7 +10973,7 @@ Brand page: https://boilermanuals.com/brands/esi.html
 - ESi ESRTP4RF+ | https://cdn.boilermanuals.com/esi/esi-esrtp4rf-plus-UG.pdf https://cdn.boilermanuals.com/esi/esi-esrtp4rf-plus-IM.pdf
 - ESi ESRTP4 Touch | https://cdn.boilermanuals.com/esi/esi-esrtp4-touch-UG.pdf
 - ESi ESRTP5 | https://cdn.boilermanuals.com/esi/esi-esrtp5-UG.pdf https://cdn.boilermanuals.com/esi/esi-esrtp5-IM.pdf
-- ESi ESRTP5 WiFi | https://cdn.boilermanuals.com/esi/esi-esrtp5-wifi-UG.pdf https://cdn.boilermanuals.com/esi/esi-esrtp5-wifi-IM.pdf
+- ESi ESRTP5 WiFi | https://cdn.boilermanuals.com/esi/ESi-ESRTP5WIFI-5-Series-WiFi-Programmable-Room-Thermostat-User-Instructions.pdf https://cdn.boilermanuals.com/esi/ESi-ESRTP5WF-5-Series-WiFi-Programmable-Room-Thermostat-Installation-Instructions.pdf
 - ESi ESRTP6WHW | https://cdn.boilermanuals.com/esi/esi-esrtp6whw-UG.pdf https://cdn.boilermanuals.com/esi/esi-esrtp6whw-IM.pdf
 
 ## Google Nest heating controls
@@ -11186,7 +11186,7 @@ Brand page: https://boilermanuals.com/brands/salus.html
 - Salus RT520 | https://cdn.boilermanuals.com/salus/salus-rt520-IMUG.pdf
 - Salus RT520RF | https://cdn.boilermanuals.com/salus/salus-rt520rf-IMUG.pdf
 - Salus iT500 | https://cdn.boilermanuals.com/salus/salus-it500-IMUG.pdf
-- Salus ST620WBC | https://cdn.boilermanuals.com/salus/salus-st620wbc-IMUG.pdf
+- Salus ST620WBC | https://cdn.boilermanuals.com/salus/Salus-ST620WBC-Programmable-Thermostat-Plug-in-RF-Boiler-Control-Instruction-Manual.pdf
 
 ## Tado heating controls
 
