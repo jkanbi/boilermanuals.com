@@ -1,6 +1,6 @@
 # BoilerManuals.com full model index
 
-> Every boiler and heating control model listed on BoilerManuals.com, grouped by brand, with GC number (where it has one), fuel and the checked manual PDF. Generated 2026-10-17. Each line: model | GC number | fuel | manual PDF URL(s), or "no manual online yet (request: https://boilermanuals.com/contact.html)".
+> Every boiler and heating control model listed on BoilerManuals.com, grouped by brand, with GC number (where it has one), fuel and the checked manual PDF. Generated 2026-10-18. Each line: model | GC number | fuel | manual PDF URL(s), or "no manual online yet (request: https://boilermanuals.com/contact.html)".
 
 A manual is linked only after the PDF has been checked to name the same model or GC number and the same fuel. Manuals are for reference; UK gas work must be done by an engineer on the Gas Safe Register.
 
@@ -339,27 +339,27 @@ Brand page: https://boilermanuals.com/brands/alpha.html
 - Alpha 280E Alpha Combimax 600, PCDB 001692, Natural Gas | NG | no manual online yet
 - Alpha C23, PCDB 009803, Natural Gas | NG | no manual online yet
 - Alpha C27, PCDB 009802, Natural Gas | NG | no manual online yet
-- Alpha CB24, PCDB 008135, Natural Gas | NG | no manual online yet
-- Alpha CB24X, PCDB 008134, Natural Gas | NG | no manual online yet
-- Alpha CB28, PCDB 008138, Natural Gas | NG | no manual online yet
-- Alpha CB28X, PCDB 008380, Natural Gas | NG | no manual online yet
-- Alpha CB50, PCDB 009213, Natural Gas | NG | no manual online yet
+- Alpha CB24, PCDB 008135, Natural Gas | NG | https://cdn.boilermanuals.com/alpha/Alpha-CB-24-28-ISIM.pdf
+- Alpha CB24X, PCDB 008134, Natural Gas | NG | https://cdn.boilermanuals.com/alpha/Alpha-CB-24-28-ISIM.pdf
+- Alpha CB28, PCDB 008138, Natural Gas | NG | https://cdn.boilermanuals.com/alpha/Alpha-CB-24-28-ISIM.pdf
+- Alpha CB28X, PCDB 008380, Natural Gas | NG | https://cdn.boilermanuals.com/alpha/Alpha-CB-24-28-ISIM.pdf
+- Alpha CB50, PCDB 009213, Natural Gas | NG | https://cdn.boilermanuals.com/alpha/CB50.pdf
 - Alpha CD 25 C, PCDB 015272 / 015273, Natural Gas / LPG | NG/LPG | no manual online yet
 - Alpha CD 28 C, PCDB 015270 / 015271, Natural Gas / LPG | NG/LPG | no manual online yet
-- Alpha CD 50 S, PCDB 015898 / 015899, Natural Gas / LPG | NG/LPG | no manual online yet
-- Alpha CD 70 S, PCDB 015900 / 015901, Natural Gas / LPG | NG/LPG | no manual online yet
+- Alpha CD 50 S, PCDB 015898 / 015899, Natural Gas / LPG | NG/LPG | https://cdn.boilermanuals.com/alpha/Alpha-CD50S-CD70S-ISIM.pdf
+- Alpha CD 70 S, PCDB 015900 / 015901, Natural Gas / LPG | NG/LPG | https://cdn.boilermanuals.com/alpha/Alpha-CD50S-CD70S-ISIM.pdf
 - Alpha CD12S, PCDB 015616 / 015617, Natural Gas / LPG | NG/LPG | no manual online yet
-- Alpha CD13R, PCDB 015043 / 015048, Natural Gas / LPG | NG/LPG | no manual online yet
-- Alpha CD18R, PCDB 010504 / 010531, Natural Gas / LPG | NG/LPG | no manual online yet
+- Alpha CD13R, PCDB 015043 / 015048, Natural Gas / LPG | NG/LPG | https://cdn.boilermanuals.com/alpha/Alpha-cd-13r-18r-24r-ISIM.pdf
+- Alpha CD18R, PCDB 010504 / 010531, Natural Gas / LPG | NG/LPG | https://cdn.boilermanuals.com/alpha/Alpha-cd-13r-18r-24r-ISIM.pdf
 - Alpha CD18S, PCDB 010616 / 010617, Natural Gas / LPG | NG/LPG | no manual online yet
 - Alpha CD20S, PCDB 015612 / 015613, Natural Gas / LPG | NG/LPG | no manual online yet
 - Alpha CD24C, PCDB 009212 / 010639, Natural Gas / LPG | NG/LPG | no manual online yet
-- Alpha CD24R, PCDB 015049 / 015050, Natural Gas / LPG | NG/LPG | no manual online yet
+- Alpha CD24R, PCDB 015049 / 015050, Natural Gas / LPG | NG/LPG | https://cdn.boilermanuals.com/alpha/Alpha-cd-13r-18r-24r-ISIM.pdf
 - Alpha CD24S, PCDB 009211 / 010640, Natural Gas / LPG | NG/LPG | no manual online yet
 - Alpha CD25X, PCDB 015518 / 015519, Natural Gas / LPG | NG/LPG | no manual online yet
 - Alpha CD28S, PCDB 015614 / 015615, Natural Gas / LPG | NG/LPG | no manual online yet
 - Alpha CD28X, PCDB 015520 / 015521, Natural Gas / LPG | NG/LPG | no manual online yet
-- Alpha CD30S, PCDB 015046, Natural Gas | NG | no manual online yet
+- Alpha CD30S, PCDB 015046, Natural Gas | NG | https://cdn.boilermanuals.com/alpha/Alpha-cd-18s-24s-30s-ISIM.pdf
 - Alpha CD32C, PCDB 009955 / 010641, Natural Gas / LPG | NG/LPG | no manual online yet
 - Alpha CD50, PCDB 010093 / 010642, Natural Gas / LPG | NG/LPG | no manual online yet
 - Alpha Eco, PCDB 016903, Natural Gas | NG | no manual online yet
@@ -374,7 +374,7 @@ Brand page: https://boilermanuals.com/brands/alpha.html
 - Alpha Innovation E-Tec Plus NX 38, ID 3.033123, PCDB 019108, Natural Gas | NG | no manual online yet
 - Alpha Innovation Evoke NX 28, ID 3.033114, PCDB 019101, Natural Gas | NG | no manual online yet
 - Alpha Innovation Evoke NX 33, ID 3.033115, PCDB 019102, Natural Gas | NG | no manual online yet
-- Alpha InTec 50 CS, PCDB 017046 / 017047, Natural Gas / LPG | NG/LPG | no manual online yet
+- Alpha InTec 50 CS, PCDB 017046 / 017047, Natural Gas / LPG | NG/LPG | https://cdn.boilermanuals.com/alpha/InTec-50CS-Install-and-User-Inst-3-13.pdf
 - Alpha InTec2 25 X, PCDB 017383 / 017384, Natural Gas / LPG | NG/LPG | no manual online yet
 - Alpha InTec2 25XE, PCDB 017610 / 017611, Natural Gas / LPG | NG/LPG | no manual online yet
 - Alpha InTec2 28 X, PCDB 017385, LPG | LPG | no manual online yet
@@ -891,16 +891,16 @@ Brand page: https://boilermanuals.com/brands/atag.html
 - iS 40 LPG | GC 41-310-29 | LPG | https://cdn.boilermanuals.com/atag/Atag-iS.pdf
 - iR 12 | GC 41-310-30 | NG | no manual online yet
 - iR 12 LPG | GC 41-310-31 | LPG | no manual online yet
-- iR 15 | GC 41-310-32 | NG | no manual online yet
-- iR 15 LPG | GC 41-310-33 | LPG | no manual online yet
-- iR 18 | GC 41-310-34 | NG | no manual online yet
-- iR 18 LPG | GC 41-310-35 | LPG | no manual online yet
-- iR 24 | GC 41-310-36 | NG | no manual online yet
-- iR 24 LPG | GC 41-310-37 | LPG | no manual online yet
-- iR 32 | GC 41-310-38 | NG | no manual online yet
-- iR 32 LPG | GC 41-310-39 | LPG | no manual online yet
-- iR 40 | GC 41-310-40 | NG | no manual online yet
-- iR 40 LPG | GC 41-310-41 | LPG | no manual online yet
+- iR 15 | GC 41-310-32 | NG | https://cdn.boilermanuals.com/atag/ATAG-iR-15-18-24-32-40-NG-LPG-Installation-Servicing-2017.pdf
+- iR 15 LPG | GC 41-310-33 | LPG | https://cdn.boilermanuals.com/atag/ATAG-iR-15-18-24-32-40-NG-LPG-Installation-Servicing-2017.pdf
+- iR 18 | GC 41-310-34 | NG | https://cdn.boilermanuals.com/atag/ATAG-iR-15-18-24-32-40-NG-LPG-Installation-Servicing-2017.pdf
+- iR 18 LPG | GC 41-310-35 | LPG | https://cdn.boilermanuals.com/atag/ATAG-iR-15-18-24-32-40-NG-LPG-Installation-Servicing-2017.pdf
+- iR 24 | GC 41-310-36 | NG | https://cdn.boilermanuals.com/atag/ATAG-iR-15-18-24-32-40-NG-LPG-Installation-Servicing-2017.pdf
+- iR 24 LPG | GC 41-310-37 | LPG | https://cdn.boilermanuals.com/atag/ATAG-iR-15-18-24-32-40-NG-LPG-Installation-Servicing-2017.pdf
+- iR 32 | GC 41-310-38 | NG | https://cdn.boilermanuals.com/atag/ATAG-iR-15-18-24-32-40-NG-LPG-Installation-Servicing-2017.pdf
+- iR 32 LPG | GC 41-310-39 | LPG | https://cdn.boilermanuals.com/atag/ATAG-iR-15-18-24-32-40-NG-LPG-Installation-Servicing-2017.pdf
+- iR 40 | GC 41-310-40 | NG | https://cdn.boilermanuals.com/atag/ATAG-iR-15-18-24-32-40-NG-LPG-Installation-Servicing-2017.pdf
+- iR 40 LPG | GC 41-310-41 | LPG | https://cdn.boilermanuals.com/atag/ATAG-iR-15-18-24-32-40-NG-LPG-Installation-Servicing-2017.pdf
 - Atag i15S | GC 41-310-44 | NG | https://cdn.boilermanuals.com/atag/Atag-iS-Range-Boilers-Installation-Servicing-instructions-1018.pdf
 - Atag i18S | GC 41-310-45 | NG | https://cdn.boilermanuals.com/atag/Atag-iS-Range-Boilers-Installation-Servicing-instructions-1018.pdf
 - Atag i24S | GC 41-310-46 | NG | https://cdn.boilermanuals.com/atag/Atag-iS-Range-Boilers-Installation-Servicing-instructions-1018.pdf
@@ -962,12 +962,12 @@ Brand page: https://boilermanuals.com/brands/atag.html
 - Atag XL W 210 | https://cdn.boilermanuals.com/atag/atag-atag_XLW.pdf
 - ATAG IC Economiser Plus 35, PCDB 018322 / 018872, Natural Gas | NG | https://cdn.boilermanuals.com/atag/ATAG-Eire-iC.pdf
 - ATAG IC Economiser Plus 39, PCDB 018323 / 018873, Natural Gas | NG | https://cdn.boilermanuals.com/atag/ATAG-Eire-iC.pdf
-- ATAG A200S, PCDB 016165, Natural Gas | NG | no manual online yet
+- ATAG A200S, PCDB 016165, Natural Gas | NG | https://cdn.boilermanuals.com/atag/ATAG-A-Series-A200S-A320S-A203C-A325C-A325ECX-Installation-Servicing.pdf
 - ATAG A200S OV, PCDB 016166, Natural Gas | NG | no manual online yet
-- ATAG A203C, PCDB 016167, Natural Gas | NG | no manual online yet
-- ATAG A320S, PCDB 016169, Natural Gas | NG | no manual online yet
+- ATAG A203C, PCDB 016167, Natural Gas | NG | https://cdn.boilermanuals.com/atag/ATAG-A-Series-A200S-A320S-A203C-A325C-A325ECX-Installation-Servicing.pdf
+- ATAG A320S, PCDB 016169, Natural Gas | NG | https://cdn.boilermanuals.com/atag/ATAG-A-Series-A200S-A320S-A203C-A325C-A325ECX-Installation-Servicing.pdf
 - ATAG A320S X, PCDB 016349, Natural Gas | NG | no manual online yet
-- ATAG A325C, PCDB 016170, Natural Gas | NG | no manual online yet
+- ATAG A325C, PCDB 016170, Natural Gas | NG | https://cdn.boilermanuals.com/atag/ATAG-A-Series-A200S-A320S-A203C-A325C-A325ECX-Installation-Servicing.pdf
 - ATAG A325C X, PCDB 016348, Natural Gas | NG | no manual online yet
 - ATAG A325EC, PCDB 016171, Natural Gas | NG | no manual online yet
 - ATAG A325EC X, PCDB 016353 / 018863, Natural Gas | NG | no manual online yet
@@ -981,24 +981,24 @@ Brand page: https://boilermanuals.com/brands/atag.html
 - ATAG Blauwe Engel SHR 51 TL, PCDB 009664, Natural Gas | NG | no manual online yet
 - ATAG Blauwe Engel SHR 51T, PCDB 009625, Natural Gas | NG | no manual online yet
 - ATAG Blauwe Engel SHR 60, PCDB 009621, Natural Gas | NG | no manual online yet
-- ATAG E22C, PCDB 015279, Natural Gas | NG | no manual online yet
-- ATAG E22S, PCDB 015278, Natural Gas | NG | no manual online yet
-- ATAG E32C, PCDB 015277, Natural Gas | NG | no manual online yet
-- ATAG E32S, PCDB 015280, Natural Gas | NG | no manual online yet
+- ATAG E22C, PCDB 015279, Natural Gas | NG | https://cdn.boilermanuals.com/atag/3.pdf
+- ATAG E22S, PCDB 015278, Natural Gas | NG | https://cdn.boilermanuals.com/atag/3.pdf
+- ATAG E32C, PCDB 015277, Natural Gas | NG | https://cdn.boilermanuals.com/atag/3.pdf
+- ATAG E32S, PCDB 015280, Natural Gas | NG | https://cdn.boilermanuals.com/atag/3.pdf
 - ATAG IC Eonomiser 35 Plus, PCDB 018643, Natural Gas | NG | no manual online yet
 - ATAG Premier E-SHR 24, PCDB 009626, Natural Gas | NG | no manual online yet
 - ATAG Premier E-SHR 24T, PCDB 009622, Natural Gas | NG | no manual online yet
 - ATAG Premier E-SHR 35, PCDB 009618, Natural Gas | NG | no manual online yet
 - ATAG Premier E-SHR 35T, PCDB 009623, Natural Gas | NG | no manual online yet
 - ATAG Premier E-SHR15, PCDB 009651, Natural Gas | NG | no manual online yet
-- ATAG Q25C, PCDB 015035, Natural Gas | NG | no manual online yet
-- ATAG Q25S, PCDB 015038, Natural Gas | NG | no manual online yet
-- ATAG Q38C, PCDB 015036, Natural Gas | NG | no manual online yet
-- ATAG Q38S, PCDB 015039, Natural Gas | NG | no manual online yet
-- ATAG Q51C, PCDB 015037, Natural Gas | NG | no manual online yet
-- ATAG Q51S, PCDB 015040, Natural Gas | NG | no manual online yet
-- ATAG Q60S, PCDB 015041, Natural Gas | NG | no manual online yet
-- ATAG XL70, PCDB 016801, Natural Gas | NG | no manual online yet
+- ATAG Q25C, PCDB 015035, Natural Gas | NG | https://cdn.boilermanuals.com/atag/ATAG-Q-Series-Q25-Q38-Q51-Q60-Installation-Servicing-2006.pdf
+- ATAG Q25S, PCDB 015038, Natural Gas | NG | https://cdn.boilermanuals.com/atag/ATAG-Q-Series-Q25-Q38-Q51-Q60-Installation-Servicing-2006.pdf
+- ATAG Q38C, PCDB 015036, Natural Gas | NG | https://cdn.boilermanuals.com/atag/ATAG-Q-Series-Q25-Q38-Q51-Q60-Installation-Servicing-2006.pdf
+- ATAG Q38S, PCDB 015039, Natural Gas | NG | https://cdn.boilermanuals.com/atag/ATAG-Q-Series-Q25-Q38-Q51-Q60-Installation-Servicing-2006.pdf
+- ATAG Q51C, PCDB 015037, Natural Gas | NG | https://cdn.boilermanuals.com/atag/ATAG-Q-Series-Q25-Q38-Q51-Q60-Installation-Servicing-2006.pdf
+- ATAG Q51S, PCDB 015040, Natural Gas | NG | https://cdn.boilermanuals.com/atag/ATAG-Q-Series-Q25-Q38-Q51-Q60-Installation-Servicing-2006.pdf
+- ATAG Q60S, PCDB 015041, Natural Gas | NG | https://cdn.boilermanuals.com/atag/ATAG-Q-Series-Q25-Q38-Q51-Q60-Installation-Servicing-2006.pdf
+- ATAG XL70, PCDB 016801, Natural Gas | NG | https://cdn.boilermanuals.com/atag/atag-atag_XL.pdf
 
 ## Atlantic boilers
 
@@ -1583,11 +1583,11 @@ Brand page: https://boilermanuals.com/brands/baxi.html
 - Baxi Ecoblue Plus 24 Combi, GC 41-075-84, Natural Gas | NG | no manual online yet
 - Baxi Ecoblue Plus 33 Combi, GC 41-075-86, Natural Gas | NG | no manual online yet
 - Baxi Ecoblue33 Combi ErP, GC 47-077-13, Natural Gas | NG | no manual online yet
-- Baxi HEAT 212, GC 41-470-45, Natural Gas | NG | no manual online yet
-- Baxi HEAT 215, GC 41-470-46, Natural Gas | NG | no manual online yet
-- Baxi HEAT 218, GC 41-470-47, Natural Gas | NG | no manual online yet
-- Baxi HEAT 224, GC 41-470-48, Natural Gas | NG | no manual online yet
-- Baxi HEAT 230, GC 41-470-49, Natural Gas | NG | no manual online yet
+- Baxi HEAT 212, GC 41-470-45, Natural Gas | NG | https://cdn.boilermanuals.com/baxi/Baxi-Heat-212-215-218-224-230-Installation-Service-Manual.pdf
+- Baxi HEAT 215, GC 41-470-46, Natural Gas | NG | https://cdn.boilermanuals.com/baxi/Baxi-Heat-212-215-218-224-230-Installation-Service-Manual.pdf
+- Baxi HEAT 218, GC 41-470-47, Natural Gas | NG | https://cdn.boilermanuals.com/baxi/Baxi-Heat-212-215-218-224-230-Installation-Service-Manual.pdf
+- Baxi HEAT 224, GC 41-470-48, Natural Gas | NG | https://cdn.boilermanuals.com/baxi/Baxi-Heat-212-215-218-224-230-Installation-Service-Manual.pdf
+- Baxi HEAT 230, GC 41-470-49, Natural Gas | NG | https://cdn.boilermanuals.com/baxi/Baxi-Heat-212-215-218-224-230-Installation-Service-Manual.pdf
 - Baxi Heating Bermuda 551, GC 44-077-48, Natural Gas | NG | no manual online yet
 - Baxi Heating Boston 40 OF, GC 41-077-61, Natural Gas | NG | no manual online yet
 - Baxi Heating Boston 40 RS, GC 41-077-66, Natural Gas | NG | no manual online yet
@@ -1625,7 +1625,7 @@ Brand page: https://boilermanuals.com/brands/baxi.html
 - Baxi Heating FF50 from Potterton, PCDB 008350, Natural Gas | NG | no manual online yet
 - Baxi Heating FF60 from Potterton, PCDB 008351, Natural Gas | NG | no manual online yet
 - Baxi Heating FF80 from Potterton, PCDB 008352, Natural Gas | NG | no manual online yet
-- Baxi MainEco Heat 15, PCDB 017327, Natural Gas | NG | no manual online yet
+- Baxi MainEco Heat 15, PCDB 017327, Natural Gas | NG | https://cdn.boilermanuals.com/baxi/Baxi-MainEco-Heat-Erp-15-18-24-ISIM.pdf
 - Baxi MainEco Heat 18, PCDB 017328, Natural Gas | NG | no manual online yet
 - Baxi MainEco Heat 24, PCDB 017329, Natural Gas | NG | no manual online yet
 - Baxi Megaflo 15 System IE ErP, PCDB 017652, Natural Gas | NG | no manual online yet
@@ -1700,8 +1700,8 @@ Brand page: https://boilermanuals.com/brands/biasi.html
 - 24SR Riva - Servicing Manual | NG/LPG | https://cdn.boilermanuals.com/biasi/biasi-24s-28s-24sr-servicing-manual.pdf
 - M90.24SR Parva | NG/LPG | no manual online yet
 - M90.28SR Parva | NG/LPG | no manual online yet
-- M90D.24SR Riva Plus√¶ | NG/LPG | no manual online yet
-- M90D.28SR Riva Plus√¶ | NG/LPG | no manual online yet
+- M90D.24SR Riva Plus√¶ | NG/LPG | https://cdn.boilermanuals.com/biasi/Biasi-Riva-Plus-M90D-24S-28S-24SR-28SR-Service-Manual.pdf
+- M90D.28SR Riva Plus√¶ | NG/LPG | https://cdn.boilermanuals.com/biasi/Biasi-Riva-Plus-M90D-24S-28S-24SR-28SR-Service-Manual.pdf
 - M90F.24SR Garda | NG/LPG | https://cdn.boilermanuals.com/biasi/Biasi-Garda-M90F-24SR-28SR-24S-28S-32S-ISIM.pdf
 - M90F.28SR Garda | NG/LPG | https://cdn.boilermanuals.com/biasi/Biasi-Garda-M90F-24SR-28SR-24S-28S-32S-ISIM.pdf
 - M96.28SR/C Riva Compact HE√¶ | NG/LPG | no manual online yet
@@ -1721,8 +1721,8 @@ Brand page: https://boilermanuals.com/brands/biasi.html
 - Activ A 25C | NG/LPG | https://cdn.boilermanuals.com/biasi/Activ-A.pdf
 - Activ A 30C | NG/LPG | https://cdn.boilermanuals.com/biasi/Activ-A.pdf
 - Activ A 35C | NG/LPG | https://cdn.boilermanuals.com/biasi/Activ-A.pdf
-- Riva Plus HE M296.24SM/C | NG/LPG | no manual online yet
-- Riva Plus HE M296.28SM/C | NG/LPG | no manual online yet
+- Riva Plus HE M296.24SM/C | NG/LPG | https://cdn.boilermanuals.com/biasi/Biasi-Riva-Plus-HE-M296-24SM-28SM-C-User-Installation.pdf
+- Riva Plus HE M296.28SM/C | NG/LPG | https://cdn.boilermanuals.com/biasi/Biasi-Riva-Plus-HE-M296-24SM-28SM-C-User-Installation.pdf
 - Activ A Plus 30C | NG/LPG | https://cdn.boilermanuals.com/biasi/biasi-activ-a-plus-16s-25s-30c-35c-servicing-manual.pdf
 - Activ A Plus 35C | NG/LPG | https://cdn.boilermanuals.com/biasi/biasi-activ-a-plus-16s-25s-30c-35c-servicing-manual.pdf
 - Activ A Plus 25C | NG/LPG | https://cdn.boilermanuals.com/biasi/biasi-activ-a-plus-16s-25s-30c-35c-servicing-manual.pdf
@@ -1756,7 +1756,7 @@ Brand page: https://boilermanuals.com/brands/biasi.html
 - M90E.28S Riva Compact√¶ | NG/LPG | https://cdn.boilermanuals.com/biasi/biasi-riva-compact-m90e-24s-28s-32s-installation-servicing-instructions-manual.pdf
 - M90F.24S Garda | NG/LPG | https://cdn.boilermanuals.com/biasi/Biasi-Garda-M90F-24SR-28SR-24S-28S-32S-ISIM.pdf
 - M90F.28S Garda | NG/LPG | https://cdn.boilermanuals.com/biasi/Biasi-Garda-M90F-24SR-28SR-24S-28S-32S-ISIM.pdf
-- M90E.32S Riva Compact√¶ | NG | no manual online yet
+- M90E.32S Riva Compact√¶ | NG | https://cdn.boilermanuals.com/biasi/Biasi-Riva-Compact-M90E-24S-28S-32S-Service-Manual.pdf
 - M90F.32S Garda | NG/LPG | https://cdn.boilermanuals.com/biasi/Biasi-Garda-M90F-24SR-28SR-24S-28S-32S-ISIM.pdf
 - M96.24SM/C Riva Compact HE√¶ | NG/LPG | https://cdn.boilermanuals.com/biasi/biasi-compact-he-m96-24sm-28sm-32sm-c2-installation-servicing-instructions-manual.pdf
 - M96.28SM/C Riva Compact HE√¶ | NG/LPG | no manual online yet
@@ -2251,7 +2251,7 @@ Brand page: https://boilermanuals.com/brands/chaffoteaux.html
 - Chaffoteaux Britony FF | GC 52-980-16 | NG | no manual online yet
 - Chaffoteaux Britony 2.T or II.T NG | GC 52-980-18 | NG | https://cdn.boilermanuals.com/chaffoteaux/Chaffoteaux-Brittony-2T-II-T-ISIM.pdf
 - Chaffoteaux Britony 2 FF | GC 52-980-21 | NG | https://cdn.boilermanuals.com/chaffoteaux/Chaffoteaux-Britony-II-FF-Installation-Servicing.pdf
-- Chaffoteaux Britony Flexiflue | GC 52-980-22 | NG | no manual online yet
+- Chaffoteaux Britony Flexiflue | GC 52-980-22 | NG | https://cdn.boilermanuals.com/chaffoteaux/Chaffoteaux-Britony-FlexiFlue-Installation-Servicing.pdf
 - Chaffoteaux Britony 2.T or II.T [LPG] | GC 52-980-23 | LPG | https://cdn.boilermanuals.com/chaffoteaux/Chaffoteaux-Brittony-2T-II-T-ISIM.pdf
 - Chaffoteaux Britony SX 14 FF | GC 52-980-25 | NG/LPG | https://cdn.boilermanuals.com/chaffoteaux/Chaffoteaux-britony-sx-14-ff-ISIM.pdf
 - Chaffoteaux Duo 120 | GC 97-980-01 | None | no manual online yet
@@ -2943,13 +2943,13 @@ Brand page: https://boilermanuals.com/brands/ferroli.html
 - Ferroli Arena 30 A Mk2, PCDB 008426, Natural Gas | NG | no manual online yet
 - Ferroli Arena 30 C Mk2, PCDB 008427, Natural Gas | NG | no manual online yet
 - Ferroli DOMIcondens HE 26C, PCDB 016648 / 016649, Natural Gas / LPG | NG/LPG | no manual online yet
-- Ferroli F 24 B, PCDB 010435, Natural Gas | NG | no manual online yet
-- Ferroli F 24 B LPG, PCDB 010439, LPG | LPG | no manual online yet
-- Ferroli F 30 B, PCDB 010434, Natural Gas | NG | no manual online yet
-- Ferroli F 30 B LPG, PCDB 010438, LPG | LPG | no manual online yet
+- Ferroli F 24 B, PCDB 010435, Natural Gas | NG | https://cdn.boilermanuals.com/ferroli/ferroli-f24b-installation-servicing-instructions-manual.pdf
+- Ferroli F 24 B LPG, PCDB 010439, LPG | LPG | https://cdn.boilermanuals.com/ferroli/ferroli-f24b-installation-servicing-instructions-manual.pdf
+- Ferroli F 30 B, PCDB 010434, Natural Gas | NG | https://cdn.boilermanuals.com/ferroli/ferroli-f-30-b-installation-servicing-instructions-manual.pdf
+- Ferroli F 30 B LPG, PCDB 010438, LPG | LPG | https://cdn.boilermanuals.com/ferroli/ferroli-f-30-b-installation-servicing-instructions-manual.pdf
 - Ferroli Hawk II Hawk II, PCDB 000489, Natural Gas | NG | no manual online yet
-- Ferroli Maxima 35C, PCDB 009722, Natural Gas | NG | no manual online yet
-- Ferroli Maxima 35S, PCDB 009981, Natural Gas | NG | no manual online yet
+- Ferroli Maxima 35C, PCDB 009722, Natural Gas | NG | https://cdn.boilermanuals.com/ferroli/Ferroli-Maxima-35C-Installation-Maintenance-2005.pdf
+- Ferroli Maxima 35S, PCDB 009981, Natural Gas | NG | https://cdn.boilermanuals.com/ferroli/maXima35SManual.pdf
 - Ferroli Modena 25C HE, PCDB 016943, Natural Gas | NG | no manual online yet
 - Ferroli Modena 30C HE, PCDB 016945, Natural Gas | NG | no manual online yet
 - Ferroli Optima 1000, PCDB 004185, Natural Gas | NG | no manual online yet
@@ -5607,7 +5607,7 @@ Brand page: https://boilermanuals.com/brands/ideal.html
 - Ideal Concord CXS 40/H, ID PI No. 87AQ103, PCDB 008906, Natural Gas | NG | https://cdn.boilermanuals.com/ideal/Ideal-Concord-CXS-40-H-ISIM.pdf
 - Ideal Concord CXSD 40/H, ID PI No. 87AQ103, PCDB 008915, Natural Gas | NG | https://cdn.boilermanuals.com/ideal/Ideal-Concord-CXSD-40-H-ISIM.pdf
 - Ideal Response SE, GC 47-348-03, Natural Gas | NG | https://cdn.boilermanuals.com/ideal/ideal-response-se-ISIM.pdf
-- Ideal Vulcan Continental | GC 41-349-18 | no manual online yet
+- Ideal Vulcan Continental | GC 41-349-18 | https://cdn.boilermanuals.com/ideal/Ideal-Vulcan-Continental-Installation-Servicing-1977.pdf
 - Caradon Ideal Mexico Slimline 2 cf40, GC 41-421-08, Natural Gas | NG | no manual online yet
 - Caradon Ideal Mexico Slimline 2 cf55, GC 41-421-09, Natural Gas | NG | no manual online yet
 - Caradon Ideal Mexico Slimline 2 rs40, GC 41-421-10, Natural Gas | NG | no manual online yet
@@ -5899,7 +5899,7 @@ Brand page: https://boilermanuals.com/brands/johnson-starley.html
 - Johnson & Starley QuanTec 16R, PCDB 017048, Natural Gas | NG | no manual online yet
 - Johnson & Starley QuanTec 24R, PCDB 017049, Natural Gas | NG | no manual online yet
 - Johnson & Starley RenoXtra 30 CP, PCDB 015835, LPG | LPG | no manual online yet
-- Johnson & Starley RenoXtra 30C, PCDB 015838, Natural Gas | NG | no manual online yet
+- Johnson & Starley RenoXtra 30C, PCDB 015838, Natural Gas | NG | https://cdn.boilermanuals.com/johnson-starley/Johnson-Starley-RenoXtra-30C-37C-Installation-Servicing-2008.pdf
 - Johnson & Starley RenoXtra 37 CP, PCDB 015836, LPG | LPG | no manual online yet
 
 ## Junkers Bosch boilers
@@ -7468,7 +7468,7 @@ Brand page: https://boilermanuals.com/brands/potterton.html
 - Potterton International Heating KOA 60/18 SN, PCDB 000714, Oil | Oil | no manual online yet
 - Potterton International Heating KOA 75/22 SN, PCDB 000715, Oil | Oil | no manual online yet
 - Potterton International Heating KOA 90/26 SN, PCDB 000716, Oil | Oil | no manual online yet
-- Potterton Kingfisher MF RSL50, PCDB 008566, Natural Gas | NG | no manual online yet
+- Potterton Kingfisher MF RSL50, PCDB 008566, Natural Gas | NG | https://cdn.boilermanuals.com/potterton/POTTERTON-Kingfishe-MF-RSL.pdf
 - Potterton Myson British Gas 30F2, PCDB 001973, Natural Gas | NG | no manual online yet
 - Potterton Myson British Gas 40F2, PCDB 001974, Natural Gas | NG | no manual online yet
 - Potterton Myson British Gas 50F2, PCDB 001975, Natural Gas | NG | no manual online yet
@@ -7784,7 +7784,7 @@ Brand page: https://boilermanuals.com/brands/ravenheat.html
 - Ravenheat CSI 85 AAAT, PCDB 015188 / 015189, Natural Gas / LPG | NG/LPG | no manual online yet
 - Ravenheat CSI Primary 150 Low Nox, PCDB 015391 / 015392, Natural Gas / LPG | NG/LPG | no manual online yet
 - Ravenheat CSI Primary A, PCDB 009409 / 009414, Natural Gas / LPG | NG/LPG | no manual online yet
-- Ravenheat CSI Primary AAA, PCDB 015172 / 015173, Natural Gas / LPG | NG/LPG | no manual online yet
+- Ravenheat CSI Primary AAA, PCDB 015172 / 015173, Natural Gas / LPG | NG/LPG | https://cdn.boilermanuals.com/ravenheat/Ravenheat-CSI-Primary-AAA-47-581-05.pdf
 - Ravenheat CSI primary Low Nox Natural Gas, PCDB 010361, Natural Gas | NG | no manual online yet
 - Ravenheat CSI System, GC 41-581-01, Natural Gas | NG | no manual online yet
 - Ravenheat CSI System, GC 41-581-03, LPG | LPG | no manual online yet
@@ -7795,7 +7795,7 @@ Brand page: https://boilermanuals.com/brands/ravenheat.html
 - Ravenheat CSI system Low Nox Natural Gas, PCDB 010360, Natural Gas | NG | no manual online yet
 - Ravenheat CSI System T, GC 51-581-02, Natural Gas | NG | no manual online yet
 - Ravenheat CSI systemT Low Nox Timeclock Natural Gas, PCDB 010359, Natural Gas | NG | no manual online yet
-- Ravenheat HE 30 S Compact, PCDB 018470, Natural Gas | NG | no manual online yet
+- Ravenheat HE 30 S Compact, PCDB 018470, Natural Gas | NG | https://cdn.boilermanuals.com/ravenheat/ravenheat-compact-he-25s-30s-installation-servicing-instructions-manual.pdf
 - Ravenheat HE 80(T) Natural Gas, PCDB 017543, Natural Gas | NG | no manual online yet
 - Ravenheat HE 85 A, PCDB 009756, Natural Gas | NG | no manual online yet
 - Ravenheat HE 85 A LPG, PCDB 009755, LPG | LPG | no manual online yet
@@ -7805,7 +7805,7 @@ Brand page: https://boilermanuals.com/brands/ravenheat.html
 - Ravenheat HE 85A T LPG, PCDB 009753, LPG | LPG | no manual online yet
 - Ravenheat HE 90(T) Natural gas, PCDB 017544, Natural Gas | NG | no manual online yet
 - Ravenheat HE 98 (T), PCDB 018160, Natural Gas | NG | no manual online yet
-- Ravenheat HE 98 S, PCDB 018471, Natural Gas | NG | no manual online yet
+- Ravenheat HE 98 S, PCDB 018471, Natural Gas | NG | https://cdn.boilermanuals.com/ravenheat/ravenheat-HE80-98S-manual-min.pdf
 - Ravenheat HE Primary A, PCDB 009758, Natural Gas | NG | no manual online yet
 - Ravenheat HE Primary A LPG, PCDB 009757, LPG | LPG | no manual online yet
 - Ravenheat HE System A, PCDB 009760, Natural Gas | NG | no manual online yet
@@ -8084,8 +8084,8 @@ Brand page: https://boilermanuals.com/brands/saunier-duval.html
 - Saunier Duval Ecosy SB24E | None | https://cdn.boilermanuals.com/saunier-duval/installationEcosy24eSB24e28eSB28e.pdf
 - Saunier Duval Ecosy SB28E | None | https://cdn.boilermanuals.com/saunier-duval/installationEcosy24eSB24e28eSB28e.pdf
 - Saunier Duval Isofast Condens F35E | NG/LPG | https://cdn.boilermanuals.com/saunier-duval/installationisofastcondensF35e.pdf
-- Saunier Duval Isofast F28E | None | no manual online yet
-- Saunier Duval Isofast F35E | None | no manual online yet
+- Saunier Duval Isofast F28E | None | https://cdn.boilermanuals.com/saunier-duval/Saunier-Duval-Isofast-F28E-F35E-Installation-Operating.pdf
+- Saunier Duval Isofast F35E | None | https://cdn.boilermanuals.com/saunier-duval/Saunier-Duval-Isofast-F28E-F35E-Installation-Operating.pdf
 - Saunier Duval Isomax | None | https://cdn.boilermanuals.com/saunier-duval/saunier-duval-installation_IsomaxF28e.pdf
 - Saunier Duval Opalia X13 | None | no manual online yet
 - Saunier Duval Opalis 5 + 6 | None | https://cdn.boilermanuals.com/saunier-duval/saunier-duval-installation_Opalis56.pdf
@@ -8105,8 +8105,8 @@ Brand page: https://boilermanuals.com/brands/saunier-duval.html
 - Saunier Duval Thema Condens F18E SB | None | https://cdn.boilermanuals.com/saunier-duval/Saunier-Duval-thema-condens-f-18-24-30-e-ISIM.pdf
 - Saunier Duval Thema Condens F24E | None | https://cdn.boilermanuals.com/saunier-duval/Saunier-Duval-thema-condens-f-18-24-30-e-ISIM.pdf
 - Saunier Duval Thema Condens F30E | None | https://cdn.boilermanuals.com/saunier-duval/Saunier-Duval-thema-condens-f-18-24-30-e-ISIM.pdf
-- Saunier Duval Thema F SB 18E | None | no manual online yet
-- Saunier Duval Thema F SB 23E | None | no manual online yet
+- Saunier Duval Thema F SB 18E | None | https://cdn.boilermanuals.com/saunier-duval/Saunier-Duval-Thema-F-23E-SB-18E-SB-23E-Installation-Servicing.pdf
+- Saunier Duval Thema F SB 23E | None | https://cdn.boilermanuals.com/saunier-duval/Saunier-Duval-Thema-F-23E-SB-18E-SB-23E-Installation-Servicing.pdf
 - Saunier Duval Thema F23E | None | https://cdn.boilermanuals.com/saunier-duval/saunier-duval-installation_ThemaF23e-SBF23e.pdf
 - Saunier Duval Xeon 30 ff | None | https://cdn.boilermanuals.com/saunier-duval/Saunier-Duval-Xeon-30FF-4192039.pdf
 - Saunier Duval Xeon 40 ff | None | https://cdn.boilermanuals.com/saunier-duval/Saunier-Duval-installation-Xeon40ff.pdf
@@ -8148,13 +8148,13 @@ Brand page: https://boilermanuals.com/brands/saunier-duval.html
 - Saunier Duval System 400 65, GC 41-920-20, Natural Gas | NG | no manual online yet
 - Saunier Duval System 400 80, GC 41-920-21, Natural Gas | NG | no manual online yet
 - Saunier Duval Xeon 40ff, GC 41-920-40, Natural Gas | NG | no manual online yet
-- Saunier Duval Xeon 50ff, GC 41-920-41, Natural Gas | NG | no manual online yet
+- Saunier Duval Xeon 50ff, GC 41-920-41, Natural Gas | NG | https://cdn.boilermanuals.com/saunier-duval/Saunier-Duval-Xeon-50ff-Installation-Servicing.pdf
 - Saunier Duval Xeon 80 ff, GC 41-920-43, Natural Gas | NG | no manual online yet
 - Saunier Duval 50ff/LP, PCDB 004116, LPG | LPG | no manual online yet
 - Saunier Duval Sd 235C, PCDB 000754, Natural Gas | NG | no manual online yet
 - Saunier Duval SD Isotwin Condens F35 E, PCDB 010449, LPG | LPG | no manual online yet
-- Saunier Duval Semia Condens F24E, PCDB 010590, Natural Gas | NG | no manual online yet
-- Saunier Duval Semia Condens F30E, PCDB 010589, Natural Gas | NG | no manual online yet
+- Saunier Duval Semia Condens F24E, PCDB 010590, Natural Gas | NG | https://cdn.boilermanuals.com/saunier-duval/saunier-duval-semia-condens-f24-f30-e-installation-servicing-instructions-manual.pdf
+- Saunier Duval Semia Condens F30E, PCDB 010589, Natural Gas | NG | https://cdn.boilermanuals.com/saunier-duval/saunier-duval-semia-condens-f24-f30-e-installation-servicing-instructions-manual.pdf
 - Saunier Duval Thelia Twin 28e, PCDB 000757, Natural Gas | NG | no manual online yet
 - Saunier Duval Themis 23, PCDB 000753, Natural Gas | NG | no manual online yet
 - Saunier Duval Xeon 30ff/LP, PCDB 004112, LPG | LPG | no manual online yet
@@ -9908,8 +9908,8 @@ Brand page: https://boilermanuals.com/brands/vokera.html
 - Vokera BY RIELLO evolve 24S, ID 20127448, PCDB 018253, Natural Gas | NG | no manual online yet
 - Vokera BY RIELLO evolve 30s, ID 20131081, PCDB 018320, Natural Gas | NG | no manual online yet
 - Vokera BY RIELLO evolve 35s, ID 20131082, PCDB 018327, Natural Gas | NG | no manual online yet
-- Vokera Compact 24 LPG, PCDB 009550, LPG | LPG | no manual online yet
-- Vokera Compact 28 LPG, PCDB 009551, LPG | LPG | no manual online yet
+- Vokera Compact 24 LPG, PCDB 009550, LPG | LPG | https://cdn.boilermanuals.com/vokera/vokera-compact-se-installation-and-servicing-manual.pdf
+- Vokera Compact 28 LPG, PCDB 009551, LPG | LPG | https://cdn.boilermanuals.com/vokera/vokera-compact-se-installation-and-servicing-manual.pdf
 - Vokera Compact 35 HE, PCDB 015067, Natural Gas | NG | no manual online yet
 - Vokera Eclipse ESC 226, PCDB 008697, Natural Gas | NG | no manual online yet
 - Vokera Mynute 25EHE, PCDB 016152, Natural Gas | NG | no manual online yet
