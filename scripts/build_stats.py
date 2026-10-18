@@ -10,7 +10,7 @@ import argparse, csv, html, json, os, re, urllib.parse, urllib.request
 from pathlib import Path
 
 CDN = 'https://cdn.boilermanuals.com/'
-CONTROLS = {'danfoss', 'esi', 'google-nest', 'hive', 'salus', 'tado', 'drayton', 'honeywell'}
+CONTROLS = {'danfoss', 'esi', 'google-nest', 'hive', 'salus', 'tado', 'drayton', 'honeywell', 'heatmiser'}
 ELECTRIC_PAGES = {'amptec', 'ehc', 'fischer', 'strom', 'thermaflow', 'elnur', 'kospel'}
 ELECTRIC_WORDS = re.compile(r'\b(electromax|amptec|electramate|eloblock|e-?tech [wsp]|electric (boiler|combi|flow boiler|system|storage combi))\b|,\s*Electric$', re.I)
 NON_ELECTRIC_FUEL = re.compile(r'^\s*(ng|lpg|oil|hvo|natural gas|gas|ng/lpg)\b', re.I)

@@ -8,7 +8,7 @@
   "records": 7238,
   "other_fuel_records": 0
  },
- "manuals_total": 2053,
+ "manuals_total": 2207,
  "models": {
   "listed": 10017,
   "with_manual": 5952,
@@ -71,16 +71,17 @@
   "note": "not in PCDB; share of the electric models we list, not part of the PCDB overall figure"
  },
  "controls": {
-  "models_listed": 79,
-  "models_with_manual": 79,
-  "pct": 100.0,
-  "files": 90,
+  "models_listed": 232,
+  "models_with_manual": 229,
+  "pct": 98.7,
+  "files": 244,
   "listed_on_boiler_pages": 2,
   "pages": [
    "danfoss",
    "drayton",
    "esi",
    "google-nest",
+   "heatmiser",
    "hive",
    "honeywell",
    "salus",

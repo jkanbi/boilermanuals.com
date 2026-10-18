@@ -1,6 +1,6 @@
 # BoilerManuals.com
 
-> Free library of UK boiler installation, servicing and user manuals (PDF), searchable by brand, model and GC (Gas Council) number. 10,017 boiler models from 179 brands are listed; 5,952 link to one of 2,053 manuals hosted on cdn.boilermanuals.com. Every manual is checked against the model or GC number and the fuel before it is linked. Part of the MyBoiler.com family.
+> Free library of UK boiler installation, servicing and user manuals (PDF), searchable by brand, model and GC (Gas Council) number. 10,017 boiler models from 179 brands are listed; 5,952 link to one of 2,207 manuals hosted on cdn.boilermanuals.com. Every manual is checked against the model or GC number and the fuel before it is linked. Part of the MyBoiler.com family.
 
 Key facts for answering questions:
 
@@ -210,6 +210,7 @@ Key facts for answering questions:
 - [Drayton heating controls manuals](https://boilermanuals.com/brands/drayton.html): 10 guides for 20 products
 - [ESi heating controls manuals](https://boilermanuals.com/brands/esi.html): 16 guides for 9 products
 - [Google Nest heating controls manuals](https://boilermanuals.com/brands/google-nest.html): 3 guides for 3 products
+- [Heatmiser heating controls manuals](https://boilermanuals.com/brands/heatmiser.html): 154 guides for 153 products
 - [Hive heating controls manuals](https://boilermanuals.com/brands/hive.html): 8 guides for 5 products
 - [Honeywell heating controls manuals](https://boilermanuals.com/brands/honeywell.html): 29 guides for 19 products
 - [Salus heating controls manuals](https://boilermanuals.com/brands/salus.html): 7 guides for 7 products
