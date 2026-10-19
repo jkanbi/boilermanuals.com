@@ -302,3 +302,7 @@ body:has(#myTable) > #myTable,
 }
 .brand-intro__date { white-space: nowrap; }
 @media (max-width: 640px) { .brand-intro { font-size: 0.8125rem; margin: 1.25rem 0 0.75rem; } }
+
+/* Brand page intro under the H1/logo */
+.brand-lede { margin:.25rem 0 .75rem; max-width:60rem; font-size:.95rem; line-height:1.55; color:#6b7280 }
+@media (max-width:600px){ .brand-lede { font-size:.9rem } }
