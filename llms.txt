@@ -97,7 +97,7 @@ Key facts for answering questions:
 - [Remeha boiler manuals](https://boilermanuals.com/brands/remeha.html): 24 manuals covering 44 of 56 models
 - [Riello boiler manuals](https://boilermanuals.com/brands/riello.html): 1 manual covering 8 of 8 models
 - [ROC boiler manuals](https://boilermanuals.com/brands/roc.html): 3 manuals covering 6 of 9 models
-- [Sabre boiler manuals](https://boilermanuals.com/brands/sabre.html): 2 manuals covering 5 of 16 models
+- [Sabre boiler manuals](https://boilermanuals.com/brands/sabre.html): 3 manuals covering 7 of 16 models
 - [Saunier Duval boiler manuals](https://boilermanuals.com/brands/saunier-duval.html): 31 manuals covering 66 of 123 models
 - [Savio boiler manuals](https://boilermanuals.com/brands/savio.html): 1 manual covering 3 of 3 models
 - [Servowarm boiler manuals](https://boilermanuals.com/brands/servowarm.html): 5 manuals covering 9 of 18 models

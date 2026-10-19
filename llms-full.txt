@@ -8012,16 +8012,16 @@ Brand page: https://boilermanuals.com/brands/rotex.html
 
 Brand page: https://boilermanuals.com/brands/sabre.html
 
-- Sabre 25 HE | https://cdn.boilermanuals.com/sabre/Sabre-HE-25-29-35-ISIM.pdf
-- Sabre 29 HE | https://cdn.boilermanuals.com/sabre/Sabre-HE-25-29-35-ISIM.pdf
-- Sabre 35 HE | https://cdn.boilermanuals.com/sabre/Sabre-HE-25-29-35-ISIM.pdf
+- Sabre 25 HE | https://cdn.boilermanuals.com/sabre/Sabre-HE-25-29-35-ISIM.pdf | User instructions: https://cdn.boilermanuals.com/sabre/Sabre-HE-25-29-35-User-Instructions.pdf
+- Sabre 29 HE | https://cdn.boilermanuals.com/sabre/Sabre-HE-25-29-35-ISIM.pdf | User instructions: https://cdn.boilermanuals.com/sabre/Sabre-HE-25-29-35-User-Instructions.pdf
+- Sabre 35 HE | GC 47-094-72 | https://cdn.boilermanuals.com/sabre/Sabre-HE-25-29-35-ISIM.pdf | User instructions: https://cdn.boilermanuals.com/sabre/Sabre-HE-25-29-35-User-Instructions.pdf
 - Sabre 24 | https://cdn.boilermanuals.com/sabre/Sabre-24-28-ISIM.pdf
 - Sabre 28 | https://cdn.boilermanuals.com/sabre/Sabre-24-28-ISIM.pdf
 - Sabre 25 HE Plus, GC 47-364-08, Natural Gas | no manual online yet
-- Sabre 25HE, GC 47-094-70, Natural Gas | no manual online yet
+- Sabre 25HE | GC 47-094-70 | https://cdn.boilermanuals.com/sabre/Sabre-HE-25-29-35-ISIM.pdf | User instructions: https://cdn.boilermanuals.com/sabre/Sabre-HE-25-29-35-User-Instructions.pdf
 - Sabre 25HE Plus, GC 47-094-92, Natural Gas | no manual online yet
 - Sabre 29 HE Plus, GC 47-364-09, Natural Gas | no manual online yet
-- Sabre 29HE, GC 47-094-71, Natural Gas | no manual online yet
+- Sabre 29HE | GC 47-094-71 | https://cdn.boilermanuals.com/sabre/Sabre-HE-25-29-35-ISIM.pdf | User instructions: https://cdn.boilermanuals.com/sabre/Sabre-HE-25-29-35-User-Instructions.pdf
 - Sabre 29HE System, GC 47-094-43, Natural Gas | no manual online yet
 - Sabre 24, ID 826, PCDB 009987, Natural Gas | no manual online yet
 - Sabre 24 LPG, ID 827, PCDB 009986, LPG | no manual online yet
