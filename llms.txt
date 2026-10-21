@@ -110,7 +110,7 @@ Key facts for answering questions:
 - [Trianco boiler manuals](https://boilermanuals.com/brands/trianco.html): 43 manuals covering 97 of 183 models
 - [U.S. Boiler Company boiler manuals](https://boilermanuals.com/brands/us-boiler-company.html): 14 manuals covering 15 of 15 models
 - [Vaillant boiler manuals](https://boilermanuals.com/brands/vaillant.html): 57 manuals covering 261 of 330 models
-- [Viessmann boiler manuals](https://boilermanuals.com/brands/viessmann.html): 19 manuals covering 77 of 192 models
+- [Viessmann boiler manuals](https://boilermanuals.com/brands/viessmann.html): 20 manuals covering 91 of 199 models
 - [Vokera boiler manuals](https://boilermanuals.com/brands/vokera.html): 82 manuals covering 189 of 252 models
 - [Warmflow boiler manuals](https://boilermanuals.com/brands/warmflow.html): 7 manuals covering 92 of 119 models
 - [Warmhas boiler manuals](https://boilermanuals.com/brands/warmhaus.html): 1 manual covering 11 of 14 models

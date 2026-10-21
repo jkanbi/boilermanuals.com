@@ -9629,13 +9629,20 @@ Brand page: https://boilermanuals.com/brands/viessmann.html
 - Viessmann VITODENS 200-W B2KF-32, ID B2KF32, PCDB 018933 / 018934, Natural Gas / LPG | NG/LPG | no manual online yet
 - Viessmann Vitodens 200-W WB2B 26 kW System boiler, PCDB 015865, Natural Gas | NG | no manual online yet
 - Viessmann Vitodens 200-W WB2B 30 kW System Boiler, PCDB 015886, LPG | LPG | no manual online yet
-- Viessmann Vitodens 200W WB2C 19kW System, PCDB 016425, LPG | LPG | no manual online yet
-- Viessmann Vitodens 200W WB2C 26kW Combi, PCDB 016423, LPG | LPG | no manual online yet
-- Viessmann Vitodens 200W WB2C 26kW System, PCDB 016421, LPG | LPG | no manual online yet
-- Viessmann Vitodens 200W WB2C 30kW Combi, PCDB 016419, LPG | LPG | no manual online yet
-- Viessmann Vitodens 200W WB2C 30kW System, PCDB 016417, LPG | LPG | no manual online yet
-- Viessmann Vitodens 200W WB2C 35kW Combi, PCDB 016415, LPG | LPG | no manual online yet
-- Viessmann Vitodens 200W WB2C 35kW System, PCDB 016413, LPG | LPG | no manual online yet
+- Viessmann Vitodens 200W WB2C 19kW System, GC 41-819-14, Natural Gas | NG | Servicing: https://cdn.boilermanuals.com/viessmann/Viessmann-Vitodens-200-W-WB2C-19-35kW-Combi-System-NG-LPG-SIM.pdf
+- Viessmann Vitodens 200W WB2C 26kW Combi, GC 47-819-09, Natural Gas | NG | Servicing: https://cdn.boilermanuals.com/viessmann/Viessmann-Vitodens-200-W-WB2C-19-35kW-Combi-System-NG-LPG-SIM.pdf
+- Viessmann Vitodens 200W WB2C 26kW System, GC 41-819-15, Natural Gas | NG | Servicing: https://cdn.boilermanuals.com/viessmann/Viessmann-Vitodens-200-W-WB2C-19-35kW-Combi-System-NG-LPG-SIM.pdf
+- Viessmann Vitodens 200W WB2C 30kW Combi, GC 47-819-10, Natural Gas | NG | Servicing: https://cdn.boilermanuals.com/viessmann/Viessmann-Vitodens-200-W-WB2C-19-35kW-Combi-System-NG-LPG-SIM.pdf
+- Viessmann Vitodens 200W WB2C 30kW System, GC 41-819-16, Natural Gas | NG | Servicing: https://cdn.boilermanuals.com/viessmann/Viessmann-Vitodens-200-W-WB2C-19-35kW-Combi-System-NG-LPG-SIM.pdf
+- Viessmann Vitodens 200W WB2C 35kW Combi, GC 47-819-11, Natural Gas | NG | Servicing: https://cdn.boilermanuals.com/viessmann/Viessmann-Vitodens-200-W-WB2C-19-35kW-Combi-System-NG-LPG-SIM.pdf
+- Viessmann Vitodens 200W WB2C 35kW System, GC 41-819-17, Natural Gas | NG | Servicing: https://cdn.boilermanuals.com/viessmann/Viessmann-Vitodens-200-W-WB2C-19-35kW-Combi-System-NG-LPG-SIM.pdf
+- Viessmann Vitodens 200W WB2C 19kW System, PCDB 016425, LPG | GC 41-819-14 | LPG | Servicing: https://cdn.boilermanuals.com/viessmann/Viessmann-Vitodens-200-W-WB2C-19-35kW-Combi-System-NG-LPG-SIM.pdf
+- Viessmann Vitodens 200W WB2C 26kW Combi, PCDB 016423, LPG | GC 47-819-09 | LPG | Servicing: https://cdn.boilermanuals.com/viessmann/Viessmann-Vitodens-200-W-WB2C-19-35kW-Combi-System-NG-LPG-SIM.pdf
+- Viessmann Vitodens 200W WB2C 26kW System, PCDB 016421, LPG | GC 41-819-15 | LPG | Servicing: https://cdn.boilermanuals.com/viessmann/Viessmann-Vitodens-200-W-WB2C-19-35kW-Combi-System-NG-LPG-SIM.pdf
+- Viessmann Vitodens 200W WB2C 30kW Combi, PCDB 016419, LPG | GC 47-819-10 | LPG | Servicing: https://cdn.boilermanuals.com/viessmann/Viessmann-Vitodens-200-W-WB2C-19-35kW-Combi-System-NG-LPG-SIM.pdf
+- Viessmann Vitodens 200W WB2C 30kW System, PCDB 016417, LPG | GC 41-819-16 | LPG | Servicing: https://cdn.boilermanuals.com/viessmann/Viessmann-Vitodens-200-W-WB2C-19-35kW-Combi-System-NG-LPG-SIM.pdf
+- Viessmann Vitodens 200W WB2C 35kW Combi, PCDB 016415, LPG | GC 47-819-11 | LPG | Servicing: https://cdn.boilermanuals.com/viessmann/Viessmann-Vitodens-200-W-WB2C-19-35kW-Combi-System-NG-LPG-SIM.pdf
+- Viessmann Vitodens 200W WB2C 35kW System, PCDB 016413, LPG | GC 41-819-17 | LPG | Servicing: https://cdn.boilermanuals.com/viessmann/Viessmann-Vitodens-200-W-WB2C-19-35kW-Combi-System-NG-LPG-SIM.pdf
 - Viessmann VITODENS 222-F B2TF-19, ID B2TF19, PCDB 018935, Natural Gas | NG | no manual online yet
 - Viessmann VITODENS 222-F B2TF-25, ID B2TF25, PCDB 018937 / 018938, Natural Gas / LPG | NG/LPG | no manual online yet
 - Viessmann VITODENS 222-F B2TF-32, ID B2TF32, PCDB 018939 / 018940, Natural Gas / LPG | NG/LPG | no manual online yet
