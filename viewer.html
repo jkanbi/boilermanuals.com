@@ -204,6 +204,17 @@
             .pv-search-count { min-width: 2.6em; font-size: 0.78rem; }
             .pv-toolbar .pv-btn { min-width: 34px; padding: 0 3px; }
         }
+        /* Boiler Optimiser box (shown only for condensing-combi manuals) */
+        .pv-opt{position:relative;max-width:46rem;margin:.6rem auto 0;padding:.75rem 2.6rem .75rem 1rem;border:1px solid #b7dfc3;border-left:5px solid #1e8e3e;border-radius:12px;background:#f1f9f3;box-sizing:border-box;font-size:.95rem}
+        .pv-opt[hidden]{display:none}
+        .pv-opt p{margin:0 0 .5rem}
+        .pv-opt .pv-opt-h{font-weight:700;font-size:1.02rem;color:#1b1b1b;margin-bottom:.25rem}
+        .pv-opt .pv-opt-btn{display:inline-block;padding:.5rem .9rem;border-radius:8px;background:#1e8e3e;color:#fff;font-weight:700;text-decoration:none}
+        .pv-opt .pv-opt-btn:hover,.pv-opt .pv-opt-btn:focus-visible{background:#17702f;color:#fff}
+        .pv-opt .pv-opt-sm{margin:.5rem 0 0;font-size:.8rem;color:#5f6368}
+        .pv-opt-x{position:absolute;top:.35rem;right:.35rem;width:36px;height:36px;border:0;border-radius:8px;background:transparent;color:#3c4043;font:400 1.5rem/1 system-ui,sans-serif;cursor:pointer}
+        .pv-opt-x:hover,.pv-opt-x:focus-visible{background:#dcefe1}
+        @media (max-width:599px){.pv-opt{margin:.5rem .5rem 0;font-size:.9rem}}
     </style>
 </head>
 <body>
@@ -242,6 +253,13 @@
 </div>
 
 <main>
+    <aside class="pv-opt" id="pvOpt" aria-label="Free Boiler Optimiser" hidden>
+        <button class="pv-opt-x" id="pvOptClose" type="button" aria-label="Close" title="Close">&times;</button>
+        <p class="pv-opt-h">Got a combi boiler? Cut your gas bill in 2 minutes</p>
+        <p>This manual covers a condensing combi. Combis waste gas when the flow temperature is set too high. MyBoiler&rsquo;s free Boiler Optimiser shows the setting to try and how much you could save.</p>
+        <a class="pv-opt-btn" id="pvOptLink" href="https://myboiler.com/boiler-optimiser/" rel="noopener">Open the Boiler Optimiser</a>
+        <p class="pv-opt-sm">Free tool from MyBoiler.com, part of the same family as BoilerManuals. Change settings only as your boiler manual allows.</p>
+    </aside>
     <h1 class="pv-title" id="pvTitle">Manual viewer</h1>
     <p class="pv-status" id="pvStatus" role="status" aria-live="polite">Loading manual&hellip;</p>
     <div class="pv-pages" id="pvPages"></div>
@@ -311,6 +329,30 @@
                 }
             });
         }
+    })();
+</script>
+<script>
+    /* Boiler Optimiser box: shown when the open PDF is a condensing-combi manual
+       (list in /js/optimiser-combis.json). Dismiss is kept in sessionStorage only;
+       no cookies or tracking scripts. */
+    (function () {
+        var st = window.BMViewer, KEY = "bmOptDismissed";
+        if (!st || !st.file || !window.fetch) return;
+        try { if (sessionStorage.getItem(KEY)) return; } catch (e) {}
+        var path;
+        try { path = decodeURIComponent(new URL(st.file).pathname.replace(/^\//, "")); } catch (e) { return; }
+        fetch("/js/optimiser-combis.json?v=1").then(function (r) { return r.ok ? r.json() : null; }).then(function (d) {
+            if (!d || !d.pdf || d.pdf.indexOf(path) < 0) return;
+            var box = document.getElementById("pvOpt");
+            var brand = path.split("/")[0].toLowerCase();
+            var stem = (path.split("/").pop() || "").replace(/\.pdf$/i, "").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+            document.getElementById("pvOptLink").href = "https://myboiler.com/boiler-optimiser/?utm_source=boilermanuals&utm_medium=manual-viewer&utm_campaign=optimiser&utm_content=" + encodeURIComponent(brand + "-" + stem);
+            box.hidden = false;
+            document.getElementById("pvOptClose").addEventListener("click", function () {
+                box.hidden = true;
+                try { sessionStorage.setItem(KEY, "1"); } catch (e) {}
+            });
+        }).catch(function () {});
     })();
 </script>
 <script nomodule>

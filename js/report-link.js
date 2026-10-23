@@ -109,6 +109,13 @@
         var pageUrl = window.location.href.split("#")[0];
         var added = false;
 
+        // Model text without the condensing badge and "Optimise" link (.opt-x) added to some rows.
+        function cellText(cell) {
+            if (!cell.querySelector(".opt-x")) { return cell.textContent; }
+            var c = cell.cloneNode(true);
+            Array.prototype.forEach.call(c.querySelectorAll(".opt-x"), function (n) { n.parentNode.removeChild(n); });
+            return c.textContent;
+        }
         Array.prototype.forEach.call(table.querySelectorAll("tbody tr"), function (tr) {
             if (tr.querySelector(".report-link")) {
                 return;
@@ -121,7 +128,7 @@
                 return;
             }
 
-            var model = modelIndex >= 0 && cells[modelIndex] ? clean(cells[modelIndex].textContent) : "";
+            var model = modelIndex >= 0 && cells[modelIndex] ? clean(cellText(cells[modelIndex])) : "";
             var gc = gcIndex >= 0 && cells[gcIndex] ? clean(cells[gcIndex].textContent) : "";
             if (!model) {
                 model = clean(tr.textContent.replace(/Download/g, " "));
