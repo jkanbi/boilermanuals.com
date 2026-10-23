@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-18",
+ "generated": "2026-10-23",
  "pcdb": {
   "source": "SAP 10 PCDB (pcdb10.dat): table 105 gas and oil boilers, table 122 solid fuel and biomass boilers, table 131 twin-burner range cooker boilers, table 143 micro-CHP (SAP illustrative placeholder entries excluded)",
   "revision": "599",
@@ -8,24 +8,24 @@
   "records": 7238,
   "other_fuel_records": 0
  },
- "manuals_total": 2207,
+ "manuals_total": 2200,
  "models": {
-  "listed": 10017,
-  "with_manual": 5952,
-  "pct": 59.4
+  "listed": 10024,
+  "with_manual": 5960,
+  "pct": 59.5
  },
  "fuels": {
   "gas": {
    "label": "Gas",
    "pcdb_total": 4326,
-   "with_manual": 2224,
-   "pct": 51.4
+   "with_manual": 2226,
+   "pct": 51.5
   },
   "lpg": {
    "label": "LPG",
    "pcdb_total": 1213,
-   "with_manual": 504,
-   "pct": 41.5
+   "with_manual": 510,
+   "pct": 42.0
   },
   "oil": {
    "label": "Oil",
@@ -52,8 +52,8 @@
    "label": "Range cooker boilers",
    "pcdb_table": 131,
    "pcdb_total": 36,
-   "with_manual": 22,
-   "pct": 61.1
+   "with_manual": 20,
+   "pct": 55.6
   },
   "micro_chp": {
    "label": "Micro-CHP",
@@ -64,17 +64,17 @@
   }
  },
  "electric": {
-  "models_listed": 198,
-  "models_with_manual": 136,
-  "pct": 68.7,
+  "models_listed": 199,
+  "models_with_manual": 137,
+  "pct": 68.8,
   "brochure_only_rows_excluded": 11,
   "note": "not in PCDB; share of the electric models we list, not part of the PCDB overall figure"
  },
  "controls": {
   "models_listed": 232,
-  "models_with_manual": 229,
-  "pct": 98.7,
-  "files": 244,
+  "models_with_manual": 227,
+  "pct": 97.8,
+  "files": 240,
   "listed_on_boiler_pages": 2,
   "pages": [
    "danfoss",
@@ -90,19 +90,182 @@
   "note": "not in PCDB; heating controls (thermostats, programmers, smart controls) from the controls brand pages linked on controls.html plus control rows on boiler pages. Excluded from the boiler model totals and from the PCDB figures."
  },
  "brochure_pdfs_excluded": [
-  "fischer/fischer-electric-boilers-product-catalogue.pdf"
+  "drayton/drayton-motorised-valve-IG.pdf",
+  "ferroli/ferroli-Optima-800-Manual1.pdf",
+  "ferroli/ferroli-Optima-900-Manual1.pdf",
+  "fischer/fischer-electric-boilers-product-catalogue.pdf",
+  "honeywell/honeywell-st699-IMUG.pdf",
+  "honeywell/honeywell-st9000-IM.pdf",
+  "honeywell/honeywell-st9400-st9500-installation-wiring.pdf",
+  "mhs/mhs-Regency-AK2-IOM-Manual.pdf",
+  "radiant/radiant-New-Open-vented-no-30-29-7-02-prot.PDF",
+  "stanley/Stanley-Alpha-120-150K-Site-Requirements-Commissioning.pdf",
+  "vaillant/vaillant-domestic-boiler-brochure-2018.pdf"
  ],
  "pcdb_overall": {
   "records": 7455,
-  "with_manual": 3502,
-  "pct": 47.0,
+  "with_manual": 3508,
+  "pct": 47.1,
   "denominator": "all PCDB boiler records: table 105 gas/oil + table 122 solid fuel and biomass + table 131 range cooker boilers + table 143 micro-CHP"
  },
  "pcdb_gas_oil": {
   "records": 7238,
-  "with_manual": 3455,
-  "pct": 47.7,
+  "with_manual": 3463,
+  "pct": 47.8,
   "note": "table 105 only (the figure published before solid fuel, cooker boilers and micro-CHP were added)"
+ },
+ "energy": {
+  "boiler_rows": 9810,
+  "rated": 5367,
+  "no_rating": 4443,
+  "pct_rated": 54.7,
+  "letters": {
+   "A+++": {
+    "erp": 0,
+    "sap": 0,
+    "total": 0
+   },
+   "A++": {
+    "erp": 0,
+    "sap": 0,
+    "total": 0
+   },
+   "A+": {
+    "erp": 0,
+    "sap": 0,
+    "total": 0
+   },
+   "A": {
+    "erp": 309,
+    "sap": 2846,
+    "total": 3155
+   },
+   "B": {
+    "erp": 0,
+    "sap": 793,
+    "total": 793
+   },
+   "C": {
+    "erp": 0,
+    "sap": 650,
+    "total": 650
+   },
+   "D": {
+    "erp": 0,
+    "sap": 583,
+    "total": 583
+   },
+   "E": {
+    "erp": 0,
+    "sap": 120,
+    "total": 120
+   },
+   "F": {
+    "erp": 0,
+    "sap": 64,
+    "total": 64
+   },
+   "G": {
+    "erp": 0,
+    "sap": 2,
+    "total": 2
+   }
+  },
+  "by_type": {
+   "Combi": {
+    "A+++": 0,
+    "A++": 0,
+    "A+": 0,
+    "A": 1371,
+    "B": 183,
+    "C": 216,
+    "D": 190,
+    "E": 11,
+    "F": 0,
+    "G": 0,
+    "none": 561,
+    "total": 2532
+   },
+   "System": {
+    "A+++": 0,
+    "A++": 0,
+    "A+": 0,
+    "A": 368,
+    "B": 93,
+    "C": 52,
+    "D": 24,
+    "E": 1,
+    "F": 0,
+    "G": 0,
+    "none": 153,
+    "total": 691
+   },
+   "Regular": {
+    "A+++": 0,
+    "A++": 0,
+    "A+": 0,
+    "A": 77,
+    "B": 1,
+    "C": 0,
+    "D": 0,
+    "E": 0,
+    "F": 0,
+    "G": 0,
+    "none": 27,
+    "total": 105
+   },
+   "System/Regular": {
+    "A+++": 0,
+    "A++": 0,
+    "A+": 0,
+    "A": 1215,
+    "B": 502,
+    "C": 360,
+    "D": 270,
+    "E": 78,
+    "F": 56,
+    "G": 2,
+    "none": 1039,
+    "total": 3522
+   },
+   "CPSU": {
+    "A+++": 0,
+    "A++": 0,
+    "A+": 0,
+    "A": 0,
+    "B": 0,
+    "C": 7,
+    "D": 1,
+    "E": 0,
+    "F": 0,
+    "G": 0,
+    "none": 0,
+    "total": 8
+   },
+   "Unknown": {
+    "A+++": 0,
+    "A++": 0,
+    "A+": 0,
+    "A": 124,
+    "B": 14,
+    "C": 15,
+    "D": 98,
+    "E": 30,
+    "F": 8,
+    "G": 0,
+    "none": 2663,
+    "total": 2952
+   }
+  },
+  "type_sources": {
+   "ccb_badge": 1152,
+   "cb_badge": 1355,
+   "pcdb_main_type": 4060,
+   "name_cue": 291,
+   "split_by_name_cue": 661,
+   "unknown": 2952
+  },
+  "method": "Counted per row from the Energy column of the brand pages. ErP class where published, otherwise efficiency band from SAP seasonal efficiency (SEDBUK 2009 scale). Boiler rows = all brand-table rows except heating controls, heat pumps/hybrids, electric boilers, warm air units\nand '(any model)' request rows. Type: CCB badge -> Combi, CB badge -> System/Regular; otherwise the PCDB main type\n(field 15: 2 combi, 1 regular incl. system, 3 CPSU) of the PCDB record the row is identified by (PCDB index or GC\nnumber); System/Regular is split into System or Regular only when the model name says so unambiguously; rows with\nno PCDB type use clear model-name cues (combi / system / regular, heat only, conventional, open vent, Ri) only when\nexactly one cue matches."
  },
  "method": "A PCDB record counts when its GC number (gas/LPG) or its PCDB index appears on a site row that links a PDF on cdn.boilermanuals.com. Brochure/spec-sheet-only PDFs are not counted as manuals anywhere."
 }

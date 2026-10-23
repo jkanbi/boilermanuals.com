@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en" data-static-title>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon.ico" sizes="any">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <title>Boiler Manuals Stats | BoilerManuals.com</title>
+    <meta name="description" content="Boiler manual library stats: how many UK boilers have a checked manual, coverage by fuel, and boilers by energy label and type (combi, system, regular).">
+    <link rel="canonical" href="https://boilermanuals.com/stats.html">
+    <meta property="og:title" content="Boiler Manuals Stats | BoilerManuals.com">
+    <meta property="og:description" content="Boiler manual library stats: how many UK boilers have a checked manual, coverage by fuel, and boilers by energy label and type (combi, system, regular).">
+    <meta property="og:url" content="https://boilermanuals.com/stats.html">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="BoilerManuals.com">
+    <link rel="stylesheet" type="text/css" href="css/navbar.css?v=6">
+    <link rel="stylesheet" type="text/css" href="css/styles.css?v=10">
+    <script src="js/navbar.js?v=8"></script>
+    <script src="js/config.js"></script>
+    <script src="js/urlUtils.js"></script>
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://boilermanuals.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Stats",
+          "item": "https://boilermanuals.com/stats.html"
+        }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://boilermanuals.com/stats.html#page",
+      "url": "https://boilermanuals.com/stats.html",
+      "name": "BoilerManuals.com stats",
+      "inLanguage": "en-GB",
+      "dateModified": "2026-10-23",
+      "isPartOf": {
+        "@id": "https://boilermanuals.com/#website"
+      },
+      "about": {
+        "@id": "https://boilermanuals.com/#dataset"
+      }
+    },
+    {
+      "@type": "Dataset",
+      "@id": "https://boilermanuals.com/#dataset",
+      "name": "BoilerManuals.com UK boiler model and manual index",
+      "description": "Index of 10,024 UK boiler models with GC numbers, fuel type and links to 2,200 checked installation, servicing and user manuals (PDF). Gas, oil, solid fuel, biomass, range cooker and micro-CHP models are based on the SAP 10 PCDB (revision 599).",
+      "url": "https://boilermanuals.com/stats.html",
+      "creator": {
+        "@id": "https://boilermanuals.com/#organization"
+      },
+      "isAccessibleForFree": true,
+      "inLanguage": "en-GB",
+      "spatialCoverage": "United Kingdom",
+      "dateModified": "2026-10-23",
+      "keywords": [
+        "boiler manuals",
+        "GC number",
+        "installation manual",
+        "servicing manual",
+        "user manual",
+        "PCDB"
+      ],
+      "distribution": [
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "text/markdown",
+          "contentUrl": "https://boilermanuals.com/llms-full.txt"
+        }
+      ]
+    }
+  ]
+}
+    </script>
+    <!-- stats-css:start -->
+    <style>
+        .bm-stats { margin: 2rem 0 0; }
+        .bm-stats__grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr)); gap: 1rem; margin: 1rem 0 1.5rem; padding: 0; list-style: none; }
+        .bm-stats__card { border: 1px solid #e2e8f0; border-radius: 8px; padding: 0.9rem 1rem; background: #fff; }
+        .bm-stats__num { display: block; font-size: 1.6rem; font-weight: 700; line-height: 1.2; }
+        .bm-stats__lbl { display: block; font-size: 0.9rem; opacity: 0.8; }
+        .bm-stats__rows { margin: 0; padding: 0; list-style: none; }
+        .bm-stats__row { margin: 0 0 0.9rem; }
+        .bm-stats__head { display: flex; justify-content: space-between; gap: 1rem; font-size: 0.95rem; }
+        .bm-stats__bar { height: 0.7rem; border-radius: 999px; background: #e2e8f0; overflow: hidden; margin-top: 0.3rem; }
+        .bm-stats__fill { display: block; height: 100%; background: #2563eb; border-radius: 999px; min-width: 2px; }
+        .bm-stats__note { font-size: 0.85rem; opacity: 0.75; }
+        .eb { display: inline-flex; align-items: center; justify-content: center; width: 1.6em; height: 1.6em; border-radius: 3px; font: 700 0.9em/1 system-ui, sans-serif; color: #fff; flex: none; }
+        .eb-s { font-size: 0.6em; letter-spacing: -0.04em; }
+        .eb-appp { background: #006b31; } .eb-app { background: #008a3e; } .eb-ap { background: #4cb848; } .eb-a { background: #00a651; }
+        .eb-b { background: #8cc63f; color: #333; } .eb-c { background: #d7df23; color: #333; } .eb-d { background: #fff200; color: #333; }
+        .eb-e { background: #fdb913; color: #333; } .eb-f { background: #f37021; } .eb-g { background: #ed1c24; } .eb-none { background: #e2e8f0; color: #475569; }
+        .bm-echart { margin: 1rem 0 1.25rem; padding: 0; list-style: none; }
+        .bm-echart__row { display: grid; grid-template-columns: 2rem minmax(0, 1fr) 4.5rem; align-items: center; column-gap: 0.6rem; row-gap: 0.1rem; margin: 0 0 0.45rem; font-size: 0.9rem; }
+        .bm-echart__bar { height: 0.9rem; border-radius: 999px; background: #e2e8f0; overflow: hidden; }
+        .bm-echart__fill { display: block; height: 100%; border-radius: 999px; min-width: 2px; }
+        .bm-echart__num { white-space: nowrap; font-variant-numeric: tabular-nums; }
+        .bm-echart__num { text-align: right; }
+        .bm-echart__sub { grid-column: 2 / 4; font-size: 0.78rem; opacity: 0.7; }
+        .bm-xtab-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; margin: 0.75rem 0 1rem; border: 1px solid #e2e8f0; border-radius: 8px; background: #fff; }
+        .bm-xtab { border-collapse: collapse; width: 100%; font-size: 0.85rem; font-variant-numeric: tabular-nums; }
+        .bm-xtab th, .bm-xtab td { padding: 0.45rem 0.4rem; text-align: right; border-bottom: 1px solid #eef2f6; white-space: nowrap; }
+        .bm-xtab th:first-child, .bm-xtab td:first-child { text-align: left; position: sticky; left: 0; background: #fff; }
+        .bm-xtab thead th { font-weight: 600; background: #f7f8f9; }
+        .bm-xtab thead th:first-child { background: #f7f8f9; }
+        .bm-xtab tbody tr:last-child td { border-bottom: none; }
+        .bm-xtab tfoot td { font-weight: 700; border-top: 1px solid #e2e8f0; border-bottom: none; }
+        .bm-xtab .eb { width: 1.45rem; height: 1.45rem; font-size: 0.72rem; }
+    </style>
+    <!-- stats-css:end -->
+</head>
+<body>
+    <main class="contact-page">
+        <button class="nav-button" type="button" onclick="goBack()">Go Back</button>
+
+        <h1 class="contact-page__title">BoilerManuals.com Stats</h1>
+
+        <p>How much of the UK boiler range our free manual library covers, worked out from the same brand pages you search. The figures are rebuilt whenever manuals or links change.</p>
+        <!-- stats:start -->
+        <section class="bm-stats" aria-labelledby="bm-stats-title">
+            <h2 id="bm-stats-title">The library in numbers</h2>
+            <ul class="bm-stats__grid">
+                <li class="bm-stats__card"><span class="bm-stats__num">2,200</span><span class="bm-stats__lbl">manuals (PDF files on our CDN)</span></li>
+                <li class="bm-stats__card"><span class="bm-stats__num">5,960 / 10,024</span><span class="bm-stats__lbl">listed boiler models with a manual (59.5%)</span></li>
+                <li class="bm-stats__card"><span class="bm-stats__num">47.1%</span><span class="bm-stats__lbl">of all 7,455 PCDB boilers (gas, oil, solid fuel, cooker boilers and micro-CHP) have a verified manual (3,508)</span></li>
+            </ul>
+            <h3>PCDB boilers with a manual, by fuel and type</h3>
+            <ul class="bm-stats__rows">
+                <li class="bm-stats__row">
+                    <div class="bm-stats__head"><span>Gas</span><span>2,226 / 4,326 &middot; 51.5%</span></div>
+                    <div class="bm-stats__bar" role="img" aria-label="Gas: 51.5% of PCDB boilers have a manual"><span class="bm-stats__fill" style="width:51.5%"></span></div>
+                </li>
+                <li class="bm-stats__row">
+                    <div class="bm-stats__head"><span>LPG</span><span>510 / 1,213 &middot; 42.0%</span></div>
+                    <div class="bm-stats__bar" role="img" aria-label="LPG: 42.0% of PCDB boilers have a manual"><span class="bm-stats__fill" style="width:42.0%"></span></div>
+                </li>
+                <li class="bm-stats__row">
+                    <div class="bm-stats__head"><span>Oil</span><span>727 / 1,680 &middot; 43.3%</span></div>
+                    <div class="bm-stats__bar" role="img" aria-label="Oil: 43.3% of PCDB boilers have a manual"><span class="bm-stats__fill" style="width:43.3%"></span></div>
+                </li>
+                <li class="bm-stats__row">
+                    <div class="bm-stats__head"><span>HVO</span><span>0 / 19 &middot; 0.0%</span></div>
+                    <div class="bm-stats__bar" role="img" aria-label="HVO: 0.0% of PCDB boilers have a manual"><span class="bm-stats__fill" style="width:0.0%"></span></div>
+                </li>
+                <li class="bm-stats__row">
+                    <div class="bm-stats__head"><span>Solid fuel &amp; biomass</span><span>25 / 171 &middot; 14.6%</span></div>
+                    <div class="bm-stats__bar" role="img" aria-label="Solid fuel &amp; biomass: 14.6% of PCDB boilers have a manual"><span class="bm-stats__fill" style="width:14.6%"></span></div>
+                </li>
+                <li class="bm-stats__row">
+                    <div class="bm-stats__head"><span>Range cooker boilers</span><span>20 / 36 &middot; 55.6%</span></div>
+                    <div class="bm-stats__bar" role="img" aria-label="Range cooker boilers: 55.6% of PCDB boilers have a manual"><span class="bm-stats__fill" style="width:55.6%"></span></div>
+                </li>
+                <li class="bm-stats__row">
+                    <div class="bm-stats__head"><span>Micro-CHP</span><span>0 / 10 &middot; 0.0%</span></div>
+                    <div class="bm-stats__bar" role="img" aria-label="Micro-CHP: 0.0% of PCDB boilers have a manual"><span class="bm-stats__fill" style="width:0.0%"></span></div>
+                </li>
+                <li class="bm-stats__row">
+                    <div class="bm-stats__head"><span>Electric</span><span>137 / 199 &middot; 68.8% <em>of models we list (not in PCDB)</em></span></div>
+                    <div class="bm-stats__bar" role="img" aria-label="Electric: 68.8% of the electric boiler models we list have a manual"><span class="bm-stats__fill" style="width:68.8%"></span></div>
+                </li>
+                <li class="bm-stats__row">
+                    <div class="bm-stats__head"><span>Controls</span><span>227 / 232 &middot; 97.8% <em>of controls we list (not in PCDB)</em> &middot; 240 PDF files</span></div>
+                    <div class="bm-stats__bar" role="img" aria-label="Controls: 97.8% of the heating controls we list have a manual"><span class="bm-stats__fill" style="width:97.8%"></span></div>
+                </li>
+            </ul>
+            <p class="bm-stats__note">A boiler counts when its GC number or PCDB index is on a row that links a manual we host; brochures and spec sheets don&rsquo;t count. Solid fuel and biomass boilers, range cooker boilers and micro-CHP units are counted by PCDB index. The PCDB total is all 7,455 boiler records in PCDB tables 105, 122, 131 and 143. Electric boilers are not in the PCDB, so they are shown against the models we list and are not part of the PCDB figure. Heating controls are counted separately and are not included in the boiler totals. Data: SAP 10 PCDB revision 599, updated 30 September 2026.</p>
+        </section>
+        <!-- stats:end -->
+        <!-- energy-stats:start -->
+        <section class="bm-stats" aria-labelledby="bm-energy-title">
+            <h2 id="bm-energy-title">Boilers by energy label</h2>
+            <p>5,367 of the 9,810 boilers listed on our brand pages (54.7%) show an energy letter.</p>
+            <ul class="bm-echart">
+                <li class="bm-echart__row"><span class="eb eb-a" aria-hidden="true">A</span><span class="bm-echart__bar" role="img" aria-label="A: 3,155 boilers"><span class="bm-echart__fill" style="width:71.0%;background:#00a651"></span></span><span class="bm-echart__num">3,155</span><span class="bm-echart__sub">309 ErP class &middot; 2,846 efficiency band</span></li>
+                <li class="bm-echart__row"><span class="eb eb-b" aria-hidden="true">B</span><span class="bm-echart__bar" role="img" aria-label="B: 793 boilers"><span class="bm-echart__fill" style="width:17.8%;background:#8cc63f"></span></span><span class="bm-echart__num">793</span></li>
+                <li class="bm-echart__row"><span class="eb eb-c" aria-hidden="true">C</span><span class="bm-echart__bar" role="img" aria-label="C: 650 boilers"><span class="bm-echart__fill" style="width:14.6%;background:#d7df23"></span></span><span class="bm-echart__num">650</span></li>
+                <li class="bm-echart__row"><span class="eb eb-d" aria-hidden="true">D</span><span class="bm-echart__bar" role="img" aria-label="D: 583 boilers"><span class="bm-echart__fill" style="width:13.1%;background:#fff200"></span></span><span class="bm-echart__num">583</span></li>
+                <li class="bm-echart__row"><span class="eb eb-e" aria-hidden="true">E</span><span class="bm-echart__bar" role="img" aria-label="E: 120 boilers"><span class="bm-echart__fill" style="width:2.7%;background:#fdb913"></span></span><span class="bm-echart__num">120</span></li>
+                <li class="bm-echart__row"><span class="eb eb-f" aria-hidden="true">F</span><span class="bm-echart__bar" role="img" aria-label="F: 64 boilers"><span class="bm-echart__fill" style="width:1.4%;background:#f37021"></span></span><span class="bm-echart__num">64</span></li>
+                <li class="bm-echart__row"><span class="eb eb-g" aria-hidden="true">G</span><span class="bm-echart__bar" role="img" aria-label="G: 2 boilers"><span class="bm-echart__fill" style="width:0.0%;background:#ed1c24"></span></span><span class="bm-echart__num">2</span></li>
+                <li class="bm-echart__row"><span class="eb eb-none" aria-hidden="true">&ndash;</span><span class="bm-echart__bar" role="img" aria-label="No rating yet: 4,443 boilers"><span class="bm-echart__fill" style="width:100.0%;background:#94a3b8"></span></span><span class="bm-echart__num">4,443</span><span class="bm-echart__sub">No rating yet</span></li>
+            </ul>
+            <h3 id="bm-type-title">Boilers by type</h3>
+            <ul class="bm-stats__grid" aria-labelledby="bm-type-title">
+                <li class="bm-stats__card"><span class="bm-stats__num">2,532</span><span class="bm-stats__lbl">Combi</span></li>
+                <li class="bm-stats__card"><span class="bm-stats__num">691</span><span class="bm-stats__lbl">System</span></li>
+                <li class="bm-stats__card"><span class="bm-stats__num">105</span><span class="bm-stats__lbl">Regular</span></li>
+                <li class="bm-stats__card"><span class="bm-stats__num">3,522</span><span class="bm-stats__lbl">System/Regular</span></li>
+                <li class="bm-stats__card"><span class="bm-stats__num">8</span><span class="bm-stats__lbl">CPSU</span></li>
+                <li class="bm-stats__card"><span class="bm-stats__num">2,952</span><span class="bm-stats__lbl">Unknown</span></li>
+            </ul>
+            <h3 id="bm-xtab-title">Energy label by boiler type</h3>
+            <div class="bm-xtab-wrap" role="region" aria-labelledby="bm-xtab-title" tabindex="0">
+                <table class="bm-xtab">
+                    <thead><tr><th scope="col">Type</th><th scope="col"><span class="eb eb-a" role="img" aria-label="A">A</span></th><th scope="col"><span class="eb eb-b" role="img" aria-label="B">B</span></th><th scope="col"><span class="eb eb-c" role="img" aria-label="C">C</span></th><th scope="col"><span class="eb eb-d" role="img" aria-label="D">D</span></th><th scope="col"><span class="eb eb-e" role="img" aria-label="E">E</span></th><th scope="col"><span class="eb eb-f" role="img" aria-label="F">F</span></th><th scope="col"><span class="eb eb-g" role="img" aria-label="G">G</span></th><th scope="col">No rating</th><th scope="col">Total</th></tr></thead>
+                    <tbody>
+                    <tr><th scope="row">Combi</th><td>1,371</td><td>183</td><td>216</td><td>190</td><td>11</td><td>0</td><td>0</td><td>561</td><td>2,532</td></tr>
+                    <tr><th scope="row">System</th><td>368</td><td>93</td><td>52</td><td>24</td><td>1</td><td>0</td><td>0</td><td>153</td><td>691</td></tr>
+                    <tr><th scope="row">Regular</th><td>77</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>27</td><td>105</td></tr>
+                    <tr><th scope="row">System/Regular</th><td>1,215</td><td>502</td><td>360</td><td>270</td><td>78</td><td>56</td><td>2</td><td>1,039</td><td>3,522</td></tr>
+                    <tr><th scope="row">CPSU</th><td>0</td><td>0</td><td>7</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>8</td></tr>
+                    <tr><th scope="row">Unknown</th><td>124</td><td>14</td><td>15</td><td>98</td><td>30</td><td>8</td><td>0</td><td>2,663</td><td>2,952</td></tr>
+                    </tbody>
+                    <tfoot><tr><td>All boilers</td><td>3,155</td><td>793</td><td>650</td><td>583</td><td>120</td><td>64</td><td>2</td><td>4,443</td><td>9,810</td></tr></tfoot>
+                </table>
+            </div>
+            <p class="bm-stats__note">Energy letters: ErP class where published, otherwise efficiency band from SAP seasonal efficiency (SEDBUK 2009 scale). Each boiler row on a brand page counts once; heating controls, heat pumps, electric boilers and request-only rows are not included. Boiler type comes from the CCB/CB badge or the PCDB boiler type, or else from the model name when it clearly says combi, system or regular. System/Regular means the data doesn&rsquo;t say which of the two it is. CPSU is a combined primary storage unit.</p>
+        </section>
+        <!-- energy-stats:end -->
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <p class="footer-logo">BoilerManuals.com</p>
+                <p class="footer-tagline">Free boiler manuals, installation guides, and service documentation for UK heating systems.</p>
+            </div>
+            <div class="footer-col">
+                <p class="footer-heading">Resources</p>
+                <nav class="footer-links" aria-label="Resources">
+                    <a href="/">Home</a>
+                    <a href="fault-codes.html">Fault Codes</a>
+                    <a href="controls.html">Controls</a>
+                    <a href="contact.html">Contact</a>
+                    <a href="about.html">About</a>
+                    <a href="stats.html">Stats</a>
+                </nav>
+            </div>
+            <div class="footer-col">
+                <p class="footer-heading">Related sites</p>
+                <nav class="footer-links" aria-label="Related sites">
+                    <a href="https://myboiler.com" rel="noopener">MyBoiler.com</a>
+                    <a href="https://combiboiler.com" rel="noopener">CombiBoiler.com</a>
+                    <a href="https://boilerservice.com" rel="noopener">BoilerService.com</a>
+                </nav>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; <span id="year"></span> BoilerManuals.com — part of the <a href="https://myboiler.com" rel="noopener">MyBoiler.com</a> family</p>
+            <p class="footer-family-logo"><a href="https://myboiler.com/" rel="noopener"><img src="images/myboiler-logo.svg" alt="MyBoiler" width="116" height="22" loading="lazy" decoding="async"></a></p>
+        </div>
+    </footer>
+
+    <script src="js/script.js?v=5"></script>
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>

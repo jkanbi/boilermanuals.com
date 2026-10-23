@@ -47,7 +47,7 @@
       "url": "https://boilermanuals.com/about.html",
       "name": "About BoilerManuals.com",
       "inLanguage": "en-GB",
-      "dateModified": "2026-10-18",
+      "dateModified": "2026-10-23",
       "isPartOf": {
         "@id": "https://boilermanuals.com/#website"
       },
@@ -68,35 +68,6 @@
         "name": "MyBoiler.com",
         "url": "https://myboiler.com"
       }
-    },
-    {
-      "@type": "Dataset",
-      "@id": "https://boilermanuals.com/#dataset",
-      "name": "BoilerManuals.com UK boiler model and manual index",
-      "description": "Index of 10,017 UK boiler models with GC numbers, fuel type and links to 2,207 checked installation, servicing and user manuals (PDF). Gas, oil, solid fuel, biomass, range cooker and micro-CHP models are based on the SAP 10 PCDB (revision 599).",
-      "url": "https://boilermanuals.com/about.html",
-      "creator": {
-        "@id": "https://boilermanuals.com/#organization"
-      },
-      "isAccessibleForFree": true,
-      "inLanguage": "en-GB",
-      "spatialCoverage": "United Kingdom",
-      "dateModified": "2026-10-18",
-      "keywords": [
-        "boiler manuals",
-        "GC number",
-        "installation manual",
-        "servicing manual",
-        "user manual",
-        "PCDB"
-      ],
-      "distribution": [
-        {
-          "@type": "DataDownload",
-          "encodingFormat": "text/markdown",
-          "contentUrl": "https://boilermanuals.com/llms-full.txt"
-        }
-      ]
     }
   ]
 }
@@ -111,21 +82,6 @@
         .bm-faq__item p { margin: 0.5rem 0 0.25rem; line-height: 1.6; }
         .bm-updated { font-size: 0.85rem; opacity: 0.75; }
     </style>
-    <!-- stats-css:start -->
-    <style>
-        .bm-stats { margin: 2rem 0 0; }
-        .bm-stats__grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr)); gap: 1rem; margin: 1rem 0 1.5rem; padding: 0; list-style: none; }
-        .bm-stats__card { border: 1px solid #e2e8f0; border-radius: 8px; padding: 0.9rem 1rem; background: #fff; }
-        .bm-stats__num { display: block; font-size: 1.6rem; font-weight: 700; line-height: 1.2; }
-        .bm-stats__lbl { display: block; font-size: 0.9rem; opacity: 0.8; }
-        .bm-stats__rows { margin: 0; padding: 0; list-style: none; }
-        .bm-stats__row { margin: 0 0 0.9rem; }
-        .bm-stats__head { display: flex; justify-content: space-between; gap: 1rem; font-size: 0.95rem; }
-        .bm-stats__bar { height: 0.7rem; border-radius: 999px; background: #e2e8f0; overflow: hidden; margin-top: 0.3rem; }
-        .bm-stats__fill { display: block; height: 100%; background: #2563eb; border-radius: 999px; min-width: 2px; }
-        .bm-stats__note { font-size: 0.85rem; opacity: 0.75; }
-    </style>
-    <!-- stats-css:end -->
 </head>
 <body>
     <main class="contact-page">
@@ -139,56 +95,6 @@
         <p>
             This site is an extension of MyBoiler.com, where multiple resources are provided in connection with your home boiler and heating systems. Please visit MyBoiler.com for the full range of resources and services that we provide.
         </p>
-        <!-- stats:start -->
-        <section class="bm-stats" aria-labelledby="bm-stats-title">
-            <h2 id="bm-stats-title">The library in numbers</h2>
-            <ul class="bm-stats__grid">
-                <li class="bm-stats__card"><span class="bm-stats__num">2,207</span><span class="bm-stats__lbl">manuals (PDF files on our CDN)</span></li>
-                <li class="bm-stats__card"><span class="bm-stats__num">5,952 / 10,017</span><span class="bm-stats__lbl">listed boiler models with a manual (59.4%)</span></li>
-                <li class="bm-stats__card"><span class="bm-stats__num">47.0%</span><span class="bm-stats__lbl">of all 7,455 PCDB boilers (gas, oil, solid fuel, cooker boilers and micro-CHP) have a verified manual (3,502)</span></li>
-            </ul>
-            <h3>PCDB boilers with a manual, by fuel and type</h3>
-            <ul class="bm-stats__rows">
-                <li class="bm-stats__row">
-                    <div class="bm-stats__head"><span>Gas</span><span>2,224 / 4,326 &middot; 51.4%</span></div>
-                    <div class="bm-stats__bar" role="img" aria-label="Gas: 51.4% of PCDB boilers have a manual"><span class="bm-stats__fill" style="width:51.4%"></span></div>
-                </li>
-                <li class="bm-stats__row">
-                    <div class="bm-stats__head"><span>LPG</span><span>504 / 1,213 &middot; 41.5%</span></div>
-                    <div class="bm-stats__bar" role="img" aria-label="LPG: 41.5% of PCDB boilers have a manual"><span class="bm-stats__fill" style="width:41.5%"></span></div>
-                </li>
-                <li class="bm-stats__row">
-                    <div class="bm-stats__head"><span>Oil</span><span>727 / 1,680 &middot; 43.3%</span></div>
-                    <div class="bm-stats__bar" role="img" aria-label="Oil: 43.3% of PCDB boilers have a manual"><span class="bm-stats__fill" style="width:43.3%"></span></div>
-                </li>
-                <li class="bm-stats__row">
-                    <div class="bm-stats__head"><span>HVO</span><span>0 / 19 &middot; 0.0%</span></div>
-                    <div class="bm-stats__bar" role="img" aria-label="HVO: 0.0% of PCDB boilers have a manual"><span class="bm-stats__fill" style="width:0.0%"></span></div>
-                </li>
-                <li class="bm-stats__row">
-                    <div class="bm-stats__head"><span>Solid fuel &amp; biomass</span><span>25 / 171 &middot; 14.6%</span></div>
-                    <div class="bm-stats__bar" role="img" aria-label="Solid fuel &amp; biomass: 14.6% of PCDB boilers have a manual"><span class="bm-stats__fill" style="width:14.6%"></span></div>
-                </li>
-                <li class="bm-stats__row">
-                    <div class="bm-stats__head"><span>Range cooker boilers</span><span>22 / 36 &middot; 61.1%</span></div>
-                    <div class="bm-stats__bar" role="img" aria-label="Range cooker boilers: 61.1% of PCDB boilers have a manual"><span class="bm-stats__fill" style="width:61.1%"></span></div>
-                </li>
-                <li class="bm-stats__row">
-                    <div class="bm-stats__head"><span>Micro-CHP</span><span>0 / 10 &middot; 0.0%</span></div>
-                    <div class="bm-stats__bar" role="img" aria-label="Micro-CHP: 0.0% of PCDB boilers have a manual"><span class="bm-stats__fill" style="width:0.0%"></span></div>
-                </li>
-                <li class="bm-stats__row">
-                    <div class="bm-stats__head"><span>Electric</span><span>136 / 198 &middot; 68.7% <em>of models we list (not in PCDB)</em></span></div>
-                    <div class="bm-stats__bar" role="img" aria-label="Electric: 68.7% of the electric boiler models we list have a manual"><span class="bm-stats__fill" style="width:68.7%"></span></div>
-                </li>
-                <li class="bm-stats__row">
-                    <div class="bm-stats__head"><span>Controls</span><span>229 / 232 &middot; 98.7% <em>of controls we list (not in PCDB)</em> &middot; 244 PDF files</span></div>
-                    <div class="bm-stats__bar" role="img" aria-label="Controls: 98.7% of the heating controls we list have a manual"><span class="bm-stats__fill" style="width:98.7%"></span></div>
-                </li>
-            </ul>
-            <p class="bm-stats__note">A boiler counts when its GC number or PCDB index is on a row that links a manual we host; brochures and spec sheets don&rsquo;t count. Solid fuel and biomass boilers, range cooker boilers and micro-CHP units are counted by PCDB index. The PCDB total is all 7,455 boiler records in PCDB tables 105, 122, 131 and 143. Electric boilers are not in the PCDB, so they are shown against the models we list and are not part of the PCDB figure. Heating controls are counted separately and are not included in the boiler totals. Data: SAP 10 PCDB revision 599, updated 30 September 2026.</p>
-        </section>
-        <!-- stats:end -->
 
         <section class="bm-about-lib" aria-labelledby="bm-who">
             <h2 id="bm-who">Who runs BoilerManuals.com</h2>
@@ -204,7 +110,7 @@
                 <li><strong>Corrections:</strong> every row has a <em>Report</em> link. If a manual looks wrong, tell us and we&rsquo;ll recheck it.</li>
             </ul>
             <p>Manuals are provided for reference. In the UK, work on a gas boiler must be carried out by an engineer on the Gas Safe Register.</p>
-            <p class="bm-updated">Last updated <time datetime="2026-10-18">18 October 2026</time>.</p>
+            <p class="bm-updated">Last updated <time datetime="2026-10-23">23 October 2026</time>.</p>
         </section>
     </main>
 
@@ -222,6 +128,7 @@
                     <a href="controls.html">Controls</a>
                     <a href="contact.html">Contact</a>
                     <a href="about.html">About</a>
+                    <a href="stats.html">Stats</a>
                 </nav>
             </div>
             <div class="footer-col">
