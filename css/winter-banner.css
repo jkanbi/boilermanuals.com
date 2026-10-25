@@ -5,9 +5,8 @@
     width: 100%;
     height: 34px;
     overflow: hidden;
-    background: #f1f3f5;
-    color: #1f2933;
-    border-bottom: 1px solid #e2e5e9;
+    background: #383e42;
+    color: #f5f7fa;
     font-family: var(--font, Inter, system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif);
 }
 
@@ -31,7 +30,7 @@
     flex: 1 1 auto;
     min-width: 0;
     margin: 0;
-    color: #1f2933;
+    color: #f5f7fa;
     font-size: 0.8125rem;
     font-weight: 500;
     line-height: 1.2;
@@ -42,13 +41,13 @@
 }
 
 .bm-winter-alert__link {
-    color: #1863dc;
+    color: #8cc4ff;
     text-decoration: none;
 }
 
 .bm-winter-alert__link:hover,
 .bm-winter-alert__link:focus-visible {
-    color: #0f4eb5;
+    color: #8cc4ff;
     text-decoration: underline;
     text-underline-offset: 2px;
 }
@@ -65,7 +64,7 @@
     border: 0;
     border-radius: 6px;
     background: transparent;
-    color: #4b5563;
+    color: #c5c9cc;
     font-size: 1.25rem;
     font-weight: 500;
     line-height: 1;
@@ -74,8 +73,8 @@
 
 .bm-winter-alert__dismiss:hover,
 .bm-winter-alert__dismiss:focus-visible {
-    background: rgba(31, 41, 51, 0.08);
-    color: #1f2933;
+    background: rgba(245, 247, 250, 0.12);
+    color: #f5f7fa;
 }
 
 /* Brand listing pages use a body grid; keep the bar full-bleed like .site-header */
