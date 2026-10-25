@@ -1,0 +1,107 @@
+/* Sitewide winter alert — loaded on every page via navbar.js */
+
+.bm-winter-alert {
+    box-sizing: border-box;
+    width: 100%;
+    height: 34px;
+    overflow: hidden;
+    background: #383e42;
+    color: #f5f7fa;
+    font-family: var(--font, Inter, system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif);
+}
+
+.bm-winter-alert *,
+.bm-winter-alert *::before,
+.bm-winter-alert *::after {
+    box-sizing: border-box;
+}
+
+.bm-winter-alert__inner {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    width: min(100% - 1.5rem, var(--max-width, 1140px));
+    margin-inline: auto;
+    height: 100%;
+    padding: 0;
+}
+
+.bm-winter-alert__text {
+    flex: 1 1 auto;
+    min-width: 0;
+    margin: 0;
+    color: #f5f7fa;
+    font-size: 0.8125rem;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: -0.01em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.bm-winter-alert__link {
+    color: #8cc4ff;
+    text-decoration: none;
+}
+
+.bm-winter-alert__link:hover,
+.bm-winter-alert__link:focus-visible {
+    color: #8cc4ff;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+
+.bm-winter-alert__dismiss {
+    flex: 0 0 auto;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.75rem;
+    height: 1.75rem;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    border-radius: 6px;
+    background: transparent;
+    color: #c5c9cc;
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 1;
+    cursor: pointer;
+}
+
+.bm-winter-alert__dismiss:hover,
+.bm-winter-alert__dismiss:focus-visible {
+    background: rgba(245, 247, 250, 0.12);
+    color: #f5f7fa;
+}
+
+/* Brand listing pages use a body grid; keep the bar full-bleed like .site-header */
+body:has(#myTable) > .bm-winter-alert {
+    grid-column: 1 / -1;
+}
+
+@media screen and (max-width: 768px) {
+    .bm-winter-alert {
+        height: auto;
+        overflow: visible;
+    }
+
+    .bm-winter-alert__inner {
+        height: auto;
+        min-height: 34px;
+        padding: 0.4rem 0;
+        align-items: flex-start;
+    }
+
+    .bm-winter-alert__text {
+        white-space: normal;
+        overflow: visible;
+        text-overflow: unset;
+    }
+
+    .bm-winter-alert__dismiss {
+        margin-top: -0.1rem;
+    }
+}
