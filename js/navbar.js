@@ -23,7 +23,7 @@
     }
 
     function injectWinterBannerCss() {
-        var href = winterBannerBasePath() + "css/winter-banner.css?v=1";
+        var href = winterBannerBasePath() + "css/winter-banner.css?v=2";
         if (document.querySelector('link[href*="winter-banner.css"]')) {
             return;
         }

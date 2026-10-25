@@ -3,10 +3,11 @@
 .bm-winter-alert {
     box-sizing: border-box;
     width: 100%;
+    height: 34px;
+    overflow: hidden;
     background: #1557c4;
     color: #fff;
     font-family: var(--font, Inter, system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif);
-    border-bottom: 1px solid rgba(15, 78, 181, 0.35);
 }
 
 .bm-winter-alert *,
@@ -76,6 +77,11 @@ body:has(#myTable) > .bm-winter-alert {
 }
 
 @media screen and (max-width: 768px) {
+    .bm-winter-alert {
+        height: auto;
+        overflow: visible;
+    }
+
     .bm-winter-alert__inner {
         height: auto;
         min-height: 34px;
