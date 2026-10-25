@@ -23,7 +23,7 @@
     }
 
     function injectWinterBannerCss() {
-        var href = winterBannerBasePath() + "css/winter-banner.css?v=2";
+        var href = winterBannerBasePath() + "css/winter-banner.css?v=3";
         if (document.querySelector('link[href*="winter-banner.css"]')) {
             return;
         }
@@ -35,7 +35,7 @@
     }
 
     function injectWinterBannerJs() {
-        var src = winterBannerBasePath() + "js/winter-banner.js?v=1";
+        var src = winterBannerBasePath() + "js/winter-banner.js?v=2";
         if (document.querySelector('script[src*="winter-banner.js"]')) {
             return;
         }

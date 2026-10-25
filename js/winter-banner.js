@@ -3,8 +3,9 @@
     var STORAGE_KEY = "bm_winter_banner_dismissed_2026";
     var HREF =
         "https://myboiler.com/boiler-optimiser/?utm_source=boilermanuals&utm_medium=site_banner&utm_campaign=winter_combi";
-    var COPY =
-        "❄️ Got a combi boiler? Turning the flow temperature down could cut your gas bill this winter. Try MyBoiler's free Boiler Optimiser →";
+    var COPY_LEAD =
+        "❄️ Got a combi boiler? Turning the flow temperature down could cut your gas bill this winter. ";
+    var COPY_CTA = "Try MyBoiler's free Boiler Optimiser →";
 
     function isDismissed() {
         try {
@@ -41,10 +42,15 @@
         var inner = document.createElement("div");
         inner.className = "bm-winter-alert__inner";
 
+        var text = document.createElement("p");
+        text.className = "bm-winter-alert__text";
+        text.appendChild(document.createTextNode(COPY_LEAD));
+
         var link = document.createElement("a");
         link.className = "bm-winter-alert__link";
         link.href = HREF;
-        link.textContent = COPY;
+        link.textContent = COPY_CTA;
+        text.appendChild(link);
 
         var dismiss = document.createElement("button");
         dismiss.type = "button";
@@ -58,7 +64,7 @@
             }
         });
 
-        inner.appendChild(link);
+        inner.appendChild(text);
         inner.appendChild(dismiss);
         banner.appendChild(inner);
         return banner;
