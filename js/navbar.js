@@ -18,6 +18,35 @@
         return "";
     }
 
+    function winterBannerBasePath() {
+        return getNavbarBasePath();
+    }
+
+    function injectWinterBannerCss() {
+        var href = winterBannerBasePath() + "css/winter-banner.css?v=1";
+        if (document.querySelector('link[href*="winter-banner.css"]')) {
+            return;
+        }
+        var link = document.createElement("link");
+        link.rel = "stylesheet";
+        link.type = "text/css";
+        link.href = href;
+        document.head.appendChild(link);
+    }
+
+    function injectWinterBannerJs() {
+        var src = winterBannerBasePath() + "js/winter-banner.js?v=1";
+        if (document.querySelector('script[src*="winter-banner.js"]')) {
+            return;
+        }
+        var script = document.createElement("script");
+        script.src = src;
+        script.setAttribute("data-cfasync", "false");
+        document.head.appendChild(script);
+    }
+
+    injectWinterBannerCss();
+
     function getActiveNavItem() {
         var page = window.location.pathname.split("/").pop() || "index.html";
         if (!page || page === "/") {
@@ -117,6 +146,7 @@
     function init() {
         setDocumentTitle();
         renderNavbar();
+        injectWinterBannerJs();
     }
 
     if (document.readyState === "loading") {

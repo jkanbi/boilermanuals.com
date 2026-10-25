@@ -1,0 +1,95 @@
+/* Sitewide winter alert — loaded on every page via navbar.js */
+
+.bm-winter-alert {
+    box-sizing: border-box;
+    width: 100%;
+    background: #1557c4;
+    color: #fff;
+    font-family: var(--font, Inter, system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif);
+    border-bottom: 1px solid rgba(15, 78, 181, 0.35);
+}
+
+.bm-winter-alert *,
+.bm-winter-alert *::before,
+.bm-winter-alert *::after {
+    box-sizing: border-box;
+}
+
+.bm-winter-alert__inner {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    width: min(100% - 1.5rem, var(--max-width, 1140px));
+    margin-inline: auto;
+    height: 34px;
+    padding: 0;
+}
+
+.bm-winter-alert__link {
+    flex: 1 1 auto;
+    min-width: 0;
+    color: #fff;
+    text-decoration: none;
+    font-size: 0.8125rem;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: -0.01em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.bm-winter-alert__link:hover,
+.bm-winter-alert__link:focus-visible {
+    color: #fff;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+
+.bm-winter-alert__dismiss {
+    flex: 0 0 auto;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.75rem;
+    height: 1.75rem;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    border-radius: 6px;
+    background: transparent;
+    color: #fff;
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 1;
+    cursor: pointer;
+}
+
+.bm-winter-alert__dismiss:hover,
+.bm-winter-alert__dismiss:focus-visible {
+    background: rgba(255, 255, 255, 0.16);
+}
+
+/* Brand listing pages use a body grid; keep the bar full-bleed like .site-header */
+body:has(#myTable) > .bm-winter-alert {
+    grid-column: 1 / -1;
+}
+
+@media screen and (max-width: 768px) {
+    .bm-winter-alert__inner {
+        height: auto;
+        min-height: 34px;
+        padding: 0.4rem 0;
+        align-items: flex-start;
+    }
+
+    .bm-winter-alert__link {
+        white-space: normal;
+        overflow: visible;
+        text-overflow: unset;
+    }
+
+    .bm-winter-alert__dismiss {
+        margin-top: -0.1rem;
+    }
+}
