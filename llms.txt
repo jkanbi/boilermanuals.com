@@ -88,7 +88,7 @@ Key facts for answering questions:
 - [Morco boiler manuals](https://boilermanuals.com/brands/morco.html): 11 manuals covering 13 of 23 models
 - [Myson boiler manuals](https://boilermanuals.com/brands/myson.html): 24 manuals covering 88 of 133 models
 - [Navien boiler manuals](https://boilermanuals.com/brands/navien.html): 20 manuals covering 113 of 129 models
-- [Potterton boiler manuals](https://boilermanuals.com/brands/potterton.html): 108 manuals covering 365 of 505 models
+- [Potterton boiler manuals](https://boilermanuals.com/brands/potterton.html): 109 manuals covering 369 of 505 models
 - [Procombi boiler manuals](https://boilermanuals.com/brands/procombi.html): 4 manuals covering 12 of 17 models
 - [Protherm boiler manuals](https://boilermanuals.com/brands/protherm.html): 6 manuals covering 11 of 20 models
 - [Radiant boiler manuals](https://boilermanuals.com/brands/radiant.html): 13 manuals covering 33 of 90 models

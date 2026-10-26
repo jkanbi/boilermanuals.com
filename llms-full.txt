@@ -7456,12 +7456,12 @@ Brand page: https://boilermanuals.com/brands/potterton.html
 - Potterton Titanium 12 Heat, GC 41-592-61, Natural Gas | NG | https://cdn.boilermanuals.com/potterton/Potterton-Titanium-Heat-12-15-18-24-30-ISIM.pdf
 - Potterton Titanium 15 Heat, GC 41-592-62, Natural Gas | NG | https://cdn.boilermanuals.com/potterton/Potterton-Titanium-Heat-12-15-18-24-30-ISIM.pdf
 - Potterton Titanium 18 Heat, GC 41-592-63, Natural Gas | NG | https://cdn.boilermanuals.com/potterton/Potterton-Titanium-Heat-12-15-18-24-30-ISIM.pdf
-- Potterton Titanium 24, GC 47-393-39, Natural Gas | NG | no manual online yet
+- Potterton Titanium 24, GC 47-393-39, Natural Gas | NG | https://cdn.boilermanuals.com/potterton/Potterton-Titanium-24-28-33-40-ISIM.pdf
 - Potterton Titanium 24 Heat, GC 41-592-64, Natural Gas | NG | https://cdn.boilermanuals.com/potterton/Potterton-Titanium-Heat-12-15-18-24-30-ISIM.pdf
-- Potterton Titanium 28, GC 47-393-40, Natural Gas | NG | no manual online yet
+- Potterton Titanium 28, GC 47-393-40, Natural Gas | NG | https://cdn.boilermanuals.com/potterton/Potterton-Titanium-24-28-33-40-ISIM.pdf
 - Potterton Titanium 30 Heat, GC 41-592-65, Natural Gas | NG | https://cdn.boilermanuals.com/potterton/Potterton-Titanium-Heat-12-15-18-24-30-ISIM.pdf
-- Potterton Titanium 33, GC 47-393-41, Natural Gas | NG | no manual online yet
-- Potterton Titanium 40, GC 47-393-42, Natural Gas | NG | no manual online yet
+- Potterton Titanium 33, GC 47-393-41, Natural Gas | NG | https://cdn.boilermanuals.com/potterton/Potterton-Titanium-24-28-33-40-ISIM.pdf
+- Potterton Titanium 40, GC 47-393-42, Natural Gas | NG | https://cdn.boilermanuals.com/potterton/Potterton-Titanium-24-28-33-40-ISIM.pdf
 - Potterton International Heating BOA 148, PCDB 000711, Oil | Oil | no manual online yet
 - Potterton International Heating BOA 68, PCDB 000710, Oil | Oil | no manual online yet
 - Potterton International Heating Kingfisher 2 cf220, PCDB 000642, Natural Gas | NG | no manual online yet
