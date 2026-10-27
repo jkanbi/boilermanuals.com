@@ -342,6 +342,7 @@ def energy_panel(e, num):
                 </table>
             </div>
             <p class="bm-stats__note">Energy letters: ErP class where published, otherwise efficiency band from SAP seasonal efficiency (SEDBUK 2009 scale). Each boiler row on a brand page counts once; heating controls, heat pumps, electric boilers and request-only rows are not included. Boiler type comes from the CCB/CB badge or the PCDB boiler type, or else from the model name when it clearly says combi, system or regular. System/Regular means the data doesn&rsquo;t say which of the two it is.{" CPSU is a combined primary storage unit." if "CPSU" in bt else ""}</p>
+            <p class="bm-stats__note">The index data and stats on this page are licensed under <a href="https://creativecommons.org/licenses/by/4.0/" rel="license noopener">CC BY 4.0</a>; please credit BoilerManuals.com. The manuals themselves remain the copyright of their manufacturers.</p>
         </section>
         <!-- energy-stats:end -->"""
 
