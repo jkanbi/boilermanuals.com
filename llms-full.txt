@@ -6282,18 +6282,18 @@ Brand page: https://boilermanuals.com/brands/maxol.html
 
 Brand page: https://boilermanuals.com/brands/merlin.html
 
-- Merlin 100/150 BF, PCDB 008489, Oil | Oil | no manual online yet
-- Merlin 100/150 CF, PCDB 008490, Oil | Oil | no manual online yet
+- Merlin 100/150 BF, PCDB 008489, Oil | Oil | https://cdn.boilermanuals.com/merlin/Merlin-45-65-65-95-100-150-150-185-Installation-Manual.pdf
+- Merlin 100/150 CF, PCDB 008490, Oil | Oil | https://cdn.boilermanuals.com/merlin/Merlin-45-65-65-95-100-150-150-185-Installation-Manual.pdf
 - Merlin 2000 40/60 BL, PCDB 009236, Oil | Oil | no manual online yet
 - Merlin 2000 40/60 CF, PCDB 009235, Oil | Oil | no manual online yet
 - Merlin 2000 60/80 BL, PCDB 009234, Oil | Oil | no manual online yet
 - Merlin 2000 60/80 CF, PCDB 009233, Oil | Oil | no manual online yet
 - Merlin 2000 80/100 BL, PCDB 009231, Oil | Oil | no manual online yet
 - Merlin 2000 80/100 CF, PCDB 009232, Oil | Oil | no manual online yet
-- Merlin 45/65 BL, PCDB 008487, Oil | Oil | no manual online yet
-- Merlin 45/65 CF, PCDB 008488, Oil | Oil | no manual online yet
-- Merlin 65/95 BL, PCDB 008491, Oil | Oil | no manual online yet
-- Merlin 65/95 CF, PCDB 008492, Oil | Oil | no manual online yet
+- Merlin 45/65 BL, PCDB 008487, Oil | Oil | https://cdn.boilermanuals.com/merlin/Merlin-45-65-65-95-100-150-150-185-Installation-Manual.pdf
+- Merlin 45/65 CF, PCDB 008488, Oil | Oil | https://cdn.boilermanuals.com/merlin/Merlin-45-65-65-95-100-150-150-185-Installation-Manual.pdf
+- Merlin 65/95 BL, PCDB 008491, Oil | Oil | https://cdn.boilermanuals.com/merlin/Merlin-45-65-65-95-100-150-150-185-Installation-Manual.pdf
+- Merlin 65/95 CF, PCDB 008492, Oil | Oil | https://cdn.boilermanuals.com/merlin/Merlin-45-65-65-95-100-150-150-185-Installation-Manual.pdf
 - Merlin Internal Wall Hung 40/65 BL, PCDB 008493, Oil | Oil | no manual online yet
 - Merlin Internal Wall Hung 40/65 CF, PCDB 008494, Oil | Oil | no manual online yet
 - Merlin Internal Wall Hung 40/65 EXT, PCDB 008495, Oil | Oil | no manual online yet

@@ -80,6 +80,7 @@ Key facts for answering questions:
 - [Main boiler manuals](https://boilermanuals.com/brands/main.html): 18 manuals covering 46 of 58 models
 - [Malvern boiler manuals](https://boilermanuals.com/brands/malvern.html): 5 manuals covering 8 of 12 models
 - [Maxol boiler manuals](https://boilermanuals.com/brands/maxol.html): 3 manuals covering 7 of 36 models
+- [Merlin boiler manuals](https://boilermanuals.com/brands/merlin.html): 1 manual covering 6 of 16 models
 - [MHG boiler manuals](https://boilermanuals.com/brands/mhg.html): 12 manuals covering 12 of 12 models
 - [MHS boiler manuals](https://boilermanuals.com/brands/mhs.html): 19 manuals covering 42 of 48 models
 - [Mikrofill boiler manuals](https://boilermanuals.com/brands/mikrofill.html): 10 manuals covering 11 of 11 models
@@ -173,7 +174,6 @@ Key facts for answering questions:
 - [KWB boiler manuals](https://boilermanuals.com/brands/kwb.html): 21 models listed, manuals on request
 - [Lamborghini boiler manuals](https://boilermanuals.com/brands/lamborghini.html): 13 models listed, manuals on request
 - [Lukey boiler manuals](https://boilermanuals.com/brands/lukey.html): 2 models listed, manuals on request
-- [Merlin boiler manuals](https://boilermanuals.com/brands/merlin.html): 16 models listed, manuals on request
 - [Mixergy boiler manuals](https://boilermanuals.com/brands/mixergy.html): 1 model listed, manuals on request
 - [Motan boiler manuals](https://boilermanuals.com/brands/motan.html): 3 models listed, manuals on request
 - [NST boiler manuals](https://boilermanuals.com/brands/nst.html): 9 models listed, manuals on request
