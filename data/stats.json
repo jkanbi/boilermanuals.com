@@ -8,11 +8,11 @@
   "records": 7238,
   "other_fuel_records": 0
  },
- "manuals_total": 2206,
+ "manuals_total": 2204,
  "models": {
   "listed": 10024,
-  "with_manual": 6178,
-  "pct": 61.6
+  "with_manual": 6360,
+  "pct": 63.4
  },
  "fuels": {
   "gas": {
@@ -265,7 +265,7 @@
    "split_by_name_cue": 661,
    "unknown": 2952
   },
-  "method": "Counted per row from the Energy column of the brand pages. ErP class where published, otherwise efficiency band from SAP seasonal efficiency (SEDBUK 2009 scale). Boiler rows = all brand-table rows except heating controls, heat pumps/hybrids, electric boilers, warm air units\nand '(any model)' request rows. Type: CCB badge -> Combi, CB badge -> System/Regular; otherwise the PCDB main type\n(field 15: 2 combi, 1 regular incl. system, 3 CPSU) of the PCDB record the row is identified by (PCDB index or GC\nnumber); System/Regular is split into System or Regular only when the model name says so unambiguously; rows with\nno PCDB type use clear model-name cues (combi / system / regular, heat only, conventional, open vent, Ri) only when\nexactly one cue matches."
+  "method": "Counted per row from the Energy column of the brand pages. ErP class where published, otherwise efficiency band from SAP seasonal efficiency (SEDBUK 2009 scale). Boiler rows = all brand-table rows except heating controls, heat pumps/hybrids, electric boilers, warm air units and '(any model)' request rows. Type: CCB badge -> Combi, CB badge -> System/Regular; otherwise the PCDB main type (field 15: 2 combi, 1 regular incl. system, 3 CPSU) of the PCDB record the row is identified by (PCDB index or GC number); System/Regular is split into System or Regular only when the model name says so unambiguously; rows with no PCDB type use clear model-name cues (combi / system / regular, heat only, conventional, open vent, Ri) only when exactly one cue matches."
  },
  "method": "A PCDB record counts when its GC number (gas/LPG) or its PCDB index appears on a site row that links a PDF on cdn.boilermanuals.com. Brochure/spec-sheet-only PDFs are not counted as manuals anywhere."
 }
