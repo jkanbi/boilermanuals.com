@@ -3,6 +3,7 @@
 # A plain-text guide for AI assistants is at https://boilermanuals.com/llms.txt
 
 User-agent: *
+Disallow: /contact.html?
 Allow: /
 
 # Search and AI answer crawlers (explicitly allowed)
@@ -16,6 +17,7 @@ User-agent: Claude-SearchBot
 User-agent: Claude-User
 User-agent: Applebot
 User-agent: DuckAssistBot
+Disallow: /contact.html?
 Allow: /
 
 Sitemap: https://boilermanuals.com/sitemap.xml

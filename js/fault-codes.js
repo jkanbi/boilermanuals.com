@@ -238,7 +238,7 @@
 
         var html = '<div class="fault-handoff__card">';
         html += '<h3 class="fault-handoff__title">Need help fixing this fault?</h3>';
-        html += '<p class="fault-handoff__text">Get instant AI-powered advice or speak to a Gas Safe registered engineer.</p>';
+        html += '<p class="fault-handoff__text">Get instant AI-powered advice or speak to a qualified heating engineer.</p>';
         html += '<div class="fault-handoff__actions">';
         html += '<a href="https://myboiler.com/chat/" class="fault-handoff__button fault-handoff__button--primary" rel="noopener">Ask Boiler Help AI</a>';
         html += '<a href="https://myboiler.com/quote/" class="fault-handoff__button fault-handoff__button--secondary" rel="noopener">Get a Quote</a>';

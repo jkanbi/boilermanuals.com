@@ -1,14 +1,14 @@
 {
- "generated": "2026-10-31",
+ "generated": "2026-11-02",
  "pcdb": {
   "source": "SAP 10 PCDB (pcdb10.dat): table 105 gas and oil boilers, table 122 solid fuel and biomass boilers, table 131 twin-burner range cooker boilers, table 143 micro-CHP (SAP illustrative placeholder entries excluded)",
-  "revision": "599",
-  "file_date": "2026-09-30",
+  "revision": "601",
+  "file_date": "2026-10-30",
   "table105_date": "2026-05-29",
   "records": 7238,
   "other_fuel_records": 0
  },
- "manuals_total": 2204,
+ "manuals_total": 2203,
  "models": {
   "listed": 10024,
   "with_manual": 6360,
@@ -64,9 +64,9 @@
   }
  },
  "electric": {
-  "models_listed": 199,
-  "models_with_manual": 137,
-  "pct": 68.8,
+  "models_listed": 196,
+  "models_with_manual": 134,
+  "pct": 68.4,
   "brochure_only_rows_excluded": 11,
   "note": "not in PCDB; share of the electric models we list, not part of the PCDB overall figure"
  },
@@ -115,9 +115,9 @@
   "note": "table 105 only (the figure published before solid fuel, cooker boilers and micro-CHP were added)"
  },
  "energy": {
-  "boiler_rows": 9810,
+  "boiler_rows": 9816,
   "rated": 5367,
-  "no_rating": 4443,
+  "no_rating": 4449,
   "pct_rated": 54.7,
   "letters": {
    "A+++": {
@@ -176,15 +176,15 @@
     "A+++": 0,
     "A++": 0,
     "A+": 0,
-    "A": 1371,
+    "A": 1377,
     "B": 183,
-    "C": 216,
-    "D": 190,
+    "C": 219,
+    "D": 191,
     "E": 11,
     "F": 0,
     "G": 0,
-    "none": 561,
-    "total": 2532
+    "none": 564,
+    "total": 2545
    },
    "System": {
     "A+++": 0,
@@ -218,15 +218,15 @@
     "A+++": 0,
     "A++": 0,
     "A+": 0,
-    "A": 1215,
+    "A": 1219,
     "B": 502,
-    "C": 360,
-    "D": 270,
+    "C": 361,
+    "D": 271,
     "E": 78,
     "F": 56,
     "G": 2,
     "none": 1039,
-    "total": 3522
+    "total": 3528
    },
    "CPSU": {
     "A+++": 0,
@@ -246,26 +246,26 @@
     "A+++": 0,
     "A++": 0,
     "A+": 0,
-    "A": 124,
+    "A": 114,
     "B": 14,
-    "C": 15,
-    "D": 98,
+    "C": 11,
+    "D": 96,
     "E": 30,
     "F": 8,
     "G": 0,
-    "none": 2663,
-    "total": 2952
+    "none": 2666,
+    "total": 2939
    }
   },
   "type_sources": {
    "ccb_badge": 1152,
    "cb_badge": 1355,
-   "pcdb_main_type": 4060,
-   "name_cue": 291,
-   "split_by_name_cue": 661,
-   "unknown": 2952
+   "pcdb_main_type": 4080,
+   "name_cue": 290,
+   "split_by_name_cue": 662,
+   "unknown": 2939
   },
-  "method": "Counted per row from the Energy column of the brand pages. ErP class where published, otherwise efficiency band from SAP seasonal efficiency (SEDBUK 2009 scale). Boiler rows = all brand-table rows except heating controls, heat pumps/hybrids, electric boilers, warm air units and '(any model)' request rows. Type: CCB badge -> Combi, CB badge -> System/Regular; otherwise the PCDB main type (field 15: 2 combi, 1 regular incl. system, 3 CPSU) of the PCDB record the row is identified by (PCDB index or GC number); System/Regular is split into System or Regular only when the model name says so unambiguously; rows with no PCDB type use clear model-name cues (combi / system / regular, heat only, conventional, open vent, Ri) only when exactly one cue matches."
+  "method": "Counted per row from the Energy column of the brand pages. ErP class where published, otherwise efficiency band from SAP seasonal efficiency (SEDBUK 2009 scale). Boiler rows = all brand-table rows except heating controls, heat pumps/hybrids, electric boilers, warm air units\nand '(any model)' request rows. Type: CCB badge -> Combi, CB badge -> System/Regular; otherwise the PCDB main type\n(field 15: 2 combi, 1 regular incl. system, 3 CPSU) of the PCDB record the row is identified by (PCDB index or GC\nnumber); System/Regular is split into System or Regular only when the model name says so unambiguously; rows with\nno PCDB type use clear model-name cues (combi / system / regular, heat only, conventional, open vent, Ri) only when\nexactly one cue matches."
  },
  "method": "A PCDB record counts when its GC number (gas/LPG) or its PCDB index appears on a site row that links a PDF on cdn.boilermanuals.com. Brochure/spec-sheet-only PDFs are not counted as manuals anywhere."
 }
