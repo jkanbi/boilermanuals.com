@@ -1082,3 +1082,36 @@
 }
 .styled-list.popular-grid a:not(.has-logo) .brand-logo { position: absolute; opacity: 0; }
 .styled-list.popular-grid li a { position: relative; }
+
+/* Related brands links at the foot of each brand page */
+.related-brands {
+    max-width: var(--max-width);
+    margin: 1.5rem auto 1rem;
+    padding: 1rem 1.25rem;
+    background: var(--surface);
+    border: 1px solid var(--border-subtle);
+    border-radius: var(--radius);
+}
+.related-brands__title {
+    margin: 0 0 .6rem;
+    font-size: 1.05rem;
+}
+.related-brands__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .4rem 1.25rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.related-brands__list a,
+.related-brands__all a {
+    color: var(--link);
+}
+.related-brands__note {
+    color: var(--text-muted);
+    font-size: .85em;
+}
+.related-brands__all {
+    margin: .75rem 0 0;
+}
