@@ -1,8 +1,20 @@
 /* Sitewide winter alert — self-contained; no cookies or third-party requests */
 (function () {
     var STORAGE_KEY = "bm_winter_banner_dismissed_2026";
-    var HREF =
-        "https://myboiler.com/boiler-optimiser/?utm_source=boilermanuals&utm_medium=site_banner&utm_campaign=winter_combi";
+    var HREF = (function () {
+        var href =
+            "https://myboiler.com/boiler-optimiser/?utm_source=boilermanuals&utm_medium=site_banner&utm_campaign=winter_combi";
+        if (window.BMOptimiserUrl && window.BMOptimiserUrl.build) {
+            return window.BMOptimiserUrl.build(href, { type: "CCB" });
+        }
+        try {
+            var url = new URL(href);
+            url.searchParams.set("system", "combi");
+            return url.toString();
+        } catch (e) {
+            return href + (href.indexOf("?") >= 0 ? "&" : "?") + "system=combi";
+        }
+    })();
     var COPY_LEAD =
         "❄️ Got a combi boiler? Turning the flow temperature down could cut your gas bill this winter. ";
     var COPY_CTA = "Try MyBoiler's free Boiler Optimiser →";
