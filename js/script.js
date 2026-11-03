@@ -187,6 +187,9 @@ document.addEventListener('DOMContentLoaded', function() {
     disableGcNumberTelLinks();
     showBrandPageTitle();
     enhanceTablesForMobile();
+    if (window.BMOptimiserUrl && window.BMOptimiserUrl.enhance) {
+        window.BMOptimiserUrl.enhance();
+    }
 
     // Legacy hub rewrite — only on pages that still load urlUtils.js (e.g. index)
     if (typeof URLUtils !== 'undefined' && URLUtils.updateDownloadLinks) {

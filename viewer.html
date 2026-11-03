@@ -13,7 +13,7 @@
     <link rel="stylesheet" type="text/css" href="/css/navbar.css?v=6">
     <link rel="stylesheet" type="text/css" href="/css/styles.css?v=14">
     <link rel="modulepreload" href="/pdfjs/build/pdf.min.mjs">
-    <script data-cfasync="false" src="/js/navbar.js?v=13"></script>
+    <script data-cfasync="false" src="/js/navbar.js?v=14"></script>
     <style>
         /* Jumps must be instant so pages in between are not fetched. */
         html, body { scroll-behavior: auto !important; }
@@ -257,7 +257,7 @@
         <button class="pv-opt-x" id="pvOptClose" type="button" aria-label="Close" title="Close">&times;</button>
         <p class="pv-opt-h">Got a combi boiler? Cut your gas bill in 2 minutes</p>
         <p>This manual covers a condensing combi. Combis waste gas when the flow temperature is set too high. MyBoiler&rsquo;s free Boiler Optimiser shows the setting to try and how much you could save.</p>
-        <a class="pv-opt-btn" id="pvOptLink" href="https://myboiler.com/boiler-optimiser/" rel="noopener">Open the Boiler Optimiser</a>
+        <a class="pv-opt-btn" id="pvOptLink" href="https://myboiler.com/boiler-optimiser/?system=combi" rel="noopener">Open the Boiler Optimiser</a>
         <p class="pv-opt-sm">Free tool from MyBoiler.com, part of the same family as BoilerManuals. Change settings only as your boiler manual allows.</p>
     </aside>
     <h1 class="pv-title" id="pvTitle">Manual viewer</h1>
@@ -331,6 +331,7 @@
         }
     })();
 </script>
+<script data-cfasync="false" src="/js/optimiser-url.js?v=1"></script>
 <script>
     /* Boiler Optimiser box: shown when the open PDF is a condensing-combi manual
        (list in /js/optimiser-combis.json). Dismiss is kept in sessionStorage only;
@@ -346,7 +347,17 @@
             var box = document.getElementById("pvOpt");
             var brand = path.split("/")[0].toLowerCase();
             var stem = (path.split("/").pop() || "").replace(/\.pdf$/i, "").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
-            document.getElementById("pvOptLink").href = "https://myboiler.com/boiler-optimiser/?utm_source=boilermanuals&utm_medium=manual-viewer&utm_campaign=optimiser&utm_content=" + encodeURIComponent(brand + "-" + stem);
+            var href = "https://myboiler.com/boiler-optimiser/?utm_source=boilermanuals&utm_medium=manual-viewer&utm_campaign=optimiser&utm_content=" + encodeURIComponent(brand + "-" + stem);
+            if (window.BMOptimiserUrl && window.BMOptimiserUrl.build) {
+                href = window.BMOptimiserUrl.build(href, { type: "CCB", brand: brand });
+            } else {
+                try {
+                    var optUrl = new URL(href);
+                    optUrl.searchParams.set("system", "combi");
+                    href = optUrl.toString();
+                } catch (e2) {}
+            }
+            document.getElementById("pvOptLink").href = href;
             box.hidden = false;
             document.getElementById("pvOptClose").addEventListener("click", function () {
                 box.hidden = true;

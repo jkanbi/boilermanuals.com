@@ -22,6 +22,18 @@
         return getNavbarBasePath();
     }
 
+    function injectOptimiserUrlJs() {
+        var src = getNavbarBasePath() + "js/optimiser-url.js?v=1";
+        if (document.querySelector('script[src*="optimiser-url.js"]')) {
+            return;
+        }
+        var script = document.createElement("script");
+        script.src = src;
+        script.async = false;
+        script.setAttribute("data-cfasync", "false");
+        document.head.appendChild(script);
+    }
+
     function injectWinterBannerCss() {
         var href = winterBannerBasePath() + "css/winter-banner.css?v=4";
         if (document.querySelector('link[href*="winter-banner.css"]')) {
@@ -35,16 +47,18 @@
     }
 
     function injectWinterBannerJs() {
-        var src = winterBannerBasePath() + "js/winter-banner.js?v=2";
+        var src = winterBannerBasePath() + "js/winter-banner.js?v=3";
         if (document.querySelector('script[src*="winter-banner.js"]')) {
             return;
         }
         var script = document.createElement("script");
         script.src = src;
+        script.async = false;
         script.setAttribute("data-cfasync", "false");
         document.head.appendChild(script);
     }
 
+    injectOptimiserUrlJs();
     injectWinterBannerCss();
 
     function getActiveNavItem() {
