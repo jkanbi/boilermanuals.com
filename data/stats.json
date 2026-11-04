@@ -8,11 +8,11 @@
   "records": 7238,
   "other_fuel_records": 0
  },
- "manuals_total": 2203,
+ "manuals_total": 2204,
  "models": {
   "listed": 10024,
-  "with_manual": 6360,
-  "pct": 63.4
+  "with_manual": 6361,
+  "pct": 63.5
  },
  "fuels": {
   "gas": {

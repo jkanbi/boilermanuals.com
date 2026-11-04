@@ -51,7 +51,7 @@ Key facts for answering questions:
 - [EOGB boiler manuals](https://boilermanuals.com/brands/eogb.html): 1 manual covering 3 of 7 models
 - [Esse boiler manuals](https://boilermanuals.com/brands/esse.html): 1 manual covering 3 of 3 models
 - [Evinox boiler manuals](https://boilermanuals.com/brands/evinox.html): 1 manual covering 2 of 2 models
-- [Ferroli boiler manuals](https://boilermanuals.com/brands/ferroli.html): 88 manuals covering 133 of 176 models
+- [Ferroli boiler manuals](https://boilermanuals.com/brands/ferroli.html): 89 manuals covering 134 of 176 models
 - [Fiamma Giro boiler manuals](https://boilermanuals.com/brands/fiamma-giro.html): 6 manuals covering 15 of 15 models
 - [Firebird boiler manuals](https://boilermanuals.com/brands/firebird.html): 14 manuals covering 142 of 264 models
 - [Fondital boiler manuals](https://boilermanuals.com/brands/fondital.html): 22 manuals covering 52 of 77 models

@@ -2826,7 +2826,7 @@ Brand page: https://boilermanuals.com/brands/ferroli.html
 - Ferroli Optima 1001 | GC 47-267-19 | NG/LPG | Installation: https://cdn.boilermanuals.com/ferroli/Optima1001Manual.pdf
 - Ferroli Maxima 35 S | GC 47-267-21 | NG/LPG | Installation, Servicing & User: https://cdn.boilermanuals.com/ferroli/maXima35SManual.pdf
 - Ferroli Hawk 2 | GC 47-267-22 | NG/LPG | Installation & Servicing: https://cdn.boilermanuals.com/ferroli/Ferroli-hawk-II-2-ISIM.pdf
-- Ferroli Optimax 25 S | GC 47-267-22 | NG/LPG | no manual online yet
+- Ferroli Optimax 25 S | GC 47-267-22 | NG/LPG | Installation, Servicing & User: https://cdn.boilermanuals.com/ferroli/Ferroli-Optimax-25-S-Installation-Manual.pdf
 - Ferroli Domina 80 E | GC 47-267-23 | NG | Installation, Servicing & User: https://cdn.boilermanuals.com/ferroli/Ferroli-domina-80-e-ISIM.pdf
 - Ferroli Domina N 80 | GC 47-267-23 | NG/LPG | Installation, Servicing & User: https://cdn.boilermanuals.com/ferroli/Ferroli-domina-80-e-ISIM.pdf
 - Ferroli Falcon 2 | GC 47-267-24 | NG/LPG | Installation, Servicing & User: https://cdn.boilermanuals.com/ferroli/Ferroli-falcon-II-2-ISIM.pdf
@@ -2899,7 +2899,7 @@ Brand page: https://boilermanuals.com/brands/ferroli.html
 - Ferroli Optima 701 | Installation: https://cdn.boilermanuals.com/ferroli/Optima701Manual.pdf
 - Ferroli Optima 800 | Technical Data: https://cdn.boilermanuals.com/ferroli/ferroli-Optima-800-Manual1.pdf
 - Ferroli Optima 900 | Technical Data: https://cdn.boilermanuals.com/ferroli/ferroli-Optima-900-Manual1.pdf
-- Ferroli Optimax 25 S | GC 41-267-22 | Installation, Servicing & User: https://cdn.boilermanuals.com/ferroli/OptimaxHE25SManual.pdf
+- Ferroli Optimax 25 S | GC 41-267-22 | Installation, Servicing & User: https://cdn.boilermanuals.com/ferroli/Ferroli-Optimax-25-S-Installation-Manual.pdf
 - Ferroli Optimax 25 OV | Installation, Servicing & User: https://cdn.boilermanuals.com/ferroli/ferroli-Optimax_25OV_Manual.pdf
 - Ferroli Optimax HE Plus 25 OV | Installation, Servicing & User: https://cdn.boilermanuals.com/ferroli/OPTIMAXHEPLUS25OV.pdf
 - Ferroli Option | Installation & Servicing: https://cdn.boilermanuals.com/vokera/vokera-option-installation-and-servicing-instructions.pdf
@@ -2922,7 +2922,7 @@ Brand page: https://boilermanuals.com/brands/ferroli.html
 - Ferroli Maxima 35 S LPG, PCDB 010278, LPG | LPG | Installation, Servicing & User: https://cdn.boilermanuals.com/ferroli/maXima35CManual.pdf
 - Ferroli Optimax 25 C LPG, PCDB 010274, LPG | LPG | Installation, Servicing & User: https://cdn.boilermanuals.com/ferroli/Ferroli-optimax-he-plus-18-25-35-s-ISIM.pdf
 - Ferroli Optimax 25 OV LPG, PCDB 010276, LPG | LPG | Installation, Servicing & User: https://cdn.boilermanuals.com/ferroli/OPTIMAXHEPLUS25OV.pdf
-- Ferroli Optimax 25 S LPG, PCDB 010275, LPG | LPG | Installation, Servicing & User: https://cdn.boilermanuals.com/ferroli/Ferroli-optimax-he-plus-18-25-35-s-ISIM.pdf
+- Ferroli Optimax 25 S LPG, PCDB 010275, LPG | LPG | Installation, Servicing & User: https://cdn.boilermanuals.com/ferroli/Ferroli-Optimax-25-S-Installation-Manual.pdf
 - Ferroli Optimax HE Plus 18 OV, GC 41-267-29, Natural Gas | NG | no manual online yet
 - Ferroli Optimax HE Plus 18 S, GC 41-267-31, Natural Gas | NG | no manual online yet
 - Ferroli Optimax HE Plus 25 OV, GC 41-267-30, Natural Gas | NG | no manual online yet
