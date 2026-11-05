@@ -56,7 +56,7 @@ Key facts for answering questions:
 - [Firebird boiler manuals](https://boilermanuals.com/brands/firebird.html): 14 manuals covering 142 of 264 models
 - [Fondital boiler manuals](https://boilermanuals.com/brands/fondital.html): 22 manuals covering 52 of 77 models
 - [Froling boiler manuals](https://boilermanuals.com/brands/froling.html): 2 manuals covering 13 of 13 models
-- [GAH boiler manuals](https://boilermanuals.com/brands/gah.html): 1 manual covering 8 of 66 models
+- [GAH boiler manuals](https://boilermanuals.com/brands/gah.html): 2 manuals covering 46 of 66 models
 - [Geminox boiler manuals](https://boilermanuals.com/brands/geminox.html): 16 manuals covering 34 of 44 models
 - [Gerkros boiler manuals](https://boilermanuals.com/brands/gerkros.html): 5 manuals covering 8 of 31 models
 - [Glow-worm boiler manuals](https://boilermanuals.com/brands/glow-worm.html): 154 manuals covering 319 of 491 models
