@@ -969,7 +969,7 @@ function setupKeep() {
         var work = saved ? off.removePdf(state.file) : off.keepPdf(state.file, function (p) {
             render(p && p.percent ? p.percent : 0);
         });
-        work.then(function () {
+        work.then(function (result) {
             if (saved) {
                 saved = false;
                 setKeepMsg("Removed from this browser.");
@@ -978,7 +978,8 @@ function setupKeep() {
                 var reopen = (typeof navigator !== "undefined" && navigator.serviceWorker)
                     ? " You can reopen this page without a connection."
                     : "";
-                setKeepMsg("Saved in this browser." + reopen);
+                var persistNote = result && result.persisted ? " Persistent storage is on." : "";
+                setKeepMsg("Saved in this browser." + reopen + persistNote);
             }
         }).catch(function (err) {
             console.error(err);
@@ -1016,10 +1017,31 @@ async function openPdf(url, localFile) {
     return loadingTask.promise;
 }
 
+function noteOfflineOpen() {
+    var off = window.BMOfflinePdf;
+    if (!off || !state.file) {
+        return;
+    }
+    var work = Promise.resolve();
+    if (off.hasPdf && off.touchOpened) {
+        work = off.hasPdf(state.file).then(function (saved) {
+            if (saved) {
+                off.touchOpened(state.file);
+            }
+        }).catch(function () {});
+    }
+    work.then(function () {
+        if (off.expireUnusedPdfs) {
+            return off.expireUnusedPdfs(state.file);
+        }
+    }).catch(function () {});
+}
+
 async function start() {
     placeToolbar();
     setTimeout(placeToolbar, 300);
     setupKeep();
+    noteOfflineOpen();
     if (!state.file) {
         return;
     }

@@ -7,17 +7,19 @@
 (function (global) {
     var ALLOWED_HOST = "cdn.boilermanuals.com";
     var CACHE_PDFS = "bm-offline-pdfs";
-    var CACHE_SHELL = "bm-viewer-shell-v2";
+    var CACHE_SHELL = "bm-viewer-shell-v3";
     var SHELL_PREFIX = "bm-viewer-shell-";
     var INDEX_KEY = "bm-offline-index";
     var MAX_PDF_BYTES = 80 * 1024 * 1024;
+    var UNUSED_MS = 30 * 24 * 60 * 60 * 1000;
+    var MAX_EVICT_ATTEMPTS = 50;
 
     var SHELL_URLS = [
         "/viewer.html",
         "/offline.html",
-        "/js/offline-pdf.js?v=2",
-        "/js/offline-files.js?v=1",
-        "/js/viewer.js?v=4",
+        "/js/offline-pdf.js?v=3",
+        "/js/offline-files.js?v=2",
+        "/js/viewer.js?v=5",
         "/js/navbar.js?v=15",
         "/js/optimiser-url.js?v=1",
         "/js/winter-banner.js?v=3",
@@ -224,9 +226,12 @@
             return;
         }
         var index = readIndex();
+        var prev = index[canon] || {};
+        var now = Date.now();
         index[canon] = {
-            name: displayName(canon),
-            savedAt: Date.now()
+            name: prev.name || displayName(canon),
+            savedAt: typeof prev.savedAt === "number" && prev.savedAt > 0 ? prev.savedAt : now,
+            openedAt: now
         };
         writeIndex(index);
     }
@@ -241,6 +246,178 @@
             delete index[canon];
             writeIndex(index);
         }
+    }
+
+    function lastUsedAt(meta) {
+        meta = meta || {};
+        if (typeof meta.openedAt === "number" && isFinite(meta.openedAt) && meta.openedAt > 0) {
+            return meta.openedAt;
+        }
+        if (typeof meta.savedAt === "number" && isFinite(meta.savedAt) && meta.savedAt > 0) {
+            return meta.savedAt;
+        }
+        return 0;
+    }
+
+    function touchOpened(url) {
+        var canon = canonicalPdfUrl(url);
+        if (!canon) {
+            return;
+        }
+        var index = readIndex();
+        if (!index[canon]) {
+            return;
+        }
+        var prev = index[canon];
+        index[canon] = {
+            name: prev.name || displayName(canon),
+            savedAt: typeof prev.savedAt === "number" && prev.savedAt > 0 ? prev.savedAt : Date.now(),
+            openedAt: Date.now()
+        };
+        writeIndex(index);
+    }
+
+    function isQuotaError(err) {
+        if (!err) {
+            return false;
+        }
+        var name = err.name || "";
+        if (name === "QuotaExceededError" || name === "NS_ERROR_DOM_QUOTA_REACHED") {
+            return true;
+        }
+        if (err.code === 22 || err.code === 1014) {
+            return true;
+        }
+        var msg = err.message ? String(err.message) : "";
+        return /quota|storage.*full|not enough space/i.test(msg);
+    }
+
+    function requestPersist() {
+        if (typeof navigator === "undefined" || !navigator.storage ||
+            typeof navigator.storage.persist !== "function") {
+            return Promise.resolve(false);
+        }
+        return navigator.storage.persist().then(function (ok) {
+            return !!ok;
+        }).catch(function () {
+            return false;
+        });
+    }
+
+    function isPersisted() {
+        if (typeof navigator === "undefined" || !navigator.storage ||
+            typeof navigator.storage.persisted !== "function") {
+            return Promise.resolve(false);
+        }
+        return navigator.storage.persisted().then(function (ok) {
+            return !!ok;
+        }).catch(function () {
+            return false;
+        });
+    }
+
+    function storedPdfResponse(blob) {
+        return new Response(blob, {
+            headers: {
+                "Content-Type": "application/pdf",
+                "Content-Length": String(blob.size),
+                "Accept-Ranges": "bytes",
+                "Access-Control-Allow-Origin": "*"
+            }
+        });
+    }
+
+    function evictOldestKept(exceptUrl) {
+        var except = canonicalPdfUrl(exceptUrl);
+        if (!isSupported()) {
+            return Promise.resolve(false);
+        }
+        return pdfCache().then(function (cache) {
+            return cache.keys().then(function (keys) {
+                var index = readIndex();
+                var best = null;
+                keys.forEach(function (req) {
+                    var canon = canonicalPdfUrl(req.url);
+                    if (!canon || (except && canon === except)) {
+                        return;
+                    }
+                    var meta = index[canon] || {};
+                    var opened = lastUsedAt(meta);
+                    var saved = typeof meta.savedAt === "number" && meta.savedAt > 0 ? meta.savedAt : 0;
+                    if (!best) {
+                        best = { url: canon, opened: opened, saved: saved };
+                        return;
+                    }
+                    if (opened < best.opened ||
+                        (opened === best.opened && saved < best.saved) ||
+                        (opened === best.opened && saved === best.saved && canon < best.url)) {
+                        best = { url: canon, opened: opened, saved: saved };
+                    }
+                });
+                if (!best) {
+                    return false;
+                }
+                return removePdf(best.url).then(function () {
+                    return true;
+                });
+            });
+        }).catch(function () {
+            return false;
+        });
+    }
+
+    function putPdfWithEviction(cache, canon, blob) {
+        var attempts = 0;
+        function attempt() {
+            return cache.put(canon, storedPdfResponse(blob)).catch(function (err) {
+                if (!isQuotaError(err)) {
+                    throw err;
+                }
+                attempts += 1;
+                if (attempts > MAX_EVICT_ATTEMPTS) {
+                    throw err;
+                }
+                return evictOldestKept(canon).then(function (evicted) {
+                    if (!evicted) {
+                        throw err;
+                    }
+                    return attempt();
+                });
+            });
+        }
+        return attempt();
+    }
+
+    function expireUnusedPdfs(exceptUrl) {
+        if (!isSupported()) {
+            return Promise.resolve([]);
+        }
+        var except = canonicalPdfUrl(exceptUrl);
+        var cutoff = Date.now() - UNUSED_MS;
+        return pdfCache().then(function (cache) {
+            return cache.keys().then(function (keys) {
+                var index = readIndex();
+                var expired = [];
+                keys.forEach(function (req) {
+                    var canon = canonicalPdfUrl(req.url);
+                    if (!canon || (except && canon === except)) {
+                        return;
+                    }
+                    var last = lastUsedAt(index[canon]);
+                    if (!last || last > cutoff) {
+                        return;
+                    }
+                    expired.push(canon);
+                });
+                return Promise.all(expired.map(function (url) {
+                    return removePdf(url);
+                })).then(function () {
+                    return expired;
+                });
+            });
+        }).catch(function () {
+            return [];
+        });
     }
 
     function listKeptPdfs() {
@@ -264,7 +441,8 @@
                 items.push({
                     url: canon,
                     name: meta.name || displayName(canon),
-                    savedAt: typeof meta.savedAt === "number" ? meta.savedAt : 0
+                    savedAt: typeof meta.savedAt === "number" ? meta.savedAt : 0,
+                    openedAt: typeof meta.openedAt === "number" ? meta.openedAt : 0
                 });
                 if (index[canon]) {
                     kept[canon] = index[canon];
@@ -350,6 +528,15 @@
         return pump();
     }
 
+    function afterKeep(canon) {
+        rememberPdf(canon);
+        return requestPersist().then(function (persisted) {
+            return precacheShell().then(function () {
+                return { persisted: !!persisted };
+            });
+        });
+    }
+
     function keepPdf(url, onProgress) {
         var canon = canonicalPdfUrl(url);
         if (!canon) {
@@ -361,8 +548,7 @@
         return pdfCache().then(function (cache) {
             return cache.match(canon).then(function (hit) {
                 if (hit) {
-                    rememberPdf(canon);
-                    return precacheShell();
+                    return afterKeep(canon);
                 }
                 return fetch(canon, { mode: "cors", credentials: "omit" }).then(function (res) {
                     if (!res || !res.ok) {
@@ -383,19 +569,10 @@
                         if (!ok) {
                             throw new Error("not-pdf");
                         }
-                        var stored = new Response(blob, {
-                            headers: {
-                                "Content-Type": "application/pdf",
-                                "Content-Length": String(blob.size),
-                                "Accept-Ranges": "bytes",
-                                "Access-Control-Allow-Origin": "*"
-                            }
-                        });
-                        return cache.put(canon, stored);
+                        return putPdfWithEviction(cache, canon, blob);
                     });
                 }).then(function () {
-                    rememberPdf(canon);
-                    return precacheShell();
+                    return afterKeep(canon);
                 });
             });
         });
@@ -552,16 +729,24 @@
         CACHE_SHELL: CACHE_SHELL,
         SHELL_URLS: SHELL_URLS,
         MAX_PDF_BYTES: MAX_PDF_BYTES,
+        UNUSED_MS: UNUSED_MS,
         isAllowedCdnPdf: isAllowedCdnPdf,
         canonicalPdfUrl: canonicalPdfUrl,
         displayName: displayName,
         isSupported: isSupported,
         isShellPath: isShellPath,
         parseByteRange: parseByteRange,
+        lastUsedAt: lastUsedAt,
+        isQuotaError: isQuotaError,
         hasPdf: hasPdf,
         keepPdf: keepPdf,
         removePdf: removePdf,
         rememberPdf: rememberPdf,
+        touchOpened: touchOpened,
+        expireUnusedPdfs: expireUnusedPdfs,
+        evictOldestKept: evictOldestKept,
+        requestPersist: requestPersist,
+        isPersisted: isPersisted,
         listKeptPdfs: listKeptPdfs,
         blobUrlFor: blobUrlFor,
         pdfUrlForViewer: pdfUrlForViewer,

@@ -22,15 +22,22 @@
         .offline-list li {
             display: flex;
             flex-wrap: wrap;
-            align-items: baseline;
+            align-items: center;
             justify-content: space-between;
-            gap: 0.35rem 1rem;
+            gap: 0.65rem 1rem;
             margin: 0 0 0.5rem;
             padding: 0.85rem 1rem;
             border: 1px solid var(--border);
             border-radius: var(--radius);
             background: var(--surface);
             box-shadow: var(--shadow-sm);
+        }
+        .offline-list__main {
+            display: flex;
+            flex-direction: column;
+            gap: 0.2rem;
+            min-width: 0;
+            flex: 1 1 12rem;
         }
         .offline-list a {
             font-weight: 600;
@@ -45,6 +52,36 @@
             color: var(--text-muted);
             font-size: 0.875rem;
         }
+        .offline-list__remove {
+            appearance: none;
+            flex: 0 0 auto;
+            margin: 0;
+            padding: 0.4rem 0.85rem;
+            min-height: 36px;
+            border: 1px solid var(--border);
+            border-radius: 10px;
+            background: var(--surface);
+            color: var(--text);
+            font-family: inherit;
+            font-size: 0.875rem;
+            font-weight: 500;
+            cursor: pointer;
+        }
+        .offline-list__remove:hover {
+            border-color: #c8ccd4;
+            box-shadow: var(--shadow-sm);
+        }
+        .offline-list__remove:disabled {
+            opacity: 0.6;
+            cursor: wait;
+        }
+        .offline-note {
+            margin: 0 0 1rem;
+            color: var(--text-muted);
+            font-size: 0.875rem;
+            line-height: 1.65;
+        }
+        .offline-note[hidden] { display: none; }
         .offline-empty {
             margin: 1.25rem 0 0;
             padding: 1.25rem 1.5rem;
@@ -63,6 +100,8 @@
         <button class="nav-button" type="button" onclick="goBack()">Go Back</button>
         <h1 class="contact-page__title">My offline files</h1>
         <p>Manuals you have kept for offline in this browser. They stay on BoilerManuals.com and are not saved to your Downloads folder.</p>
+        <p>Unused manuals may be removed from this browser after 30 days. Opening a manual here or in the viewer counts as use.</p>
+        <p class="offline-note" id="offlinePersist" hidden>Persistent storage is on.</p>
         <p id="offlineStatus" role="status">Loading&hellip;</p>
         <p class="offline-empty" id="offlineEmpty" hidden>There are no offline manuals in this browser yet. Open a manual and use Keep for offline; it will be listed here.</p>
         <ul class="offline-list" id="offlineList" hidden></ul>
@@ -101,8 +140,8 @@
     </footer>
 
     <script src="js/script.js?v=14"></script>
-    <script src="js/offline-pdf.js?v=2"></script>
-    <script src="js/offline-files.js?v=1"></script>
+    <script src="js/offline-pdf.js?v=3"></script>
+    <script src="js/offline-files.js?v=2"></script>
     <script>
         document.getElementById("year").textContent = new Date().getFullYear();
     </script>
