@@ -3253,8 +3253,8 @@ Brand page: https://boilermanuals.com/brands/firebird.html
 
 Brand page: https://boilermanuals.com/brands/fischer.html
 
-- Fischer Floor Standing Combi FLB-12 (12kW) | Electric | no manual online yet
-- Fischer Floor Standing Combi FLB-15 (15kW) | Electric | no manual online yet
+- Fischer Floor Standing Combi FLB-12 (12kW) | Electric | Installation: https://cdn.boilermanuals.com/fischer/Fischer-FLB12-FLB15-Floor-Standing-Combi-Installation-Manual.pdf
+- Fischer Floor Standing Combi FLB-15 (15kW) | Electric | Installation: https://cdn.boilermanuals.com/fischer/Fischer-FLB12-FLB15-Floor-Standing-Combi-Installation-Manual.pdf
 - Fischer Floor Standing Combi FLB-18 (18kW, three phase) | Electric | no manual online yet
 - Fischer Floor Standing Combi FLB-21 (21kW, three phase) | Electric | no manual online yet
 - Fischer Floor Standing Combi FLB-24 (24kW) | Electric | no manual online yet
