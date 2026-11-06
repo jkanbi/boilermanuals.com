@@ -258,7 +258,7 @@ body:has(#myTable) > #myTable,
 }
 
 /* Direct PDF link kept in each row for crawlers, screen readers and keyboard users.
-   Visually hidden (rows show only "View", whose viewer page has its own download button);
+   Visually hidden (rows show only "View", which opens the on-site viewer);
    it becomes visible when focused, so it is a real, usable link, not cloaking. */
 #myTable a.pdf-link-sr:not(:focus):not(:active) {
   position: absolute !important;

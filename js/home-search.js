@@ -191,8 +191,8 @@
             html += "</div>";
             if (entry.downloadUrl) {
                 html += "<div class=\"home-search-item__actions\">";
-                // Show only "View" when the online viewer is available (it has its own
-                // download button); otherwise fall back to the direct Download link.
+                // Show only "View" when the online viewer is available; otherwise
+                // fall back to the direct Download link.
                 // Visible text stays "View"/"Download"; the model name is added as
                 // visually hidden text so the link is descriptive for crawlers and screen readers.
                 var docName = fullModelName(entry);

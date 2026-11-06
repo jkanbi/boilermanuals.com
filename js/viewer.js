@@ -38,9 +38,15 @@ function setStatus(html, isError) {
     statusEl.hidden = !html;
 }
 
-function downloadHtml() {
-    return ' <a href="' + state.file.replace(/&/g, "&amp;").replace(/"/g, "&quot;") +
-        '" rel="nofollow">Download the PDF</a> instead.';
+function escapeHref(url) {
+    return String(url).replace(/&/g, "&amp;").replace(/"/g, "&quot;");
+}
+
+function fallbackHtml() {
+    if (!state.file) {
+        return "";
+    }
+    return ' <a href="' + escapeHref(state.file) + '" rel="nofollow">Open the PDF</a>.';
 }
 
 function fitWidth() {
@@ -53,13 +59,19 @@ function zoom() {
 }
 
 function placeToolbar() {
-    // Sit just under the sticky site header; the search bar sits under the toolbar.
+    // Sit just under the sticky site header; keep-msg and search sit under the toolbar.
     var header = document.querySelector(".site-header");
     var top = header ? header.offsetHeight : 0;
     toolbar.style.top = top + "px";
+    var keepMsg = document.getElementById("pvKeepMsg");
+    var keepH = 0;
+    if (keepMsg) {
+        keepMsg.style.top = (top + toolbar.offsetHeight) + "px";
+        keepH = keepMsg.hidden ? 0 : keepMsg.offsetHeight;
+    }
     var bar = document.getElementById("pvSearchBar");
     if (bar) {
-        bar.style.top = (top + toolbar.offsetHeight) + "px";
+        bar.style.top = (top + toolbar.offsetHeight + keepH) + "px";
     }
 }
 
@@ -844,20 +856,151 @@ function setupSearch() {
     });
 }
 
-async function start() {
-    placeToolbar();
-    setTimeout(placeToolbar, 300);
-    if (!state.file) {
+function keepErrorMessage(err) {
+    var name = err && err.name;
+    var text = err && err.message ? String(err.message) : "";
+    if (name === "QuotaExceededError" || /quota/i.test(text)) {
+        return "Not enough space in this browser to save the manual.";
+    }
+    if (text === "too-large") {
+        return "This manual is too large to save in the browser.";
+    }
+    if (text === "not-pdf" || text === "not-allowed") {
+        return "This file can\u2019t be saved for offline viewing.";
+    }
+    return "Could not save. Check your connection and try again.";
+}
+
+function setupKeep() {
+    var btn = document.getElementById("pvKeep");
+    var msg = document.getElementById("pvKeepMsg");
+    var label = document.getElementById("pvKeepLabel");
+    var saveIcon = btn ? btn.querySelector(".pv-keep-icon--save") : null;
+    var savedIcon = btn ? btn.querySelector(".pv-keep-icon--saved") : null;
+    var off = window.BMOfflinePdf;
+    var saved = false;
+    var busy = false;
+    var hideTimer = null;
+
+    if (!btn) {
         return;
     }
-    pdfjsLib.GlobalWorkerOptions.workerSrc = "/pdfjs/build/pdf.worker.min.mjs";
-    var loadingTask = pdfjsLib.getDocument({
-        url: state.file,
+    if (!off || !off.isSupported() || !state.file) {
+        btn.hidden = true;
+        return;
+    }
+    btn.hidden = false;
+    off.registerWorker();
+
+    function setKeepMsg(text, isError) {
+        if (!msg) {
+            return;
+        }
+        clearTimeout(hideTimer);
+        msg.textContent = text || "";
+        msg.className = "pv-keep-msg" + (isError ? " pv-keep-msg--error" : "");
+        msg.hidden = !text;
+        placeToolbar();
+        if (text && !isError) {
+            hideTimer = setTimeout(function () {
+                msg.hidden = true;
+                msg.textContent = "";
+                placeToolbar();
+            }, 6000);
+        }
+    }
+
+    function render(progressPercent) {
+        btn.disabled = busy;
+        btn.setAttribute("aria-busy", busy ? "true" : "false");
+        btn.classList.toggle("pv-btn--primary", !saved);
+        btn.classList.toggle("is-saved", saved && !busy);
+        if (saveIcon) {
+            saveIcon.hidden = saved && !busy;
+        }
+        if (savedIcon) {
+            savedIcon.hidden = !(saved && !busy);
+        }
+        if (busy && saved) {
+            if (label) {
+                label.textContent = "Removing\u2026";
+            }
+            btn.setAttribute("aria-label", "Removing from this browser");
+            btn.title = "Removing\u2026";
+        } else if (busy && !saved) {
+            var saving = progressPercent > 0 ? ("Saving " + progressPercent + "%") : "Saving\u2026";
+            if (label) {
+                label.textContent = saving;
+            }
+            btn.setAttribute("aria-label", saving);
+            btn.title = saving;
+        } else if (saved) {
+            if (label) {
+                label.textContent = "Saved";
+            }
+            btn.setAttribute("aria-label", "Saved for offline. Remove from this browser");
+            btn.title = "Saved in this browser. Click to remove.";
+        } else {
+            if (label) {
+                label.textContent = "Keep for offline";
+            }
+            btn.setAttribute("aria-label", "Keep for offline");
+            btn.title = "Keep for offline";
+        }
+        placeToolbar();
+    }
+
+    function refresh() {
+        return off.hasPdf(state.file).then(function (isSaved) {
+            saved = isSaved;
+            render();
+        }).catch(function () {
+            saved = false;
+            render();
+        });
+    }
+
+    btn.addEventListener("click", function () {
+        if (busy) {
+            return;
+        }
+        busy = true;
+        render();
+        var work = saved ? off.removePdf(state.file) : off.keepPdf(state.file, function (p) {
+            render(p && p.percent ? p.percent : 0);
+        });
+        work.then(function () {
+            if (saved) {
+                saved = false;
+                setKeepMsg("Removed from this browser.");
+            } else {
+                saved = true;
+                var reopen = (typeof navigator !== "undefined" && navigator.serviceWorker)
+                    ? " You can reopen this page without a connection."
+                    : "";
+                setKeepMsg("Saved in this browser." + reopen);
+            }
+        }).catch(function (err) {
+            console.error(err);
+            setKeepMsg(keepErrorMessage(err), true);
+        }).then(function () {
+            busy = false;
+            return refresh();
+        });
+    });
+
+    refresh();
+}
+
+function getDocumentOpts(url, localFile) {
+    return {
+        url: url,
         withCredentials: false,
         // Range requests in 64 KB chunks; only fetch what the visible pages need.
         // disableStream must be true as well, otherwise PDF.js keeps streaming
         // the whole file in the background (see PDF.js docs for disableAutoFetch).
-        disableRange: false,
+        // Local blob copies are already complete, so skip range requests for those.
+        disableRange: !!localFile,
         disableAutoFetch: true,
         disableStream: true,
         rangeChunkSize: 65536,
@@ -865,16 +1008,56 @@ async function start() {
         wasmUrl: "/pdfjs/wasm/",
         isEvalSupported: false,
         enableXfa: false
-    });
+    };
+}
+
+async function openPdf(url, localFile) {
+    var loadingTask = pdfjsLib.getDocument(getDocumentOpts(url, localFile));
+    return loadingTask.promise;
+}
+
+async function start() {
+    placeToolbar();
+    setTimeout(placeToolbar, 300);
+    setupKeep();
+    if (!state.file) {
+        return;
+    }
+    pdfjsLib.GlobalWorkerOptions.workerSrc = "/pdfjs/build/pdf.worker.min.mjs";
+    var offline = null;
+    if (window.BMOfflinePdf) {
+        try {
+            offline = await window.BMOfflinePdf.pdfUrlForViewer(state.file);
+        } catch (e) {
+            offline = null;
+        }
+    }
     try {
-        pdfDoc = await loadingTask.promise;
+        if (offline && offline.url) {
+            try {
+                pdfDoc = await openPdf(offline.url, offline.via === "blob");
+            } catch (offlineErr) {
+                console.error(offlineErr);
+                pdfDoc = await openPdf(state.file, false);
+            }
+        } else {
+            try {
+                pdfDoc = await openPdf(state.file, false);
+            } catch (netErr) {
+                var retry = window.BMOfflinePdf ? await window.BMOfflinePdf.pdfUrlForViewer(state.file) : null;
+                if (!retry || !retry.url) {
+                    throw netErr;
+                }
+                pdfDoc = await openPdf(retry.url, retry.via === "blob");
+            }
+        }
     } catch (err) {
         console.error(err);
         var msg = "Sorry, this manual couldn't be opened in the viewer.";
         if (err && err.name === "PasswordException") {
             msg = "This manual is password protected.";
         }
-        setStatus(msg + downloadHtml(), true);
+        setStatus(msg + fallbackHtml(), true);
         return;
     }
     var first = (await pdfDoc.getPage(1)).getViewport({ scale: 1 });

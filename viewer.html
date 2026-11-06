@@ -194,6 +194,33 @@
             background: rgba(255, 120, 0, 0.55);
             outline: 2px solid #e8590c;
         }
+        #pvDownload { display: none !important; }
+        #pvKeep .pv-keep-icon[hidden] { display: none; }
+        .pv-keep-msg {
+            position: sticky;
+            z-index: 898;
+            margin: 0;
+            padding: 6px 12px;
+            text-align: center;
+            font-size: 0.9rem;
+            color: var(--text-muted, #6b7280);
+            background: var(--surface, #fff);
+            border-bottom: 1px solid var(--border, #dfe2e6);
+        }
+        .pv-keep-msg[hidden] { display: none; }
+        .pv-keep-msg--error { color: #b3261e; }
+        #pvKeep.is-saved {
+            background: #f1f9f3;
+            border-color: #1e8e3e;
+            color: #17702f;
+        }
+        #pvKeep.is-saved:hover, #pvKeep.is-saved:focus-visible {
+            border-color: #17702f;
+            color: #17702f;
+        }
+        @media (max-width: 799px) {
+            #pvKeep .pv-label-wide { display: none; }
+        }
         @media (max-width: 599px) {
             .pv-toolbar .pv-btn { min-width: 36px; padding: 0 6px; }
         }
@@ -239,9 +266,15 @@
     </div>
     <div class="pv-spacer"></div>
     <div class="pv-group">
-        <a class="pv-btn pv-btn--primary" id="pvDownload" href="/" rel="nofollow" aria-label="Download PDF" title="Download PDF"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" d="M12 3v12m-5-5 5 5 5-5M4 20h16"/></svg><span class="pv-label-wide">Download</span></a>
+        <a class="pv-btn pv-btn--primary" id="pvDownload" href="/" rel="nofollow" hidden aria-hidden="true" tabindex="-1" aria-label="Download PDF" title="Download PDF"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" d="M12 3v12m-5-5 5 5 5-5M4 20h16"/></svg><span class="pv-label-wide">Download</span></a>
+        <button class="pv-btn pv-btn--primary" id="pvKeep" type="button" hidden aria-label="Keep for offline" title="Keep for offline">
+            <svg class="pv-keep-icon pv-keep-icon--save" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round" d="M7 3.5h10v17l-5-3.4-5 3.4v-17z"/></svg>
+            <svg class="pv-keep-icon pv-keep-icon--saved" viewBox="0 0 24 24" aria-hidden="true" focusable="false" hidden><path fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" d="m5 12.5 4.5 4.5 9.5-10"/></svg>
+            <span class="pv-label-wide" id="pvKeepLabel">Keep for offline</span>
+        </button>
     </div>
 </div>
+<p class="pv-keep-msg" id="pvKeepMsg" role="status" aria-live="polite" hidden></p>
 <div class="pv-searchbar" id="pvSearchBar" role="search" aria-label="Search in this manual" hidden>
     <input id="pvSearchInput" type="search" placeholder="Search (e.g. F28)" enterkeyhint="search" autocomplete="off" autocapitalize="off" spellcheck="false" aria-label="Search text in this manual">
     <span class="pv-search-count" id="pvSearchCount" aria-live="polite"></span>
@@ -272,12 +305,14 @@
     </div>
 </footer>
 
+<script src="/js/offline-pdf.js?v=1"></script>
 <script>
     /* Runs in every browser (no modules needed): validate ?file=, then set the
-       title, Download and Back links. Only https://cdn.boilermanuals.com/ PDFs
-       are allowed. */
+       title and Back link. Only https://cdn.boilermanuals.com/ PDFs are allowed.
+       The toolbar Download control stays hidden; Keep for offline is wired in viewer.js. */
     (function () {
         var ALLOWED_HOST = "cdn.boilermanuals.com";
+        var off = window.BMOfflinePdf;
         var state = { file: null, name: "", error: "" };
         var raw = null;
         try {
@@ -289,29 +324,45 @@
         if (!raw) {
             state.error = "No manual was specified.";
         } else {
-            var u = null;
-            try { u = new URL(raw); } catch (e) { u = null; }
-            if (!u || u.protocol !== "https:" || u.hostname !== ALLOWED_HOST || u.port ||
-                u.username || u.password || !/\.pdf$/i.test(u.pathname)) {
+            var file = off && off.canonicalPdfUrl ? off.canonicalPdfUrl(raw) : null;
+            if (!file) {
+                var u = null;
+                try { u = new URL(raw); } catch (e) { u = null; }
+                if (u && u.protocol === "https:" && u.hostname === ALLOWED_HOST && !u.port &&
+                    !u.username && !u.password && /\.pdf$/i.test(u.pathname)) {
+                    u.hash = "";
+                    u.search = "";
+                    file = u.href;
+                }
+            }
+            if (!file) {
                 state.error = "This viewer only opens manuals from cdn.boilermanuals.com.";
             } else {
-                u.hash = "";
-                state.file = u.href;
-                var seg = u.pathname.split("/").pop() || "";
-                try { seg = decodeURIComponent(seg); } catch (e) {}
-                state.name = seg.replace(/\.pdf$/i, "").replace(/[-_]+/g, " ").replace(/\s+/g, " ").trim();
+                state.file = file;
+                if (off && off.displayName) {
+                    state.name = off.displayName(file);
+                } else {
+                    var seg = "";
+                    try { seg = decodeURIComponent(new URL(file).pathname.split("/").pop() || ""); } catch (e) {}
+                    state.name = seg.replace(/\.pdf$/i, "").replace(/[-_]+/g, " ").replace(/\s+/g, " ").trim();
+                }
             }
         }
         window.BMViewer = state;
 
         var dl = document.getElementById("pvDownload");
+        if (dl) {
+            dl.hidden = true;
+            dl.removeAttribute("href");
+        }
         var status = document.getElementById("pvStatus");
         if (state.file) {
-            dl.href = state.file;
             document.title = state.name + " \u2013 Manual viewer | BoilerManuals.com";
             document.getElementById("pvTitle").textContent = state.name;
+            if (off && off.registerWorker) {
+                off.registerWorker();
+            }
         } else {
-            dl.style.display = "none";
             status.className = "pv-status pv-status--error";
             status.innerHTML = state.error + ' <a href="/">Search all manuals</a>.';
         }
@@ -371,10 +422,10 @@
         if (window.BMViewer && window.BMViewer.file) {
             var s = document.getElementById("pvStatus");
             s.className = "pv-status pv-status--error";
-            s.innerHTML = "This browser can't run the online viewer. Please use the Download button above.";
+            s.innerHTML = "This browser can\u2019t run the online viewer. Please try a current version of Chrome, Firefox, Safari or Edge.";
         }
     })();
 </script>
-<script type="module" src="/js/viewer.js?v=3"></script>
+<script type="module" src="/js/viewer.js?v=4"></script>
 </body>
 </html>
