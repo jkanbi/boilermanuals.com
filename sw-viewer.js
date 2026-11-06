@@ -1,4 +1,4 @@
-/* Viewer offline helper v2 (offline-pdf v1).
+/* Viewer offline helper v3 (offline-pdf v2).
  * Serves the on-site viewer shell and kept CDN PDFs from site storage.
  * Does not intercept brand pages, fault-code pages, or other site URLs. */
 importScripts("/js/offline-pdf.js");

@@ -64,6 +64,8 @@ assert.strictEqual(off.parseByteRange(null, 50), null);
 assert.strictEqual(off.parseByteRange("bytes=abc", 50), null);
 
 assert.strictEqual(off.isShellPath("/viewer.html"), true);
+assert.strictEqual(off.isShellPath("/offline.html"), true);
+assert.strictEqual(off.isShellPath("/js/offline-files.js"), true);
 assert.strictEqual(off.isShellPath("/js/viewer.js"), true);
 assert.strictEqual(off.isShellPath("/pdfjs/build/pdf.min.mjs"), true);
 assert.strictEqual(off.isShellPath("/fault-codes.html"), false);
@@ -76,4 +78,50 @@ assert.strictEqual(
     ok
 );
 
-console.log("offline-pdf tests passed");
+var mem = {};
+var cacheKeys = [];
+var ctx2 = {
+    self: {},
+    console: console,
+    URL: URL,
+    URLSearchParams: URLSearchParams,
+    Blob: Blob,
+    Response: Response,
+    Request: Request,
+    localStorage: {
+        getItem: function (k) { return Object.prototype.hasOwnProperty.call(mem, k) ? mem[k] : null; },
+        setItem: function (k, v) { mem[k] = String(v); }
+    },
+    caches: {
+        open: function () {
+            return Promise.resolve({
+                keys: function () {
+                    return Promise.resolve(cacheKeys.map(function (u) { return new Request(u); }));
+                }
+            });
+        }
+    },
+    fetch: function () { return Promise.reject(new Error("no-fetch")); }
+};
+vm.createContext(ctx2);
+vm.runInContext(src, ctx2);
+var off2 = ctx2.self.BMOfflinePdf;
+var older = "https://cdn.boilermanuals.com/gah/old.pdf";
+var newer = "https://cdn.boilermanuals.com/fischer/new.pdf";
+off2.rememberPdf(older);
+off2.rememberPdf(newer);
+var idx = JSON.parse(mem["bm-offline-index"]);
+idx[older].savedAt = 1000;
+idx[newer].savedAt = 2000;
+mem["bm-offline-index"] = JSON.stringify(idx);
+cacheKeys = [older, newer, "https://evil.com/nope.pdf"];
+
+off2.listKeptPdfs().then(function (items) {
+    assert.strictEqual(items.length, 2);
+    assert.strictEqual(items[0].url, newer);
+    assert.strictEqual(items[1].url, older);
+    console.log("offline-pdf tests passed");
+}).catch(function (err) {
+    console.error(err);
+    process.exit(1);
+});

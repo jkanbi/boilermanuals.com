@@ -7,18 +7,21 @@
 (function (global) {
     var ALLOWED_HOST = "cdn.boilermanuals.com";
     var CACHE_PDFS = "bm-offline-pdfs";
-    var CACHE_SHELL = "bm-viewer-shell-v1";
+    var CACHE_SHELL = "bm-viewer-shell-v2";
     var SHELL_PREFIX = "bm-viewer-shell-";
+    var INDEX_KEY = "bm-offline-index";
     var MAX_PDF_BYTES = 80 * 1024 * 1024;
 
     var SHELL_URLS = [
         "/viewer.html",
-        "/js/offline-pdf.js?v=1",
+        "/offline.html",
+        "/js/offline-pdf.js?v=2",
+        "/js/offline-files.js?v=1",
         "/js/viewer.js?v=4",
-        "/js/navbar.js?v=14",
+        "/js/navbar.js?v=15",
         "/js/optimiser-url.js?v=1",
         "/js/winter-banner.js?v=3",
-        "/css/navbar.css?v=6",
+        "/css/navbar.css?v=7",
         "/css/styles.css?v=14",
         "/css/winter-banner.css?v=4",
         "/pdfjs/build/pdf.min.mjs",
@@ -95,15 +98,16 @@
     }
 
     function isShellPath(pathname) {
-        if (pathname === "/viewer.html" || pathname === "/favicon.ico") {
+        if (pathname === "/viewer.html" || pathname === "/offline.html" ||
+            pathname === "/favicon.ico") {
             return true;
         }
         if (pathname.indexOf("/pdfjs/") === 0) {
             return true;
         }
-        if (pathname === "/js/offline-pdf.js" || pathname === "/js/viewer.js" ||
-            pathname === "/js/navbar.js" || pathname === "/js/optimiser-url.js" ||
-            pathname === "/js/winter-banner.js") {
+        if (pathname === "/js/offline-pdf.js" || pathname === "/js/offline-files.js" ||
+            pathname === "/js/viewer.js" || pathname === "/js/navbar.js" ||
+            pathname === "/js/optimiser-url.js" || pathname === "/js/winter-banner.js") {
             return true;
         }
         if (pathname === "/css/navbar.css" || pathname === "/css/styles.css" ||
@@ -190,6 +194,95 @@
         return caches.open(CACHE_PDFS);
     }
 
+    function readIndex() {
+        if (typeof localStorage === "undefined") {
+            return {};
+        }
+        try {
+            var parsed = JSON.parse(localStorage.getItem(INDEX_KEY) || "{}");
+            if (!parsed || typeof parsed !== "object" || Array.isArray(parsed)) {
+                return {};
+            }
+            return parsed;
+        } catch (e) {
+            return {};
+        }
+    }
+
+    function writeIndex(index) {
+        if (typeof localStorage === "undefined") {
+            return;
+        }
+        try {
+            localStorage.setItem(INDEX_KEY, JSON.stringify(index));
+        } catch (e) {}
+    }
+
+    function rememberPdf(url) {
+        var canon = canonicalPdfUrl(url);
+        if (!canon) {
+            return;
+        }
+        var index = readIndex();
+        index[canon] = {
+            name: displayName(canon),
+            savedAt: Date.now()
+        };
+        writeIndex(index);
+    }
+
+    function forgetPdf(url) {
+        var canon = canonicalPdfUrl(url);
+        if (!canon) {
+            return;
+        }
+        var index = readIndex();
+        if (index[canon]) {
+            delete index[canon];
+            writeIndex(index);
+        }
+    }
+
+    function listKeptPdfs() {
+        if (!isSupported()) {
+            return Promise.resolve([]);
+        }
+        var index = readIndex();
+        return pdfCache().then(function (cache) {
+            return cache.keys();
+        }).then(function (keys) {
+            var seen = {};
+            var items = [];
+            var kept = {};
+            keys.forEach(function (req) {
+                var canon = canonicalPdfUrl(req.url);
+                if (!canon || seen[canon]) {
+                    return;
+                }
+                seen[canon] = true;
+                var meta = index[canon] || {};
+                items.push({
+                    url: canon,
+                    name: meta.name || displayName(canon),
+                    savedAt: typeof meta.savedAt === "number" ? meta.savedAt : 0
+                });
+                if (index[canon]) {
+                    kept[canon] = index[canon];
+                }
+            });
+            items.sort(function (a, b) {
+                if (b.savedAt !== a.savedAt) {
+                    return b.savedAt - a.savedAt;
+                }
+                return a.name.localeCompare(b.name);
+            });
+            writeIndex(kept);
+            return items;
+        }).catch(function () {
+            return [];
+        });
+    }
+
     function shellCache() {
         return caches.open(CACHE_SHELL);
     }
@@ -268,6 +361,7 @@
         return pdfCache().then(function (cache) {
             return cache.match(canon).then(function (hit) {
                 if (hit) {
+                    rememberPdf(canon);
                     return precacheShell();
                 }
                 return fetch(canon, { mode: "cors", credentials: "omit" }).then(function (res) {
@@ -300,6 +394,7 @@
                         return cache.put(canon, stored);
                     });
                 }).then(function () {
+                    rememberPdf(canon);
                     return precacheShell();
                 });
             });
@@ -313,6 +408,9 @@
         }
         return pdfCache().then(function (cache) {
             return cache.delete(canon);
+        }).then(function (ok) {
+            forgetPdf(canon);
+            return ok;
         });
     }
 
@@ -410,8 +508,8 @@
                 url = null;
             }
             var pageMatch = Promise.resolve(null);
-            if (request.mode === "navigate" || (url && url.pathname === "/viewer.html")) {
-                pageMatch = cache.match("/viewer.html");
+            if (url && (url.pathname === "/viewer.html" || url.pathname === "/offline.html")) {
+                pageMatch = cache.match(url.pathname);
             }
             return pageMatch.then(function (page) {
                 if (page) {
@@ -463,6 +561,8 @@
         hasPdf: hasPdf,
         keepPdf: keepPdf,
         removePdf: removePdf,
+        rememberPdf: rememberPdf,
+        listKeptPdfs: listKeptPdfs,
         blobUrlFor: blobUrlFor,
         pdfUrlForViewer: pdfUrlForViewer,
         precacheShell: precacheShell,

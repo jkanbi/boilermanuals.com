@@ -160,7 +160,7 @@
     color: var(--accent);
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 960px) {
     .navbar {
         padding: 0.85rem 0;
     }

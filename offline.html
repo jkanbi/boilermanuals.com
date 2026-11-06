@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en" data-static-title>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, nofollow">
+    <link rel="icon" href="favicon.ico" sizes="any">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <title>My offline files | BoilerManuals.com</title>
+    <link rel="stylesheet" type="text/css" href="css/navbar.css?v=7">
+    <link rel="stylesheet" type="text/css" href="css/styles.css?v=14">
+    <script data-cfasync="false" src="js/navbar.js?v=15"></script>
+    <style>
+        .offline-list {
+            list-style: none;
+            margin: 1.25rem 0 0;
+            padding: 0;
+        }
+        .offline-list[hidden] { display: none; }
+        .offline-list li {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: baseline;
+            justify-content: space-between;
+            gap: 0.35rem 1rem;
+            margin: 0 0 0.5rem;
+            padding: 0.85rem 1rem;
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            background: var(--surface);
+            box-shadow: var(--shadow-sm);
+        }
+        .offline-list a {
+            font-weight: 600;
+            color: var(--link);
+            text-decoration: none;
+        }
+        .offline-list a:hover {
+            color: var(--link-hover);
+            text-decoration: underline;
+        }
+        .offline-list__when {
+            color: var(--text-muted);
+            font-size: 0.875rem;
+        }
+        .offline-empty {
+            margin: 1.25rem 0 0;
+            padding: 1.25rem 1.5rem;
+            border: 1px solid var(--border-subtle);
+            border-radius: var(--radius);
+            background: var(--surface);
+            color: var(--text-muted);
+            line-height: 1.65;
+        }
+        .offline-empty[hidden] { display: none; }
+        #offlineStatus[hidden] { display: none; }
+    </style>
+</head>
+<body>
+    <main class="contact-page">
+        <button class="nav-button" type="button" onclick="goBack()">Go Back</button>
+        <h1 class="contact-page__title">My offline files</h1>
+        <p>Manuals you have kept for offline in this browser. They stay on BoilerManuals.com and are not saved to your Downloads folder.</p>
+        <p id="offlineStatus" role="status">Loading&hellip;</p>
+        <p class="offline-empty" id="offlineEmpty" hidden>There are no offline manuals in this browser yet. Open a manual and use Keep for offline; it will be listed here.</p>
+        <ul class="offline-list" id="offlineList" hidden></ul>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <p class="footer-logo">BoilerManuals.com</p>
+                <p class="footer-tagline">Free boiler manuals, installation guides, and service documentation for UK heating systems.</p>
+            </div>
+            <div class="footer-col">
+                <p class="footer-heading">Resources</p>
+                <nav class="footer-links" aria-label="Resources">
+                    <a href="/">Home</a>
+                    <a href="fault-codes.html">Fault Codes</a>
+                    <a href="controls.html">Controls</a>
+                    <a href="contact.html">Contact</a>
+                    <a href="about.html">About</a>
+                    <a href="stats.html">Stats</a>
+                </nav>
+            </div>
+            <div class="footer-col">
+                <p class="footer-heading">Related sites</p>
+                <nav class="footer-links" aria-label="Related sites">
+                    <a href="https://myboiler.com" rel="noopener">MyBoiler.com</a>
+                    <a href="https://combiboiler.com" rel="noopener">CombiBoiler.com</a>
+                    <a href="https://boilerservice.com" rel="noopener">BoilerService.com</a>
+                </nav>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; <span id="year"></span> BoilerManuals.com — part of the <a href="https://myboiler.com" rel="noopener">MyBoiler.com</a> family</p>
+            <p class="footer-family-logo"><a href="https://myboiler.com/" rel="noopener"><img src="images/myboiler-logo.svg" alt="MyBoiler" width="116" height="22" loading="lazy" decoding="async"></a></p>
+        </div>
+    </footer>
+
+    <script src="js/script.js?v=14"></script>
+    <script src="js/offline-pdf.js?v=2"></script>
+    <script src="js/offline-files.js?v=1"></script>
+    <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>

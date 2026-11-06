@@ -5,6 +5,7 @@
         { id: "controls", label: "Controls", href: "controls.html" },
         { id: "contact", label: "Contact", href: "contact.html" },
         { id: "about", label: "About", href: "about.html" },
+        { id: "offline", label: "My offline files", href: "offline.html" }
     ];
 
     function getNavbarBasePath() {
