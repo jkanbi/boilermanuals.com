@@ -350,16 +350,15 @@ CSS = '''<!-- stats-css:start -->
             color: var(--text);
             margin: 0 0 1.25rem;
         }
-        /* myboiler .ar-box-pair cards, nested in the article content card. */
+        /* Stat tiles sit on the white content card: white fill, light grey border. */
         .bm-stats__grid {
             display: grid;
             grid-template-columns: 1fr;
             gap: 1rem;
             margin: 1rem 0 1.5rem;
-            padding: 1rem;
+            padding: 0;
             list-style: none;
-            background: var(--bg);
-            border-radius: var(--radius-lg);
+            background: transparent;
         }
         @media (min-width: 700px) {
             .bm-stats__grid {
@@ -372,8 +371,8 @@ CSS = '''<!-- stats-css:start -->
             align-items: center;
             background: var(--surface);
             border-radius: var(--radius-lg);
-            border: none;
-            box-shadow: var(--shadow-sm);
+            border: 1px solid var(--border-subtle);
+            box-shadow: none;
             padding: 1.35rem 1.4rem 1.25rem;
             text-align: center;
             color: var(--text);
