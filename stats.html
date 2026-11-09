@@ -92,52 +92,111 @@
     </script>
     <!-- stats-css:start -->
     <style>
-        /* Match myboiler.com page shell: --max-width 1024px, --page-gutter clamp(20px, 5vw, 40px). */
+        /* choosing-a-new-boiler article shell (stats page only). */
+        body {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
         .stats-page {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            background: var(--bg);
+            min-width: 0;
+        }
+        .stats-page__container {
+            flex: 1;
             width: 100%;
             max-width: 1024px;
             margin: 0 auto;
-            padding: 2rem clamp(20px, 5vw, 40px) 3rem;
+            padding: clamp(2rem, 5vw, 4rem) clamp(20px, 5vw, 40px);
             box-sizing: border-box;
             min-width: 0;
         }
-        .stats-page > p,
-        .stats-page .bm-stats > p {
-            margin: 0 0 1rem;
-            color: var(--text-muted);
-            line-height: 1.65;
+        .stats-page__container > .nav-button {
+            margin: 0 0 1.25rem;
         }
-        .stats-page h2 {
-            margin: 0 0 1rem;
-            font-size: clamp(1.375rem, 2.5vw, 1.5rem);
-            font-weight: 700;
-            letter-spacing: -0.01em;
-            line-height: 1.2;
-            color: var(--text);
+        .stats-page__header {
+            background: var(--surface);
+            border-radius: var(--radius-lg);
+            box-shadow: var(--shadow-sm);
+            padding: clamp(1.5rem, 4vw, 3rem);
+            margin-bottom: 1.5rem;
         }
-        .stats-page h3 {
-            margin: 1.5rem 0 1rem;
-            font-size: 1.125rem;
+        .stats-page__kicker {
+            margin: 0 0 0.75rem;
+            font-size: 0.875rem;
             font-weight: 600;
-            letter-spacing: -0.01em;
-            color: var(--text);
+            letter-spacing: 0.02em;
         }
-        .bm-stats { margin: 2rem 0 0; }
-        /* myboiler .ar-box-pair-grid: 1 col, gap 1rem; 700px+ auto-fill minmax(270px). */
+        .stats-page__kicker a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .stats-page__kicker a:hover { text-decoration: underline; }
+        .stats-page__title {
+            font-size: clamp(2rem, 5vw, 3rem);
+            font-weight: 700;
+            line-height: 1.1;
+            color: var(--text);
+            margin: 0 0 1rem;
+            letter-spacing: -0.02em;
+        }
+        .stats-page__intro {
+            font-size: 1.125rem;
+            line-height: 1.6;
+            color: var(--text-muted);
+            margin: 0;
+        }
+        .stats-page__content {
+            background: var(--surface);
+            border-radius: var(--radius-lg);
+            box-shadow: var(--shadow-sm);
+            padding: clamp(1.5rem, 4vw, 3rem);
+            margin-bottom: 2rem;
+        }
+        .stats-page__content .bm-stats { margin: 2.5rem 0 0; }
+        .stats-page__content .bm-stats:first-child { margin-top: 0; }
+        .stats-page__content h2 {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--text);
+            margin: 2rem 0 1rem;
+            line-height: 1.2;
+            letter-spacing: 0;
+        }
+        .stats-page__content .bm-stats:first-child > h2:first-child { margin-top: 0; }
+        .stats-page__content h3 {
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: var(--text);
+            margin: 1.5rem 0 0.75rem;
+            line-height: 1.3;
+        }
+        .stats-page__content > p,
+        .stats-page__content .bm-stats > p:not(.bm-stats__note) {
+            font-size: 1rem;
+            line-height: 1.7;
+            color: var(--text);
+            margin: 0 0 1.25rem;
+        }
+        /* myboiler .ar-box-pair cards, nested in the article content card. */
         .bm-stats__grid {
             display: grid;
             grid-template-columns: 1fr;
             gap: 1rem;
             margin: 1rem 0 1.5rem;
-            padding: 0;
+            padding: 1rem;
             list-style: none;
+            background: var(--bg);
+            border-radius: var(--radius-lg);
         }
         @media (min-width: 700px) {
             .bm-stats__grid {
-                grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+                grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
             }
         }
-        /* myboiler .ar-box-pair card chrome (no min-height: that is for image tiles). */
         .bm-stats__card {
             display: flex;
             flex-direction: column;
@@ -171,16 +230,16 @@
             margin: 0 0 1.5rem;
             padding: 1.35rem 1.4rem 1.25rem;
             list-style: none;
-            background: var(--surface);
+            background: var(--bg);
             border-radius: var(--radius-lg);
-            box-shadow: var(--shadow-sm);
+            box-shadow: none;
         }
         .bm-stats__row { margin: 0 0 0.9rem; }
         .bm-stats__row:last-child { margin-bottom: 0; }
-        .bm-stats__head { display: flex; justify-content: space-between; gap: 1rem; font-size: 0.95rem; }
+        .bm-stats__head { display: flex; justify-content: space-between; gap: 1rem; flex-wrap: wrap; font-size: 0.95rem; }
         .bm-stats__bar { height: 0.7rem; border-radius: 999px; background: #e2e8f0; overflow: hidden; margin-top: 0.3rem; }
         .bm-stats__fill { display: block; height: 100%; background: #2563eb; border-radius: 999px; min-width: 2px; }
-        .bm-stats__note { font-size: 0.85rem; color: var(--text-muted); }
+        .bm-stats__note { font-size: 0.9375rem; color: var(--text-muted); line-height: 1.6; }
         .eb { display: inline-flex; align-items: center; justify-content: center; width: 1.6em; height: 1.6em; border-radius: 3px; font: 700 0.9em/1 system-ui, sans-serif; color: #fff; flex: none; }
         .eb-s { font-size: 0.6em; letter-spacing: -0.04em; }
         .eb-appp { background: #006b31; } .eb-app { background: #008a3e; } .eb-ap { background: #4cb848; } .eb-a { background: #00a651; }
@@ -190,9 +249,9 @@
             margin: 1rem 0 1.25rem;
             padding: 1.35rem 1.4rem 1.25rem;
             list-style: none;
-            background: var(--surface);
+            background: var(--bg);
             border-radius: var(--radius-lg);
-            box-shadow: var(--shadow-sm);
+            box-shadow: none;
         }
         .bm-echart__row { display: grid; grid-template-columns: 2rem minmax(0, 1fr) 4.5rem; align-items: center; column-gap: 0.6rem; row-gap: 0.1rem; margin: 0 0 0.45rem; font-size: 0.9rem; }
         .bm-echart__row:last-child { margin-bottom: 0; }
@@ -203,18 +262,19 @@
         .bm-xtab-wrap {
             overflow-x: auto;
             -webkit-overflow-scrolling: touch;
-            margin: 0.75rem 0 1rem;
+            width: 100%;
+            margin: 1.5rem 0;
             border: none;
-            border-radius: var(--radius-lg);
-            background: var(--surface);
-            box-shadow: var(--shadow-sm);
-            padding: 0.5rem 0.4rem;
+            border-radius: 0;
+            background: transparent;
+            box-shadow: none;
+            padding: 0;
         }
-        .bm-xtab { border-collapse: collapse; width: 100%; font-size: 0.85rem; font-variant-numeric: tabular-nums; }
-        .bm-xtab th, .bm-xtab td { padding: 0.45rem 0.4rem; text-align: right; border-bottom: 1px solid #eef2f6; white-space: nowrap; }
+        .bm-xtab { border-collapse: collapse; width: 100%; font-size: 0.9375rem; font-variant-numeric: tabular-nums; }
+        .bm-xtab th, .bm-xtab td { padding: 0.75rem; text-align: right; border-bottom: 1px solid var(--border-subtle); white-space: nowrap; vertical-align: top; }
         .bm-xtab th:first-child, .bm-xtab td:first-child { text-align: left; position: sticky; left: 0; background: var(--surface); }
-        .bm-xtab thead th { font-weight: 600; background: #f7f8f9; }
-        .bm-xtab thead th:first-child { background: #f7f8f9; }
+        .bm-xtab thead th { font-weight: 600; background: transparent; border-bottom: 2px solid var(--border); }
+        .bm-xtab thead th:first-child { background: var(--surface); }
         .bm-xtab tbody tr:last-child td { border-bottom: none; }
         .bm-xtab tfoot td { font-weight: 700; border-top: 1px solid var(--border); border-bottom: none; }
         .bm-xtab .eb { width: 1.45rem; height: 1.45rem; font-size: 0.72rem; }
@@ -223,11 +283,15 @@
 </head>
 <body>
     <main class="stats-page">
+        <div class="stats-page__container">
         <button class="nav-button" type="button" onclick="goBack()">Go Back</button>
 
-        <h1 class="contact-page__title">BoilerManuals.com Stats</h1>
-
-        <p>How much of the UK boiler range our free manual library covers, worked out from the same brand pages you search. The figures are rebuilt whenever manuals or links change.</p>
+        <header class="stats-page__header">
+            <p class="stats-page__kicker"><a href="/">Home</a> / Stats</p>
+            <h1 class="stats-page__title">BoilerManuals.com Stats</h1>
+            <p class="stats-page__intro">How much of the UK boiler range our free manual library covers, worked out from the same brand pages you search. The figures are rebuilt whenever manuals or links change.</p>
+        </header>
+        <div class="stats-page__content">
         <!-- stats:start -->
         <section class="bm-stats" aria-labelledby="bm-stats-title">
             <h2 id="bm-stats-title">The library in numbers</h2>
@@ -320,6 +384,8 @@
             <p class="bm-stats__note">The index data and stats on this page are licensed under <a href="https://creativecommons.org/licenses/by/4.0/" rel="license noopener">CC BY 4.0</a>; please credit BoilerManuals.com. The manuals themselves remain the copyright of their manufacturers.</p>
         </section>
         <!-- energy-stats:end -->
+        </div>
+        </div>
     </main>
 
     <footer class="site-footer">
