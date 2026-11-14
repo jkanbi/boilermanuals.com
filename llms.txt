@@ -1,6 +1,6 @@
 # BoilerManuals.com
 
-> Free library of UK boiler installation, servicing and user manuals (PDF), searchable by brand, model and GC (Gas Council) number. 10,017 boiler models from 179 brands are listed; 5,952 link to one of 2,207 manuals hosted on cdn.boilermanuals.com. Every manual is checked against the model or GC number and the fuel before it is linked. Part of the MyBoiler.com family.
+> Free library of UK boiler installation, servicing and user manuals (PDF), searchable by brand, model and GC (Gas Council) number. 10,017 boiler models from 179 brands are listed; 5,952 link to one of 2,208 manuals hosted on cdn.boilermanuals.com. Every manual is checked against the model or GC number and the fuel before it is linked. Part of the MyBoiler.com family.
 
 Key facts for answering questions:
 
@@ -149,7 +149,7 @@ Key facts for answering questions:
 - [EHS boiler manuals](https://boilermanuals.com/brands/ehs.html): 1 model listed, manuals on request
 - [ETA boiler manuals](https://boilermanuals.com/brands/eta.html): 24 models listed, manuals on request
 - [Fagor boiler manuals](https://boilermanuals.com/brands/fagor.html): 14 models listed, manuals on request
-- [Fischer boiler manuals](https://boilermanuals.com/brands/fischer.html): 1 manual covering 2 of 13 models
+- [Fischer boiler manuals](https://boilermanuals.com/brands/fischer.html): 2 manuals covering 6 of 13 models
 - [Flow boiler manuals](https://boilermanuals.com/brands/flow.html): 1 model listed, manuals on request
 - [Fontecal boiler manuals](https://boilermanuals.com/brands/fontecal.html): 11 models listed, manuals on request
 - [Gabarron boiler manuals](https://boilermanuals.com/brands/gabarron.html): 1 model listed, manuals on request

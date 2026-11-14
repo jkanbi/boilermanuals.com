@@ -8,10 +8,10 @@
   "records": 7238,
   "other_fuel_records": 0
  },
- "manuals_total": 2207,
+ "manuals_total": 2208,
  "models": {
   "listed": 10024,
-  "with_manual": 6414,
+  "with_manual": 6418,
   "pct": 64.0
  },
  "fuels": {
@@ -65,9 +65,9 @@
  },
  "electric": {
   "models_listed": 196,
-  "models_with_manual": 136,
-  "pct": 69.4,
-  "brochure_only_rows_excluded": 9,
+  "models_with_manual": 140,
+  "pct": 71.4,
+  "brochure_only_rows_excluded": 5,
   "note": "not in PCDB; share of the electric models we list, not part of the PCDB overall figure"
  },
  "controls": {
