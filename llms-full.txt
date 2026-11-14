@@ -3255,10 +3255,10 @@ Brand page: https://boilermanuals.com/brands/fischer.html
 
 - Fischer Floor Standing Combi FLB-12 (12kW) | Electric | Installation: https://cdn.boilermanuals.com/fischer/Fischer-FLB12-FLB15-Floor-Standing-Combi-Installation-Manual.pdf
 - Fischer Floor Standing Combi FLB-15 (15kW) | Electric | Installation: https://cdn.boilermanuals.com/fischer/Fischer-FLB12-FLB15-Floor-Standing-Combi-Installation-Manual.pdf
-- Fischer Floor Standing Combi FLB-18 (18kW, three phase) | Electric | no manual online yet
-- Fischer Floor Standing Combi FLB-21 (21kW, three phase) | Electric | no manual online yet
-- Fischer Floor Standing Combi FLB-24 (24kW) | Electric | no manual online yet
-- Fischer Floor Standing Combi FLB-27 (27kW) | Electric | no manual online yet
+- Fischer Floor Standing Combi FLB-18 (18kW, three phase) | Electric | Installation: https://cdn.boilermanuals.com/fischer/Fischer-FLB18-FLB21-FLB24-FLB27-200LT-Floor-Standing-Combi-Installation-Instructions.pdf
+- Fischer Floor Standing Combi FLB-21 (21kW, three phase) | Electric | Installation: https://cdn.boilermanuals.com/fischer/Fischer-FLB18-FLB21-FLB24-FLB27-200LT-Floor-Standing-Combi-Installation-Instructions.pdf
+- Fischer Floor Standing Combi FLB-24 (24kW) | Electric | Installation: https://cdn.boilermanuals.com/fischer/Fischer-FLB18-FLB21-FLB24-FLB27-200LT-Floor-Standing-Combi-Installation-Instructions.pdf
+- Fischer Floor Standing Combi FLB-27 (27kW) | Electric | Installation: https://cdn.boilermanuals.com/fischer/Fischer-FLB18-FLB21-FLB24-FLB27-200LT-Floor-Standing-Combi-Installation-Instructions.pdf
 - Fischer Wall Mounted Heat Only WHB-12 (12kW) | Electric | no manual online yet
 - Fischer Wall Mounted Heat Only WHB-15 (15kW) | Electric | no manual online yet
 - Fischer Thermal Combi Wall Mounted 8kW | Electric | no manual online yet
