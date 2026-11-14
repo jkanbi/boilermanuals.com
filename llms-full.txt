@@ -8969,19 +8969,19 @@ Brand page: https://boilermanuals.com/brands/turco.html
 
 Brand page: https://boilermanuals.com/brands/turkington.html
 
-- Turco Ambassador 15/21 Kitchen / Eurocal Ambassador 15/21 Kitchen, PCDB 015474 / 015482, Oil | Oil | no manual online yet
-- Turco Ambassador 21/27 Kitchen / Eurocal Ambassador 21/27 Kitchen, PCDB 015483 / 015490, Oil | Oil | no manual online yet
-- Turco Ambassador 27/38 Kitchen / Eurocal Ambassador 27/38 Kitchen, PCDB 015491 / 015498, Oil | Oil | no manual online yet
-- Turco Consul 15/21 Boilerhouse, PCDB 015478, Oil | Oil | no manual online yet
-- Turco Countryman 15/21 Outdoor Combi / Eurocal Countryman 15/21 Outdoor Combi, PCDB 015475 / 015479, Oil | Oil | no manual online yet
-- Turco Countryman 15/21 Slimline Outdoor / Eurocal Countryman 15/21 Slimline Outdoor, PCDB 015477 / 015481, Oil | Oil | no manual online yet
-- Turco Countryman 21/27 Outdoor Combi / Eurocal Countryman 21/27 Outdoor Combi, PCDB 015484 / 015487, Oil | Oil | no manual online yet
-- Turco Countryman 21/27 Slimline Outdoor / Eurocal Countryman 21/27 Slimline Outdoor, PCDB 015486 / 015489, Oil | Oil | no manual online yet
-- Turco Countryman 27/38 Outdoor Combi / Eurocal Countryman 27/38 Outdoor Combi, PCDB 015492 / 015495, Oil | Oil | no manual online yet
-- Turco Countryman 27/38 Slimline Outdoor / Eurocal Countryman 27/38 Slimline Outdoor, PCDB 015494 / 015499, Oil | Oil | no manual online yet
-- Turco Senator 15/21 Combi / Eurocal Senator 15/21 Combi, PCDB 015476 / 015480, Oil | Oil | no manual online yet
-- Turco Senator 21/27 Combi / Eurocal Senator 21/27 Combi, PCDB 015485 / 015488, Oil | Oil | no manual online yet
-- Turco Senator 27/38 Combi / Eurocal Senator 27/38 Combi, PCDB 015493 / 015496, Oil | Oil | no manual online yet
+- Turco Ambassador 15/21 Kitchen / Eurocal Ambassador 15/21 Kitchen, PCDB 015474 / 015482, Oil | Oil | https://cdn.boilermanuals.com/turco/Turco-Ambassador-Countryman-Consul-Senator-Condensing-Boilers-Combined-Manual-Issue-1-24-10-07.pdf
+- Turco Ambassador 21/27 Kitchen / Eurocal Ambassador 21/27 Kitchen, PCDB 015483 / 015490, Oil | Oil | https://cdn.boilermanuals.com/turco/Turco-Ambassador-Countryman-Consul-Senator-Condensing-Boilers-Combined-Manual-Issue-1-24-10-07.pdf
+- Turco Ambassador 27/38 Kitchen / Eurocal Ambassador 27/38 Kitchen, PCDB 015491 / 015498, Oil | Oil | https://cdn.boilermanuals.com/turco/Turco-Ambassador-Countryman-Consul-Senator-Condensing-Boilers-Combined-Manual-Issue-1-24-10-07.pdf
+- Turco Consul 15/21 Boilerhouse, PCDB 015478, Oil | Oil | https://cdn.boilermanuals.com/turco/Turco-Ambassador-Countryman-Consul-Senator-Condensing-Boilers-Combined-Manual-Issue-1-24-10-07.pdf
+- Turco Countryman 15/21 Outdoor Combi / Eurocal Countryman 15/21 Outdoor Combi, PCDB 015475 / 015479, Oil | Oil | https://cdn.boilermanuals.com/turco/Turco-Ambassador-Countryman-Consul-Senator-Condensing-Boilers-Combined-Manual-Issue-1-24-10-07.pdf
+- Turco Countryman 15/21 Slimline Outdoor / Eurocal Countryman 15/21 Slimline Outdoor, PCDB 015477 / 015481, Oil | Oil | https://cdn.boilermanuals.com/turco/Turco-Ambassador-Countryman-Consul-Senator-Condensing-Boilers-Combined-Manual-Issue-1-24-10-07.pdf
+- Turco Countryman 21/27 Outdoor Combi / Eurocal Countryman 21/27 Outdoor Combi, PCDB 015484 / 015487, Oil | Oil | https://cdn.boilermanuals.com/turco/Turco-Ambassador-Countryman-Consul-Senator-Condensing-Boilers-Combined-Manual-Issue-1-24-10-07.pdf
+- Turco Countryman 21/27 Slimline Outdoor / Eurocal Countryman 21/27 Slimline Outdoor, PCDB 015486 / 015489, Oil | Oil | https://cdn.boilermanuals.com/turco/Turco-Ambassador-Countryman-Consul-Senator-Condensing-Boilers-Combined-Manual-Issue-1-24-10-07.pdf
+- Turco Countryman 27/38 Outdoor Combi / Eurocal Countryman 27/38 Outdoor Combi, PCDB 015492 / 015495, Oil | Oil | https://cdn.boilermanuals.com/turco/Turco-Ambassador-Countryman-Consul-Senator-Condensing-Boilers-Combined-Manual-Issue-1-24-10-07.pdf
+- Turco Countryman 27/38 Slimline Outdoor / Eurocal Countryman 27/38 Slimline Outdoor, PCDB 015494 / 015499, Oil | Oil | https://cdn.boilermanuals.com/turco/Turco-Ambassador-Countryman-Consul-Senator-Condensing-Boilers-Combined-Manual-Issue-1-24-10-07.pdf
+- Turco Senator 15/21 Combi / Eurocal Senator 15/21 Combi, PCDB 015476 / 015480, Oil | Oil | https://cdn.boilermanuals.com/turco/Turco-Ambassador-Countryman-Consul-Senator-Condensing-Boilers-Combined-Manual-Issue-1-24-10-07.pdf
+- Turco Senator 21/27 Combi / Eurocal Senator 21/27 Combi, PCDB 015485 / 015488, Oil | Oil | https://cdn.boilermanuals.com/turco/Turco-Ambassador-Countryman-Consul-Senator-Condensing-Boilers-Combined-Manual-Issue-1-24-10-07.pdf
+- Turco Senator 27/38 Combi / Eurocal Senator 27/38 Combi, PCDB 015493 / 015496, Oil | Oil | https://cdn.boilermanuals.com/turco/Turco-Ambassador-Countryman-Consul-Senator-Condensing-Boilers-Combined-Manual-Issue-1-24-10-07.pdf
 - Turkington Engineering Eurocal Boiler House 115/140/2, PCDB 009301, Oil | Oil | no manual online yet
 - Turkington Engineering Eurocal Boiler House 140/170/2, PCDB 009309, Oil | Oil | no manual online yet
 - Turkington Engineering Eurocal Boiler House 50/70/2, PCDB 009377, Oil | Oil | no manual online yet

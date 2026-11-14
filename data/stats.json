@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-02",
+ "generated": "2026-11-14",
  "pcdb": {
   "source": "SAP 10 PCDB (pcdb10.dat): table 105 gas and oil boilers, table 122 solid fuel and biomass boilers, table 131 twin-burner range cooker boilers, table 143 micro-CHP (SAP illustrative placeholder entries excluded)",
   "revision": "601",
@@ -8,11 +8,11 @@
   "records": 7238,
   "other_fuel_records": 0
  },
- "manuals_total": 2206,
+ "manuals_total": 2207,
  "models": {
   "listed": 10024,
-  "with_manual": 6401,
-  "pct": 63.9
+  "with_manual": 6414,
+  "pct": 64.0
  },
  "fuels": {
   "gas": {
@@ -30,8 +30,8 @@
   "oil": {
    "label": "Oil",
    "pcdb_total": 1680,
-   "with_manual": 771,
-   "pct": 45.9
+   "with_manual": 796,
+   "pct": 47.4
   },
   "hvo": {
    "label": "HVO",
@@ -104,8 +104,8 @@
  ],
  "pcdb_overall": {
   "records": 7455,
-  "with_manual": 3578,
-  "pct": 48.0,
+  "with_manual": 3603,
+  "pct": 48.3,
   "denominator": "all PCDB boiler records: table 105 gas/oil + table 122 solid fuel and biomass + table 131 range cooker boilers + table 143 micro-CHP"
  },
  "pcdb_gas_oil": {

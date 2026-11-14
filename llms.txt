@@ -109,6 +109,7 @@ Key facts for answering questions:
 - [Thermaflow boiler manuals](https://boilermanuals.com/brands/thermaflow.html): 4 manuals covering 12 of 12 models
 - [Thorn boiler manuals](https://boilermanuals.com/brands/thorn.html): 13 manuals covering 36 of 101 models
 - [Trianco boiler manuals](https://boilermanuals.com/brands/trianco.html): 43 manuals covering 97 of 183 models
+- [Turkington boiler manuals](https://boilermanuals.com/brands/turkington.html): 1 manual covering 13 of 71 models
 - [U.S. Boiler Company boiler manuals](https://boilermanuals.com/brands/us-boiler-company.html): 14 manuals covering 15 of 15 models
 - [Vaillant boiler manuals](https://boilermanuals.com/brands/vaillant.html): 57 manuals covering 261 of 330 models
 - [Viessmann boiler manuals](https://boilermanuals.com/brands/viessmann.html): 20 manuals covering 91 of 199 models
@@ -197,7 +198,6 @@ Key facts for answering questions:
 - [The White Boiler Company boiler manuals](https://boilermanuals.com/brands/white-boiler-company.html): 10 models listed, manuals on request
 - [Trisave boiler manuals](https://boilermanuals.com/brands/trisave.html): 9 models listed, manuals on request
 - [Turco boiler manuals](https://boilermanuals.com/brands/turco.html): 2 models listed, manuals on request
-- [Turkington boiler manuals](https://boilermanuals.com/brands/turkington.html): 71 models listed, manuals on request
 - [Unical boiler manuals](https://boilermanuals.com/brands/unical.html): 23 models listed, manuals on request
 - [Utica boiler manuals](https://boilermanuals.com/brands/utica.html): 0 models listed, manuals on request
 - [Valor boiler manuals](https://boilermanuals.com/brands/valor.html): 1 model listed, manuals on request
