@@ -1,12 +1,14 @@
 #!/usr/bin/env python3
 """Build site coverage stats -> data/stats.json and the static stats panels in stats.html
 (library in numbers, boilers by energy label, boiler type, and energy label by type).
+Also refreshes the headline figures in llms.txt and the homepage meta description / intro.
 about.html is no longer touched (the stats moved to stats.html on 23 Oct 2026).
 
 Usage: python3 scripts/build_stats.py [--root .] [--pcdb path/to/pcdb10.dat]
 The PCDB file defaults to $PCDB_DAT, then ./pcdb10.dat, then a download of
 https://www.ncm-pcdb.org.uk/pcdb/pcdb10.dat. Re-run after any manual/link change.
 Only links on https://cdn.boilermanuals.com/ count as a (verified) manual.
+Brochure/catalogue/spec-sheet PDFs are not counted as manuals.
 """
 import argparse, csv, html, json, os, re, urllib.parse, urllib.request
 from pathlib import Path
@@ -237,6 +239,7 @@ def main():
         'pcdb': {'source': 'SAP 10 PCDB (pcdb10.dat): table 105 gas and oil boilers, table 122 solid fuel and biomass boilers, table 131 twin-burner range cooker boilers, table 143 micro-CHP (SAP illustrative placeholder entries excluded)', 'revision': meta['revision'],
                  'file_date': meta['date'], 'table105_date': meta['table105_date'], 'records': len(recs), 'other_fuel_records': other},
         'manuals_total': len(manuals),
+        'brands_listed': sum(1 for p in (root / 'brands').glob('*.html') if not p.name.startswith('_') and p.stem not in CONTROLS),
         'models': {'listed': len(models), 'with_manual': len(with_manual), 'pct': round(100 * len(with_manual) / len(models), 1)},
         'fuels': fuels,
         'categories': cats,
@@ -257,6 +260,8 @@ def main():
     (root / 'data').mkdir(exist_ok=True)
     (root / 'data/stats.json').write_text(json.dumps(stats, indent=1) + '\n', encoding='utf-8')
     render(root, stats)
+    update_llms_txt(root, stats)
+    update_homepage(root, stats)
     print(json.dumps(stats, indent=1))
 
 CSS = '''<!-- stats-css:start -->
@@ -553,6 +558,88 @@ def render(root, st):
     else:
         s = s.replace('</head>', '    ' + CSS + '\n</head>', 1)
     assert s.count('<!-- stats:start -->') == 1 and s.count('<!-- stats-css:start -->') == 1 and s.count('<!-- energy-stats:start -->') == 1
+    p.write_text(s, encoding='utf-8')
+
+def comma(n):
+    return f'{n:,}'
+
+def iso_long(iso):
+    y, m, dd = iso.split('-')
+    return f'{int(dd)} {MONTHS[int(m) - 1]} {y}'
+
+def must_sub(text, pattern, repl, n, where):
+    """Replace `pattern` exactly `n` times. Fails loudly if the copy moved, so reruns stay idempotent."""
+    found = sum(1 for _ in re.finditer(pattern, text))
+    if found != n:
+        raise SystemExit(f'{where}: {pattern!r} matched {found}, expected {n}')
+    return re.sub(pattern, repl, text, count=n)
+
+def copy_figures(st):
+    m, o = st['models'], st['pcdb_overall']
+    return {
+        'listed': comma(m['listed']),
+        'brands': comma(st['brands_listed']),
+        'with_manual': comma(m['with_manual']),
+        'manuals': comma(st['manuals_total']),
+        'pcdb_pct': f'{o["pct"]}',
+        'pcdb_total': comma(o['records']),
+        'revision': st['pcdb']['revision'],
+        'today': st['generated'],
+        'today_long': iso_long(st['generated']),
+        'oil_listed': comma(st['fuels']['oil']['pcdb_total']) if st.get('fuels', {}).get('oil') else None,
+        'oil_with': comma(st['fuels']['oil']['with_manual']) if st.get('fuels', {}).get('oil') else None,
+        'elec_listed': comma(st['electric']['models_listed']) if st.get('electric') else None,
+        'elec_with': comma(st['electric']['models_with_manual']) if st.get('electric') else None,
+    }
+
+LLMS_STATS_PAGE = '- [Library stats](https://boilermanuals.com/stats.html): coverage by fuel, energy label and boiler type'
+
+def update_llms_txt(root, st):
+    """Refresh headline counts/date in llms.txt; leave prose, links and brand lines as they are."""
+    p = root / 'llms.txt'
+    s = p.read_text(encoding='utf-8')
+    f = copy_figures(st)
+    s = must_sub(s, r'[\d,]+ boiler models from [\d,]+ brands are listed; [\d,]+ link to one of [\d,]+ manuals',
+                 f'{f["listed"]} boiler models from {f["brands"]} brands are listed; {f["with_manual"]} link to one of {f["manuals"]} manuals',
+                 1, 'llms.txt lead')
+    s = must_sub(s, r'\(SAP 10 PCDB, revision \d+\); \d+(?:\.\d+)?% of [\d,]+ PCDB boilers',
+                 f'(SAP 10 PCDB, revision {f["revision"]}); {f["pcdb_pct"]}% of {f["pcdb_total"]} PCDB boilers',
+                 1, 'llms.txt PCDB')
+    s = must_sub(s, r'Last updated: \d{4}-\d{2}-\d{2}', f'Last updated: {f["today"]}', 1, 'llms.txt date')
+    # Optional fuel counts — only replace if the copy already states them as figures
+    oil_pat = r'[\d,]+ of [\d,]+ oil'
+    elec_pat = r'[\d,]+ of [\d,]+ electric'
+    if f['oil_listed'] and re.search(oil_pat, s, re.I):
+        s = must_sub(s, oil_pat, f'{f["oil_with"]} of {f["oil_listed"]} oil', 1, 'llms.txt oil')
+    if f['elec_listed'] and re.search(elec_pat, s, re.I):
+        s = must_sub(s, elec_pat, f'{f["elec_with"]} of {f["elec_listed"]} electric', 1, 'llms.txt electric')
+    if 'https://boilermanuals.com/stats.html' not in s:
+        s, n = re.subn(r'(- \[About[^\n]*\]\(https://boilermanuals.com/about\.html\)[^\n]*\n)',
+                       r'\1' + LLMS_STATS_PAGE + '\n', s, count=1)
+        if n != 1:
+            raise SystemExit('llms.txt: could not insert stats.html under Main pages')
+    p.write_text(s, encoding='utf-8')
+
+def update_homepage(root, st):
+    """Keep index.html meta description and intro counts in step with the same stats."""
+    p = root / 'index.html'
+    s = p.read_text(encoding='utf-8')
+    f = copy_figures(st)
+    s = must_sub(s, r'search [\d,]+ UK boiler models from [\d,]+ brands',
+                 f'search {f["listed"]} UK boiler models from {f["brands"]} brands',
+                 2, 'index.html meta')
+    s = must_sub(s, r'lists [\d,]+ UK boiler models from [\d,]+ brands, each with its GC number where it has one, and links [\d,]+ of them to one of [\d,]+',
+                 f'lists {f["listed"]} UK boiler models from {f["brands"]} brands, each with its GC number where it has one, and links {f["with_manual"]} of them to one of {f["manuals"]}',
+                 1, 'index.html intro')
+    s = must_sub(s, r'\d+(?:\.\d+)?% of the [\d,]+ PCDB boilers',
+                 f'{f["pcdb_pct"]}% of the {f["pcdb_total"]} PCDB boilers',
+                 1, 'index.html PCDB')
+    s = must_sub(s, r'<p class="bm-updated">Last updated <time datetime="\d{4}-\d{2}-\d{2}">[^<]+</time>\.</p>',
+                 f'<p class="bm-updated">Last updated <time datetime="{f["today"]}">{f["today_long"]}</time>.</p>',
+                 1, 'index.html date')
+    s = must_sub(s, r'"dateModified": "\d{4}-\d{2}-\d{2}"',
+                 f'"dateModified": "{f["today"]}"',
+                 1, 'index.html dateModified')
     p.write_text(s, encoding='utf-8')
 
 if __name__ == '__main__':
