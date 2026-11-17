@@ -24,8 +24,46 @@
     }
 
     function injectOptimiserUrlJs() {
-        var src = getNavbarBasePath() + "js/optimiser-url.js?v=1";
+        var src = getNavbarBasePath() + "js/optimiser-url.js?v=2";
         if (document.querySelector('script[src*="optimiser-url.js"]')) {
+            return;
+        }
+        var script = document.createElement("script");
+        script.src = src;
+        script.async = false;
+        script.setAttribute("data-cfasync", "false");
+        document.head.appendChild(script);
+    }
+
+    function isBrandPath() {
+        try {
+            return /\/brands\/[^/]+\.html$/i.test(window.location.pathname || "");
+        } catch (e) {
+            return false;
+        }
+    }
+
+    function injectOptimiserPromoCss() {
+        if (!isBrandPath()) {
+            return;
+        }
+        var href = getNavbarBasePath() + "css/optimiser-promo.css?v=1";
+        if (document.querySelector('link[href*="optimiser-promo.css"]')) {
+            return;
+        }
+        var link = document.createElement("link");
+        link.rel = "stylesheet";
+        link.type = "text/css";
+        link.href = href;
+        document.head.appendChild(link);
+    }
+
+    function injectOptimiserPromoJs() {
+        if (!isBrandPath()) {
+            return;
+        }
+        var src = getNavbarBasePath() + "js/optimiser-promo.js?v=1";
+        if (document.querySelector('script[src*="optimiser-promo.js"]')) {
             return;
         }
         var script = document.createElement("script");
@@ -61,6 +99,7 @@
 
     injectOptimiserUrlJs();
     injectWinterBannerCss();
+    injectOptimiserPromoCss();
 
     function getActiveNavItem() {
         var page = window.location.pathname.split("/").pop() || "index.html";
@@ -162,6 +201,7 @@
         setDocumentTitle();
         renderNavbar();
         injectWinterBannerJs();
+        injectOptimiserPromoJs();
     }
 
     if (document.readyState === "loading") {
