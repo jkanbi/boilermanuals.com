@@ -90,6 +90,9 @@
         if (href.indexOf("boiler-optimiser") === -1) {
             return;
         }
+        if ((anchor.className || "").indexOf("bm-opt-promo__link") !== -1) {
+            return;
+        }
         var type = "";
         var row = anchor.closest ? anchor.closest("tr") : null;
         if (row) {

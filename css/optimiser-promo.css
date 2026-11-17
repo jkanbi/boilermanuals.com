@@ -1,0 +1,52 @@
+/* Slim Boiler Optimiser banner on brand pages. No cookies. */
+
+.bm-opt-brand {
+    box-sizing: border-box;
+    margin: 0 0 1rem;
+    padding: 0.5rem 0.9rem;
+    border: 1px solid #b7dfc3;
+    border-left: 4px solid #1e8e3e;
+    border-radius: 8px;
+    background: #f1f9f3;
+    color: #1b1b1b;
+    font-family: var(--font, Inter, system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif);
+    font-size: 0.875rem;
+    line-height: 1.45;
+}
+
+.bm-opt-brand *,
+.bm-opt-brand *::before,
+.bm-opt-brand *::after {
+    box-sizing: border-box;
+}
+
+.bm-opt-brand__text {
+    margin: 0;
+}
+
+.bm-opt-brand .bm-opt-promo__link {
+    color: #17702f;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.bm-opt-brand .bm-opt-promo__link:hover,
+.bm-opt-brand .bm-opt-promo__link:focus-visible {
+    color: #17702f;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+
+@media screen and (min-width: 769px) {
+    .bm-opt-brand .bm-opt-promo__link {
+        white-space: nowrap;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .bm-opt-brand {
+        margin-bottom: 0.85rem;
+        padding: 0.55rem 0.75rem;
+        font-size: 0.8125rem;
+    }
+}
