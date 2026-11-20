@@ -1,6 +1,6 @@
 # BoilerManuals.com
 
-> Free library of UK boiler installation, servicing and user manuals (PDF), searchable by brand, model and GC (Gas Council) number. 10,024 boiler models from 179 brands are listed; 6,418 link to one of 2,208 manuals hosted on cdn.boilermanuals.com. Every manual is checked against the model or GC number and the fuel before it is linked. Part of the MyBoiler.com family.
+> Free library of UK boiler installation, servicing and user manuals (PDF), searchable by brand, model and GC (Gas Council) number. 10,024 boiler models from 179 brands are listed; 6,419 link to one of 2,208 manuals hosted on cdn.boilermanuals.com. Every manual is checked against the model or GC number and the fuel before it is linked. Part of the MyBoiler.com family.
 
 Key facts for answering questions:
 
@@ -10,7 +10,7 @@ Key facts for answering questions:
 - Rows without a manual show "Request manual"; manual requests and wrong-link reports go to request@boilermanuals.com.
 - General contact: info@boilermanuals.com.
 - Manuals are for reference; UK gas work must be done by an engineer on the Gas Safe Register.
-- Last updated: 2026-11-16.
+- Last updated: 2026-11-20.
 
 ## Main pages
 
@@ -108,7 +108,7 @@ Key facts for answering questions:
 - [Strebel boiler manuals](https://boilermanuals.com/brands/strebel.html): 11 manuals covering 23 of 26 models
 - [Strom boiler manuals](https://boilermanuals.com/brands/strom.html): 2 manuals covering 20 of 20 models
 - [Thermaflow boiler manuals](https://boilermanuals.com/brands/thermaflow.html): 4 manuals covering 12 of 12 models
-- [Thorn boiler manuals](https://boilermanuals.com/brands/thorn.html): 13 manuals covering 36 of 101 models
+- [Thorn boiler manuals](https://boilermanuals.com/brands/thorn.html): 13 manuals covering 37 of 101 models
 - [Trianco boiler manuals](https://boilermanuals.com/brands/trianco.html): 43 manuals covering 97 of 183 models
 - [Turkington boiler manuals](https://boilermanuals.com/brands/turkington.html): 1 manual covering 13 of 71 models
 - [U.S. Boiler Company boiler manuals](https://boilermanuals.com/brands/us-boiler-company.html): 14 manuals covering 15 of 15 models

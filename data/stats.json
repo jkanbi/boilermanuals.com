@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-16",
+ "generated": "2026-11-20",
  "pcdb": {
   "source": "SAP 10 PCDB (pcdb10.dat): table 105 gas and oil boilers, table 122 solid fuel and biomass boilers, table 131 twin-burner range cooker boilers, table 143 micro-CHP (SAP illustrative placeholder entries excluded)",
   "revision": "601",
@@ -12,7 +12,7 @@
  "brands_listed": 179,
  "models": {
   "listed": 10024,
-  "with_manual": 6418,
+  "with_manual": 6419,
   "pct": 64.0
  },
  "fuels": {
